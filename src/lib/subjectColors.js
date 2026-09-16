@@ -80,6 +80,16 @@ const COLORS = {
     solid: 'bg-indigo-500 hover:bg-indigo-600',
     chip: 'bg-indigo-500 text-white',
   },
+  Elective: {
+    badge: 'bg-lime-100 text-lime-700 dark:bg-lime-900/40 dark:text-lime-300',
+    border: 'border-lime-300 dark:border-lime-700',
+    iconBg: 'bg-lime-100 dark:bg-lime-900/40',
+    soft: 'bg-lime-50 dark:bg-lime-950/40',
+    gradient: 'from-lime-400 to-emerald-400',
+    ring: 'text-lime-500 dark:text-lime-400',
+    solid: 'bg-lime-500 hover:bg-lime-600',
+    chip: 'bg-lime-500 text-white',
+  },
   'STEM Endorsement': {
     badge: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/40 dark:text-cyan-300',
     border: 'border-cyan-300 dark:border-cyan-700',

@@ -67,31 +67,34 @@ Endorsement assumed: **STEM** (config value, swappable). Target: **Distinguished
 | LOTE | Spanish I (Advanced) | LOTE 2-credit sequence, year 1 |
 | AVID/Advisory | AVID 1 + College Readiness Seminar | ECHS program requirement (non-TEA local credit) |
 
-> **Correction from a current/former ECHS student (source of truth over the original research above):** PE at Early College isn't an ECHS-wing class — it's satisfied through the district's separate **Online Academics** self-paced online PE option, and it's not something students need study content or practice questions for. It's intentionally left out of the app for that reason (not tracked as a course/tab here), even though the 1 PE credit is still required for graduation per §1.1.
+> **Corrections from a current/former ECHS student (source of truth over the original research above):**
+> - PE at Early College isn't an ECHS-wing class — it's satisfied through the district's separate **Online Academics** self-paced online PE option, and it's not something students need study content or practice questions for. It's intentionally left out of the app for that reason (not tracked as a course/tab here), even though the 1 PE credit is still required for graduation per §1.1.
+> - There is no ECHS "Theatre Arts I" or "Spanish I (Advanced)" class in 9th grade. Dual credit actually starts freshman year (`config.tccStartGrade = 9`, not 10) with two TCC courses: **TCC Introduction to Theatre (DRAM 1310)** for the Fine Arts credit, and **TCC Public Speaking (SPCH 1315)** as an elective. Both are tracked as basic-requirement shells (no built lesson content), matching how dual-credit courses are tracked in later grades. Theatre's real textbook is *Theatre: A Way of Seeing*, 7th ed., by Milly S. Barranger (cited on the course page, not used as lesson-content source material).
+> - Advanced Geometry is organized as two semester courses, **Advanced Geometry A** and **Advanced Geometry B** (0.5 credit each), not one year-long course — split at the natural semester boundary (A: reasoning/proof, angles, triangle congruence/similarity/trig; B: polygons/quadrilaterals/circles, coordinate/3D geometry). Both keep full ECHS lesson content (they are not dual-credit).
 
-### Grade 10 — "Sophomore Year (ECHS Wing @ Timberview)"
+### Grade 10 — "Sophomore Year"
 | Subject | Course | Credit type |
 |---|---|---|
 | English | Advanced English II | English sequence |
 | Math | Advanced Algebra II | Math sequence (satisfies DLA's Algebra II requirement) |
 | Science | Advanced Chemistry | Science sequence |
-| Social Studies | Advanced World History | Social Studies sequence |
-| Fine Arts / Dual Credit | TCC Theatre Appreciation (THEA 1310) | First TCC dual-credit course — Fine Arts credit + AA/AS elective |
-| LOTE | Spanish II (Advanced) | LOTE sequence, year 2 (completes 2-credit requirement) |
-| Dual Credit | TCC English Composition I (ENGL 1301) *(if TSI-met)* | Advanced English elective + AA/AS core |
+| Social Studies / Dual Credit | TCC US History I (HIST 1301) | Social Studies sequence + AA/AS core |
+| Social Studies / Dual Credit | TCC Introduction to Sociology (SOCI 1301) | Social Studies/elective + AA/AS core |
+| LOTE / Dual Credit | TCC Spanish I (SPAN 1411) | First TCC dual-credit LOTE course — starts the 2-credit LOTE sequence + AA/AS elective |
 | AVID/Advisory | AVID 2 + TSI Prep | ECHS program requirement |
 
+> **Correction:** Grade 10 does not include a standalone "Advanced World History," "Spanish II," or "TCC English Composition I" course — replaced by the confirmed schedule above (HIST 1301 + SOCI 1301 cover the Social Studies slot; Spanish I, not II, is the dual-credit LOTE course taken sophomore year). Spanish II would follow in Grade 11.
+
 ### Grade 11 — "Junior Year (@ TCC Southeast Campus)"
-Students now physically attend TCC SE for most of the day; MISD-required courses (US History, Govt/Econ, PE) are taught on the TCC campus by MISD staff.
 | Subject | Course | Credit type |
 |---|---|---|
-| Social Studies | US History (Advanced/MISD on TCC campus) | Social Studies sequence |
-| English/Dual Credit | TCC English Composition II (ENGL 1302) | Advanced English elective + AA/AS core |
-| Math/Dual Credit | TCC Pre-Calculus / College Algebra (MATH 1314 or 2412) | 4th math credit + AA/AS core |
-| Science/Dual Credit | TCC Anatomy & Physiology I or Physics (dual credit) | 4th science credit + AA/AS core |
-| STEM Endorsement elective | TCC Introduction to Computer Science (COSC 1301/1336) | Endorsement + AA/AS elective |
-| Social Science/Dual Credit | TCC US History or Psychology (HIST 1301 / PSYC 2301) | Elective / endorsement |
+| English/Dual Credit | TCC English Composition I (ENGL 1301) | English requirement + AA/AS core |
+| Math/Dual Credit | TCC College Algebra (MATH 1314) — *or* Elementary Statistics (MATH 1342), Math for Business & Social Sciences (MATH 1324), Contemporary Mathematics (MATH 1332) | 4th math credit + AA/AS core |
+| Science/Dual Credit | TCC Biology for Science Majors (BIOL 1406) — *or* Biology for Non-Science Majors (BIOL 1408), Earth Science (GEOL 1401), College Physics (PHYS 1401) | 4th science credit + AA/AS core |
+| Social Studies/Dual Credit | TCC Texas Government (GOVT 2306) — *or* a Kinesiology activity course (KINE 1164), Introduction to Psychology (PSYC 2301) | Social Studies + AA/AS core |
 | AVID/Advisory | AVID 3 + College Application Seminar | ECHS program requirement |
+
+> **Correction:** Grade 11 doesn't include a separate STEM/Computer Science elective, a standalone US History course, or ENGL 1302 — replaced by the confirmed schedule above. Several slots are a **choice of one course from a short list** (a real degree-plan pattern, not unique to this app) rather than a single fixed course; the app tracks one representative option per slot and lists the alternatives (with their PEIMS course codes) on that course's page.
 
 ### Grade 12 — "Senior Year (@ TCC Southeast Campus)"
 | Subject | Course | Credit type |

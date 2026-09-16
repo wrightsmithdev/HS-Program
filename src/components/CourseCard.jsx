@@ -14,6 +14,7 @@ const SUBJECT_ICONS = {
   LOTE: '🗣️',
   PE: '🏃',
   'AVID/Advisory': '🎯',
+  Elective: '🎤',
   'STEM Endorsement': '💻',
   Capstone: '🎓',
 }
