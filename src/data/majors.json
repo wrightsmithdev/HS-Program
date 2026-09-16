@@ -1,5 +1,25 @@
 [
   {
+    "id": "computer-science",
+    "label": "Computer Science",
+    "icon": "💻",
+    "color": "from-blue-500 to-indigo-500",
+    "description": "For students planning to major in computer science, software engineering, or IT.",
+    "picks": {
+      "fa9": "SPCH 1315 — Public Speaking",
+      "ss10a": "HIST 1301 — United States History I",
+      "ss10b": "HIST 1302 — United States History II",
+      "math11a": "MATH 1314 — College Algebra",
+      "math11b": "MATH 2412 — Precalculus",
+      "sci11a": "PHYS 1401 — College Physics",
+      "sci11b": "PHYS 1401 — College Physics",
+      "ss11": "TCC Texas Government (GOVT 2306)",
+      "math12": "MATH 2413 — Calculus I",
+      "govt12a": "TCC Federal Government (GOVT 2305)",
+      "ss12": "TCC Texas Government (GOVT 2306)"
+    }
+  },
+  {
     "id": "engineering",
     "label": "Engineering",
     "icon": "⚙️",
