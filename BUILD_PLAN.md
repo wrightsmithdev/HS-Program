@@ -65,8 +65,9 @@ Endorsement assumed: **STEM** (config value, swappable). Target: **Distinguished
 | Social Studies | World Geography (Advanced) | State core, Social Studies 3-credit sequence |
 | Fine Arts | Theatre Arts I (Advanced) | Fine Arts 1-credit requirement |
 | LOTE | Spanish I (Advanced) | LOTE 2-credit sequence, year 1 |
-| PE/Health | Foundations of Personal Fitness | PE 1-credit requirement |
 | AVID/Advisory | AVID 1 + College Readiness Seminar | ECHS program requirement (non-TEA local credit) |
+
+> **Correction from a current/former ECHS student (source of truth over the original research above):** PE at Early College isn't an ECHS-wing class — it's satisfied through the district's separate **Online Academics** self-paced online PE option, and it's not something students need study content or practice questions for. It's intentionally left out of the app for that reason (not tracked as a course/tab here), even though the 1 PE credit is still required for graduation per §1.1.
 
 ### Grade 10 — "Sophomore Year (ECHS Wing @ Timberview)"
 | Subject | Course | Credit type |
