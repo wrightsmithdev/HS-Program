@@ -64,3 +64,33 @@ export function getLessonPosition(course, lessonId) {
 export function countLessonsForGrade(gradeNum) {
   return getCourses(gradeNum).reduce((sum, c) => sum + countLessons(c), 0)
 }
+
+// Flattens practice questions into a test set, tagging each with where it came from
+// so results can be reviewed against the right lesson/unit afterward.
+function collectQuestions(units) {
+  const questions = []
+  for (const unit of units) {
+    for (const lesson of unit.lessons) {
+      for (const q of lesson.practiceQuestions) {
+        questions.push({
+          id: `${lesson.id}-${questions.length}`,
+          ...q,
+          unitTitle: unit.title,
+          lessonId: lesson.id,
+          lessonTitle: lesson.title,
+        })
+      }
+    }
+  }
+  return questions
+}
+
+export function getUnitTestQuestions(course, unitId) {
+  const unit = course.units.find((u) => u.id === unitId)
+  if (!unit) return { unit: null, questions: [] }
+  return { unit, questions: collectQuestions([unit]) }
+}
+
+export function getCourseTestQuestions(course) {
+  return collectQuestions(course.units)
+}

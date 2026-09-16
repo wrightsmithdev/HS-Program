@@ -44,9 +44,17 @@ export default function CoursePage() {
       </div>
 
       {sequence.length > 0 && (
-        <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">
-          📋 Go through the {sequence.length} lessons in order below — each one is numbered so you always know what's next.
-        </p>
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-2">
+          <p className="text-sm text-slate-500 dark:text-slate-400">
+            📋 Go through the {sequence.length} lessons in order below — each one is numbered so you always know what's next.
+          </p>
+          <Link
+            to={`/grade/${grade}/course/${courseId}/test`}
+            className={`shrink-0 rounded-lg px-4 py-2 text-sm font-semibold text-white ${color.solid}`}
+          >
+            🧪 Take the Full Course Test
+          </Link>
+        </div>
       )}
 
       <div className="mt-8">
@@ -77,27 +85,35 @@ export default function CoursePage() {
                   <span className="text-slate-400">{isOpen ? '−' : '+'}</span>
                 </button>
                 {isOpen && (
-                  <ul className="border-t border-slate-100 dark:border-slate-800">
-                    {unit.lessons.map((lesson) => (
-                      <li key={lesson.id}>
-                        <Link
-                          to={`/grade/${grade}/course/${courseId}/lesson/${lesson.id}`}
-                          className="flex items-center gap-3 px-4 py-2.5 text-sm text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800"
-                        >
-                          <span
-                            className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                              isLessonComplete(lesson.id)
-                                ? 'bg-emerald-500 text-white'
-                                : `${color.chip}`
-                            }`}
+                  <>
+                    <ul className="border-t border-slate-100 dark:border-slate-800">
+                      {unit.lessons.map((lesson) => (
+                        <li key={lesson.id}>
+                          <Link
+                            to={`/grade/${grade}/course/${courseId}/lesson/${lesson.id}`}
+                            className="flex items-center gap-3 px-4 py-2.5 text-sm text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800"
                           >
-                            {isLessonComplete(lesson.id) ? '✓' : numberByLessonId.get(lesson.id)}
-                          </span>
-                          <span className="flex-1">{lesson.title}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                            <span
+                              className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
+                                isLessonComplete(lesson.id)
+                                  ? 'bg-emerald-500 text-white'
+                                  : `${color.chip}`
+                              }`}
+                            >
+                              {isLessonComplete(lesson.id) ? '✓' : numberByLessonId.get(lesson.id)}
+                            </span>
+                            <span className="flex-1">{lesson.title}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    <Link
+                      to={`/grade/${grade}/course/${courseId}/test/unit/${unit.id}`}
+                      className="flex items-center gap-2 border-t border-slate-100 px-4 py-2.5 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-800 dark:text-slate-300 dark:hover:bg-slate-800"
+                    >
+                      🧪 Take the Unit {unitIndex + 1} Test
+                    </Link>
+                  </>
                 )}
               </div>
             )

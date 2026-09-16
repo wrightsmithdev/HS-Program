@@ -3,6 +3,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom'
 import { getLesson, getLessonPosition } from '../data'
 import { isLessonComplete, setLessonComplete } from '../lib/progress'
 import { getSubjectColor } from '../lib/subjectColors'
+import Formatted from '../components/Formatted'
 
 function QuizQuestion({ question, index }) {
   const [selected, setSelected] = useState(null)
@@ -10,7 +11,7 @@ function QuizQuestion({ question, index }) {
   return (
     <div className="rounded-lg border border-slate-200 p-4 dark:border-slate-800">
       <p className="font-medium text-slate-900 dark:text-white">
-        {index + 1}. {question.question}
+        {index + 1}. <Formatted text={question.question} />
       </p>
       <div className="mt-3 flex flex-col gap-2">
         {question.choices.map((choice, i) => {
@@ -38,7 +39,7 @@ function QuizQuestion({ question, index }) {
           <span className={selected === question.answerIndex ? 'font-semibold text-emerald-600 dark:text-emerald-400' : 'font-semibold text-red-600 dark:text-red-400'}>
             {selected === question.answerIndex ? 'Correct! ' : 'Not quite. '}
           </span>
-          {question.explanation}
+          <Formatted text={question.explanation} />
         </p>
       )}
     </div>
@@ -97,7 +98,11 @@ export default function LessonPage() {
         <h1 className="mt-3 text-2xl font-bold sm:text-3xl">{lesson.title}</h1>
       </div>
 
-      <p className="mt-4 text-lg leading-relaxed text-slate-600 dark:text-slate-300">{lesson.summary}</p>
+      <Formatted
+        as="p"
+        text={lesson.summary}
+        className="mt-4 text-lg leading-relaxed text-slate-600 dark:text-slate-300"
+      />
 
       {lesson.keyTerms?.length > 0 && (
         <div className="mt-8">
@@ -106,7 +111,7 @@ export default function LessonPage() {
             {lesson.keyTerms.map((kt) => (
               <div key={kt.term} className={`rounded-lg border-2 ${color.border} ${color.soft} p-3`}>
                 <dt className="font-semibold text-slate-900 dark:text-white">{kt.term}</dt>
-                <dd className="mt-1 text-sm text-slate-500 dark:text-slate-400">{kt.definition}</dd>
+                <Formatted as="dd" text={kt.definition} className="mt-1 text-sm text-slate-500 dark:text-slate-400" />
               </div>
             ))}
           </dl>
