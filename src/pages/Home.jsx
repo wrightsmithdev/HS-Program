@@ -4,10 +4,10 @@ import { countCompleteInGrade } from '../lib/progress'
 import ProgressRing from '../components/ProgressRing'
 
 const GRADE_COLORS = {
-  9: { border: 'border-emerald-300 dark:border-emerald-700', ring: 'text-emerald-500 dark:text-emerald-400', chip: 'bg-emerald-500 text-white' },
-  10: { border: 'border-sky-300 dark:border-sky-700', ring: 'text-sky-500 dark:text-sky-400', chip: 'bg-sky-500 text-white' },
-  11: { border: 'border-violet-300 dark:border-violet-700', ring: 'text-violet-500 dark:text-violet-400', chip: 'bg-violet-500 text-white' },
-  12: { border: 'border-amber-300 dark:border-amber-700', ring: 'text-amber-500 dark:text-amber-400', chip: 'bg-amber-500 text-white' },
+  9: { border: 'border-emerald-300 dark:border-emerald-700', soft: 'bg-emerald-50 dark:bg-emerald-950/40', ring: 'text-emerald-500 dark:text-emerald-400', chip: 'bg-emerald-500 text-white' },
+  10: { border: 'border-sky-300 dark:border-sky-700', soft: 'bg-sky-50 dark:bg-sky-950/40', ring: 'text-sky-500 dark:text-sky-400', chip: 'bg-sky-500 text-white' },
+  11: { border: 'border-violet-300 dark:border-violet-700', soft: 'bg-violet-50 dark:bg-violet-950/40', ring: 'text-violet-500 dark:text-violet-400', chip: 'bg-violet-500 text-white' },
+  12: { border: 'border-amber-300 dark:border-amber-700', soft: 'bg-amber-50 dark:bg-amber-950/40', ring: 'text-amber-500 dark:text-amber-400', chip: 'bg-amber-500 text-white' },
 }
 
 export default function Home() {
@@ -23,21 +23,23 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10">
-      <div className="flex flex-col items-start gap-6 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:flex-row sm:items-center">
-        <ProgressRing percent={overallPercent} size={88} stroke={8} />
+      <div className="flex flex-col items-start gap-6 rounded-2xl bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-500 p-6 text-white shadow-sm sm:flex-row sm:items-center">
+        <div className="rounded-full bg-white/20 p-1 backdrop-blur">
+          <ProgressRing percent={overallPercent} size={88} stroke={8} colorClass="text-white" />
+        </div>
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">🐎 Stallion Prep</h1>
-          <p className="mt-1 text-slate-500 dark:text-slate-400">
+          <h1 className="text-2xl font-bold">🐎 Stallion Prep</h1>
+          <p className="mt-1 text-white/90">
             Your 4-year plan to graduate with your diploma — and get a big head start on college.
           </p>
           <p className="mt-2 flex flex-wrap gap-2 text-sm">
-            <span className="rounded-full bg-indigo-100 px-2.5 py-0.5 font-medium text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300">
+            <span className="rounded-full bg-white/20 px-2.5 py-0.5 font-medium backdrop-blur">
               🏆 {config.diplomaTrack} Diploma
             </span>
-            <span className="rounded-full bg-cyan-100 px-2.5 py-0.5 font-medium text-cyan-700 dark:bg-cyan-900/40 dark:text-cyan-300">
+            <span className="rounded-full bg-white/20 px-2.5 py-0.5 font-medium backdrop-blur">
               💻 {config.endorsement} Focus
             </span>
-            <span className="rounded-full bg-emerald-100 px-2.5 py-0.5 font-medium text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300">
+            <span className="rounded-full bg-white/20 px-2.5 py-0.5 font-medium backdrop-blur">
               ✓ {totalComplete}/{totalLessons} lessons done
             </span>
           </p>
@@ -56,7 +58,7 @@ export default function Home() {
             <Link
               key={g.grade}
               to={`/grade/${g.grade}`}
-              className={`flex items-center gap-4 rounded-xl border-2 ${color.border} bg-white p-5 shadow-sm transition hover:shadow-md dark:bg-slate-900`}
+              className={`flex items-center gap-4 rounded-xl border-2 ${color.border} ${color.soft} p-5 shadow-sm transition hover:shadow-md hover:-translate-y-0.5`}
             >
               <ProgressRing percent={percent} size={56} stroke={5} colorClass={color.ring} />
               <div>

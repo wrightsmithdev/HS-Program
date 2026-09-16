@@ -85,15 +85,17 @@ export default function LessonPage() {
         ← {course.title}
       </Link>
 
-      <div className="mt-3 flex flex-wrap items-center gap-2">
-        {position && (
-          <span className={`rounded-full px-3 py-1 text-xs font-bold ${color.chip}`}>
-            Lesson {position.number} of {position.total}
-          </span>
-        )}
-        <span className={`rounded-full px-3 py-1 text-xs font-semibold ${color.badge}`}>{unit.title}</span>
+      <div className={`mt-3 rounded-2xl bg-gradient-to-r ${color.gradient} p-6 text-white shadow-sm`}>
+        <div className="flex flex-wrap items-center gap-2">
+          {position && (
+            <span className="rounded-full bg-white/25 px-3 py-1 text-xs font-bold backdrop-blur">
+              Lesson {position.number} of {position.total}
+            </span>
+          )}
+          <span className="rounded-full bg-white/25 px-3 py-1 text-xs font-semibold backdrop-blur">{unit.title}</span>
+        </div>
+        <h1 className="mt-3 text-2xl font-bold sm:text-3xl">{lesson.title}</h1>
       </div>
-      <h1 className="mt-3 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">{lesson.title}</h1>
 
       <p className="mt-4 text-lg leading-relaxed text-slate-600 dark:text-slate-300">{lesson.summary}</p>
 
@@ -102,7 +104,7 @@ export default function LessonPage() {
           <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">🔑 Key Terms</h2>
           <dl className="grid gap-3 sm:grid-cols-2">
             {lesson.keyTerms.map((kt) => (
-              <div key={kt.term} className={`rounded-lg border-2 ${color.border} p-3`}>
+              <div key={kt.term} className={`rounded-lg border-2 ${color.border} ${color.soft} p-3`}>
                 <dt className="font-semibold text-slate-900 dark:text-white">{kt.term}</dt>
                 <dd className="mt-1 text-sm text-slate-500 dark:text-slate-400">{kt.definition}</dd>
               </div>

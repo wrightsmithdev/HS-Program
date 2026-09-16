@@ -27,7 +27,7 @@ export default function CourseCard({ grade, course }) {
   return (
     <Link
       to={`/grade/${grade}/course/${course.id}`}
-      className={`flex items-center gap-4 rounded-xl border-2 ${color.border} bg-white p-4 shadow-sm transition hover:shadow-md dark:bg-slate-900`}
+      className={`flex items-center gap-4 rounded-xl border-2 ${color.border} ${color.soft} p-4 shadow-sm transition hover:shadow-md hover:-translate-y-0.5`}
     >
       <span
         className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-2xl ${color.iconBg}`}

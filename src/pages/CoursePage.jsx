@@ -32,18 +32,20 @@ export default function CoursePage() {
         ← Grade {grade} · {meta?.label}
       </Link>
 
-      <div className="mt-2 flex flex-wrap items-center gap-2">
-        <h1 className="text-2xl font-bold text-slate-900 dark:text-white">{course.title}</h1>
-        <CreditBadge creditType={course.creditType} />
+      <div className={`mt-3 rounded-2xl bg-gradient-to-r ${color.gradient} p-6 text-white shadow-sm`}>
+        <div className="flex flex-wrap items-center gap-2">
+          <h1 className="text-2xl font-bold">{course.title}</h1>
+          <CreditBadge creditType={course.creditType} />
+        </div>
+        <p className="mt-1 inline-block rounded-full bg-white/25 px-2.5 py-0.5 text-xs font-semibold backdrop-blur">
+          {course.subjectArea}
+        </p>
+        <p className="mt-3 max-w-2xl text-white/90">{course.description}</p>
       </div>
-      <p className={`mt-1 inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${color.badge}`}>
-        {course.subjectArea}
-      </p>
-      <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">{course.description}</p>
 
       {sequence.length > 0 && (
-        <p className="mt-2 text-sm text-slate-400 dark:text-slate-500">
-          Go through the {sequence.length} lessons in order below — each one is numbered so you always know what's next.
+        <p className="mt-4 text-sm text-slate-500 dark:text-slate-400">
+          📋 Go through the {sequence.length} lessons in order below — each one is numbered so you always know what's next.
         </p>
       )}
 
@@ -60,7 +62,7 @@ export default function CoursePage() {
             return (
               <div
                 key={unit.id}
-                className={`overflow-hidden rounded-xl border-2 ${color.border} bg-white dark:bg-slate-900`}
+                className={`overflow-hidden rounded-xl border-2 ${color.border} ${color.soft}`}
               >
                 <button
                   onClick={() => setOpenUnit(isOpen ? null : unit.id)}
