@@ -1,0 +1,96 @@
+// Literal Tailwind class strings (not composed dynamically) so the build's CSS scanner can find them.
+const COLORS = {
+  English: {
+    badge: 'bg-sky-100 text-sky-700 dark:bg-sky-900/40 dark:text-sky-300',
+    border: 'border-sky-300 dark:border-sky-700',
+    iconBg: 'bg-sky-100 dark:bg-sky-900/40',
+    ring: 'text-sky-500 dark:text-sky-400',
+    solid: 'bg-sky-500 hover:bg-sky-600',
+    chip: 'bg-sky-500 text-white',
+  },
+  Math: {
+    badge: 'bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300',
+    border: 'border-violet-300 dark:border-violet-700',
+    iconBg: 'bg-violet-100 dark:bg-violet-900/40',
+    ring: 'text-violet-500 dark:text-violet-400',
+    solid: 'bg-violet-500 hover:bg-violet-600',
+    chip: 'bg-violet-500 text-white',
+  },
+  Science: {
+    badge: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300',
+    border: 'border-emerald-300 dark:border-emerald-700',
+    iconBg: 'bg-emerald-100 dark:bg-emerald-900/40',
+    ring: 'text-emerald-500 dark:text-emerald-400',
+    solid: 'bg-emerald-500 hover:bg-emerald-600',
+    chip: 'bg-emerald-500 text-white',
+  },
+  'Social Studies': {
+    badge: 'bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300',
+    border: 'border-amber-300 dark:border-amber-700',
+    iconBg: 'bg-amber-100 dark:bg-amber-900/40',
+    ring: 'text-amber-500 dark:text-amber-400',
+    solid: 'bg-amber-500 hover:bg-amber-600',
+    chip: 'bg-amber-500 text-white',
+  },
+  'Fine Arts': {
+    badge: 'bg-pink-100 text-pink-700 dark:bg-pink-900/40 dark:text-pink-300',
+    border: 'border-pink-300 dark:border-pink-700',
+    iconBg: 'bg-pink-100 dark:bg-pink-900/40',
+    ring: 'text-pink-500 dark:text-pink-400',
+    solid: 'bg-pink-500 hover:bg-pink-600',
+    chip: 'bg-pink-500 text-white',
+  },
+  LOTE: {
+    badge: 'bg-teal-100 text-teal-700 dark:bg-teal-900/40 dark:text-teal-300',
+    border: 'border-teal-300 dark:border-teal-700',
+    iconBg: 'bg-teal-100 dark:bg-teal-900/40',
+    ring: 'text-teal-500 dark:text-teal-400',
+    solid: 'bg-teal-500 hover:bg-teal-600',
+    chip: 'bg-teal-500 text-white',
+  },
+  PE: {
+    badge: 'bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-300',
+    border: 'border-rose-300 dark:border-rose-700',
+    iconBg: 'bg-rose-100 dark:bg-rose-900/40',
+    ring: 'text-rose-500 dark:text-rose-400',
+    solid: 'bg-rose-500 hover:bg-rose-600',
+    chip: 'bg-rose-500 text-white',
+  },
+  'AVID/Advisory': {
+    badge: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300',
+    border: 'border-indigo-300 dark:border-indigo-700',
+    iconBg: 'bg-indigo-100 dark:bg-indigo-900/40',
+    ring: 'text-indigo-500 dark:text-indigo-400',
+    solid: 'bg-indigo-500 hover:bg-indigo-600',
+    chip: 'bg-indigo-500 text-white',
+  },
+  'STEM Endorsement': {
+    badge: 'bg-cyan-100 text-cyan-700 dark:bg-cyan-900/40 dark:text-cyan-300',
+    border: 'border-cyan-300 dark:border-cyan-700',
+    iconBg: 'bg-cyan-100 dark:bg-cyan-900/40',
+    ring: 'text-cyan-500 dark:text-cyan-400',
+    solid: 'bg-cyan-500 hover:bg-cyan-600',
+    chip: 'bg-cyan-500 text-white',
+  },
+  Capstone: {
+    badge: 'bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300',
+    border: 'border-purple-300 dark:border-purple-700',
+    iconBg: 'bg-purple-100 dark:bg-purple-900/40',
+    ring: 'text-purple-500 dark:text-purple-400',
+    solid: 'bg-purple-500 hover:bg-purple-600',
+    chip: 'bg-purple-500 text-white',
+  },
+}
+
+const DEFAULT = {
+  badge: 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300',
+  border: 'border-slate-300 dark:border-slate-700',
+  iconBg: 'bg-slate-100 dark:bg-slate-800',
+  ring: 'text-slate-500 dark:text-slate-400',
+  solid: 'bg-slate-500 hover:bg-slate-600',
+  chip: 'bg-slate-500 text-white',
+}
+
+export function getSubjectColor(subjectArea) {
+  return COLORS[subjectArea] ?? DEFAULT
+}

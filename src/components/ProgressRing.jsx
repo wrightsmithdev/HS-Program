@@ -1,4 +1,4 @@
-export default function ProgressRing({ percent = 0, size = 56, stroke = 6, label }) {
+export default function ProgressRing({ percent = 0, size = 56, stroke = 6, label, colorClass = 'text-indigo-600 dark:text-indigo-400' }) {
   const radius = (size - stroke) / 2
   const circumference = 2 * Math.PI * radius
   const offset = circumference - (Math.min(100, Math.max(0, percent)) / 100) * circumference
@@ -25,7 +25,7 @@ export default function ProgressRing({ percent = 0, size = 56, stroke = 6, label
           strokeDasharray={circumference}
           strokeDashoffset={offset}
           strokeLinecap="round"
-          className="text-indigo-600 transition-all dark:text-indigo-400"
+          className={`${colorClass} transition-all`}
         />
       </svg>
       <span className="absolute text-xs font-semibold text-slate-700 dark:text-slate-200">

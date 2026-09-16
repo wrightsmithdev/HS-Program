@@ -2,25 +2,21 @@
   {
     "grade": 9,
     "label": "Freshman Year",
-    "location": "ECHS Wing @ Timberview High School",
-    "description": "First year of the Early College High School program. Students attend ECHS-only classes in a dedicated wing of Timberview High School and have full access to Timberview's clubs and activities."
+    "description": "Welcome to high school! This year you'll take honors-level classes in every subject to build the skills you'll need once college credit starts next year."
   },
   {
     "grade": 10,
     "label": "Sophomore Year",
-    "location": "ECHS Wing @ Timberview High School",
-    "description": "Second year at the Timberview ECHS wing. TCC dual-credit coursework begins this year, starting the path toward an Associate degree alongside the diploma."
+    "description": "This is the year you start earning real college credit alongside your regular high school classes — it's the beginning of your path toward an associate degree."
   },
   {
     "grade": 11,
     "label": "Junior Year",
-    "location": "TCC Southeast Campus",
-    "description": "Students now attend classes primarily at the Tarrant County College Southeast Campus, blended with TCC's regular college students. MISD teachers deliver required state courses on the TCC campus."
+    "description": "Most of your classes now count for college credit too. You're doing double duty: high school diploma and college degree, at the same time."
   },
   {
     "grade": 12,
     "label": "Senior Year",
-    "location": "TCC Southeast Campus",
-    "description": "Final year at TCC Southeast Campus, working toward Associate of Arts / Associate of Science degree completion alongside the high school diploma."
+    "description": "Your final year! Finish strong and walk away with your high school diploma and a big head start on a college degree."
   }
 ]

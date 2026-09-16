@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { getCourse, getGradeMeta } from '../data'
+import { getCourse, getGradeMeta, getLessonSequence } from '../data'
 import { isLessonComplete } from '../lib/progress'
+import { getSubjectColor } from '../lib/subjectColors'
 import CreditBadge from '../components/CreditBadge'
 
 export default function CoursePage() {
@@ -21,6 +22,10 @@ export default function CoursePage() {
     )
   }
 
+  const color = getSubjectColor(course.subjectArea)
+  const sequence = getLessonSequence(course)
+  const numberByLessonId = new Map(sequence.map((item, i) => [item.lesson.id, i + 1]))
+
   return (
     <div className="mx-auto max-w-5xl px-4 py-10">
       <Link to={`/grade/${grade}`} className="text-sm text-indigo-600 hover:underline dark:text-indigo-400">
@@ -31,8 +36,16 @@ export default function CoursePage() {
         <h1 className="text-2xl font-bold text-slate-900 dark:text-white">{course.title}</h1>
         <CreditBadge creditType={course.creditType} />
       </div>
-      <p className="text-sm text-slate-500 dark:text-slate-400">{course.stateCourseStandard}</p>
+      <p className={`mt-1 inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${color.badge}`}>
+        {course.subjectArea}
+      </p>
       <p className="mt-3 max-w-2xl text-slate-600 dark:text-slate-300">{course.description}</p>
+
+      {sequence.length > 0 && (
+        <p className="mt-2 text-sm text-slate-400 dark:text-slate-500">
+          Go through the {sequence.length} lessons in order below — each one is numbered so you always know what's next.
+        </p>
+      )}
 
       <div className="mt-8">
         {course.units.length === 0 && (
@@ -42,15 +55,23 @@ export default function CoursePage() {
         )}
 
         <div className="flex flex-col gap-3">
-          {course.units.map((unit) => {
+          {course.units.map((unit, unitIndex) => {
             const isOpen = openUnit === unit.id
             return (
-              <div key={unit.id} className="rounded-xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+              <div
+                key={unit.id}
+                className={`overflow-hidden rounded-xl border-2 ${color.border} bg-white dark:bg-slate-900`}
+              >
                 <button
                   onClick={() => setOpenUnit(isOpen ? null : unit.id)}
                   className="flex w-full items-center justify-between px-4 py-3 text-left font-medium text-slate-900 dark:text-white"
                 >
-                  {unit.title}
+                  <span className="flex items-center gap-2">
+                    <span className={`rounded-full px-2 py-0.5 text-xs font-bold ${color.chip}`}>
+                      Unit {unitIndex + 1}
+                    </span>
+                    {unit.title}
+                  </span>
                   <span className="text-slate-400">{isOpen ? '−' : '+'}</span>
                 </button>
                 {isOpen && (
@@ -59,10 +80,18 @@ export default function CoursePage() {
                       <li key={lesson.id}>
                         <Link
                           to={`/grade/${grade}/course/${courseId}/lesson/${lesson.id}`}
-                          className="flex items-center justify-between px-4 py-2.5 text-sm text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-800"
+                          className="flex items-center gap-3 px-4 py-2.5 text-sm text-slate-700 hover:bg-slate-50 dark:text-slate-200 dark:hover:bg-slate-800"
                         >
-                          <span>{lesson.title}</span>
-                          {isLessonComplete(lesson.id) && <span className="text-emerald-500">✓</span>}
+                          <span
+                            className={`flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
+                              isLessonComplete(lesson.id)
+                                ? 'bg-emerald-500 text-white'
+                                : `${color.chip}`
+                            }`}
+                          >
+                            {isLessonComplete(lesson.id) ? '✓' : numberByLessonId.get(lesson.id)}
+                          </span>
+                          <span className="flex-1">{lesson.title}</span>
                         </Link>
                       </li>
                     ))}

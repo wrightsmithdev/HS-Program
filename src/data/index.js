@@ -39,6 +39,28 @@ export function countLessons(course) {
   return course.units.reduce((sum, u) => sum + u.lessons.length, 0)
 }
 
+export function getLessonSequence(course) {
+  const seq = []
+  for (const unit of course.units) {
+    for (const lesson of unit.lessons) {
+      seq.push({ lesson, unit })
+    }
+  }
+  return seq
+}
+
+export function getLessonPosition(course, lessonId) {
+  const seq = getLessonSequence(course)
+  const index = seq.findIndex((item) => item.lesson.id === lessonId)
+  if (index === -1) return null
+  return {
+    number: index + 1,
+    total: seq.length,
+    prev: index > 0 ? seq[index - 1].lesson : null,
+    next: index < seq.length - 1 ? seq[index + 1].lesson : null,
+  }
+}
+
 export function countLessonsForGrade(gradeNum) {
   return getCourses(gradeNum).reduce((sum, c) => sum + countLessons(c), 0)
 }

@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import { getLesson } from '../data'
+import { Link, useParams, useNavigate } from 'react-router-dom'
+import { getLesson, getLessonPosition } from '../data'
 import { isLessonComplete, setLessonComplete } from '../lib/progress'
+import { getSubjectColor } from '../lib/subjectColors'
 
 function QuizQuestion({ question, index }) {
   const [selected, setSelected] = useState(null)
@@ -35,7 +36,7 @@ function QuizQuestion({ question, index }) {
       {selected !== null && (
         <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
           <span className={selected === question.answerIndex ? 'font-semibold text-emerald-600 dark:text-emerald-400' : 'font-semibold text-red-600 dark:text-red-400'}>
-            {selected === question.answerIndex ? 'Correct. ' : 'Not quite. '}
+            {selected === question.answerIndex ? 'Correct! ' : 'Not quite. '}
           </span>
           {question.explanation}
         </p>
@@ -46,6 +47,7 @@ function QuizQuestion({ question, index }) {
 
 export default function LessonPage() {
   const { grade, courseId, lessonId } = useParams()
+  const navigate = useNavigate()
   const result = getLesson(grade, courseId, lessonId)
   const [complete, setComplete] = useState(() => isLessonComplete(lessonId))
 
@@ -69,24 +71,39 @@ export default function LessonPage() {
   }
 
   const { lesson, unit, course } = result
+  const color = getSubjectColor(course.subjectArea)
+  const position = getLessonPosition(course, lessonId)
+
+  const goNext = () => {
+    if (!complete) setLessonComplete(lessonId, true)
+    if (position?.next) navigate(`/grade/${grade}/course/${courseId}/lesson/${position.next.id}`)
+  }
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <Link to={backLink} className="text-sm text-indigo-600 hover:underline dark:text-indigo-400">
         ← {course.title}
       </Link>
-      <p className="mt-2 text-xs font-medium uppercase tracking-wide text-slate-400 dark:text-slate-500">{unit.title}</p>
-      <h1 className="text-2xl font-bold text-slate-900 dark:text-white">{lesson.title}</h1>
 
-      <p className="mt-4 leading-relaxed text-slate-600 dark:text-slate-300">{lesson.summary}</p>
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        {position && (
+          <span className={`rounded-full px-3 py-1 text-xs font-bold ${color.chip}`}>
+            Lesson {position.number} of {position.total}
+          </span>
+        )}
+        <span className={`rounded-full px-3 py-1 text-xs font-semibold ${color.badge}`}>{unit.title}</span>
+      </div>
+      <h1 className="mt-3 text-2xl font-bold text-slate-900 dark:text-white sm:text-3xl">{lesson.title}</h1>
+
+      <p className="mt-4 text-lg leading-relaxed text-slate-600 dark:text-slate-300">{lesson.summary}</p>
 
       {lesson.keyTerms?.length > 0 && (
         <div className="mt-8">
-          <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">Key Terms</h2>
+          <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">🔑 Key Terms</h2>
           <dl className="grid gap-3 sm:grid-cols-2">
             {lesson.keyTerms.map((kt) => (
-              <div key={kt.term} className="rounded-lg border border-slate-200 p-3 dark:border-slate-800">
-                <dt className="font-medium text-slate-900 dark:text-white">{kt.term}</dt>
+              <div key={kt.term} className={`rounded-lg border-2 ${color.border} p-3`}>
+                <dt className="font-semibold text-slate-900 dark:text-white">{kt.term}</dt>
                 <dd className="mt-1 text-sm text-slate-500 dark:text-slate-400">{kt.definition}</dd>
               </div>
             ))}
@@ -96,7 +113,7 @@ export default function LessonPage() {
 
       {lesson.practiceQuestions?.length > 0 && (
         <div className="mt-8">
-          <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">Practice Questions</h2>
+          <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">✏️ Practice Questions</h2>
           <div className="flex flex-col gap-3">
             {lesson.practiceQuestions.map((q, i) => (
               <QuizQuestion key={i} question={q} index={i} />
@@ -105,16 +122,37 @@ export default function LessonPage() {
         </div>
       )}
 
-      <button
-        onClick={toggleComplete}
-        className={`mt-8 rounded-lg px-4 py-2 text-sm font-medium transition ${
-          complete
-            ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300'
-            : 'bg-indigo-600 text-white hover:bg-indigo-700'
-        }`}
-      >
-        {complete ? '✓ Marked complete' : 'Mark lesson complete'}
-      </button>
+      <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-slate-200 pt-6 dark:border-slate-800">
+        <button
+          onClick={toggleComplete}
+          className={`rounded-lg px-4 py-2 text-sm font-medium transition ${
+            complete
+              ? 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300'
+              : `${color.solid} text-white`
+          }`}
+        >
+          {complete ? '✓ Marked complete' : 'Mark lesson complete'}
+        </button>
+
+        <div className="flex gap-2">
+          {position?.prev && (
+            <Link
+              to={`/grade/${grade}/course/${courseId}/lesson/${position.prev.id}`}
+              className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+            >
+              ← Previous
+            </Link>
+          )}
+          {position?.next && (
+            <button
+              onClick={goNext}
+              className={`rounded-lg px-4 py-2 text-sm font-medium text-white ${color.solid}`}
+            >
+              Next lesson →
+            </button>
+          )}
+        </div>
+      </div>
     </div>
   )
 }
