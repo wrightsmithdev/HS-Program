@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ss11",
+    "title": "US History (Advanced)",
+    "subjectArea": "Social Studies",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §113.41 United States History Studies Since 1877 (Advanced)",
+    "description": "MISD-taught on the TCC Southeast campus. Continues the Social Studies 3-credit sequence.",
+    "units": []
+  },
+  {
+    "id": "dc11-engl",
+    "title": "TCC English Composition II (ENGL 1302)",
+    "subjectArea": "English",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC ENGL 1302 — Composition II",
+    "description": "Advanced English elective credit plus AA/AS core credit; continues the composition sequence begun with ENGL 1301.",
+    "units": []
+  },
+  {
+    "id": "dc11-math",
+    "title": "TCC Pre-Calculus / College Algebra (MATH 1314 / 2412)",
+    "subjectArea": "Math",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC MATH 1314 or MATH 2412",
+    "description": "Satisfies the 4th math credit toward Distinguished Level of Achievement plus AA/AS core credit.",
+    "units": []
+  },
+  {
+    "id": "dc11-sci",
+    "title": "TCC Anatomy & Physiology I / Physics (dual credit)",
+    "subjectArea": "Science",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 4,
+    "stateCourseStandard": "TCC BIOL 2401 or PHYS 1401/1415",
+    "description": "Satisfies the 4th science credit toward Distinguished Level of Achievement plus AA/AS core credit.",
+    "units": []
+  },
+  {
+    "id": "dc11-cs",
+    "title": "TCC Introduction to Computer Science (COSC 1301/1336)",
+    "subjectArea": "STEM Endorsement",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC COSC 1301 or COSC 1336",
+    "description": "STEM endorsement course plus AA/AS elective credit.",
+    "units": []
+  },
+  {
+    "id": "dc11-ss",
+    "title": "TCC US History / Psychology (HIST 1301 / PSYC 2301)",
+    "subjectArea": "Social Studies",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC HIST 1301 or PSYC 2301",
+    "description": "Elective / endorsement credit plus AA/AS core or elective credit.",
+    "units": []
+  },
+  {
+    "id": "avid11",
+    "title": "AVID 3 + College Application Seminar",
+    "subjectArea": "AVID/Advisory",
+    "creditType": "program",
+    "credits": 0.5,
+    "weighted": false,
+    "stateCourseStandard": "ECHS local program requirement (non-TEA credit)",
+    "description": "AVID mentorship continues with a focus on college applications, essays, and scholarship research.",
+    "units": []
+  }
+]

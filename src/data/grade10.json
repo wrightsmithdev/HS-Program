@@ -1,0 +1,92 @@
+[
+  {
+    "id": "engl10",
+    "title": "Advanced English II",
+    "subjectArea": "English",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §110.37 English II (Advanced)",
+    "description": "Second course in the state's 4-credit English sequence. Builds on Advanced English I with more complex literary analysis, rhetoric, and research writing.",
+    "units": []
+  },
+  {
+    "id": "math10",
+    "title": "Advanced Algebra II",
+    "subjectArea": "Math",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §111.40 Algebra II (Advanced)",
+    "description": "Satisfies the Distinguished Level of Achievement's Algebra II requirement. Covers functions, systems of equations, polynomials, rational and radical expressions, and conics.",
+    "units": []
+  },
+  {
+    "id": "sci10",
+    "title": "Advanced Chemistry",
+    "subjectArea": "Science",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §112.35 Chemistry (Advanced)",
+    "description": "Lab science credit covering atomic structure, bonding, stoichiometry, reactions, gases, solutions, and acid-base chemistry.",
+    "units": []
+  },
+  {
+    "id": "ss10",
+    "title": "Advanced World History",
+    "subjectArea": "Social Studies",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §113.42 World History Studies (Advanced)",
+    "description": "Survey of world history from early civilizations through the present, satisfying the Social Studies 3-credit sequence.",
+    "units": []
+  },
+  {
+    "id": "fa10",
+    "title": "TCC Theatre Appreciation (THEA 1310)",
+    "subjectArea": "Fine Arts",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC THEA 1310 — Theatre Appreciation",
+    "description": "First TCC dual-credit course at ECHS (tccStartGrade config = 10). Satisfies the state's Fine Arts requirement while earning AA/AS elective credit at TCC.",
+    "units": []
+  },
+  {
+    "id": "lote10",
+    "title": "Spanish II (Advanced)",
+    "subjectArea": "LOTE",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §114.36 Spanish Level II (Advanced)",
+    "description": "Second year of the same-language LOTE sequence, completing the state's 2-credit Languages Other Than English requirement.",
+    "units": []
+  },
+  {
+    "id": "dc10-engl",
+    "title": "TCC English Composition I (ENGL 1301)",
+    "subjectArea": "English",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC ENGL 1301 — Composition I",
+    "description": "Available if TSI-met. Counts as an advanced English elective toward the 4-credit English requirement plus AA/AS core credit.",
+    "units": []
+  },
+  {
+    "id": "avid10",
+    "title": "AVID 2 + TSI Prep",
+    "subjectArea": "AVID/Advisory",
+    "creditType": "program",
+    "credits": 0.5,
+    "weighted": false,
+    "stateCourseStandard": "ECHS local program requirement (non-TEA credit)",
+    "description": "Continues AVID instructional strategies and mentorship; adds TSI Assessment preparation ahead of TCC dual-credit enrollment.",
+    "units": []
+  }
+]

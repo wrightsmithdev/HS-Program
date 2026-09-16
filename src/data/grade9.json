@@ -1,0 +1,90 @@
+[
+  {
+    "id": "engl9",
+    "title": "Advanced English I",
+    "subjectArea": "English",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §110.36 English I (Advanced)",
+    "description": "First course in the state's 4-credit English sequence. Covers literary analysis, composition, grammar/language conventions, and research skills at an accelerated pace.",
+    "units": []
+  },
+  {
+    "id": "math9",
+    "title": "Advanced Geometry",
+    "subjectArea": "Math",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §111.41 Geometry (Advanced)",
+    "description": "Assumes Algebra I was completed in 8th grade via MISD's accelerated middle-school math path (config: algebraICompletedGrade8). Covers logical reasoning/proof, congruence, similarity, coordinate geometry, circles, and 3D measurement.",
+    "units": []
+  },
+  {
+    "id": "sci9",
+    "title": "Advanced Biology",
+    "subjectArea": "Science",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §112.34 Biology (Advanced)",
+    "description": "First course in the state's 4-credit science sequence. Covers cell structure/function, genetics, evolution, ecology, and biological processes with a lab component.",
+    "units": []
+  },
+  {
+    "id": "ss9",
+    "title": "World Geography (Advanced)",
+    "subjectArea": "Social Studies",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §113.42 World Geography Studies (Advanced)",
+    "description": "Survey of physical and human geography, satisfying the first credit of the state's 3-credit Social Studies sequence.",
+    "units": []
+  },
+  {
+    "id": "fa9",
+    "title": "Theatre Arts I (Advanced)",
+    "subjectArea": "Fine Arts",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS Chapter 117, Theatre I (Advanced)",
+    "description": "Satisfies the state's 1-credit Fine Arts requirement. ECHS-only course (not TCC campus dual credit — TCC coursework begins in grade 10 per config.tccStartGrade).",
+    "units": []
+  },
+  {
+    "id": "lote9",
+    "title": "Spanish I (Advanced)",
+    "subjectArea": "LOTE",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §114.34 Spanish Level I (Advanced)",
+    "description": "First year of the same-language Languages Other Than English sequence (config.lotePlan = Spanish).",
+    "units": []
+  },
+  {
+    "id": "pe9",
+    "title": "Foundations of Personal Fitness",
+    "subjectArea": "PE",
+    "creditType": "state-core",
+    "credits": 1,
+    "weighted": false,
+    "stateCourseStandard": "TEKS §116.53 Foundations of Personal Fitness",
+    "description": "Satisfies the state's 1-credit Physical Education requirement. Covers fitness principles, goal-setting, and lifetime wellness habits.",
+    "units": []
+  },
+  {
+    "id": "avid9",
+    "title": "AVID 1 + College Readiness Seminar",
+    "subjectArea": "AVID/Advisory",
+    "creditType": "program",
+    "credits": 0.5,
+    "weighted": false,
+    "stateCourseStandard": "ECHS local program requirement (non-TEA credit)",
+    "description": "AVID instructional strategies and mentorship, introducing organizational systems, Cornell note-taking, and a college-going mindset for the ECHS cohort.",
+    "units": []
+  }
+]

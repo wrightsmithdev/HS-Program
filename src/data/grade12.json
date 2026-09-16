@@ -1,0 +1,85 @@
+[
+  {
+    "id": "ss12",
+    "title": "US Government + Economics (GOVT 2305 / ECON 2301)",
+    "subjectArea": "Social Studies",
+    "creditType": "dual-credit",
+    "credits": 1,
+    "weighted": true,
+    "collegeCreditHours": 6,
+    "stateCourseStandard": "TCC GOVT 2305 (0.5 cr) + ECON 2301 (0.5 cr)",
+    "description": "Completes the state Social Studies requirement (US Government 0.5 + Economics 0.5) while earning AA/AS core credit.",
+    "units": []
+  },
+  {
+    "id": "dc12-engl",
+    "title": "TCC Advanced English Elective (ENGL 2322/2332) or English IV",
+    "subjectArea": "English",
+    "creditType": "dual-credit",
+    "credits": 1,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC ENGL 2322/2332 or MISD English IV",
+    "description": "Completes the state's 4-credit English requirement.",
+    "units": []
+  },
+  {
+    "id": "dc12-math",
+    "title": "TCC Calculus I / Statistics (MATH 2413 / 1342)",
+    "subjectArea": "Math",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC MATH 2413 or MATH 1342",
+    "description": "Advanced math elective plus AA/AS core credit.",
+    "units": []
+  },
+  {
+    "id": "dc12-sci",
+    "title": "TCC Second Lab Science (Chemistry II / Biology II / Physics II)",
+    "subjectArea": "Science",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 4,
+    "stateCourseStandard": "TCC CHEM/BIOL/PHYS sequence course",
+    "description": "Advanced science elective plus AA/AS core credit.",
+    "units": []
+  },
+  {
+    "id": "dc12-stem",
+    "title": "TCC Capstone in Chosen AA/AS Track",
+    "subjectArea": "STEM Endorsement",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "Varies by TCC degree plan",
+    "description": "Completes the STEM endorsement with a capstone course in the student's chosen Associate degree track.",
+    "units": []
+  },
+  {
+    "id": "capstone12",
+    "title": "AA or AS Degree Completion + Diploma",
+    "subjectArea": "Capstone",
+    "creditType": "program",
+    "credits": 0,
+    "weighted": false,
+    "collegeCreditHours": 0,
+    "stateCourseStandard": "ECHS program milestone",
+    "description": "Tracks completion of up to 60 TCC semester credit hours toward an Associate of Arts or Associate of Science degree, awarded alongside the MISD diploma.",
+    "units": []
+  },
+  {
+    "id": "avid12",
+    "title": "AVID 4 + Transfer/Scholarship Seminar",
+    "subjectArea": "AVID/Advisory",
+    "creditType": "program",
+    "credits": 0.5,
+    "weighted": false,
+    "stateCourseStandard": "ECHS local program requirement (non-TEA credit)",
+    "description": "Final year of AVID mentorship, focused on university transfer planning and scholarship applications.",
+    "units": []
+  }
+]
