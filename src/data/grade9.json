@@ -4203,12 +4203,12 @@
   },
   {
     "id": "ss9",
-    "title": "World Geography (Advanced)",
+    "title": "World Geography",
     "subjectArea": "Social Studies",
     "creditType": "state-core",
     "credits": 1,
-    "weighted": true,
-    "stateCourseStandard": "TEKS §113.42 World Geography Studies (Advanced)",
+    "weighted": false,
+    "stateCourseStandard": "TEKS §113.42 World Geography Studies",
     "description": "Survey of physical and human geography, satisfying the first credit of the state's 3-credit Social Studies sequence.",
     "units": [
       {

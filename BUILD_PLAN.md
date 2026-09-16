@@ -66,7 +66,7 @@ PE is intentionally not tracked as an app course/tab: it's satisfied through the
 | English | Advanced English I (or English II, if already advanced) | State core |
 | Math | Advanced Geometry A + B (or Algebra I, if not yet completed) — two 0.5-credit semester courses | State core |
 | Science | Advanced Biology | State core |
-| Social Studies | World Geography (Advanced) | State core |
+| Social Studies | World Geography (on-level, not Advanced) | State core |
 | AVID/Advisory | AVID I | ECHS program requirement |
 | Fine Arts / Elective — **choice** | TCC Introduction to Theatre (DRAM 1310, PEIMS 03251000) *or* TCC Public Speaking (SPCH 1315, PEIMS 13009900/03241100) | Dual credit — Fine Arts/elective + AA/AS elective |
 
