@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import GradeTab from './pages/GradeTab'
@@ -18,7 +18,7 @@ function NotFound() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
         <Nav />
         <Routes>
@@ -29,6 +29,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
