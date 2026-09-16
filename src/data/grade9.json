@@ -1338,14 +1338,14 @@
     ]
   },
   {
-    "id": "math9",
-    "title": "Advanced Geometry",
+    "id": "math9a",
+    "title": "Advanced Geometry A",
     "subjectArea": "Math",
     "creditType": "state-core",
-    "credits": 1,
+    "credits": 0.5,
     "weighted": true,
-    "stateCourseStandard": "TEKS §111.41 Geometry (Advanced)",
-    "description": "Assumes Algebra I was completed in 8th grade via MISD's accelerated middle-school math path (config: algebraICompletedGrade8). Covers logical reasoning/proof, congruence, similarity, coordinate geometry, circles, and 3D measurement.",
+    "stateCourseStandard": "TEKS §111.41 Geometry (Advanced) — Semester 1",
+    "description": "First semester of Advanced Geometry. Covers logical reasoning and proof, angle relationships with parallel lines, and triangle congruence/similarity/right-triangle trigonometry.",
     "units": [
       {
         "id": "math9-u1",
@@ -2192,7 +2192,19 @@
             ]
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "math9b",
+    "title": "Advanced Geometry B",
+    "subjectArea": "Math",
+    "creditType": "state-core",
+    "credits": 0.5,
+    "weighted": true,
+    "stateCourseStandard": "TEKS §111.41 Geometry (Advanced) — Semester 2",
+    "description": "Second semester of Advanced Geometry. Covers polygons, quadrilaterals, and circles, then coordinate and three-dimensional geometry, building on the formulas and proof skills from Semester A.",
+    "units": [
       {
         "id": "math9-u4",
         "title": "Polygons, Quadrilaterals, and Circles",
@@ -2457,8 +2469,8 @@
         "lessons": [
           {
             "id": "math9-u5-l1",
-            "title": "Coordinate Proof and the Distance/Midpoint Formulas",
-            "summary": "This lesson covers using the **distance formula**, **midpoint formula**, and **slope** together on the coordinate plane to classify triangles and quadrilaterals without a protractor or ruler. You'll also see how these tools combine into **coordinate proofs**, which use algebra to verify a geometric property is true for a specific figure.",
+            "title": "Applying the Distance and Midpoint Formulas to Coordinate Proofs",
+            "summary": "This lesson applies the **distance formula** and **midpoint formula** you learned in Unit 1, together with **slope**, to classify triangles and quadrilaterals on the coordinate plane without a protractor or ruler. You'll see how these tools combine into **coordinate proofs**, which use algebra to verify a geometric property is true for a specific figure.",
             "keyTerms": [
               {
                 "term": "Distance formula",
