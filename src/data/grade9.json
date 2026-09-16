@@ -11,10 +11,268 @@
     "units": [
       {
         "id": "engl9-u1",
-        "title": "Foundations of Literary Analysis: Short Fiction",
+        "title": "Poetry: Form, Sound, and Meaning",
         "lessons": [
           {
             "id": "engl9-u1-l1",
+            "title": "Poetic Structure and Forms",
+            "summary": "This lesson introduces how poets organize language into lines, **stanzas**, and recognized forms such as **sonnets** and **free verse**. Students learn how structural choices, including **meter** and **rhyme scheme**, shape a poem's rhythm and emphasis. Recognizing form is a first step toward understanding how a poem's shape reinforces its meaning.",
+            "keyTerms": [
+              {
+                "term": "Stanza",
+                "definition": "A grouped set of lines in a poem, functioning like a paragraph in prose, often separated by a blank line."
+              },
+              {
+                "term": "Meter",
+                "definition": "The rhythmic pattern of stressed and unstressed syllables in a line of poetry."
+              },
+              {
+                "term": "Free Verse",
+                "definition": "Poetry that does not follow a fixed **rhyme scheme** or regular metrical pattern."
+              },
+              {
+                "term": "Sonnet",
+                "definition": "A fourteen-line poem, traditionally written in a fixed **rhyme scheme** and **meter**, often exploring a single focused idea or emotion."
+              },
+              {
+                "term": "Rhyme Scheme",
+                "definition": "The pattern of end rhymes in a poem, often marked with letters (such as ABAB), which contributes to its structure and musicality."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What is the primary function of a **stanza** in a poem?",
+                "choices": [
+                  "It groups related lines together, similar to a paragraph in prose.",
+                  "It always signals the poem's rhyme scheme has ended.",
+                  "It replaces the need for punctuation.",
+                  "It indicates the poem is written in free verse."
+                ],
+                "answerIndex": 0,
+                "explanation": "A **stanza** organizes lines into a unit, much like a paragraph organizes sentences in prose."
+              },
+              {
+                "question": "A poem with no consistent **rhyme scheme** or regular rhythmic pattern is best classified as which form?",
+                "choices": [
+                  "Sonnet",
+                  "Free verse",
+                  "Ballad",
+                  "Ode"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Free verse** poetry deliberately avoids a fixed **rhyme scheme** and **meter**."
+              },
+              {
+                "question": "How many lines does a traditional **sonnet** contain?",
+                "choices": [
+                  "8",
+                  "10",
+                  "14",
+                  "16"
+                ],
+                "answerIndex": 2,
+                "explanation": "A traditional **sonnet** is a fourteen-line poem, often with a specific **rhyme scheme**."
+              },
+              {
+                "question": "Why might a poet choose a tightly controlled **meter** and **rhyme scheme** instead of **free verse**?",
+                "choices": [
+                  "To make the poem impossible to read aloud",
+                  "To create a sense of order, predictability, or musicality that reinforces the poem's tone",
+                  "Because free verse is not allowed in published poetry",
+                  "To avoid using any figurative language"
+                ],
+                "answerIndex": 1,
+                "explanation": "A controlled structure can reinforce tone, such as calm or formality, through its predictable rhythm and sound."
+              },
+              {
+                "question": "The rhythmic pattern created by stressed and unstressed syllables in a line of poetry is called what?",
+                "choices": [
+                  "Stanza",
+                  "Meter",
+                  "Enjambment",
+                  "Refrain"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Meter** refers specifically to the patterned arrangement of stressed and unstressed syllables."
+              }
+            ]
+          },
+          {
+            "id": "engl9-u1-l2",
+            "title": "Sound Devices and Imagery",
+            "summary": "This lesson focuses on how poets use sound techniques like **alliteration**, **assonance**, and **onomatopoeia** alongside vivid sensory **imagery** to create atmosphere and emphasis. Students practice identifying these devices and explaining how they affect a reader's experience of a poem. This lesson builds the analytical vocabulary needed to discuss a poem's craft in writing.",
+            "keyTerms": [
+              {
+                "term": "Alliteration",
+                "definition": "The repetition of initial consonant sounds in nearby words, often used to create rhythm or emphasis."
+              },
+              {
+                "term": "Assonance",
+                "definition": "The repetition of vowel sounds within nearby words that do not end the same, creating internal rhyme-like effects."
+              },
+              {
+                "term": "Onomatopoeia",
+                "definition": "A word that imitates or suggests the sound it describes, such as 'buzz' or 'clang.'"
+              },
+              {
+                "term": "Imagery",
+                "definition": "Descriptive language that appeals to the five senses to help readers vividly picture a scene or feeling."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "'The slick, silver snake slithered silently' is an example of which sound device?",
+                "choices": [
+                  "Assonance",
+                  "Alliteration",
+                  "Onomatopoeia",
+                  "Rhyme scheme"
+                ],
+                "answerIndex": 1,
+                "explanation": "The repeated initial 's' sounds across nearby words demonstrate **alliteration**."
+              },
+              {
+                "question": "In the phrase 'the light of the fire flies high,' the repeated long 'i' sound is an example of which device?",
+                "choices": [
+                  "Assonance",
+                  "Consonance",
+                  "Onomatopoeia",
+                  "Meter"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Assonance** is the repetition of vowel sounds within nearby words, as seen with the repeated long 'i' sound."
+              },
+              {
+                "question": "Which word below is the clearest example of **onomatopoeia**?",
+                "choices": [
+                  "Whisper",
+                  "Sizzle",
+                  "Journey",
+                  "Gentle"
+                ],
+                "answerIndex": 1,
+                "explanation": "'Sizzle' imitates the actual sound it describes, which is the definition of **onomatopoeia**."
+              },
+              {
+                "question": "A poet writes, 'the bitter tang of frost clung to the air, and the wind bit at bare fingertips.' This description primarily relies on which technique?",
+                "choices": [
+                  "Imagery",
+                  "Rhyme scheme",
+                  "Enjambment",
+                  "Meter"
+                ],
+                "answerIndex": 0,
+                "explanation": "The passage appeals to taste and touch to create a vivid sensory experience, which is the function of **imagery**."
+              },
+              {
+                "question": "What is the main purpose of sound devices such as **alliteration** and **assonance** in poetry?",
+                "choices": [
+                  "To make a poem strictly follow grammar rules",
+                  "To create musicality and emphasize certain words or moods",
+                  "To eliminate the need for imagery",
+                  "To summarize the poem's theme directly"
+                ],
+                "answerIndex": 1,
+                "explanation": "Sound devices add rhythm and emphasis, shaping how a poem feels when read aloud or silently."
+              }
+            ]
+          },
+          {
+            "id": "engl9-u1-l3",
+            "title": "Tone, Mood, and Thematic Analysis in Poetry",
+            "summary": "This lesson teaches students to distinguish between a poem's **tone** (the speaker's attitude) and its **mood** (the feeling created in the reader), and to trace how word choice and **imagery** build toward a poem's **theme**. Students practice writing brief analytical responses that connect specific textual evidence to an interpretation. This synthesis prepares students for longer analytical essays later in the course.",
+            "keyTerms": [
+              {
+                "term": "Tone",
+                "definition": "The speaker's or author's attitude toward the subject of a poem, conveyed through word choice and style."
+              },
+              {
+                "term": "Mood",
+                "definition": "The overall emotional atmosphere a poem creates for the reader, often shaped by setting, **imagery**, and word choice."
+              },
+              {
+                "term": "Diction",
+                "definition": "An author's or speaker's choice of words, which shapes tone, mood, and meaning."
+              },
+              {
+                "term": "Connotation",
+                "definition": "The emotional or cultural association a word carries beyond its literal dictionary definition."
+              },
+              {
+                "term": "Theme",
+                "definition": "The underlying message or insight about life or human nature that a poem or literary work conveys, usually built gradually through word choice and **imagery** rather than stated directly."
+              },
+              {
+                "term": "Imagery",
+                "definition": "Descriptive language that appeals to the five senses, helping readers vividly picture a scene, object, or feeling."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which of the following best distinguishes **tone** from **mood**?",
+                "choices": [
+                  "Tone is the reader's emotional reaction; mood is the speaker's attitude.",
+                  "Tone is the speaker's attitude toward the subject; mood is the atmosphere felt by the reader.",
+                  "Tone and mood always mean the exact same thing.",
+                  "Tone only applies to prose, while mood only applies to poetry."
+                ],
+                "answerIndex": 1,
+                "explanation": "**Tone** reflects the speaker's or writer's attitude, while **mood** describes the emotional atmosphere experienced by the reader."
+              },
+              {
+                "question": "A poem describes a 'crumbling, forgotten house' and a 'silent, empty street.' Which mood do these details most likely create?",
+                "choices": [
+                  "Joyful and celebratory",
+                  "Desolate and melancholy",
+                  "Energetic and hopeful",
+                  "Comedic and lighthearted"
+                ],
+                "answerIndex": 1,
+                "explanation": "Words like 'crumbling,' 'forgotten,' 'silent,' and 'empty' build a **mood** of sadness and abandonment."
+              },
+              {
+                "question": "Choosing the word 'stubborn' instead of 'determined' to describe a character most affects which element of the poem?",
+                "choices": [
+                  "Rhyme scheme",
+                  "Connotation and tone",
+                  "Line length",
+                  "Stanza structure"
+                ],
+                "answerIndex": 1,
+                "explanation": "'Stubborn' carries a more negative **connotation** than 'determined,' shifting the **tone** toward criticism rather than admiration."
+              },
+              {
+                "question": "Which sentence best models how to support a claim about a poem's **theme** with textual evidence?",
+                "choices": [
+                  "The poem is sad because I feel sad when I read it.",
+                  "The repeated image of wilting flowers suggests the theme that beauty and time are fleeting.",
+                  "The poem has four stanzas and rhymes.",
+                  "The poet probably wrote this quickly."
+                ],
+                "answerIndex": 1,
+                "explanation": "This response connects a specific textual detail (the wilting flowers) to a clear interpretive claim about **theme**."
+              },
+              {
+                "question": "An author's specific word choices, which shape a poem's **tone** and meaning, are referred to as what?",
+                "choices": [
+                  "Diction",
+                  "Meter",
+                  "Stanza",
+                  "Foreshadowing"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Diction** refers to an author's deliberate choice of words, which directly influences **tone** and **mood**."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "engl9-u2",
+        "title": "Foundations of Literary Analysis: Short Fiction",
+        "lessons": [
+          {
+            "id": "engl9-u2-l1",
             "title": "Elements of Fiction: Plot, Character, and Setting",
             "summary": "This lesson introduces the building blocks writers use to construct a short story: plot structure, character types, and **setting**. Understanding how these elements work together helps readers explain why a story unfolds the way it does and how authors create tension and meaning. These skills form the foundation for every literary analysis you will write this year.",
             "keyTerms": [
@@ -110,7 +368,7 @@
             ]
           },
           {
-            "id": "engl9-u1-l2",
+            "id": "engl9-u2-l2",
             "title": "Point of View, Theme, and Author's Purpose",
             "summary": "This lesson explores how the narrator's vantage point shapes what readers know and feel, and how authors use plot and character choices to convey a **theme**, or central insight about life. Students also examine how a **writer's purpose** (to entertain, inform, or persuade) influences the choices made in a text. Recognizing these elements allows readers to move beyond summary into genuine interpretation.",
             "keyTerms": [
@@ -198,7 +456,7 @@
             ]
           },
           {
-            "id": "engl9-u1-l3",
+            "id": "engl9-u2-l3",
             "title": "Figurative Language and Literary Devices",
             "summary": "This lesson teaches students to identify and analyze figurative language and literary devices such as **metaphor**, **simile**, **symbolism**, irony, and **foreshadowing**. Learning to recognize these devices helps readers understand how authors create layered meaning beyond the literal events of a story. Students practice explaining the effect of a device rather than simply naming it.",
             "keyTerms": [
@@ -282,264 +540,6 @@
                 ],
                 "answerIndex": 1,
                 "explanation": "Literary devices deepen a text's meaning and invite readers to interpret beyond the surface-level story."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "engl9-u2",
-        "title": "Poetry: Form, Sound, and Meaning",
-        "lessons": [
-          {
-            "id": "engl9-u2-l1",
-            "title": "Poetic Structure and Forms",
-            "summary": "This lesson introduces how poets organize language into lines, **stanzas**, and recognized forms such as **sonnets** and **free verse**. Students learn how structural choices, including **meter** and **rhyme scheme**, shape a poem's rhythm and emphasis. Recognizing form is a first step toward understanding how a poem's shape reinforces its meaning.",
-            "keyTerms": [
-              {
-                "term": "Stanza",
-                "definition": "A grouped set of lines in a poem, functioning like a paragraph in prose, often separated by a blank line."
-              },
-              {
-                "term": "Meter",
-                "definition": "The rhythmic pattern of stressed and unstressed syllables in a line of poetry."
-              },
-              {
-                "term": "Free Verse",
-                "definition": "Poetry that does not follow a fixed **rhyme scheme** or regular metrical pattern."
-              },
-              {
-                "term": "Sonnet",
-                "definition": "A fourteen-line poem, traditionally written in a fixed **rhyme scheme** and **meter**, often exploring a single focused idea or emotion."
-              },
-              {
-                "term": "Rhyme Scheme",
-                "definition": "The pattern of end rhymes in a poem, often marked with letters (such as ABAB), which contributes to its structure and musicality."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "What is the primary function of a **stanza** in a poem?",
-                "choices": [
-                  "It groups related lines together, similar to a paragraph in prose.",
-                  "It always signals the poem's rhyme scheme has ended.",
-                  "It replaces the need for punctuation.",
-                  "It indicates the poem is written in free verse."
-                ],
-                "answerIndex": 0,
-                "explanation": "A **stanza** organizes lines into a unit, much like a paragraph organizes sentences in prose."
-              },
-              {
-                "question": "A poem with no consistent **rhyme scheme** or regular rhythmic pattern is best classified as which form?",
-                "choices": [
-                  "Sonnet",
-                  "Free verse",
-                  "Ballad",
-                  "Ode"
-                ],
-                "answerIndex": 1,
-                "explanation": "**Free verse** poetry deliberately avoids a fixed **rhyme scheme** and **meter**."
-              },
-              {
-                "question": "How many lines does a traditional **sonnet** contain?",
-                "choices": [
-                  "8",
-                  "10",
-                  "14",
-                  "16"
-                ],
-                "answerIndex": 2,
-                "explanation": "A traditional **sonnet** is a fourteen-line poem, often with a specific **rhyme scheme**."
-              },
-              {
-                "question": "Why might a poet choose a tightly controlled **meter** and **rhyme scheme** instead of **free verse**?",
-                "choices": [
-                  "To make the poem impossible to read aloud",
-                  "To create a sense of order, predictability, or musicality that reinforces the poem's tone",
-                  "Because free verse is not allowed in published poetry",
-                  "To avoid using any figurative language"
-                ],
-                "answerIndex": 1,
-                "explanation": "A controlled structure can reinforce tone, such as calm or formality, through its predictable rhythm and sound."
-              },
-              {
-                "question": "The rhythmic pattern created by stressed and unstressed syllables in a line of poetry is called what?",
-                "choices": [
-                  "Stanza",
-                  "Meter",
-                  "Enjambment",
-                  "Refrain"
-                ],
-                "answerIndex": 1,
-                "explanation": "**Meter** refers specifically to the patterned arrangement of stressed and unstressed syllables."
-              }
-            ]
-          },
-          {
-            "id": "engl9-u2-l2",
-            "title": "Sound Devices and Imagery",
-            "summary": "This lesson focuses on how poets use sound techniques like **alliteration**, **assonance**, and **onomatopoeia** alongside vivid sensory **imagery** to create atmosphere and emphasis. Students practice identifying these devices and explaining how they affect a reader's experience of a poem. This lesson builds the analytical vocabulary needed to discuss a poem's craft in writing.",
-            "keyTerms": [
-              {
-                "term": "Alliteration",
-                "definition": "The repetition of initial consonant sounds in nearby words, often used to create rhythm or emphasis."
-              },
-              {
-                "term": "Assonance",
-                "definition": "The repetition of vowel sounds within nearby words that do not end the same, creating internal rhyme-like effects."
-              },
-              {
-                "term": "Onomatopoeia",
-                "definition": "A word that imitates or suggests the sound it describes, such as 'buzz' or 'clang.'"
-              },
-              {
-                "term": "Imagery",
-                "definition": "Descriptive language that appeals to the five senses to help readers vividly picture a scene or feeling."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "'The slick, silver snake slithered silently' is an example of which sound device?",
-                "choices": [
-                  "Assonance",
-                  "Alliteration",
-                  "Onomatopoeia",
-                  "Rhyme scheme"
-                ],
-                "answerIndex": 1,
-                "explanation": "The repeated initial 's' sounds across nearby words demonstrate **alliteration**."
-              },
-              {
-                "question": "In the phrase 'the light of the fire flies high,' the repeated long 'i' sound is an example of which device?",
-                "choices": [
-                  "Assonance",
-                  "Consonance",
-                  "Onomatopoeia",
-                  "Meter"
-                ],
-                "answerIndex": 0,
-                "explanation": "**Assonance** is the repetition of vowel sounds within nearby words, as seen with the repeated long 'i' sound."
-              },
-              {
-                "question": "Which word below is the clearest example of **onomatopoeia**?",
-                "choices": [
-                  "Whisper",
-                  "Sizzle",
-                  "Journey",
-                  "Gentle"
-                ],
-                "answerIndex": 1,
-                "explanation": "'Sizzle' imitates the actual sound it describes, which is the definition of **onomatopoeia**."
-              },
-              {
-                "question": "A poet writes, 'the bitter tang of frost clung to the air, and the wind bit at bare fingertips.' This description primarily relies on which technique?",
-                "choices": [
-                  "Imagery",
-                  "Rhyme scheme",
-                  "Enjambment",
-                  "Meter"
-                ],
-                "answerIndex": 0,
-                "explanation": "The passage appeals to taste and touch to create a vivid sensory experience, which is the function of **imagery**."
-              },
-              {
-                "question": "What is the main purpose of sound devices such as **alliteration** and **assonance** in poetry?",
-                "choices": [
-                  "To make a poem strictly follow grammar rules",
-                  "To create musicality and emphasize certain words or moods",
-                  "To eliminate the need for imagery",
-                  "To summarize the poem's theme directly"
-                ],
-                "answerIndex": 1,
-                "explanation": "Sound devices add rhythm and emphasis, shaping how a poem feels when read aloud or silently."
-              }
-            ]
-          },
-          {
-            "id": "engl9-u2-l3",
-            "title": "Tone, Mood, and Thematic Analysis in Poetry",
-            "summary": "This lesson teaches students to distinguish between a poem's **tone** (the speaker's attitude) and its **mood** (the feeling created in the reader), and to trace how word choice and **imagery** build toward a poem's **theme**. Students practice writing brief analytical responses that connect specific textual evidence to an interpretation. This synthesis prepares students for longer analytical essays later in the course.",
-            "keyTerms": [
-              {
-                "term": "Tone",
-                "definition": "The speaker's or author's attitude toward the subject of a poem, conveyed through word choice and style."
-              },
-              {
-                "term": "Mood",
-                "definition": "The overall emotional atmosphere a poem creates for the reader, often shaped by setting, **imagery**, and word choice."
-              },
-              {
-                "term": "Diction",
-                "definition": "An author's or speaker's choice of words, which shapes tone, mood, and meaning."
-              },
-              {
-                "term": "Connotation",
-                "definition": "The emotional or cultural association a word carries beyond its literal dictionary definition."
-              },
-              {
-                "term": "Theme",
-                "definition": "The underlying message or insight about life or human nature that a poem or literary work conveys, usually built gradually through word choice and **imagery** rather than stated directly."
-              },
-              {
-                "term": "Imagery",
-                "definition": "Descriptive language that appeals to the five senses, helping readers vividly picture a scene, object, or feeling."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "Which of the following best distinguishes **tone** from **mood**?",
-                "choices": [
-                  "Tone is the reader's emotional reaction; mood is the speaker's attitude.",
-                  "Tone is the speaker's attitude toward the subject; mood is the atmosphere felt by the reader.",
-                  "Tone and mood always mean the exact same thing.",
-                  "Tone only applies to prose, while mood only applies to poetry."
-                ],
-                "answerIndex": 1,
-                "explanation": "**Tone** reflects the speaker's or writer's attitude, while **mood** describes the emotional atmosphere experienced by the reader."
-              },
-              {
-                "question": "A poem describes a 'crumbling, forgotten house' and a 'silent, empty street.' Which mood do these details most likely create?",
-                "choices": [
-                  "Joyful and celebratory",
-                  "Desolate and melancholy",
-                  "Energetic and hopeful",
-                  "Comedic and lighthearted"
-                ],
-                "answerIndex": 1,
-                "explanation": "Words like 'crumbling,' 'forgotten,' 'silent,' and 'empty' build a **mood** of sadness and abandonment."
-              },
-              {
-                "question": "Choosing the word 'stubborn' instead of 'determined' to describe a character most affects which element of the poem?",
-                "choices": [
-                  "Rhyme scheme",
-                  "Connotation and tone",
-                  "Line length",
-                  "Stanza structure"
-                ],
-                "answerIndex": 1,
-                "explanation": "'Stubborn' carries a more negative **connotation** than 'determined,' shifting the **tone** toward criticism rather than admiration."
-              },
-              {
-                "question": "Which sentence best models how to support a claim about a poem's **theme** with textual evidence?",
-                "choices": [
-                  "The poem is sad because I feel sad when I read it.",
-                  "The repeated image of wilting flowers suggests the theme that beauty and time are fleeting.",
-                  "The poem has four stanzas and rhymes.",
-                  "The poet probably wrote this quickly."
-                ],
-                "answerIndex": 1,
-                "explanation": "This response connects a specific textual detail (the wilting flowers) to a clear interpretive claim about **theme**."
-              },
-              {
-                "question": "An author's specific word choices, which shape a poem's **tone** and meaning, are referred to as what?",
-                "choices": [
-                  "Diction",
-                  "Meter",
-                  "Stanza",
-                  "Foreshadowing"
-                ],
-                "answerIndex": 0,
-                "explanation": "**Diction** refers to an author's deliberate choice of words, which directly influences **tone** and **mood**."
               }
             ]
           }
@@ -5528,16 +5528,23 @@
     "weighted": true,
     "collegeCreditHours": 3,
     "stateCourseStandard": "TCC DRAM 1310 — Introduction to Theatre",
-    "description": "Dual-credit elective satisfying the Fine Arts requirement, taken freshman year at ECHS (the same choice applies all year). Can also be satisfied by the alternative below.",
-    "textbook": "Theatre: A Way of Seeing, 7th ed., by Milly S. Barranger",
-    "units": [],
     "peimsCode": "03251000",
-    "alternatives": [
-      {
-        "title": "SPCH 1315 — Public Speaking",
-        "peimsCode": "13009900 / 03241100"
-      }
-    ]
+    "description": "Satisfies the state's Fine Arts requirement while earning AA/AS elective credit at TCC, taken freshman year.",
+    "textbook": "Theatre: A Way of Seeing, 7th ed., by Milly S. Barranger",
+    "units": []
+  },
+  {
+    "id": "speech9",
+    "title": "TCC Public Speaking (SPCH 1315)",
+    "subjectArea": "Elective",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC SPCH 1315 — Public Speaking",
+    "peimsCode": "13009900 / 03241100",
+    "description": "Satisfies the state's 0.5-credit Speech requirement while earning AA/AS elective credit at TCC, taken freshman year.",
+    "units": []
   },
   {
     "id": "avid9",

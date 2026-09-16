@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { getCourse, getGradeMeta, getLessonSequence } from '../data'
 import { isLessonComplete } from '../lib/progress'
 import { getSubjectColor } from '../lib/subjectColors'
-import { getSelectedMajorId, getRecommendedOption } from '../lib/major'
+import { getSelectedMajorId, getRecommendedOption, getRecommendedSemesterOption } from '../lib/major'
 import majors from '../data/majors.json'
 import CreditBadge from '../components/CreditBadge'
 
@@ -12,6 +12,7 @@ export default function CoursePage() {
   const meta = getGradeMeta(grade)
   const course = getCourse(grade, courseId)
   const [openUnit, setOpenUnit] = useState(course?.units?.[0]?.id ?? null)
+  const [activeSemester, setActiveSemester] = useState('Fall')
 
   if (!course) {
     return (
@@ -30,6 +31,9 @@ export default function CoursePage() {
   const selectedMajor = majors.find((m) => m.id === getSelectedMajorId())
   const recommended =
     course.alternatives?.length > 0 && selectedMajor ? getRecommendedOption(course, selectedMajor.picks) : null
+  const currentSemester = course.semesters?.find((s) => s.label === activeSemester)
+  const recommendedSemester =
+    currentSemester && selectedMajor ? getRecommendedSemesterOption(course, selectedMajor.picks, activeSemester) : null
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10">
@@ -78,6 +82,70 @@ export default function CoursePage() {
               )
             })}
           </ul>
+        </div>
+      )}
+
+      {course.semesters?.length > 0 && (
+        <div className={`mt-4 overflow-hidden rounded-lg border-2 ${color.border}`}>
+          <div className="flex">
+            {course.semesters.map((s) => (
+              <button
+                key={s.label}
+                onClick={() => setActiveSemester(s.label)}
+                className={`flex-1 px-4 py-2 text-sm font-semibold transition ${
+                  activeSemester === s.label ? `${color.chip}` : `${color.soft} text-slate-500 dark:text-slate-400`
+                }`}
+              >
+                {s.label} Semester
+              </button>
+            ))}
+          </div>
+          <div className={`${color.soft} p-4`}>
+            <p className="font-medium text-slate-900 dark:text-white">
+              {currentSemester?.title}
+              {currentSemester?.peimsCode && (
+                <span className="ml-2 text-xs font-normal text-slate-400 dark:text-slate-500">
+                  PEIMS {currentSemester.peimsCode}
+                </span>
+              )}
+            </p>
+            {currentSemester?.collegeCreditHours && (
+              <p className="mt-0.5 text-xs text-slate-400 dark:text-slate-500">{currentSemester.collegeCreditHours} college hours</p>
+            )}
+
+            {currentSemester?.alternatives?.length > 0 && (
+              <div className="mt-3">
+                {selectedMajor ? (
+                  <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">
+                    {selectedMajor.icon} Recommended for {selectedMajor.label}:{' '}
+                    <span className={color.ring}>{recommendedSemester?.title ?? currentSemester.title}</span>
+                  </p>
+                ) : (
+                  <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">
+                    🔀 This credit can be satisfied by any of these — not sure which to pick?{' '}
+                    <Link to="/majors" className="underline">
+                      Tell us your major
+                    </Link>
+                    .
+                  </p>
+                )}
+                <ul className="mt-2 flex flex-col gap-1 text-sm text-slate-600 dark:text-slate-300">
+                  {[{ title: currentSemester.title, peimsCode: currentSemester.peimsCode, isPrimary: true }, ...currentSemester.alternatives].map(
+                    (opt) => {
+                      const isRecommended = selectedMajor && recommendedSemester?.title === opt.title
+                      return (
+                        <li key={opt.title} className={isRecommended ? `font-semibold ${color.ring}` : ''}>
+                          {isRecommended && `${selectedMajor.icon} `}
+                          {opt.title}
+                          {opt.peimsCode && <span className="text-slate-400 dark:text-slate-500"> · PEIMS {opt.peimsCode}</span>}
+                        </li>
+                      )
+                    }
+                  )}
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       )}
 

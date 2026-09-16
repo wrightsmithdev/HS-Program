@@ -2,11 +2,32 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import majors from '../data/majors.json'
 import { getGrades, getCourses } from '../data'
-import { getSelectedMajorId, setSelectedMajorId, getRecommendedOption } from '../lib/major'
+import { getSelectedMajorId, setSelectedMajorId, getRecommendedOption, getRecommendedSemesterOption } from '../lib/major'
 
 function PlanRow({ course, major }) {
   const hasChoice = course.alternatives?.length > 0
   const recommended = hasChoice ? getRecommendedOption(course, major.picks) : null
+
+  if (course.semesters?.length > 0) {
+    return (
+      <div className="flex items-start gap-3 rounded-lg border border-slate-200 p-3 dark:border-slate-800">
+        <span className="mt-0.5 text-lg">🔀</span>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm text-slate-400 dark:text-slate-500">{course.subjectArea}</p>
+          {course.semesters.map((s) => {
+            const pick = s.alternatives?.length > 0 ? getRecommendedSemesterOption(course, major.picks, s.label) : null
+            return (
+              <p key={s.label} className="font-medium text-slate-900 dark:text-white">
+                {s.label}: {pick?.title ?? s.title}
+              </p>
+            )
+          })}
+          <p className="text-xs text-slate-400 dark:text-slate-500">Recommended picks for this credit slot</p>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="flex items-start gap-3 rounded-lg border border-slate-200 p-3 dark:border-slate-800">
       <span className="mt-0.5 text-lg">{hasChoice ? '🔀' : '📌'}</span>

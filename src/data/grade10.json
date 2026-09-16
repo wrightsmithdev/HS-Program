@@ -33,71 +33,71 @@
     "units": []
   },
   {
-    "id": "lote10a",
-    "title": "TCC Spanish I (SPAN 1411)",
+    "id": "lote10",
+    "title": "TCC Spanish I & II",
     "subjectArea": "LOTE",
     "creditType": "dual-credit",
-    "credits": 0.5,
+    "credits": 1,
     "weighted": true,
-    "collegeCreditHours": 4,
-    "stateCourseStandard": "TCC SPAN 1411 — Elementary Spanish I",
-    "peimsCode": "03440100",
-    "description": "Fall semester of the LOTE sequence, taught by an embedded MISD/TCC instructor. Completed alongside Spanish II in the same school year.",
-    "units": []
-  },
-  {
-    "id": "lote10b",
-    "title": "TCC Spanish II (SPAN 1412)",
-    "subjectArea": "LOTE",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
-    "collegeCreditHours": 4,
-    "stateCourseStandard": "TCC SPAN 1412 — Elementary Spanish II",
-    "peimsCode": "03440200",
-    "description": "Spring semester of the LOTE sequence, completing the state's 2-credit LOTE requirement in one year via TCC dual credit.",
-    "units": []
-  },
-  {
-    "id": "ss10a",
-    "title": "TCC US History I (HIST 1301)",
-    "subjectArea": "Social Studies",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC HIST 1301 — United States History I",
-    "peimsCode": "03340100",
-    "description": "Fall-semester Social Studies dual-credit choice.",
-    "alternatives": [
+    "collegeCreditHours": 8,
+    "stateCourseStandard": "TCC SPAN 1411 (fall) + TCC SPAN 1412 (spring), embedded MISD instructor",
+    "description": "Both semesters of the LOTE sequence, taken in the same school year, completing the state's 2-credit LOTE requirement via TCC dual credit.",
+    "semesters": [
       {
-        "title": "SOCI 1301 — Introduction to Sociology",
-        "peimsCode": "03370100"
+        "label": "Fall",
+        "title": "TCC Spanish I (SPAN 1411)",
+        "peimsCode": "03440100",
+        "collegeCreditHours": 4
       },
       {
-        "title": "Online PE (self-paced, Online Academics)"
+        "label": "Spring",
+        "title": "TCC Spanish II (SPAN 1412)",
+        "peimsCode": "03440200",
+        "collegeCreditHours": 4
       }
     ],
     "units": []
   },
   {
-    "id": "ss10b",
-    "title": "TCC US History II (HIST 1302)",
+    "id": "ss10",
+    "title": "TCC US History (I & II)",
     "subjectArea": "Social Studies",
     "creditType": "dual-credit",
-    "credits": 0.5,
+    "credits": 1,
     "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC HIST 1302 — United States History II",
-    "peimsCode": "03340200",
-    "description": "Spring-semester Social Studies dual-credit choice, completing the US History sequence started in the fall.",
-    "alternatives": [
+    "collegeCreditHours": 6,
+    "stateCourseStandard": "TCC HIST 1301 (fall) + TCC HIST 1302 (spring)",
+    "description": "A fall/spring choice slot: US History, Sociology, or Online PE each semester.",
+    "semesters": [
       {
-        "title": "SOCI 1301 — Introduction to Sociology",
-        "peimsCode": "03370100"
+        "label": "Fall",
+        "title": "TCC US History I (HIST 1301)",
+        "peimsCode": "03340100",
+        "collegeCreditHours": 3,
+        "alternatives": [
+          {
+            "title": "SOCI 1301 — Introduction to Sociology",
+            "peimsCode": "03370100"
+          },
+          {
+            "title": "Online PE (self-paced, Online Academics)"
+          }
+        ]
       },
       {
-        "title": "Online PE (self-paced, Online Academics)"
+        "label": "Spring",
+        "title": "TCC US History II (HIST 1302)",
+        "peimsCode": "03340200",
+        "collegeCreditHours": 3,
+        "alternatives": [
+          {
+            "title": "SOCI 1301 — Introduction to Sociology",
+            "peimsCode": "03370100"
+          },
+          {
+            "title": "Online PE (self-paced, Online Academics)"
+          }
+        ]
       }
     ],
     "units": []

@@ -1,28 +1,28 @@
 [
   {
-    "id": "engl12a",
-    "title": "TCC English Literature I (ENGL 2322)",
+    "id": "engl12",
+    "title": "TCC British Literature (I & II)",
     "subjectArea": "English",
     "creditType": "dual-credit",
-    "credits": 0.5,
+    "credits": 1,
     "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC ENGL 2322 — English Literature I",
-    "peimsCode": "03220400",
-    "description": "Fall-semester advanced English elective, completing the 4-credit English requirement.",
-    "units": []
-  },
-  {
-    "id": "engl12b",
-    "title": "TCC English Literature II (ENGL 2323)",
-    "subjectArea": "English",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC ENGL 2323 — English Literature II",
-    "peimsCode": "03220400",
-    "description": "Spring-semester advanced English elective, completing the sequence.",
+    "collegeCreditHours": 6,
+    "stateCourseStandard": "TCC ENGL 2322 (fall) + TCC ENGL 2323 (spring)",
+    "description": "Both semesters of an advanced English elective (British Literature), completing the 4-credit English requirement.",
+    "semesters": [
+      {
+        "label": "Fall",
+        "title": "TCC British Literature I (ENGL 2322)",
+        "peimsCode": "03220400",
+        "collegeCreditHours": 3
+      },
+      {
+        "label": "Spring",
+        "title": "TCC British Literature II (ENGL 2323)",
+        "peimsCode": "03220400",
+        "collegeCreditHours": 3
+      }
+    ],
     "units": []
   },
   {

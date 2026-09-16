@@ -55,6 +55,8 @@ Mansfield ISD does not publish a granular, locked "Grade 9 = these exact 5 cours
 ## 2. The 4-year course plan (what the app's grade tabs contain)
 
 > **This section was rewritten from the official "TCC SE Mansfield Early College HS Course Crosswalk" (PEIMS Code Edition, March 2022)**, provided directly by a current/former ECHS student — superseding all speculative research and every prior verbal correction in this section. The crosswalk is the source of truth for course names, PEIMS codes, and the semester-by-semester (fall/spring) structure below.
+>
+> A second official document, the district's "TCC Southeast Mansfield Early College High School at Timberview Course Crosswalk Plan" (older, watermarked SAMPLE, `mansfieldisd.org`), was also found and cross-checked. It confirmed that genuine same-subject fall/spring sequences (English Composition, British Literature, US History, Spanish I/II) are tracked as **one course with Fall/Spring tabs** rather than two separate course entries, and that **Speech (SPCH 1315) and Theatre (DRAM 1310) are two independently-required 9th-grade courses** (they satisfy two different graduation-requirement rows: a dedicated 0.5-credit Speech requirement and the 1-credit Fine Arts requirement) — not a choice between them, and not a fall/spring pair. Where the two documents disagreed (e.g., whether 11th/12th Social Studies is a 3-way choice or two separate mandatory half-credits, and whether 12th grade has its own science course), the more recent PEIMS-code crosswalk was treated as authoritative per direct confirmation.
 
 Endorsement assumed: **STEM** (config value, swappable). Target: **Distinguished Level of Achievement**.
 
