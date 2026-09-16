@@ -4,6 +4,8 @@ import ProgressRing from './ProgressRing'
 import { countLessons } from '../data'
 import { countCompleteInCourse } from '../lib/progress'
 import { getSubjectColor } from '../lib/subjectColors'
+import { getSelectedMajorId, getRecommendedOption } from '../lib/major'
+import majors from '../data/majors.json'
 
 const SUBJECT_ICONS = {
   English: '📖',
@@ -24,6 +26,9 @@ export default function CourseCard({ grade, course }) {
   const complete = countCompleteInCourse(course)
   const percent = total > 0 ? (complete / total) * 100 : 0
   const color = getSubjectColor(course.subjectArea)
+  const selectedMajor = majors.find((m) => m.id === getSelectedMajorId())
+  const recommended =
+    course.alternatives?.length > 0 && selectedMajor ? getRecommendedOption(course, selectedMajor.picks) : null
 
   return (
     <Link
@@ -44,6 +49,11 @@ export default function CourseCard({ grade, course }) {
         <p className={`mt-1 inline-block rounded-full px-2 py-0.5 text-xs font-semibold ${color.badge}`}>
           {course.subjectArea}
         </p>
+        {recommended && !recommended.isPrimary && (
+          <p className="mt-1 text-sm font-medium text-slate-600 dark:text-slate-300">
+            {selectedMajor.icon} Recommended: {recommended.title}
+          </p>
+        )}
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
           {course.credits} credit{course.credits === 1 ? '' : 's'}
           {course.collegeCreditHours ? ` · ${course.collegeCreditHours} college hrs` : ''}

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { config, getGrades, getCourses, countLessonsForGrade } from '../data'
 import { countCompleteInGrade } from '../lib/progress'
+import { getSelectedMajorId } from '../lib/major'
+import majors from '../data/majors.json'
 import ProgressRing from '../components/ProgressRing'
 
 const GRADE_COLORS = {
@@ -12,6 +14,7 @@ const GRADE_COLORS = {
 
 export default function Home() {
   const grades = getGrades()
+  const selectedMajor = majors.find((m) => m.id === getSelectedMajorId())
 
   let totalLessons = 0
   let totalComplete = 0
@@ -46,7 +49,39 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+      {selectedMajor ? (
+        <Link
+          to="/majors"
+          className={`mt-8 flex items-center justify-between gap-3 rounded-xl bg-gradient-to-r ${selectedMajor.color} p-4 text-white shadow-sm transition hover:shadow-md`}
+        >
+          <span className="flex items-center gap-3">
+            <span className="text-2xl">{selectedMajor.icon}</span>
+            <span>
+              <span className="block text-xs font-medium uppercase tracking-wide text-white/80">Your planned major</span>
+              <span className="block font-semibold">{selectedMajor.label}</span>
+            </span>
+          </span>
+          <span className="text-sm font-medium text-white/90">Change →</span>
+        </Link>
+      ) : (
+        <Link
+          to="/majors"
+          className="mt-8 flex items-center justify-between gap-3 rounded-xl border-2 border-dashed border-indigo-300 bg-indigo-50 p-4 transition hover:bg-indigo-100 dark:border-indigo-700 dark:bg-indigo-950/40 dark:hover:bg-indigo-950/60"
+        >
+          <span className="flex items-center gap-3">
+            <span className="text-2xl">🎯</span>
+            <span>
+              <span className="block font-semibold text-indigo-700 dark:text-indigo-300">What major do you plan on?</span>
+              <span className="block text-sm text-indigo-500 dark:text-indigo-400">
+                Pick one and we'll recommend the right classes for you below.
+              </span>
+            </span>
+          </span>
+          <span className="text-sm font-medium text-indigo-600 dark:text-indigo-400">Choose →</span>
+        </Link>
+      )}
+
+      <div className="mt-6 grid gap-4 sm:grid-cols-2">
         {grades.map((g) => {
           const courses = getCourses(g.grade)
           const total = countLessonsForGrade(g.grade)

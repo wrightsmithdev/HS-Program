@@ -3,6 +3,8 @@ import { Link, useParams } from 'react-router-dom'
 import { getCourse, getGradeMeta, getLessonSequence } from '../data'
 import { isLessonComplete } from '../lib/progress'
 import { getSubjectColor } from '../lib/subjectColors'
+import { getSelectedMajorId, getRecommendedOption } from '../lib/major'
+import majors from '../data/majors.json'
 import CreditBadge from '../components/CreditBadge'
 
 export default function CoursePage() {
@@ -25,6 +27,9 @@ export default function CoursePage() {
   const color = getSubjectColor(course.subjectArea)
   const sequence = getLessonSequence(course)
   const numberByLessonId = new Map(sequence.map((item, i) => [item.lesson.id, i + 1]))
+  const selectedMajor = majors.find((m) => m.id === getSelectedMajorId())
+  const recommended =
+    course.alternatives?.length > 0 && selectedMajor ? getRecommendedOption(course, selectedMajor.picks) : null
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-10">
@@ -47,16 +52,31 @@ export default function CoursePage() {
 
       {course.alternatives?.length > 0 && (
         <div className={`mt-4 rounded-lg border-2 ${color.border} ${color.soft} p-4`}>
-          <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">
-            🔀 This credit can also be satisfied by:
-          </p>
+          {selectedMajor ? (
+            <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">
+              {selectedMajor.icon} Recommended for {selectedMajor.label}:{' '}
+              <span className={color.ring}>{recommended?.title ?? course.title}</span>
+            </p>
+          ) : (
+            <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">
+              🔀 This credit can be satisfied by any of these — not sure which to pick?{' '}
+              <Link to="/majors" className="underline">
+                Tell us your major
+              </Link>
+              .
+            </p>
+          )}
           <ul className="mt-2 flex flex-col gap-1 text-sm text-slate-600 dark:text-slate-300">
-            {course.alternatives.map((alt) => (
-              <li key={alt.title}>
-                {alt.title}
-                {alt.peimsCode && <span className="text-slate-400 dark:text-slate-500"> · PEIMS {alt.peimsCode}</span>}
-              </li>
-            ))}
+            {[{ title: course.title, peimsCode: course.peimsCode, isPrimary: true }, ...course.alternatives].map((opt) => {
+              const isRecommended = selectedMajor && recommended?.title === opt.title
+              return (
+                <li key={opt.title} className={isRecommended ? `font-semibold ${color.ring}` : ''}>
+                  {isRecommended && `${selectedMajor.icon} `}
+                  {opt.title}
+                  {opt.peimsCode && <span className="text-slate-400 dark:text-slate-500"> · PEIMS {opt.peimsCode}</span>}
+                </li>
+              )
+            })}
           </ul>
         </div>
       )}
