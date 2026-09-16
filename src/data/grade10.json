@@ -33,31 +33,7 @@
     "units": []
   },
   {
-    "id": "hist10",
-    "title": "TCC US History I (HIST 1301)",
-    "subjectArea": "Social Studies",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC HIST 1301 — United States History I",
-    "description": "Dual-credit US History course satisfying part of the Social Studies sequence, earning AA/AS core credit at TCC.",
-    "units": []
-  },
-  {
-    "id": "soci10",
-    "title": "TCC Introduction to Sociology (SOCI 1301)",
-    "subjectArea": "Social Studies",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC SOCI 1301 — Introduction to Sociology",
-    "description": "Dual-credit sociology course satisfying part of the Social Studies/elective sequence, earning AA/AS core credit at TCC.",
-    "units": []
-  },
-  {
-    "id": "lote10",
+    "id": "lote10a",
     "title": "TCC Spanish I (SPAN 1411)",
     "subjectArea": "LOTE",
     "creditType": "dual-credit",
@@ -65,7 +41,65 @@
     "weighted": true,
     "collegeCreditHours": 4,
     "stateCourseStandard": "TCC SPAN 1411 — Elementary Spanish I",
-    "description": "First year of the same-language LOTE sequence, taken as a TCC dual-credit course starting sophomore year. Earns AA/AS elective credit at TCC.",
+    "peimsCode": "03440100",
+    "description": "Fall semester of the LOTE sequence, taught by an embedded MISD/TCC instructor. Completed alongside Spanish II in the same school year.",
+    "units": []
+  },
+  {
+    "id": "lote10b",
+    "title": "TCC Spanish II (SPAN 1412)",
+    "subjectArea": "LOTE",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 4,
+    "stateCourseStandard": "TCC SPAN 1412 — Elementary Spanish II",
+    "peimsCode": "03440200",
+    "description": "Spring semester of the LOTE sequence, completing the state's 2-credit LOTE requirement in one year via TCC dual credit.",
+    "units": []
+  },
+  {
+    "id": "ss10a",
+    "title": "TCC US History I (HIST 1301)",
+    "subjectArea": "Social Studies",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC HIST 1301 — United States History I",
+    "peimsCode": "03340100",
+    "description": "Fall-semester Social Studies dual-credit choice.",
+    "alternatives": [
+      {
+        "title": "SOCI 1301 — Introduction to Sociology",
+        "peimsCode": "03370100"
+      },
+      {
+        "title": "Online PE (self-paced, Online Academics)"
+      }
+    ],
+    "units": []
+  },
+  {
+    "id": "ss10b",
+    "title": "TCC US History II (HIST 1302)",
+    "subjectArea": "Social Studies",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC HIST 1302 — United States History II",
+    "peimsCode": "03340200",
+    "description": "Spring-semester Social Studies dual-credit choice, completing the US History sequence started in the fall.",
+    "alternatives": [
+      {
+        "title": "SOCI 1301 — Introduction to Sociology",
+        "peimsCode": "03370100"
+      },
+      {
+        "title": "Online PE (self-paced, Online Academics)"
+      }
+    ],
     "units": []
   },
   {

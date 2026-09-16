@@ -54,60 +54,58 @@ Mansfield ISD does not publish a granular, locked "Grade 9 = these exact 5 cours
 
 ## 2. The 4-year course plan (what the app's grade tabs contain)
 
-Endorsement assumed: **STEM** (config value, swappable). Target: **Distinguished Level of Achievement**, ~66 semester credit hours toward the TCC Associate degree by graduation.
+> **This section was rewritten from the official "TCC SE Mansfield Early College HS Course Crosswalk" (PEIMS Code Edition, March 2022)**, provided directly by a current/former ECHS student — superseding all speculative research and every prior verbal correction in this section. The crosswalk is the source of truth for course names, PEIMS codes, and the semester-by-semester (fall/spring) structure below.
 
-### Grade 9 — "Freshman Year (ECHS Wing @ Timberview)"
+Endorsement assumed: **STEM** (config value, swappable). Target: **Distinguished Level of Achievement**.
+
+PE is intentionally not tracked as an app course/tab: it's satisfied through the district's self-paced **Online Academics** option (also listed as one of several choices in the Grade 10 Social Studies slot below), and isn't something students need study content for.
+
+### Grade 9 — "Freshman Year"
 | Subject | Course | Credit type |
 |---|---|---|
-| English | Advanced English I | State core, English 4-credit sequence |
-| Math | Advanced Geometry | State core, Math 4-credit sequence (Algebra I assumed completed in 8th via MISD's accelerated middle-school math path) |
-| Science | Advanced Biology | State core, Science 4-credit sequence |
-| Social Studies | World Geography (Advanced) | State core, Social Studies 3-credit sequence |
-| Fine Arts | Theatre Arts I (Advanced) | Fine Arts 1-credit requirement |
-| LOTE | Spanish I (Advanced) | LOTE 2-credit sequence, year 1 |
-| AVID/Advisory | AVID 1 + College Readiness Seminar | ECHS program requirement (non-TEA local credit) |
-
-> **Corrections from a current/former ECHS student (source of truth over the original research above):**
-> - PE at Early College isn't an ECHS-wing class — it's satisfied through the district's separate **Online Academics** self-paced online PE option, and it's not something students need study content or practice questions for. It's intentionally left out of the app for that reason (not tracked as a course/tab here), even though the 1 PE credit is still required for graduation per §1.1.
-> - There is no ECHS "Theatre Arts I" or "Spanish I (Advanced)" class in 9th grade. Dual credit actually starts freshman year (`config.tccStartGrade = 9`, not 10) with two TCC courses: **TCC Introduction to Theatre (DRAM 1310)** for the Fine Arts credit, and **TCC Public Speaking (SPCH 1315)** as an elective. Both are tracked as basic-requirement shells (no built lesson content), matching how dual-credit courses are tracked in later grades. Theatre's real textbook is *Theatre: A Way of Seeing*, 7th ed., by Milly S. Barranger (cited on the course page, not used as lesson-content source material).
-> - Advanced Geometry is organized as two semester courses, **Advanced Geometry A** and **Advanced Geometry B** (0.5 credit each), not one year-long course — split at the natural semester boundary (A: reasoning/proof, angles, triangle congruence/similarity/trig; B: polygons/quadrilaterals/circles, coordinate/3D geometry). Both keep full ECHS lesson content (they are not dual-credit).
+| English | Advanced English I (or English II, if already advanced) | State core |
+| Math | Advanced Geometry A + B (or Algebra I, if not yet completed) — two 0.5-credit semester courses | State core |
+| Science | Advanced Biology | State core |
+| Social Studies | World Geography (Advanced) | State core |
+| AVID/Advisory | AVID I | ECHS program requirement |
+| Fine Arts / Elective — **choice** | TCC Introduction to Theatre (DRAM 1310, PEIMS 03251000) *or* TCC Public Speaking (SPCH 1315, PEIMS 13009900/03241100) | Dual credit — Fine Arts/elective + AA/AS elective |
 
 ### Grade 10 — "Sophomore Year"
 | Subject | Course | Credit type |
 |---|---|---|
-| English | Advanced English II | English sequence |
-| Math | Advanced Algebra II | Math sequence (satisfies DLA's Algebra II requirement) |
-| Science | Advanced Chemistry | Science sequence |
-| Social Studies / Dual Credit | TCC US History I (HIST 1301) | Social Studies sequence + AA/AS core |
-| Social Studies / Dual Credit | TCC Introduction to Sociology (SOCI 1301) | Social Studies/elective + AA/AS core |
-| LOTE / Dual Credit | TCC Spanish I (SPAN 1411) | First TCC dual-credit LOTE course — starts the 2-credit LOTE sequence + AA/AS elective |
-| AVID/Advisory | AVID 2 + TSI Prep | ECHS program requirement |
+| English | Advanced English II (or III) | State core |
+| Math | Geometry or Advanced Algebra II | State core |
+| Science | Advanced Chemistry | State core |
+| AVID/Advisory | AVID II | ECHS program requirement |
+| LOTE/Dual Credit (Fall) | TCC Spanish I (SPAN 1411, PEIMS 03440100, embedded MISD instructor) | Dual credit — LOTE + AA/AS elective |
+| LOTE/Dual Credit (Spring) | TCC Spanish II (SPAN 1412, PEIMS 03440200, embedded MISD instructor) | Dual credit — completes 2-credit LOTE requirement |
+| Social Studies — **choice** (Fall) | TCC US History I (HIST 1301, PEIMS 03340100) *or* SOCI 1301 *or* Online PE | Dual credit — Social Studies + AA/AS core |
+| Social Studies — **choice** (Spring) | TCC US History II (HIST 1302, PEIMS 03340200) *or* SOCI 1301 *or* Online PE | Dual credit — Social Studies + AA/AS core |
 
-> **Correction:** Grade 10 does not include a standalone "Advanced World History," "Spanish II," or "TCC English Composition I" course — replaced by the confirmed schedule above (HIST 1301 + SOCI 1301 cover the Social Studies slot; Spanish I, not II, is the dual-credit LOTE course taken sophomore year). Spanish II would follow in Grade 11.
-
-### Grade 11 — "Junior Year (@ TCC Southeast Campus)"
+### Grade 11 — "Junior Year"
 | Subject | Course | Credit type |
 |---|---|---|
-| English/Dual Credit | TCC English Composition I (ENGL 1301) | English requirement + AA/AS core |
-| Math/Dual Credit | TCC College Algebra (MATH 1314) — *or* Elementary Statistics (MATH 1342), Math for Business & Social Sciences (MATH 1324), Contemporary Mathematics (MATH 1332) | 4th math credit + AA/AS core |
-| Science/Dual Credit | TCC Biology for Science Majors (BIOL 1406) — *or* Biology for Non-Science Majors (BIOL 1408), Earth Science (GEOL 1401), College Physics (PHYS 1401) | 4th science credit + AA/AS core |
-| Social Studies/Dual Credit | TCC Texas Government (GOVT 2306) — *or* a Kinesiology activity course (KINE 1164), Introduction to Psychology (PSYC 2301) | Social Studies + AA/AS core |
-| AVID/Advisory | AVID 3 + College Application Seminar | ECHS program requirement |
+| AVID/Advisory | AVID III | ECHS program requirement |
+| English/Dual Credit (Fall) | TCC English Composition I (ENGL 1301, PEIMS 03220300) | English requirement + AA/AS core |
+| English/Dual Credit (Spring) | TCC English Composition II (ENGL 1302, PEIMS 03220300) | English requirement + AA/AS core |
+| Math — **choice** (Fall) | MATH 1314 College Algebra *or* MATH 1342 Elementary Statistics *or* MATH 1324 Business/Social Sciences Math *or* MATH 1332 Contemporary Math | Dual credit — 4th math credit + AA/AS core |
+| Math — **choice** (Spring, adds Precalc) | Same list as fall, plus MATH 2412 Precalculus | Dual credit — 4th math credit + AA/AS core |
+| Science — **choice** (Fall) | BIOL 1406 Biology (Science Majors) *or* BIOL 1408 (Non-Science) *or* GEOL 1401 Earth Science *or* PHYS 1401 College Physics | Dual credit — 4th science credit + AA/AS core |
+| Science — **choice** (Spring) | BIOL 1407 *or* BIOL 1409 *or* GEOL 1401 *or* PHYS 1401 (completes the 2-semester lab science sequence) | Dual credit — 4th science credit + AA/AS core |
+| Social Studies/Elective — **choice** (same all year) | GOVT 2306 Texas Government *or* KINE 1164 Kinesiology Activity *or* PSYC 2301 Psychology | Dual credit — Social Studies/elective + AA/AS core |
 
-> **Correction:** Grade 11 doesn't include a separate STEM/Computer Science elective, a standalone US History course, or ENGL 1302 — replaced by the confirmed schedule above. Several slots are a **choice of one course from a short list** (a real degree-plan pattern, not unique to this app) rather than a single fixed course; the app tracks one representative option per slot and lists the alternatives (with their PEIMS course codes) on that course's page.
-
-### Grade 12 — "Senior Year (@ TCC Southeast Campus)"
+### Grade 12 — "Senior Year"
 | Subject | Course | Credit type |
 |---|---|---|
-| Social Studies | US Government (0.5) + Economics (0.5) (dual credit, GOVT 2305 / ECON 2301) | Completes Social Studies requirement + AA/AS core |
-| English/Dual Credit | TCC advanced English elective (e.g., ENGL 2322 or 2332) or capstone English IV | Completes English 4-credit requirement |
-| Math/Dual Credit | TCC Calculus I or Statistics (MATH 2413/1342) | Advanced math elective |
-| Science/Dual Credit | TCC second lab science (Chemistry II, Biology II, or Physics II) | Advanced science elective |
-| STEM Endorsement | TCC capstone in chosen AA/AS track (varies by degree plan) | Endorsement completion |
-| Capstone | AA or AS Degree Completion + Diploma | Up to 60 TCC credit hours total by graduation |
-| AVID/Advisory | AVID 4 + Transfer/Scholarship Seminar | ECHS program requirement |
+| AVID/Advisory | AVID IV | ECHS program requirement |
+| English/Dual Credit (Fall) | TCC English Literature I (ENGL 2322, PEIMS 03220400) | Completes English 4-credit requirement |
+| English/Dual Credit (Spring) | TCC English Literature II (ENGL 2323, PEIMS 03220400) | Completes English 4-credit requirement |
+| Math — **choice** (same all year, adds Calculus) | MATH 2413 Calculus I *or* MATH 1314 *or* MATH 2412 *or* MATH 1342 *or* MATH 1324 *or* MATH 1332 | Advanced math elective |
+| Social Studies/Elective — **choice** | GOVT 2305 Federal Government *or* ECON 2301 Economics | Dual credit — Social Studies + AA/AS core |
+| Social Studies/Elective — **choice** (repeated from 11th) | GOVT 2306 Texas Government *or* KINE 1164 *or* PSYC 2301 | Dual credit — Social Studies/elective + AA/AS core |
+| Capstone | AA or AS Degree Completion + Diploma | AA needs 18 TCC elective hours + 1 TCC math course; AS needs 18 TCC Math/Science/Engineering/CS hours + Algebra I credit entering 9th grade |
 
-> Total by graduation, if every dual-credit slot lands: roughly **26 Texas state credits at the Distinguished level** + up to **60 TCC semester hours**, which is a full Associate degree — matching ECHS's stated mission.
+> Several credits above are a **choice of one course from a short list** — a real degree-plan pattern, not unique to this app. The data model tracks one representative course per slot plus an `alternatives` array (title + PEIMS code) shown on that course's page. The app's **Majors & Career Paths** section (a banner above the grade tabs) recommends which option to pick at each choice point based on the student's intended college major (Engineering, Social Sciences, Math, Science, Politics/Law, Business).
 
 ---
 

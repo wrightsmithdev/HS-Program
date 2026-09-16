@@ -5,6 +5,7 @@ import GradeTab from './pages/GradeTab'
 import CoursePage from './pages/CoursePage'
 import LessonPage from './pages/LessonPage'
 import TestPage from './pages/TestPage'
+import MajorsPage from './pages/MajorsPage'
 
 function NotFound() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/majors" element={<MajorsPage />} />
           <Route path="/grade/:grade" element={<GradeTab />} />
           <Route path="/grade/:grade/course/:courseId" element={<CoursePage />} />
           <Route path="/grade/:grade/course/:courseId/lesson/:lessonId" element={<LessonPage />} />

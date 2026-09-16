@@ -1,6 +1,6 @@
 [
   {
-    "id": "engl11",
+    "id": "engl11a",
     "title": "TCC English Composition I (ENGL 1301)",
     "subjectArea": "English",
     "creditType": "dual-credit",
@@ -8,12 +8,25 @@
     "weighted": true,
     "collegeCreditHours": 3,
     "stateCourseStandard": "TCC ENGL 1301 — Composition I",
-    "peimsCode": "03220100",
-    "description": "Dual-credit composition course satisfying part of the English requirement, earning AA/AS core credit at TCC.",
+    "peimsCode": "03220300",
+    "description": "Fall-semester dual-credit composition course.",
     "units": []
   },
   {
-    "id": "math11",
+    "id": "engl11b",
+    "title": "TCC English Composition II (ENGL 1302)",
+    "subjectArea": "English",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC ENGL 1302 — Composition II",
+    "peimsCode": "03220300",
+    "description": "Spring-semester dual-credit composition course, completing the sequence.",
+    "units": []
+  },
+  {
+    "id": "math11a",
     "title": "TCC College Algebra (MATH 1314)",
     "subjectArea": "Math",
     "creditType": "dual-credit",
@@ -22,7 +35,7 @@
     "collegeCreditHours": 3,
     "stateCourseStandard": "TCC MATH 1314 — College Algebra",
     "peimsCode": "03102500",
-    "description": "Dual-credit math course satisfying the 4th math credit toward Distinguished Level of Achievement, earning AA/AS core credit at TCC.",
+    "description": "Fall-semester math dual-credit choice, satisfying the 4th math credit toward Distinguished Level of Achievement.",
     "alternatives": [
       {
         "title": "MATH 1342 — Elementary Statistics",
@@ -30,7 +43,7 @@
       },
       {
         "title": "MATH 1324 — Mathematics for Business & Social Sciences",
-        "peimsCode": "N1110023"
+        "peimsCode": "N1110021"
       },
       {
         "title": "MATH 1332 — Contemporary Mathematics",
@@ -40,7 +53,38 @@
     "units": []
   },
   {
-    "id": "sci11",
+    "id": "math11b",
+    "title": "TCC College Algebra (MATH 1314)",
+    "subjectArea": "Math",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC MATH 1314 — College Algebra",
+    "peimsCode": "03102500",
+    "description": "Spring-semester math dual-credit choice.",
+    "alternatives": [
+      {
+        "title": "MATH 2412 — Precalculus",
+        "peimsCode": "03101100"
+      },
+      {
+        "title": "MATH 1342 — Elementary Statistics",
+        "peimsCode": "03102530"
+      },
+      {
+        "title": "MATH 1324 — Mathematics for Business & Social Sciences",
+        "peimsCode": "N1110021"
+      },
+      {
+        "title": "MATH 1332 — Contemporary Mathematics",
+        "peimsCode": "03102510"
+      }
+    ],
+    "units": []
+  },
+  {
+    "id": "sci11a",
     "title": "TCC Biology for Science Majors (BIOL 1406)",
     "subjectArea": "Science",
     "creditType": "dual-credit",
@@ -49,11 +93,38 @@
     "collegeCreditHours": 4,
     "stateCourseStandard": "TCC BIOL 1406 — Biology for Science Majors",
     "peimsCode": "13037200",
-    "description": "Dual-credit lab science course satisfying the 4th science credit toward Distinguished Level of Achievement, earning AA/AS core credit at TCC.",
+    "description": "Fall-semester science dual-credit choice, satisfying the 4th science credit toward Distinguished Level of Achievement.",
     "alternatives": [
       {
         "title": "BIOL 1408 — Biology for Non-Science Majors",
         "peimsCode": "13037200"
+      },
+      {
+        "title": "GEOL 1401 — Earth Science",
+        "peimsCode": "03060200"
+      },
+      {
+        "title": "PHYS 1401 — College Physics",
+        "peimsCode": "03050000"
+      }
+    ],
+    "units": []
+  },
+  {
+    "id": "sci11b",
+    "title": "TCC Biology for Science Majors II (BIOL 1407)",
+    "subjectArea": "Science",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 4,
+    "stateCourseStandard": "TCC BIOL 1407 — Biology for Science Majors II",
+    "peimsCode": "13037210",
+    "description": "Spring-semester science dual-credit choice, completing the two-semester lab science sequence.",
+    "alternatives": [
+      {
+        "title": "BIOL 1409 — Biology for Non-Science Majors II",
+        "peimsCode": "13037210"
       },
       {
         "title": "GEOL 1401 — Earth Science",
@@ -76,7 +147,7 @@
     "collegeCreditHours": 3,
     "stateCourseStandard": "TCC GOVT 2306 — Texas Government",
     "peimsCode": "03380022",
-    "description": "Dual-credit government course satisfying part of the Social Studies sequence, earning AA/AS core credit at TCC.",
+    "description": "Dual-credit government course satisfying part of the Social Studies sequence (same choice both semesters).",
     "alternatives": [
       {
         "title": "KINE 1164 — Kinesiology Activity Course",

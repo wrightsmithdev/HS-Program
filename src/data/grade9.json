@@ -5520,7 +5520,7 @@
     ]
   },
   {
-    "id": "dram9",
+    "id": "fa9",
     "title": "TCC Introduction to Theatre (DRAM 1310)",
     "subjectArea": "Fine Arts",
     "creditType": "dual-credit",
@@ -5528,21 +5528,16 @@
     "weighted": true,
     "collegeCreditHours": 3,
     "stateCourseStandard": "TCC DRAM 1310 — Introduction to Theatre",
-    "description": "Satisfies the state's Fine Arts requirement while earning AA/AS elective credit at TCC. Taken as a dual-credit course starting freshman year at ECHS.",
+    "description": "Dual-credit elective satisfying the Fine Arts requirement, taken freshman year at ECHS (the same choice applies all year). Can also be satisfied by the alternative below.",
     "textbook": "Theatre: A Way of Seeing, 7th ed., by Milly S. Barranger",
-    "units": []
-  },
-  {
-    "id": "speech9",
-    "title": "TCC Public Speaking (SPCH 1315)",
-    "subjectArea": "Elective",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC SPCH 1315 — Public Speaking",
-    "description": "Dual-credit speech course taken freshman year at ECHS, earning AA/AS elective credit at TCC.",
-    "units": []
+    "units": [],
+    "peimsCode": "03251000",
+    "alternatives": [
+      {
+        "title": "SPCH 1315 — Public Speaking",
+        "peimsCode": "13009900 / 03241100"
+      }
+    ]
   },
   {
     "id": "avid9",

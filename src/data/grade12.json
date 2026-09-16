@@ -1,62 +1,105 @@
 [
   {
-    "id": "ss12",
-    "title": "US Government + Economics (GOVT 2305 / ECON 2301)",
-    "subjectArea": "Social Studies",
-    "creditType": "dual-credit",
-    "credits": 1,
-    "weighted": true,
-    "collegeCreditHours": 6,
-    "stateCourseStandard": "TCC GOVT 2305 (0.5 cr) + ECON 2301 (0.5 cr)",
-    "description": "Completes the state Social Studies requirement (US Government 0.5 + Economics 0.5) while earning AA/AS core credit.",
-    "units": []
-  },
-  {
-    "id": "dc12-engl",
-    "title": "TCC Advanced English Elective (ENGL 2322/2332) or English IV",
+    "id": "engl12a",
+    "title": "TCC English Literature I (ENGL 2322)",
     "subjectArea": "English",
     "creditType": "dual-credit",
-    "credits": 1,
+    "credits": 0.5,
     "weighted": true,
     "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC ENGL 2322/2332 or MISD English IV",
-    "description": "Completes the state's 4-credit English requirement.",
+    "stateCourseStandard": "TCC ENGL 2322 — English Literature I",
+    "peimsCode": "03220400",
+    "description": "Fall-semester advanced English elective, completing the 4-credit English requirement.",
     "units": []
   },
   {
-    "id": "dc12-math",
-    "title": "TCC Calculus I / Statistics (MATH 2413 / 1342)",
+    "id": "engl12b",
+    "title": "TCC English Literature II (ENGL 2323)",
+    "subjectArea": "English",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC ENGL 2323 — English Literature II",
+    "peimsCode": "03220400",
+    "description": "Spring-semester advanced English elective, completing the sequence.",
+    "units": []
+  },
+  {
+    "id": "math12",
+    "title": "TCC Calculus I (MATH 2413)",
     "subjectArea": "Math",
     "creditType": "dual-credit",
     "credits": 0.5,
     "weighted": true,
-    "collegeCreditHours": 3,
-    "stateCourseStandard": "TCC MATH 2413 or MATH 1342",
-    "description": "Advanced math elective plus AA/AS core credit.",
-    "units": []
-  },
-  {
-    "id": "dc12-sci",
-    "title": "TCC Second Lab Science (Chemistry II / Biology II / Physics II)",
-    "subjectArea": "Science",
-    "creditType": "dual-credit",
-    "credits": 0.5,
-    "weighted": true,
     "collegeCreditHours": 4,
-    "stateCourseStandard": "TCC CHEM/BIOL/PHYS sequence course",
-    "description": "Advanced science elective plus AA/AS core credit.",
+    "stateCourseStandard": "TCC MATH 2413 — Calculus I",
+    "peimsCode": "03102501",
+    "description": "Senior-year math dual-credit choice (same list both semesters).",
+    "alternatives": [
+      {
+        "title": "MATH 1314 — College Algebra",
+        "peimsCode": "03102500"
+      },
+      {
+        "title": "MATH 2412 — Precalculus",
+        "peimsCode": "03101100"
+      },
+      {
+        "title": "MATH 1342 — Elementary Statistics",
+        "peimsCode": "03102530"
+      },
+      {
+        "title": "MATH 1324 — Mathematics for Business & Social Sciences",
+        "peimsCode": "N1110021"
+      },
+      {
+        "title": "MATH 1332 — Contemporary Mathematics",
+        "peimsCode": "03102510"
+      }
+    ],
     "units": []
   },
   {
-    "id": "dc12-stem",
-    "title": "TCC Capstone in Chosen AA/AS Track",
-    "subjectArea": "STEM Endorsement",
+    "id": "govt12a",
+    "title": "TCC Federal Government (GOVT 2305)",
+    "subjectArea": "Social Studies",
     "creditType": "dual-credit",
     "credits": 0.5,
     "weighted": true,
     "collegeCreditHours": 3,
-    "stateCourseStandard": "Varies by TCC degree plan",
-    "description": "Completes the STEM endorsement with a capstone course in the student's chosen Associate degree track.",
+    "stateCourseStandard": "TCC GOVT 2305 — Federal Government",
+    "peimsCode": "03330100",
+    "description": "Dual-credit government course (same choice both semesters).",
+    "alternatives": [
+      {
+        "title": "ECON 2301 — Principles of Economics",
+        "peimsCode": "03310300"
+      }
+    ],
+    "units": []
+  },
+  {
+    "id": "ss12",
+    "title": "TCC Texas Government (GOVT 2306)",
+    "subjectArea": "Social Studies",
+    "creditType": "dual-credit",
+    "credits": 0.5,
+    "weighted": true,
+    "collegeCreditHours": 3,
+    "stateCourseStandard": "TCC GOVT 2306 — Texas Government",
+    "peimsCode": "03380022",
+    "description": "Dual-credit government course, repeated from 11th grade's slot (same choice both semesters).",
+    "alternatives": [
+      {
+        "title": "KINE 1164 — Kinesiology Activity Course",
+        "peimsCode": "03810100 / PES00008"
+      },
+      {
+        "title": "PSYC 2301 — Introduction to Psychology",
+        "peimsCode": "03350100"
+      }
+    ],
     "units": []
   },
   {
@@ -68,7 +111,7 @@
     "weighted": false,
     "collegeCreditHours": 0,
     "stateCourseStandard": "ECHS program milestone",
-    "description": "Tracks completion of up to 60 TCC semester credit hours toward an Associate of Arts or Associate of Science degree, awarded alongside the MISD diploma.",
+    "description": "Tracks completion toward an Associate of Arts or Associate of Science degree, awarded alongside the MISD diploma. AA needs 18 hours of general elective TCC credit and one TCC math course; AS needs 18 hours of Math/Science/Engineering/Computer Science TCC credit and Algebra I credit entering 9th grade.",
     "units": []
   },
   {
