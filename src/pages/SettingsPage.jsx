@@ -1,21 +1,60 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getApiKey, setApiKey } from '../lib/aiSettings'
+import { useAiAddon, getAiApi } from '../lib/aiAddon'
 
-export default function SettingsPage() {
-  const [key, setKey] = useState(getApiKey())
+function NotInstalled() {
+  return (
+    <div className="mt-6 rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-500 dark:border-slate-700 dark:text-slate-400">
+      The Ask AI add-on file (<span className="font-mono">stallion-ai.js</span>) wasn't found next to{' '}
+      <span className="font-mono">index.html</span>, so there's no API key to manage. Copy that file into the same
+      folder as the app and refresh the page to enable Ask AI.
+    </div>
+  )
+}
+
+function KeyForm() {
+  const ai = getAiApi()
+  const [key, setKey] = useState(ai.getApiKey())
   const [saved, setSaved] = useState(false)
 
   const save = () => {
-    setApiKey(key.trim())
+    ai.setApiKey(key.trim())
     setSaved(true)
     setTimeout(() => setSaved(false), 2000)
   }
 
   const clear = () => {
     setKey('')
-    setApiKey('')
+    ai.setApiKey('')
   }
+
+  return (
+    <div className="mt-6">
+      <label className="block text-sm font-medium text-slate-700 dark:text-slate-200">Anthropic API Key</label>
+      <input
+        type="password"
+        value={key}
+        onChange={(e) => setKey(e.target.value)}
+        placeholder="sk-ant-..."
+        className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 font-mono text-sm dark:border-slate-700 dark:bg-slate-900 dark:text-white"
+      />
+      <div className="mt-3 flex gap-2">
+        <button onClick={save} className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700">
+          {saved ? '✓ Saved' : 'Save Key'}
+        </button>
+        <button
+          onClick={clear}
+          className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
+        >
+          Remove Key
+        </button>
+      </div>
+    </div>
+  )
+}
+
+export default function SettingsPage() {
+  const status = useAiAddon()
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
@@ -42,27 +81,7 @@ export default function SettingsPage() {
         </ul>
       </div>
 
-      <div className="mt-6">
-        <label className="block text-sm font-medium text-slate-700 dark:text-slate-200">Anthropic API Key</label>
-        <input
-          type="password"
-          value={key}
-          onChange={(e) => setKey(e.target.value)}
-          placeholder="sk-ant-..."
-          className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 font-mono text-sm dark:border-slate-700 dark:bg-slate-900 dark:text-white"
-        />
-        <div className="mt-3 flex gap-2">
-          <button onClick={save} className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-700">
-            {saved ? '✓ Saved' : 'Save Key'}
-          </button>
-          <button
-            onClick={clear}
-            className="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:border-slate-700 dark:text-slate-300 dark:hover:bg-slate-800"
-          >
-            Remove Key
-          </button>
-        </div>
-      </div>
+      {status === 'available' ? <KeyForm /> : status === 'missing' ? <NotInstalled /> : null}
     </div>
   )
 }

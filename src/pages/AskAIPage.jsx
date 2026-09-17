@@ -1,8 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { hasApiKey } from '../lib/aiSettings'
-import { askAI, AIError } from '../lib/aiClient'
-import { getRemainingToday, getDailyLimit, consumeOneQuestion } from '../lib/aiQuota'
+import { useAiAddon, getAiApi } from '../lib/aiAddon'
 
 const HISTORY_KEY = 'stallion-prep-ai-history-v1'
 const MAX_HISTORY = 10
@@ -23,14 +21,25 @@ function saveHistory(history) {
   }
 }
 
-export default function AskAIPage() {
+function NotInstalled() {
+  return (
+    <div className="mt-6 rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-500 dark:border-slate-700 dark:text-slate-400">
+      The Ask AI add-on file (<span className="font-mono">stallion-ai.js</span>) wasn't found next to{' '}
+      <span className="font-mono">index.html</span>. Ask AI is an optional add-on — copy that file into the same
+      folder as the app and refresh the page to enable it.
+    </div>
+  )
+}
+
+function AskAIForm() {
+  const ai = getAiApi()
   const [question, setQuestion] = useState('')
   const [history, setHistory] = useState(loadHistory)
-  const [remaining, setRemaining] = useState(getRemainingToday())
+  const [remaining, setRemaining] = useState(ai.getRemainingToday())
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
 
-  const hasKey = hasApiKey()
+  const hasKey = ai.hasApiKey()
 
   const ask = async (e) => {
     e.preventDefault()
@@ -39,30 +48,21 @@ export default function AskAIPage() {
     setError(null)
     const asked = question.trim()
     try {
-      const answer = await askAI(asked)
+      const answer = await ai.askAI(asked)
       const next = [...history, { question: asked, answer, at: Date.now() }]
       setHistory(next)
       saveHistory(next)
-      setRemaining(consumeOneQuestion())
+      setRemaining(ai.consumeOneQuestion())
       setQuestion('')
     } catch (e2) {
-      setError(e2 instanceof AIError ? e2 : new AIError('api', 'Something went wrong.'))
+      setError(e2)
     } finally {
       setLoading(false)
     }
   }
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-10">
-      <Link to="/" className="text-sm text-indigo-600 hover:underline dark:text-indigo-400">
-        ← Home
-      </Link>
-      <h1 className="mt-2 text-2xl font-bold text-slate-900 dark:text-white">🤖 Ask AI</h1>
-      <p className="mt-2 text-slate-600 dark:text-slate-300">
-        Ask about anything — a class you're taking, a concept you're stuck on, college questions, whatever. You get{' '}
-        <strong>{getDailyLimit()} questions per day</strong>.
-      </p>
-
+    <>
       {!hasKey ? (
         <div className="mt-6 rounded-lg border border-dashed border-slate-300 p-4 text-sm text-slate-500 dark:border-slate-700 dark:text-slate-400">
           You need an API key to use this.{' '}
@@ -82,7 +82,9 @@ export default function AskAIPage() {
           />
           <div className="mt-2 flex items-center justify-between">
             <p className="text-sm text-slate-400 dark:text-slate-500">
-              {remaining > 0 ? `${remaining} question${remaining === 1 ? '' : 's'} left today` : 'No questions left today — come back tomorrow'}
+              {remaining > 0
+                ? `${remaining} question${remaining === 1 ? '' : 's'} left today`
+                : 'No questions left today — come back tomorrow'}
             </p>
             <button
               type="submit"
@@ -106,6 +108,25 @@ export default function AskAIPage() {
           ))}
         </div>
       )}
+    </>
+  )
+}
+
+export default function AskAIPage() {
+  const status = useAiAddon()
+
+  return (
+    <div className="mx-auto max-w-2xl px-4 py-10">
+      <Link to="/" className="text-sm text-indigo-600 hover:underline dark:text-indigo-400">
+        ← Home
+      </Link>
+      <h1 className="mt-2 text-2xl font-bold text-slate-900 dark:text-white">🤖 Ask AI</h1>
+      <p className="mt-2 text-slate-600 dark:text-slate-300">
+        Ask about anything — a class you're taking, a concept you're stuck on, college questions, whatever. You get{' '}
+        <strong>3 questions per day</strong>.
+      </p>
+
+      {status === 'available' ? <AskAIForm /> : status === 'missing' ? <NotInstalled /> : null}
     </div>
   )
 }

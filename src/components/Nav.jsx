@@ -1,9 +1,11 @@
 import { Link, useLocation } from 'react-router-dom'
 import { getGrades } from '../data'
+import { useAiAddon } from '../lib/aiAddon'
 
 export default function Nav() {
   const location = useLocation()
   const grades = getGrades()
+  const aiAvailable = useAiAddon() === 'available'
 
   return (
     <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-900/90">
@@ -42,28 +44,32 @@ export default function Nav() {
           >
             📋
           </Link>
-          <Link
-            to="/ask"
-            title="Ask AI"
-            className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
-              location.pathname === '/ask'
-                ? 'bg-indigo-600 text-white'
-                : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-            }`}
-          >
-            🤖
-          </Link>
-          <Link
-            to="/settings"
-            title="Settings"
-            className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
-              location.pathname === '/settings'
-                ? 'bg-indigo-600 text-white'
-                : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
-            }`}
-          >
-            ⚙️
-          </Link>
+          {aiAvailable && (
+            <>
+              <Link
+                to="/ask"
+                title="Ask AI"
+                className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
+                  location.pathname === '/ask'
+                    ? 'bg-indigo-600 text-white'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+                }`}
+              >
+                🤖
+              </Link>
+              <Link
+                to="/settings"
+                title="Settings"
+                className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
+                  location.pathname === '/settings'
+                    ? 'bg-indigo-600 text-white'
+                    : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+                }`}
+              >
+                ⚙️
+              </Link>
+            </>
+          )}
         </nav>
       </div>
     </header>

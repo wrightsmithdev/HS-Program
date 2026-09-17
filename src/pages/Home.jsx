@@ -3,6 +3,7 @@ import { config, getGrades, getCourses, countLessonsForGrade } from '../data'
 import { countCompleteInGrade } from '../lib/progress'
 import { getSelectedMajorId } from '../lib/major'
 import { getMissedCount } from '../lib/missedQuestions'
+import { useAiAddon } from '../lib/aiAddon'
 import majors from '../data/majors.json'
 import ProgressRing from '../components/ProgressRing'
 
@@ -17,6 +18,7 @@ export default function Home() {
   const grades = getGrades()
   const selectedMajor = majors.find((m) => m.id === getSelectedMajorId())
   const missedCount = getMissedCount()
+  const aiAvailable = useAiAddon() === 'available'
 
   let totalLessons = 0
   let totalComplete = 0
@@ -83,42 +85,46 @@ export default function Home() {
         </Link>
       )}
 
-      <div className="mt-4 grid gap-4 sm:grid-cols-2">
-        {missedCount > 0 && (
-          <Link
-            to="/review"
-            className="flex items-center justify-between gap-3 rounded-xl border-2 border-rose-300 bg-rose-50 p-4 shadow-sm transition hover:shadow-md dark:border-rose-800 dark:bg-rose-950/40"
-          >
-            <span className="flex items-center gap-3">
-              <span className="text-2xl">📋</span>
-              <span>
-                <span className="block font-semibold text-rose-700 dark:text-rose-300">
-                  {missedCount} question{missedCount === 1 ? '' : 's'} to review
-                </span>
-                <span className="block text-sm text-rose-500 dark:text-rose-400">
-                  Missed questions stay here until you get them right.
+      {(missedCount > 0 || aiAvailable) && (
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
+          {missedCount > 0 && (
+            <Link
+              to="/review"
+              className="flex items-center justify-between gap-3 rounded-xl border-2 border-rose-300 bg-rose-50 p-4 shadow-sm transition hover:shadow-md dark:border-rose-800 dark:bg-rose-950/40"
+            >
+              <span className="flex items-center gap-3">
+                <span className="text-2xl">📋</span>
+                <span>
+                  <span className="block font-semibold text-rose-700 dark:text-rose-300">
+                    {missedCount} question{missedCount === 1 ? '' : 's'} to review
+                  </span>
+                  <span className="block text-sm text-rose-500 dark:text-rose-400">
+                    Missed questions stay here until you get them right.
+                  </span>
                 </span>
               </span>
-            </span>
-            <span className="text-sm font-medium text-rose-600 dark:text-rose-400">Review →</span>
-          </Link>
-        )}
-        <Link
-          to="/ask"
-          className="flex items-center justify-between gap-3 rounded-xl border-2 border-teal-300 bg-teal-50 p-4 shadow-sm transition hover:shadow-md dark:border-teal-800 dark:bg-teal-950/40"
-        >
-          <span className="flex items-center gap-3">
-            <span className="text-2xl">🤖</span>
-            <span>
-              <span className="block font-semibold text-teal-700 dark:text-teal-300">Ask AI</span>
-              <span className="block text-sm text-teal-500 dark:text-teal-400">
-                3 free questions a day about anything.
+              <span className="text-sm font-medium text-rose-600 dark:text-rose-400">Review →</span>
+            </Link>
+          )}
+          {aiAvailable && (
+            <Link
+              to="/ask"
+              className="flex items-center justify-between gap-3 rounded-xl border-2 border-teal-300 bg-teal-50 p-4 shadow-sm transition hover:shadow-md dark:border-teal-800 dark:bg-teal-950/40"
+            >
+              <span className="flex items-center gap-3">
+                <span className="text-2xl">🤖</span>
+                <span>
+                  <span className="block font-semibold text-teal-700 dark:text-teal-300">Ask AI</span>
+                  <span className="block text-sm text-teal-500 dark:text-teal-400">
+                    3 free questions a day about anything.
+                  </span>
+                </span>
               </span>
-            </span>
-          </span>
-          <span className="text-sm font-medium text-teal-600 dark:text-teal-400">Ask →</span>
-        </Link>
-      </div>
+              <span className="text-sm font-medium text-teal-600 dark:text-teal-400">Ask →</span>
+            </Link>
+          )}
+        </div>
+      )}
 
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         {grades.map((g) => {
