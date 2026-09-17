@@ -5696,89 +5696,85 @@
           },
           {
             "id": "sci11-u4-l3",
-            "title": "Population Genetics",
-            "summary": "A population's **gene pool** contains all the alleles present among its members, and each allele has a measurable **allele frequency**. The **Hardy-Weinberg equilibrium** model predicts that these frequencies stay constant across generations unless disrupted by evolutionary forces such as **genetic drift**, random chance effects that are especially strong after a **bottleneck effect**, or **gene flow**, the movement of alleles between populations.",
+            "title": "Pedigree Analysis, Sex-Linked Traits, and Genetic Disorders",
+            "summary": "A **pedigree** is a chart tracking a trait's inheritance across generations of a family, used to determine whether a trait is dominant or recessive and whether it's autosomal or sex-linked. **Sex-linked traits** are carried on the X or Y chromosome, which is why recessive X-linked conditions (like red-green color blindness) appear far more often in males, who have only one X chromosome, than in females. Many human genetic disorders, such as **cystic fibrosis** (autosomal recessive) and **Huntington's disease** (autosomal dominant), follow classic Mendelian inheritance patterns that a pedigree can reveal, while **nondisjunction** during meiosis — the failure of chromosomes to separate properly — causes disorders involving an abnormal chromosome number, such as Down syndrome.",
             "keyTerms": [
               {
-                "term": "Gene pool",
-                "definition": "The complete set of alleles for all genes present in a population."
+                "term": "Pedigree",
+                "definition": "A diagram tracking a trait's inheritance pattern across generations of a family."
               },
               {
-                "term": "Allele frequency",
-                "definition": "The proportion of a specific allele among all alleles for a gene in a population."
+                "term": "Sex-linked trait",
+                "definition": "A trait controlled by a gene located on the X or Y chromosome, causing different inheritance patterns in males and females."
               },
               {
-                "term": "Hardy-Weinberg equilibrium",
-                "definition": "A model stating that allele and genotype frequencies in a population remain constant across generations absent evolutionary influences."
+                "term": "Carrier",
+                "definition": "An individual who is heterozygous for a recessive allele and does not show the trait but can pass it to offspring."
               },
               {
-                "term": "Genetic drift",
-                "definition": "Random, chance changes in allele frequencies that have a stronger effect in small populations."
+                "term": "Autosomal",
+                "definition": "Relating to a gene located on one of the 22 non-sex chromosome pairs, inherited equally regardless of sex."
               },
               {
-                "term": "Gene flow",
-                "definition": "The movement of alleles between populations, typically through migration."
-              },
-              {
-                "term": "Bottleneck effect",
-                "definition": "A form of genetic drift in which a population's size is drastically reduced, leaving survivors with allele frequencies that differ from the original population by chance."
+                "term": "Nondisjunction",
+                "definition": "The failure of homologous chromosomes or sister chromatids to separate properly during meiosis, resulting in gametes with an abnormal chromosome number."
               }
             ],
             "practiceQuestions": [
               {
-                "question": "The sum of all alleles for all genes present in a population is called the:",
+                "question": "Why do recessive X-linked traits like red-green color blindness appear more often in males than females?",
                 "choices": [
-                  "Genotype",
-                  "Gene pool",
-                  "Phenotype",
-                  "Allele frequency"
+                  "Males have two X chromosomes, doubling their chance of inheriting the allele",
+                  "Males have only one X chromosome, so a single recessive allele is enough to show the trait",
+                  "The trait is actually carried on the Y chromosome",
+                  "Females are naturally immune to X-linked traits"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **gene pool** includes every allele present across all members of a population."
+                "explanation": "Because a **sex-linked trait** on the X chromosome has no matching allele on the Y chromosome in males, one recessive allele is enough to express the trait."
               },
               {
-                "question": "The proportion of a specific allele among all alleles for a gene in a population is its:",
+                "question": "In a pedigree, an unaffected individual has an affected child with an unaffected partner. What does this suggest about the trait?",
                 "choices": [
-                  "Gene pool",
-                  "Allele frequency",
-                  "Genetic drift",
-                  "Gene flow"
+                  "It is dominant",
+                  "It is recessive, and both parents are carriers",
+                  "It is not genetic",
+                  "It only affects females"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Allele frequency** measures how common one allele is within the **gene pool**."
+                "explanation": "Two unaffected **carrier** parents can each pass a recessive allele to a child, who then shows the trait despite neither parent showing it."
               },
               {
-                "question": "A model stating that allele and genotype frequencies in a population will remain constant across generations in the absence of evolutionary influences is called:",
+                "question": "What causes Down syndrome?",
                 "choices": [
-                  "Genetic drift",
-                  "Hardy-Weinberg equilibrium",
-                  "Bottleneck effect",
-                  "Gene flow"
+                  "A mutation in a single gene on the X chromosome",
+                  "Nondisjunction resulting in an extra copy of chromosome 21",
+                  "Incomplete dominance between two alleles",
+                  "A sex-linked recessive allele"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **Hardy-Weinberg equilibrium** describes a non-evolving population where **allele frequencies** stay stable."
+                "explanation": "**Nondisjunction** during meiosis can leave a gamete with an extra chromosome 21, producing three copies (trisomy 21) in the resulting individual."
               },
               {
-                "question": "A random, chance change in allele frequencies that occurs more strongly in small populations is called:",
+                "question": "Cystic fibrosis is an autosomal recessive disorder. What does autosomal mean in this context?",
                 "choices": [
-                  "Gene flow",
-                  "Genetic drift",
-                  "Hardy-Weinberg equilibrium",
-                  "Gene pool"
+                  "The gene is located on a sex chromosome",
+                  "The gene is located on one of the non-sex chromosome pairs",
+                  "The disorder only affects internal organs",
+                  "The disorder cannot be inherited"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Genetic drift** causes random shifts in **allele frequency** that matter more in small populations."
+                "explanation": "An **autosomal** gene is on one of the 22 non-sex chromosome pairs, so the disorder is inherited equally regardless of sex."
               },
               {
-                "question": "A disease drastically reduces a population's size, leaving survivors with allele frequencies very different from the original population purely by chance. This is an example of:",
+                "question": "What is the main purpose of constructing a pedigree?",
                 "choices": [
-                  "Gene flow",
-                  "The bottleneck effect (a form of genetic drift)",
-                  "Hardy-Weinberg equilibrium",
-                  "Allele frequency staying the same"
+                  "To measure the exact age of family members",
+                  "To track a trait's inheritance pattern across generations and determine how it is inherited",
+                  "To count the total number of genes in a family",
+                  "To identify which family member has the most mutations"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **bottleneck effect** is a form of **genetic drift** in which a sudden population crash randomly shifts **allele frequencies**."
+                "explanation": "A **pedigree** reveals inheritance patterns — dominant vs. recessive, autosomal vs. sex-linked — by tracking a trait across a family tree."
               }
             ]
           }
@@ -5873,6 +5869,94 @@
                 ],
                 "answerIndex": 2,
                 "explanation": "**Directional selection** shifts a population's trait distribution toward one extreme, here favoring an **adaptation** for larger beaks."
+              }
+            ]
+          },
+          {
+            "id": "sci11-u4-l3",
+            "title": "Population Genetics",
+            "summary": "A population's **gene pool** contains all the alleles present among its members, and each allele has a measurable **allele frequency**. The **Hardy-Weinberg equilibrium** model predicts that these frequencies stay constant across generations unless disrupted by evolutionary forces such as **genetic drift**, random chance effects that are especially strong after a **bottleneck effect**, or **gene flow**, the movement of alleles between populations.",
+            "keyTerms": [
+              {
+                "term": "Gene pool",
+                "definition": "The complete set of alleles for all genes present in a population."
+              },
+              {
+                "term": "Allele frequency",
+                "definition": "The proportion of a specific allele among all alleles for a gene in a population."
+              },
+              {
+                "term": "Hardy-Weinberg equilibrium",
+                "definition": "A model stating that allele and genotype frequencies in a population remain constant across generations absent evolutionary influences."
+              },
+              {
+                "term": "Genetic drift",
+                "definition": "Random, chance changes in allele frequencies that have a stronger effect in small populations."
+              },
+              {
+                "term": "Gene flow",
+                "definition": "The movement of alleles between populations, typically through migration."
+              },
+              {
+                "term": "Bottleneck effect",
+                "definition": "A form of genetic drift in which a population's size is drastically reduced, leaving survivors with allele frequencies that differ from the original population by chance."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The sum of all alleles for all genes present in a population is called the:",
+                "choices": [
+                  "Genotype",
+                  "Gene pool",
+                  "Phenotype",
+                  "Allele frequency"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **gene pool** includes every allele present across all members of a population."
+              },
+              {
+                "question": "The proportion of a specific allele among all alleles for a gene in a population is its:",
+                "choices": [
+                  "Gene pool",
+                  "Allele frequency",
+                  "Genetic drift",
+                  "Gene flow"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Allele frequency** measures how common one allele is within the **gene pool**."
+              },
+              {
+                "question": "A model stating that allele and genotype frequencies in a population will remain constant across generations in the absence of evolutionary influences is called:",
+                "choices": [
+                  "Genetic drift",
+                  "Hardy-Weinberg equilibrium",
+                  "Bottleneck effect",
+                  "Gene flow"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Hardy-Weinberg equilibrium** describes a non-evolving population where **allele frequencies** stay stable."
+              },
+              {
+                "question": "A random, chance change in allele frequencies that occurs more strongly in small populations is called:",
+                "choices": [
+                  "Gene flow",
+                  "Genetic drift",
+                  "Hardy-Weinberg equilibrium",
+                  "Gene pool"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Genetic drift** causes random shifts in **allele frequency** that matter more in small populations."
+              },
+              {
+                "question": "A disease drastically reduces a population's size, leaving survivors with allele frequencies very different from the original population purely by chance. This is an example of:",
+                "choices": [
+                  "Gene flow",
+                  "The bottleneck effect (a form of genetic drift)",
+                  "Hardy-Weinberg equilibrium",
+                  "Allele frequency staying the same"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **bottleneck effect** is a form of **genetic drift** in which a sudden population crash randomly shifts **allele frequencies**."
               }
             ]
           },
@@ -6566,225 +6650,233 @@
         ]
       },
       {
-        "id": "avid11-u2",
-        "title": "The College Application Process",
+        "id": "avid11-u4",
+        "title": "Choosing Colleges and Majors",
         "lessons": [
           {
-            "id": "avid11-u2-l1",
-            "title": "Application Components and the Common App",
-            "summary": "Most students applying to four-year universities will use the **Common App**, a single online platform that sends core information to multiple colleges at once. A complete application typically includes **transcripts**, standardized test information, extracurricular activity lists, and sometimes a **supplemental essay** specific to one school. Tracking every school's individual requirements and deadlines in one place prevents a missed piece of an otherwise strong **application packet**.",
+            "id": "avid11-u4-l1",
+            "title": "Researching College and Major Fit",
+            "summary": "Choosing where to apply starts with evaluating **college fit** across academic, social, and financial factors rather than reputation alone. Exploring a possible **major** through course descriptions, career outcomes, and conversations with professionals helps students avoid picking a path based only on a title that sounds impressive. Attending a **campus visit**, in person or virtually, and building a balanced **college list** with a range of admission likelihoods rounds out a thoughtful search.",
             "keyTerms": [
               {
-                "term": "Common App",
-                "definition": "A widely used online platform that lets students complete one core application and send it to many participating colleges."
+                "term": "College fit",
+                "definition": "How well a college matches a student's academic goals, social preferences, financial situation, and personal needs."
               },
               {
-                "term": "Application packet",
-                "definition": "The full set of materials a college requires from an applicant, such as essays, transcripts, and recommendation letters."
+                "term": "Major",
+                "definition": "The primary subject area a student focuses their college coursework and degree around."
               },
               {
-                "term": "Transcript",
-                "definition": "An official record of a student's courses and grades, usually sent directly from the high school or college to admissions offices."
+                "term": "Campus visit",
+                "definition": "An in-person or virtual tour and experience of a college campus used to evaluate its environment and offerings."
               },
               {
-                "term": "Supplemental essay",
-                "definition": "An additional short essay required by a specific college beyond the main personal statement, often about that school in particular."
+                "term": "College list",
+                "definition": "A student's organized set of target colleges to apply to, typically including a range of admission likelihoods."
               },
               {
-                "term": "Application deadline",
-                "definition": "The date by which all required parts of a college application must be submitted to be considered."
+                "term": "Career outcomes",
+                "definition": "Information about the jobs, salaries, or graduate paths that students in a particular major typically pursue after graduation."
               }
             ],
             "practiceQuestions": [
               {
-                "question": "A student is applying to five different universities that all accept the Common App. What is the main advantage of using it?",
+                "question": "A student is choosing between two colleges based only on which one has a more famous name. What is missing from this decision process?",
                 "choices": [
-                  "It guarantees admission to every school",
-                  "It lets the student complete core application information once and send it to multiple colleges",
-                  "It removes the need for transcripts",
-                  "It only works for community colleges"
+                  "Nothing; reputation alone is the best measure of college fit",
+                  "An evaluation of college fit across academic, social, and financial factors relevant to the student",
+                  "A campus visit is never useful when comparing colleges",
+                  "Career outcomes are irrelevant to choosing a college"
                 ],
                 "answerIndex": 1,
-                "explanation": "The Common App's main benefit is completing shared information a single time and submitting it to many participating schools."
+                "explanation": "College fit considers multiple personal factors beyond reputation, which is essential to making a well-rounded decision."
               },
               {
-                "question": "One university on a student's list requires an extra essay specifically about why they chose that school, on top of the main essay. What is this additional essay called?",
+                "question": "A student is interested in a major only because the title 'sounds impressive' to relatives. What should they research before committing to it?",
                 "choices": [
-                  "A transcript",
-                  "A supplemental essay",
-                  "An application deadline",
-                  "A recommendation letter"
+                  "Nothing further is needed once relatives approve",
+                  "Course descriptions and career outcomes to understand what the major actually involves and leads to",
+                  "Only the major's name, since course content does not matter",
+                  "The college's mascot and sports teams"
                 ],
                 "answerIndex": 1,
-                "explanation": "A supplemental essay is required by an individual college in addition to the main essay submitted through the Common App."
+                "explanation": "Understanding a major's coursework and typical career outcomes prevents choosing a path based on appearance rather than actual fit."
               },
               {
-                "question": "Why is it important for a student to confirm that an official transcript has been sent to each college on their list?",
+                "question": "What is a key benefit of a campus visit, whether in person or virtual, when researching college fit?",
                 "choices": [
-                  "Transcripts are optional for most colleges",
-                  "Colleges cannot fully evaluate an application packet without an official record of courses and grades",
-                  "Transcripts only matter for scholarship applications",
-                  "Colleges automatically generate transcripts themselves"
+                  "It guarantees admission to the school",
+                  "It lets a student experience the environment and community firsthand before applying or enrolling",
+                  "It replaces the need for a college list",
+                  "It is only useful after a student has already enrolled"
                 ],
                 "answerIndex": 1,
-                "explanation": "An official transcript is a core part of the application packet, since it verifies the courses and grades admissions offices need to review."
+                "explanation": "A campus visit gives a firsthand sense of a school's environment, which is valuable information for assessing college fit."
               },
               {
-                "question": "A student mixes up two colleges' application deadlines and submits one packet a week late. What is the most likely result?",
+                "question": "A student applies only to extremely selective colleges with low acceptance rates. What is missing from their approach to building a college list?",
                 "choices": [
-                  "No consequence, since colleges never enforce deadlines",
-                  "The late application may not be reviewed or may be considered incomplete",
-                  "The college will automatically extend the deadline for everyone",
-                  "The Common App will submit the packet early instead"
+                  "Nothing; applying only to selective schools is always the best strategy",
+                  "A range of admission likelihoods, including schools where acceptance is more likely",
+                  "Career outcomes have no place in a college list",
+                  "A college list should never include more than one school"
                 ],
                 "answerIndex": 1,
-                "explanation": "Missing an application deadline can mean the packet is not reviewed at all, which is why tracking each school's specific date matters."
+                "explanation": "A balanced college list includes schools across a range of admission likelihoods, not only the most selective options."
               }
             ]
           },
           {
-            "id": "avid11-u2-l2",
-            "title": "Crafting the Personal Statement",
-            "summary": "The **personal statement** is the main essay where a student's voice, values, and growth come through beyond grades and test scores. Strong essays usually center on a specific, honest **narrative** rather than a broad list of achievements, and go through several rounds of **revision** based on feedback. Reading and responding carefully to the **essay prompt** ensures the final piece actually answers what the college is asking.",
+            "id": "avid11-u4-l2",
+            "title": "The AA/AS-to-University Transfer Pathway",
+            "summary": "Many ECHS students will complete an **associate degree** through TCC before transferring, using a **transfer pathway** designed to move credits smoothly into a university's bachelor's program. Following a **degree plan** aligned with the intended transfer university, and confirming that courses meet **transfer agreement** requirements, prevents wasted credits along the way. Meeting with a transfer advisor early helps ensure the associate degree actually satisfies the destination university's core requirements.",
             "keyTerms": [
               {
-                "term": "Personal statement",
-                "definition": "The main college application essay in which a student reflects on their experiences, values, or growth in their own voice."
+                "term": "Associate degree",
+                "definition": "A two-year college degree, often called an AA or AS, that can be a step toward a bachelor's degree or a standalone credential."
               },
               {
-                "term": "Narrative",
-                "definition": "A focused, story-driven approach to writing that centers on specific moments or experiences rather than a general summary."
+                "term": "Transfer pathway",
+                "definition": "A planned sequence of courses designed to move a student's credits smoothly from a two-year college into a four-year university program."
               },
               {
-                "term": "Revision",
-                "definition": "The process of reworking a draft based on feedback to improve clarity, focus, and impact before submitting it."
+                "term": "Degree plan",
+                "definition": "A structured list of the specific courses a student needs to complete a degree, mapped out by semester."
               },
               {
-                "term": "Essay prompt",
-                "definition": "The specific question or topic a college provides that an application essay is expected to address."
+                "term": "Transfer agreement",
+                "definition": "A formal arrangement between a two-year college and a university guaranteeing that certain completed courses will count toward a specific bachelor's degree."
               },
               {
-                "term": "Authentic voice",
-                "definition": "Writing that sounds genuinely like the student, rather than overly formal language borrowed from someone else."
+                "term": "Transfer advisor",
+                "definition": "A staff member who helps students plan coursework and paperwork needed to transfer credits from one institution to another."
+              },
+              {
+                "term": "Bachelor's degree",
+                "definition": "A four-year undergraduate degree typically required for many professional careers and graduate programs."
               }
             ],
             "practiceQuestions": [
               {
-                "question": "A student's personal statement draft simply lists every award and activity from the last three years. What revision would most likely strengthen it?",
+                "question": "A student completes an associate degree at TCC but later finds several courses will not count toward their intended bachelor's degree at the university. What likely went wrong?",
                 "choices": [
-                  "Adding even more activities to the list",
-                  "Narrowing the essay to a specific narrative about one meaningful experience and what it revealed about the student",
-                  "Removing all personal details to sound more formal",
-                  "Copying a friend's essay structure exactly"
+                  "The student followed a degree plan aligned with the transfer university from the start",
+                  "The student did not confirm which courses were covered under a transfer agreement with that university",
+                  "Associate degrees never transfer to any university",
+                  "Transfer pathways guarantee every course counts regardless of planning"
                 ],
                 "answerIndex": 1,
-                "explanation": "A focused narrative about a specific experience is generally more memorable and revealing than a broad list of achievements."
+                "explanation": "Without checking a transfer agreement, courses taken may not align with what the destination university accepts, wasting credits."
               },
               {
-                "question": "Why should a student reread the essay prompt carefully before finalizing a personal statement?",
+                "question": "What is the main purpose of a transfer pathway between a community college and a university?",
                 "choices": [
-                  "Essay prompts are the same at every college and never need checking",
-                  "To make sure the essay actually addresses what the specific prompt is asking",
-                  "Prompts are irrelevant once the essay is written",
-                  "Colleges do not read essays closely enough to notice mismatches"
+                  "To make transferring credits more difficult",
+                  "To provide a planned course sequence that moves credits smoothly from a two-year college into a university program",
+                  "To eliminate the need for an associate degree entirely",
+                  "To require students to retake all of their coursework at the university"
                 ],
                 "answerIndex": 1,
-                "explanation": "An essay that drifts from the essay prompt, no matter how well written, may not fulfill what the admissions committee is asking for."
+                "explanation": "A transfer pathway is specifically designed to help credits move efficiently from a two-year college into a bachelor's program."
               },
               {
-                "question": "A teacher reviewing a draft says it sounds like it was written by an adult trying to impress someone, not like the student. What is missing?",
+                "question": "Why should a student meet with a transfer advisor early rather than waiting until right before transferring?",
                 "choices": [
-                  "Correct grammar",
-                  "An authentic voice that reflects how the student actually thinks and speaks",
-                  "A longer word count",
-                  "A supplemental essay"
+                  "Transfer advisors are unnecessary if a student has a degree plan",
+                  "Meeting early allows adjustments to the degree plan so courses align with the destination university's requirements",
+                  "Transfer advisors only help with financial aid, not course planning",
+                  "It makes no difference when a student meets with an advisor"
                 ],
                 "answerIndex": 1,
-                "explanation": "Admissions readers value an authentic voice; an essay that sounds borrowed or overly formal can undercut a personal statement's impact."
+                "explanation": "Meeting early gives time to adjust a degree plan if needed, reducing the risk of taking courses that will not transfer as intended."
               },
               {
-                "question": "What is the purpose of going through multiple rounds of revision on a personal statement?",
+                "question": "A university has a formal arrangement stating that specific TCC courses will count toward its bachelor's degree in biology. What is this arrangement called?",
                 "choices": [
-                  "To make the essay as long as possible",
-                  "To refine clarity, focus, and impact based on feedback before the final submission",
-                  "Revision is unnecessary if the first draft meets the word limit",
-                  "To remove the narrative and replace it with a list of facts"
-                ],
-                "answerIndex": 1,
-                "explanation": "Revision allows a writer to sharpen focus and clarity using feedback, which usually produces a stronger final personal statement."
-              }
-            ]
-          },
-          {
-            "id": "avid11-u2-l3",
-            "title": "Requesting Strong Letters of Recommendation",
-            "summary": "A **letter of recommendation** gives colleges an outside perspective on a student's character and work habits, so choosing the right **recommender** matters as much as the request itself. Students should ask early, provide a **brag sheet** summarizing key achievements and goals, and always follow **request etiquette**, including a clear ask and a thank-you note. Giving recommenders enough lead time before an application deadline shows respect for their schedule and time.",
-            "keyTerms": [
-              {
-                "term": "Letter of recommendation",
-                "definition": "A written statement from a teacher, counselor, or mentor describing a student's character, skills, and potential for college success."
-              },
-              {
-                "term": "Recommender",
-                "definition": "The teacher, counselor, or mentor a student asks to write a letter of recommendation on their behalf."
-              },
-              {
-                "term": "Brag sheet",
-                "definition": "A document a student prepares for a recommender summarizing achievements, goals, and specific examples to reference in the letter."
-              },
-              {
-                "term": "Request etiquette",
-                "definition": "The respectful, professional manner of asking someone for a favor, including advance notice, a clear ask, and gratitude."
-              },
-              {
-                "term": "Lead time",
-                "definition": "The amount of advance notice given before a deadline, allowing a recommender enough time to write a thoughtful letter."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "A student wants a meaningful letter of recommendation but has only spoken briefly with several teachers. What is the best way to choose a recommender?",
-                "choices": [
-                  "Ask whichever teacher has the shortest line outside their office",
-                  "Choose a teacher or mentor who knows the student's work and character well enough to write specific, genuine details",
-                  "Ask a random staff member who has never taught the student",
-                  "Skip asking a teacher and write the letter themselves"
-                ],
-                "answerIndex": 1,
-                "explanation": "A strong recommender is someone who can speak specifically and genuinely to the student's character and abilities, not just anyone available."
-              },
-              {
-                "question": "What is the purpose of a brag sheet given to a recommender?",
-                "choices": [
-                  "To replace the letter of recommendation entirely",
-                  "To give the recommender specific achievements and context to reference, making the letter stronger and more detailed",
-                  "To boast to the recommender without helping them write anything",
-                  "It is required only for scholarship essays, never for recommendation letters"
-                ],
-                "answerIndex": 1,
-                "explanation": "A brag sheet provides concrete details a recommender can use, helping them write a more specific and compelling letter."
-              },
-              {
-                "question": "A student asks a teacher for a letter of recommendation two days before the college is due to receive it. What problem does this create?",
-                "choices": [
-                  "No problem, since teachers can write letters instantly",
-                  "It gives very little lead time, which can result in a rushed letter or the teacher being unable to help at all",
-                  "The deadline will automatically move to accommodate the teacher",
-                  "Short notice always produces a stronger letter"
-                ],
-                "answerIndex": 1,
-                "explanation": "Insufficient lead time can force a recommender to rush or decline, which is why requests should be made well in advance."
-              },
-              {
-                "question": "Which of the following best reflects proper request etiquette when asking for a letter of recommendation?",
-                "choices": [
-                  "Asking in person or by email with a clear, polite request, followed later by a thank-you note",
-                  "Assuming the teacher will agree without ever formally asking",
-                  "Demanding the letter be finished within 24 hours",
-                  "Asking a stranger who does not know the student at all"
+                  "A transfer agreement",
+                  "A campus visit",
+                  "A financial aid offer",
+                  "A scholarship tracker"
                 ],
                 "answerIndex": 0,
-                "explanation": "Request etiquette includes a clear, respectful ask and gratitude afterward, which helps maintain a positive relationship with the recommender."
+                "explanation": "A transfer agreement is the formal guarantee that specific courses will count toward a degree at the receiving university."
+              }
+            ]
+          },
+          {
+            "id": "avid11-u4-l3",
+            "title": "Comparing Two-Year and Four-Year Options",
+            "summary": "Students weighing next steps should understand the tradeoffs between a **two-year institution** and a **four-year institution**, including cost, campus experience, and how each fits a chosen major. Considering total **net cost** rather than just sticker price, along with a school's **completion rate**, gives a more realistic picture than reputation alone. For many ECHS students, starting at TCC and using a strong transfer pathway can reduce cost while still reaching the same **bachelor's degree** goal.",
+            "keyTerms": [
+              {
+                "term": "Two-year institution",
+                "definition": "A college, such as a community college, that primarily offers associate degrees and certificate programs over roughly two years."
+              },
+              {
+                "term": "Four-year institution",
+                "definition": "A college or university that primarily offers bachelor's degree programs designed to be completed in about four years."
+              },
+              {
+                "term": "Net cost",
+                "definition": "The actual price a student pays after all grants and scholarships are subtracted from the sticker price of attendance."
+              },
+              {
+                "term": "Completion rate",
+                "definition": "The percentage of students at a school who finish their degree within an expected timeframe."
+              },
+              {
+                "term": "Bachelor's degree",
+                "definition": "A four-year undergraduate degree typically required for many professional careers and graduate programs."
+              },
+              {
+                "term": "Associate degree",
+                "definition": "A two-year college degree, often called an AA or AS, that can be a step toward a bachelor's degree or a standalone credential."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A student compares two schools using only their listed sticker prices, without factoring in aid. What number would give a more accurate comparison?",
+                "choices": [
+                  "The completion rate alone",
+                  "The net cost after grants and scholarships are subtracted",
+                  "The school's mascot",
+                  "The number of dorm buildings on campus"
+                ],
+                "answerIndex": 1,
+                "explanation": "Net cost reflects what a family will actually pay after aid, which is far more useful for comparison than sticker price alone."
+              },
+              {
+                "question": "What is a key difference between a two-year institution and a four-year institution in terms of typical degree offered?",
+                "choices": [
+                  "A two-year institution mainly offers associate degrees, while a four-year institution mainly offers bachelor's degrees",
+                  "Both institution types offer identical degree lengths",
+                  "Four-year institutions cannot offer any degree shorter than four years",
+                  "Two-year institutions never lead to a bachelor's degree in any way"
+                ],
+                "answerIndex": 0,
+                "explanation": "The core distinction is the typical degree length and type offered, with two-year schools centered on associate degrees and four-year schools on bachelor's degrees."
+              },
+              {
+                "question": "Why might a school's completion rate be a useful factor when comparing options, beyond cost alone?",
+                "choices": [
+                  "Completion rate has no connection to whether students finish their degree",
+                  "It indicates how likely students are to actually finish their degree within an expected timeframe at that school",
+                  "It only applies to two-year institutions",
+                  "It measures how many sports teams a school has"
+                ],
+                "answerIndex": 1,
+                "explanation": "Completion rate reflects how successfully students at a school finish their degrees, which is a meaningful factor beyond cost."
+              },
+              {
+                "question": "An ECHS student plans to start at TCC, a two-year institution, and later transfer to earn a bachelor's degree at a four-year institution. What is a likely benefit of this approach?",
+                "choices": [
+                  "It guarantees a higher net cost than starting directly at a four-year institution",
+                  "It can reduce overall cost while still reaching the same bachelor's degree goal through a transfer pathway",
+                  "It makes earning a bachelor's degree impossible",
+                  "Completion rate becomes irrelevant under this plan"
+                ],
+                "answerIndex": 1,
+                "explanation": "Starting at a lower-cost two-year institution and transferring can lower overall cost while still leading to a bachelor's degree."
               }
             ]
           }
@@ -7020,233 +7112,225 @@
         ]
       },
       {
-        "id": "avid11-u4",
-        "title": "Choosing Colleges and Majors",
+        "id": "avid11-u2",
+        "title": "The College Application Process",
         "lessons": [
           {
-            "id": "avid11-u4-l1",
-            "title": "Researching College and Major Fit",
-            "summary": "Choosing where to apply starts with evaluating **college fit** across academic, social, and financial factors rather than reputation alone. Exploring a possible **major** through course descriptions, career outcomes, and conversations with professionals helps students avoid picking a path based only on a title that sounds impressive. Attending a **campus visit**, in person or virtually, and building a balanced **college list** with a range of admission likelihoods rounds out a thoughtful search.",
+            "id": "avid11-u2-l1",
+            "title": "Application Components and the Common App",
+            "summary": "Most students applying to four-year universities will use the **Common App**, a single online platform that sends core information to multiple colleges at once. A complete application typically includes **transcripts**, standardized test information, extracurricular activity lists, and sometimes a **supplemental essay** specific to one school. Tracking every school's individual requirements and deadlines in one place prevents a missed piece of an otherwise strong **application packet**.",
             "keyTerms": [
               {
-                "term": "College fit",
-                "definition": "How well a college matches a student's academic goals, social preferences, financial situation, and personal needs."
+                "term": "Common App",
+                "definition": "A widely used online platform that lets students complete one core application and send it to many participating colleges."
               },
               {
-                "term": "Major",
-                "definition": "The primary subject area a student focuses their college coursework and degree around."
+                "term": "Application packet",
+                "definition": "The full set of materials a college requires from an applicant, such as essays, transcripts, and recommendation letters."
               },
               {
-                "term": "Campus visit",
-                "definition": "An in-person or virtual tour and experience of a college campus used to evaluate its environment and offerings."
+                "term": "Transcript",
+                "definition": "An official record of a student's courses and grades, usually sent directly from the high school or college to admissions offices."
               },
               {
-                "term": "College list",
-                "definition": "A student's organized set of target colleges to apply to, typically including a range of admission likelihoods."
+                "term": "Supplemental essay",
+                "definition": "An additional short essay required by a specific college beyond the main personal statement, often about that school in particular."
               },
               {
-                "term": "Career outcomes",
-                "definition": "Information about the jobs, salaries, or graduate paths that students in a particular major typically pursue after graduation."
+                "term": "Application deadline",
+                "definition": "The date by which all required parts of a college application must be submitted to be considered."
               }
             ],
             "practiceQuestions": [
               {
-                "question": "A student is choosing between two colleges based only on which one has a more famous name. What is missing from this decision process?",
+                "question": "A student is applying to five different universities that all accept the Common App. What is the main advantage of using it?",
                 "choices": [
-                  "Nothing; reputation alone is the best measure of college fit",
-                  "An evaluation of college fit across academic, social, and financial factors relevant to the student",
-                  "A campus visit is never useful when comparing colleges",
-                  "Career outcomes are irrelevant to choosing a college"
+                  "It guarantees admission to every school",
+                  "It lets the student complete core application information once and send it to multiple colleges",
+                  "It removes the need for transcripts",
+                  "It only works for community colleges"
                 ],
                 "answerIndex": 1,
-                "explanation": "College fit considers multiple personal factors beyond reputation, which is essential to making a well-rounded decision."
+                "explanation": "The Common App's main benefit is completing shared information a single time and submitting it to many participating schools."
               },
               {
-                "question": "A student is interested in a major only because the title 'sounds impressive' to relatives. What should they research before committing to it?",
+                "question": "One university on a student's list requires an extra essay specifically about why they chose that school, on top of the main essay. What is this additional essay called?",
                 "choices": [
-                  "Nothing further is needed once relatives approve",
-                  "Course descriptions and career outcomes to understand what the major actually involves and leads to",
-                  "Only the major's name, since course content does not matter",
-                  "The college's mascot and sports teams"
+                  "A transcript",
+                  "A supplemental essay",
+                  "An application deadline",
+                  "A recommendation letter"
                 ],
                 "answerIndex": 1,
-                "explanation": "Understanding a major's coursework and typical career outcomes prevents choosing a path based on appearance rather than actual fit."
+                "explanation": "A supplemental essay is required by an individual college in addition to the main essay submitted through the Common App."
               },
               {
-                "question": "What is a key benefit of a campus visit, whether in person or virtual, when researching college fit?",
+                "question": "Why is it important for a student to confirm that an official transcript has been sent to each college on their list?",
                 "choices": [
-                  "It guarantees admission to the school",
-                  "It lets a student experience the environment and community firsthand before applying or enrolling",
-                  "It replaces the need for a college list",
-                  "It is only useful after a student has already enrolled"
+                  "Transcripts are optional for most colleges",
+                  "Colleges cannot fully evaluate an application packet without an official record of courses and grades",
+                  "Transcripts only matter for scholarship applications",
+                  "Colleges automatically generate transcripts themselves"
                 ],
                 "answerIndex": 1,
-                "explanation": "A campus visit gives a firsthand sense of a school's environment, which is valuable information for assessing college fit."
+                "explanation": "An official transcript is a core part of the application packet, since it verifies the courses and grades admissions offices need to review."
               },
               {
-                "question": "A student applies only to extremely selective colleges with low acceptance rates. What is missing from their approach to building a college list?",
+                "question": "A student mixes up two colleges' application deadlines and submits one packet a week late. What is the most likely result?",
                 "choices": [
-                  "Nothing; applying only to selective schools is always the best strategy",
-                  "A range of admission likelihoods, including schools where acceptance is more likely",
-                  "Career outcomes have no place in a college list",
-                  "A college list should never include more than one school"
+                  "No consequence, since colleges never enforce deadlines",
+                  "The late application may not be reviewed or may be considered incomplete",
+                  "The college will automatically extend the deadline for everyone",
+                  "The Common App will submit the packet early instead"
                 ],
                 "answerIndex": 1,
-                "explanation": "A balanced college list includes schools across a range of admission likelihoods, not only the most selective options."
+                "explanation": "Missing an application deadline can mean the packet is not reviewed at all, which is why tracking each school's specific date matters."
               }
             ]
           },
           {
-            "id": "avid11-u4-l2",
-            "title": "The AA/AS-to-University Transfer Pathway",
-            "summary": "Many ECHS students will complete an **associate degree** through TCC before transferring, using a **transfer pathway** designed to move credits smoothly into a university's bachelor's program. Following a **degree plan** aligned with the intended transfer university, and confirming that courses meet **transfer agreement** requirements, prevents wasted credits along the way. Meeting with a transfer advisor early helps ensure the associate degree actually satisfies the destination university's core requirements.",
+            "id": "avid11-u2-l2",
+            "title": "Crafting the Personal Statement",
+            "summary": "The **personal statement** is the main essay where a student's voice, values, and growth come through beyond grades and test scores. Strong essays usually center on a specific, honest **narrative** rather than a broad list of achievements, and go through several rounds of **revision** based on feedback. Reading and responding carefully to the **essay prompt** ensures the final piece actually answers what the college is asking.",
             "keyTerms": [
               {
-                "term": "Associate degree",
-                "definition": "A two-year college degree, often called an AA or AS, that can be a step toward a bachelor's degree or a standalone credential."
+                "term": "Personal statement",
+                "definition": "The main college application essay in which a student reflects on their experiences, values, or growth in their own voice."
               },
               {
-                "term": "Transfer pathway",
-                "definition": "A planned sequence of courses designed to move a student's credits smoothly from a two-year college into a four-year university program."
+                "term": "Narrative",
+                "definition": "A focused, story-driven approach to writing that centers on specific moments or experiences rather than a general summary."
               },
               {
-                "term": "Degree plan",
-                "definition": "A structured list of the specific courses a student needs to complete a degree, mapped out by semester."
+                "term": "Revision",
+                "definition": "The process of reworking a draft based on feedback to improve clarity, focus, and impact before submitting it."
               },
               {
-                "term": "Transfer agreement",
-                "definition": "A formal arrangement between a two-year college and a university guaranteeing that certain completed courses will count toward a specific bachelor's degree."
+                "term": "Essay prompt",
+                "definition": "The specific question or topic a college provides that an application essay is expected to address."
               },
               {
-                "term": "Transfer advisor",
-                "definition": "A staff member who helps students plan coursework and paperwork needed to transfer credits from one institution to another."
-              },
-              {
-                "term": "Bachelor's degree",
-                "definition": "A four-year undergraduate degree typically required for many professional careers and graduate programs."
+                "term": "Authentic voice",
+                "definition": "Writing that sounds genuinely like the student, rather than overly formal language borrowed from someone else."
               }
             ],
             "practiceQuestions": [
               {
-                "question": "A student completes an associate degree at TCC but later finds several courses will not count toward their intended bachelor's degree at the university. What likely went wrong?",
+                "question": "A student's personal statement draft simply lists every award and activity from the last three years. What revision would most likely strengthen it?",
                 "choices": [
-                  "The student followed a degree plan aligned with the transfer university from the start",
-                  "The student did not confirm which courses were covered under a transfer agreement with that university",
-                  "Associate degrees never transfer to any university",
-                  "Transfer pathways guarantee every course counts regardless of planning"
+                  "Adding even more activities to the list",
+                  "Narrowing the essay to a specific narrative about one meaningful experience and what it revealed about the student",
+                  "Removing all personal details to sound more formal",
+                  "Copying a friend's essay structure exactly"
                 ],
                 "answerIndex": 1,
-                "explanation": "Without checking a transfer agreement, courses taken may not align with what the destination university accepts, wasting credits."
+                "explanation": "A focused narrative about a specific experience is generally more memorable and revealing than a broad list of achievements."
               },
               {
-                "question": "What is the main purpose of a transfer pathway between a community college and a university?",
+                "question": "Why should a student reread the essay prompt carefully before finalizing a personal statement?",
                 "choices": [
-                  "To make transferring credits more difficult",
-                  "To provide a planned course sequence that moves credits smoothly from a two-year college into a university program",
-                  "To eliminate the need for an associate degree entirely",
-                  "To require students to retake all of their coursework at the university"
+                  "Essay prompts are the same at every college and never need checking",
+                  "To make sure the essay actually addresses what the specific prompt is asking",
+                  "Prompts are irrelevant once the essay is written",
+                  "Colleges do not read essays closely enough to notice mismatches"
                 ],
                 "answerIndex": 1,
-                "explanation": "A transfer pathway is specifically designed to help credits move efficiently from a two-year college into a bachelor's program."
+                "explanation": "An essay that drifts from the essay prompt, no matter how well written, may not fulfill what the admissions committee is asking for."
               },
               {
-                "question": "Why should a student meet with a transfer advisor early rather than waiting until right before transferring?",
+                "question": "A teacher reviewing a draft says it sounds like it was written by an adult trying to impress someone, not like the student. What is missing?",
                 "choices": [
-                  "Transfer advisors are unnecessary if a student has a degree plan",
-                  "Meeting early allows adjustments to the degree plan so courses align with the destination university's requirements",
-                  "Transfer advisors only help with financial aid, not course planning",
-                  "It makes no difference when a student meets with an advisor"
+                  "Correct grammar",
+                  "An authentic voice that reflects how the student actually thinks and speaks",
+                  "A longer word count",
+                  "A supplemental essay"
                 ],
                 "answerIndex": 1,
-                "explanation": "Meeting early gives time to adjust a degree plan if needed, reducing the risk of taking courses that will not transfer as intended."
+                "explanation": "Admissions readers value an authentic voice; an essay that sounds borrowed or overly formal can undercut a personal statement's impact."
               },
               {
-                "question": "A university has a formal arrangement stating that specific TCC courses will count toward its bachelor's degree in biology. What is this arrangement called?",
+                "question": "What is the purpose of going through multiple rounds of revision on a personal statement?",
                 "choices": [
-                  "A transfer agreement",
-                  "A campus visit",
-                  "A financial aid offer",
-                  "A scholarship tracker"
+                  "To make the essay as long as possible",
+                  "To refine clarity, focus, and impact based on feedback before the final submission",
+                  "Revision is unnecessary if the first draft meets the word limit",
+                  "To remove the narrative and replace it with a list of facts"
                 ],
-                "answerIndex": 0,
-                "explanation": "A transfer agreement is the formal guarantee that specific courses will count toward a degree at the receiving university."
+                "answerIndex": 1,
+                "explanation": "Revision allows a writer to sharpen focus and clarity using feedback, which usually produces a stronger final personal statement."
               }
             ]
           },
           {
-            "id": "avid11-u4-l3",
-            "title": "Comparing Two-Year and Four-Year Options",
-            "summary": "Students weighing next steps should understand the tradeoffs between a **two-year institution** and a **four-year institution**, including cost, campus experience, and how each fits a chosen major. Considering total **net cost** rather than just sticker price, along with a school's **completion rate**, gives a more realistic picture than reputation alone. For many ECHS students, starting at TCC and using a strong transfer pathway can reduce cost while still reaching the same **bachelor's degree** goal.",
+            "id": "avid11-u2-l3",
+            "title": "Requesting Strong Letters of Recommendation",
+            "summary": "A **letter of recommendation** gives colleges an outside perspective on a student's character and work habits, so choosing the right **recommender** matters as much as the request itself. Students should ask early, provide a **brag sheet** summarizing key achievements and goals, and always follow **request etiquette**, including a clear ask and a thank-you note. Giving recommenders enough lead time before an application deadline shows respect for their schedule and time.",
             "keyTerms": [
               {
-                "term": "Two-year institution",
-                "definition": "A college, such as a community college, that primarily offers associate degrees and certificate programs over roughly two years."
+                "term": "Letter of recommendation",
+                "definition": "A written statement from a teacher, counselor, or mentor describing a student's character, skills, and potential for college success."
               },
               {
-                "term": "Four-year institution",
-                "definition": "A college or university that primarily offers bachelor's degree programs designed to be completed in about four years."
+                "term": "Recommender",
+                "definition": "The teacher, counselor, or mentor a student asks to write a letter of recommendation on their behalf."
               },
               {
-                "term": "Net cost",
-                "definition": "The actual price a student pays after all grants and scholarships are subtracted from the sticker price of attendance."
+                "term": "Brag sheet",
+                "definition": "A document a student prepares for a recommender summarizing achievements, goals, and specific examples to reference in the letter."
               },
               {
-                "term": "Completion rate",
-                "definition": "The percentage of students at a school who finish their degree within an expected timeframe."
+                "term": "Request etiquette",
+                "definition": "The respectful, professional manner of asking someone for a favor, including advance notice, a clear ask, and gratitude."
               },
               {
-                "term": "Bachelor's degree",
-                "definition": "A four-year undergraduate degree typically required for many professional careers and graduate programs."
-              },
-              {
-                "term": "Associate degree",
-                "definition": "A two-year college degree, often called an AA or AS, that can be a step toward a bachelor's degree or a standalone credential."
+                "term": "Lead time",
+                "definition": "The amount of advance notice given before a deadline, allowing a recommender enough time to write a thoughtful letter."
               }
             ],
             "practiceQuestions": [
               {
-                "question": "A student compares two schools using only their listed sticker prices, without factoring in aid. What number would give a more accurate comparison?",
+                "question": "A student wants a meaningful letter of recommendation but has only spoken briefly with several teachers. What is the best way to choose a recommender?",
                 "choices": [
-                  "The completion rate alone",
-                  "The net cost after grants and scholarships are subtracted",
-                  "The school's mascot",
-                  "The number of dorm buildings on campus"
+                  "Ask whichever teacher has the shortest line outside their office",
+                  "Choose a teacher or mentor who knows the student's work and character well enough to write specific, genuine details",
+                  "Ask a random staff member who has never taught the student",
+                  "Skip asking a teacher and write the letter themselves"
                 ],
                 "answerIndex": 1,
-                "explanation": "Net cost reflects what a family will actually pay after aid, which is far more useful for comparison than sticker price alone."
+                "explanation": "A strong recommender is someone who can speak specifically and genuinely to the student's character and abilities, not just anyone available."
               },
               {
-                "question": "What is a key difference between a two-year institution and a four-year institution in terms of typical degree offered?",
+                "question": "What is the purpose of a brag sheet given to a recommender?",
                 "choices": [
-                  "A two-year institution mainly offers associate degrees, while a four-year institution mainly offers bachelor's degrees",
-                  "Both institution types offer identical degree lengths",
-                  "Four-year institutions cannot offer any degree shorter than four years",
-                  "Two-year institutions never lead to a bachelor's degree in any way"
+                  "To replace the letter of recommendation entirely",
+                  "To give the recommender specific achievements and context to reference, making the letter stronger and more detailed",
+                  "To boast to the recommender without helping them write anything",
+                  "It is required only for scholarship essays, never for recommendation letters"
+                ],
+                "answerIndex": 1,
+                "explanation": "A brag sheet provides concrete details a recommender can use, helping them write a more specific and compelling letter."
+              },
+              {
+                "question": "A student asks a teacher for a letter of recommendation two days before the college is due to receive it. What problem does this create?",
+                "choices": [
+                  "No problem, since teachers can write letters instantly",
+                  "It gives very little lead time, which can result in a rushed letter or the teacher being unable to help at all",
+                  "The deadline will automatically move to accommodate the teacher",
+                  "Short notice always produces a stronger letter"
+                ],
+                "answerIndex": 1,
+                "explanation": "Insufficient lead time can force a recommender to rush or decline, which is why requests should be made well in advance."
+              },
+              {
+                "question": "Which of the following best reflects proper request etiquette when asking for a letter of recommendation?",
+                "choices": [
+                  "Asking in person or by email with a clear, polite request, followed later by a thank-you note",
+                  "Assuming the teacher will agree without ever formally asking",
+                  "Demanding the letter be finished within 24 hours",
+                  "Asking a stranger who does not know the student at all"
                 ],
                 "answerIndex": 0,
-                "explanation": "The core distinction is the typical degree length and type offered, with two-year schools centered on associate degrees and four-year schools on bachelor's degrees."
-              },
-              {
-                "question": "Why might a school's completion rate be a useful factor when comparing options, beyond cost alone?",
-                "choices": [
-                  "Completion rate has no connection to whether students finish their degree",
-                  "It indicates how likely students are to actually finish their degree within an expected timeframe at that school",
-                  "It only applies to two-year institutions",
-                  "It measures how many sports teams a school has"
-                ],
-                "answerIndex": 1,
-                "explanation": "Completion rate reflects how successfully students at a school finish their degrees, which is a meaningful factor beyond cost."
-              },
-              {
-                "question": "An ECHS student plans to start at TCC, a two-year institution, and later transfer to earn a bachelor's degree at a four-year institution. What is a likely benefit of this approach?",
-                "choices": [
-                  "It guarantees a higher net cost than starting directly at a four-year institution",
-                  "It can reduce overall cost while still reaching the same bachelor's degree goal through a transfer pathway",
-                  "It makes earning a bachelor's degree impossible",
-                  "Completion rate becomes irrelevant under this plan"
-                ],
-                "answerIndex": 1,
-                "explanation": "Starting at a lower-cost two-year institution and transferring can lower overall cost while still leading to a bachelor's degree."
+                "explanation": "Request etiquette includes a clear, respectful ask and gratitude afterward, which helps maintain a positive relationship with the recommender."
               }
             ]
           }

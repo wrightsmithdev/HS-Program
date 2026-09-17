@@ -1892,276 +1892,6 @@
         ]
       },
       {
-        "id": "math10-u3",
-        "title": "Exponential and Logarithmic Functions",
-        "lessons": [
-          {
-            "id": "math10-u3-l1",
-            "title": "Exponential Functions and Growth or Decay",
-            "summary": "An **exponential function** has the form f(x) = a·bˣ, where a is the initial value and b is the **growth/decay factor**; when b > 1 the function models **exponential growth**, and when 0 < b < 1 it models **exponential decay**. The special number **Euler's number**, e ≈ 2.71828, is often used as a base in continuous growth models. Exponential functions have a horizontal **asymptote** and change by a percentage of their current value rather than by a constant amount, unlike linear functions.",
-            "keyTerms": [
-              {
-                "term": "Exponential Function",
-                "definition": "A function of the form f(x) = a·bˣ, where the input variable appears in the exponent."
-              },
-              {
-                "term": "Growth/Decay Factor",
-                "definition": "The base b in an **exponential function**, which determines whether the function increases or decreases."
-              },
-              {
-                "term": "Exponential Growth",
-                "definition": "Behavior of an **exponential function** where the **growth/decay factor** b is greater than 1, causing rapid increase."
-              },
-              {
-                "term": "Exponential Decay",
-                "definition": "Behavior of an **exponential function** where the **growth/decay factor** b is between 0 and 1, causing steady decrease toward zero."
-              },
-              {
-                "term": "Asymptote",
-                "definition": "A line that a graph approaches but never touches; **exponential functions** typically approach a horizontal asymptote."
-              },
-              {
-                "term": "Euler's Number (e)",
-                "definition": "The irrational constant e ≈ 2.71828, commonly used as a base for modeling continuous growth or decay."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "The function f(x) = 500(0.85)ˣ models a quantity over time. Is this growth or decay, and at what rate?",
-                "choices": [
-                  "Decay, decreasing by 85% each period",
-                  "Decay, decreasing by 15% each period",
-                  "Growth, increasing by 15% each period",
-                  "Growth, increasing by 85% each period"
-                ],
-                "answerIndex": 1,
-                "explanation": "Since the **growth/decay factor** 0.85 is less than 1, this is **exponential decay**, and the rate of decrease is 1 - 0.85 = 15% per period."
-              },
-              {
-                "question": "A population is modeled by P(t) = 200(1.06)ᵗ. What is P(3), rounded to the nearest whole number?",
-                "choices": [
-                  "238",
-                  "636",
-                  "212",
-                  "236"
-                ],
-                "answerIndex": 0,
-                "explanation": "This is **exponential growth**: P(3) = 200(1.06)³ = 200(1.191016) ≈ 238."
-              },
-              {
-                "question": "A radioactive sample decays according to A(t) = 80(0.5)^(t/5), where t is in years. How many grams remain after 10 years?",
-                "choices": [
-                  "20 grams",
-                  "40 grams",
-                  "10 grams",
-                  "5 grams"
-                ],
-                "answerIndex": 0,
-                "explanation": "This is **exponential decay**: A(10) = 80(0.5)^(10/5) = 80(0.5)² = 80(0.25) = 20 grams."
-              },
-              {
-                "question": "What is the horizontal asymptote of f(x) = 3(2)ˣ - 4?",
-                "choices": [
-                  "y = 0",
-                  "y = 4",
-                  "y = -4",
-                  "y = 3"
-                ],
-                "answerIndex": 2,
-                "explanation": "The base function 3(2)ˣ has **asymptote** y = 0, and subtracting 4 shifts that **asymptote** down to y = -4."
-              },
-              {
-                "question": "A student claims 'exponential functions always increase because the base must be greater than 1.' What is the flaw in this reasoning?",
-                "choices": [
-                  "The claim is true for all exponential functions",
-                  "Exponential functions never increase, only decrease",
-                  "A base between 0 and 1 produces exponential decay, so the claim is false",
-                  "The base must always equal Euler's number"
-                ],
-                "answerIndex": 2,
-                "explanation": "An **exponential function** with a **growth/decay factor** between 0 and 1 models **exponential decay**, a decreasing function, so the student's claim is incorrect."
-              }
-            ]
-          },
-          {
-            "id": "math10-u3-l2",
-            "title": "Logarithmic Functions and Properties",
-            "summary": "A **logarithm** is the inverse operation of exponentiation: log_b(x) = y means b^y = x, and the **logarithmic function** f(x) = log_b(x) is the inverse of the exponential function f(x) = bˣ. The **common logarithm** uses base 10, and the **natural logarithm** (written ln) uses base e. Three key rules — the **product property of logarithms**, the **quotient property of logarithms**, and the **power property of logarithms** — allow logarithmic expressions to be expanded or condensed.",
-            "keyTerms": [
-              {
-                "term": "Logarithm",
-                "definition": "The exponent to which a base must be raised to produce a given number; log_b(x) = y means b^y = x."
-              },
-              {
-                "term": "Logarithmic Function",
-                "definition": "The function f(x) = log_b(x), which is the inverse of the exponential function f(x) = bˣ."
-              },
-              {
-                "term": "Common Logarithm",
-                "definition": "A **logarithm** with base 10, often written log(x) without a subscript."
-              },
-              {
-                "term": "Natural Logarithm",
-                "definition": "A **logarithm** with base e (Euler's number), written ln(x)."
-              },
-              {
-                "term": "Product Property of Logarithms",
-                "definition": "The rule that log_b(mn) = log_b(m) + log_b(n), turning a product inside a logarithm into a sum of logarithms."
-              },
-              {
-                "term": "Quotient Property of Logarithms",
-                "definition": "The rule that log_b(m/n) = log_b(m) - log_b(n), turning a quotient inside a logarithm into a difference of logarithms."
-              },
-              {
-                "term": "Power Property of Logarithms",
-                "definition": "The rule that log_b(mⁿ) = n·log_b(m), allowing an exponent inside a logarithm to move out front as a multiplier."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "What is log₂(32)?",
-                "choices": [
-                  "4",
-                  "16",
-                  "6",
-                  "5"
-                ],
-                "answerIndex": 3,
-                "explanation": "This **logarithm** asks what power of 2 gives 32; since 2⁵ = 32, log₂(32) = 5."
-              },
-              {
-                "question": "How can log(5x³) be expanded?",
-                "choices": [
-                  "log(5) + log(3) + log(x)",
-                  "log(5) + 3log(x)",
-                  "3log(5) + log(x)",
-                  "log(5) · 3log(x)"
-                ],
-                "answerIndex": 1,
-                "explanation": "Using the **product property of logarithms**, log(5x³) = log(5) + log(x³), and then the **power property of logarithms** moves the exponent out front: log(5) + 3log(x)."
-              },
-              {
-                "question": "Which expression is equivalent to 2ln(x) + ln(y) - ln(z)?",
-                "choices": [
-                  "ln(x²y/z)",
-                  "ln(2xy/z)",
-                  "ln(x² + y - z)",
-                  "ln(x²yz)"
-                ],
-                "answerIndex": 0,
-                "explanation": "The **power property of logarithms** turns 2ln(x) into ln(x²), the **product property of logarithms** combines ln(x²) + ln(y) into ln(x²y), and the **quotient property of logarithms** places the -ln(z) term in the denominator: ln(x²y/z)."
-              },
-              {
-                "question": "Which equation is equivalent to log_b(x) = y?",
-                "choices": [
-                  "yᵇ = x",
-                  "bʸ = x",
-                  "xʸ = b",
-                  "bˣ = y"
-                ],
-                "answerIndex": 1,
-                "explanation": "By the definition of a **logarithm**, log_b(x) = y is equivalent to raising the base to the y power: bʸ = x."
-              },
-              {
-                "question": "A solution's acidity is measured as pH = -log[H⁺]. If [H⁺] = 1 × 10⁻⁴, what is the pH?",
-                "choices": [
-                  "0.25",
-                  "-4",
-                  "10",
-                  "4"
-                ],
-                "answerIndex": 3,
-                "explanation": "This uses a **common logarithm**: -log(10⁻⁴) = -(-4) = 4."
-              }
-            ]
-          },
-          {
-            "id": "math10-u3-l3",
-            "title": "Solving Exponential and Logarithmic Equations",
-            "summary": "An **exponential equation** has a variable in the exponent and is often solved with the **same-base method**, rewriting both sides with a matching base and setting the exponents equal. A **logarithmic equation** is solved by rewriting it in exponential form or by combining terms with the properties of logarithms first. Because logarithms are only defined for positive arguments (the **domain restriction** of a logarithm), a candidate solution must always be checked, since it may turn out to be an **extraneous solution**.",
-            "keyTerms": [
-              {
-                "term": "Exponential Equation",
-                "definition": "An equation in which the variable appears in an exponent, such as 3^(x+1) = 81."
-              },
-              {
-                "term": "Same-Base Method",
-                "definition": "A technique for solving an **exponential equation** by rewriting both sides as powers of the same base, then setting the exponents equal."
-              },
-              {
-                "term": "Logarithmic Equation",
-                "definition": "An equation that contains a logarithm of an expression involving the variable."
-              },
-              {
-                "term": "Domain Restriction",
-                "definition": "The requirement that the argument (input) of a logarithm must be positive for the logarithm to be defined."
-              },
-              {
-                "term": "Extraneous Solution",
-                "definition": "A value produced while solving an equation that does not satisfy the original equation, often because it violates a **domain restriction**."
-              }
-            ],
-            "practiceQuestions": [
-              {
-                "question": "Solve for x: 3^(x+1) = 81.",
-                "choices": [
-                  "x = -5",
-                  "x = 4",
-                  "x = 3",
-                  "x = 5"
-                ],
-                "answerIndex": 2,
-                "explanation": "Using the **same-base method**, rewrite 81 as 3⁴, so x + 1 = 4, giving x = 3."
-              },
-              {
-                "question": "Solve 5ˣ = 40 for x, rounded to two decimal places.",
-                "choices": [
-                  "1.60",
-                  "8",
-                  "2.29",
-                  "0.44"
-                ],
-                "answerIndex": 2,
-                "explanation": "Since the bases don't match, solve this **exponential equation** by taking a logarithm of both sides: x = log(40)/log(5) ≈ 1.602/0.699 ≈ 2.29."
-              },
-              {
-                "question": "Solve log₃(x + 2) = 2 for x.",
-                "choices": [
-                  "x = 11",
-                  "x = 9",
-                  "x = 4",
-                  "x = 7"
-                ],
-                "answerIndex": 3,
-                "explanation": "Rewriting this **logarithmic equation** in exponential form gives 3² = x + 2, so 9 = x + 2, and x = 7."
-              },
-              {
-                "question": "Solve log(x) + log(x - 3) = 1, checking for extraneous solutions.",
-                "choices": [
-                  "{2, 5}",
-                  "{5}",
-                  "{-2}",
-                  "{5, -2}"
-                ],
-                "answerIndex": 1,
-                "explanation": "Combining terms gives log[x(x-3)] = 1, so x(x-3) = 10, leading to x² - 3x - 10 = 0, or (x-5)(x+2) = 0, giving x = 5 or x = -2; but x = -2 violates the **domain restriction** of the original logarithms, making it an **extraneous solution**, so only {5} remains."
-              },
-              {
-                "question": "A student solves 2ˣ = -8 and claims x = -3 works. What is the correct conclusion?",
-                "choices": [
-                  "x = -3 is correct",
-                  "There is no real solution, since 2ˣ is always positive",
-                  "x = -1/8 is the correct solution",
-                  "x = 3 is the correct solution instead"
-                ],
-                "answerIndex": 1,
-                "explanation": "This **exponential equation** has no real solution because a positive base raised to any real power always produces a positive result, never -8."
-              }
-            ]
-          }
-        ]
-      },
-      {
         "id": "math10-u4",
         "title": "Rational and Radical Functions",
         "lessons": [
@@ -2430,6 +2160,276 @@
                 ],
                 "answerIndex": 1,
                 "explanation": "Since the principal square root in a **radical function** is always non-negative, it can never equal -5; x = 25 is an **extraneous solution** introduced by squaring, so the equation has no real solution."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "math10-u3",
+        "title": "Exponential and Logarithmic Functions",
+        "lessons": [
+          {
+            "id": "math10-u3-l1",
+            "title": "Exponential Functions and Growth or Decay",
+            "summary": "An **exponential function** has the form f(x) = a·bˣ, where a is the initial value and b is the **growth/decay factor**; when b > 1 the function models **exponential growth**, and when 0 < b < 1 it models **exponential decay**. The special number **Euler's number**, e ≈ 2.71828, is often used as a base in continuous growth models. Exponential functions have a horizontal **asymptote** and change by a percentage of their current value rather than by a constant amount, unlike linear functions.",
+            "keyTerms": [
+              {
+                "term": "Exponential Function",
+                "definition": "A function of the form f(x) = a·bˣ, where the input variable appears in the exponent."
+              },
+              {
+                "term": "Growth/Decay Factor",
+                "definition": "The base b in an **exponential function**, which determines whether the function increases or decreases."
+              },
+              {
+                "term": "Exponential Growth",
+                "definition": "Behavior of an **exponential function** where the **growth/decay factor** b is greater than 1, causing rapid increase."
+              },
+              {
+                "term": "Exponential Decay",
+                "definition": "Behavior of an **exponential function** where the **growth/decay factor** b is between 0 and 1, causing steady decrease toward zero."
+              },
+              {
+                "term": "Asymptote",
+                "definition": "A line that a graph approaches but never touches; **exponential functions** typically approach a horizontal asymptote."
+              },
+              {
+                "term": "Euler's Number (e)",
+                "definition": "The irrational constant e ≈ 2.71828, commonly used as a base for modeling continuous growth or decay."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The function f(x) = 500(0.85)ˣ models a quantity over time. Is this growth or decay, and at what rate?",
+                "choices": [
+                  "Decay, decreasing by 85% each period",
+                  "Decay, decreasing by 15% each period",
+                  "Growth, increasing by 15% each period",
+                  "Growth, increasing by 85% each period"
+                ],
+                "answerIndex": 1,
+                "explanation": "Since the **growth/decay factor** 0.85 is less than 1, this is **exponential decay**, and the rate of decrease is 1 - 0.85 = 15% per period."
+              },
+              {
+                "question": "A population is modeled by P(t) = 200(1.06)ᵗ. What is P(3), rounded to the nearest whole number?",
+                "choices": [
+                  "238",
+                  "636",
+                  "212",
+                  "236"
+                ],
+                "answerIndex": 0,
+                "explanation": "This is **exponential growth**: P(3) = 200(1.06)³ = 200(1.191016) ≈ 238."
+              },
+              {
+                "question": "A radioactive sample decays according to A(t) = 80(0.5)^(t/5), where t is in years. How many grams remain after 10 years?",
+                "choices": [
+                  "20 grams",
+                  "40 grams",
+                  "10 grams",
+                  "5 grams"
+                ],
+                "answerIndex": 0,
+                "explanation": "This is **exponential decay**: A(10) = 80(0.5)^(10/5) = 80(0.5)² = 80(0.25) = 20 grams."
+              },
+              {
+                "question": "What is the horizontal asymptote of f(x) = 3(2)ˣ - 4?",
+                "choices": [
+                  "y = 0",
+                  "y = 4",
+                  "y = -4",
+                  "y = 3"
+                ],
+                "answerIndex": 2,
+                "explanation": "The base function 3(2)ˣ has **asymptote** y = 0, and subtracting 4 shifts that **asymptote** down to y = -4."
+              },
+              {
+                "question": "A student claims 'exponential functions always increase because the base must be greater than 1.' What is the flaw in this reasoning?",
+                "choices": [
+                  "The claim is true for all exponential functions",
+                  "Exponential functions never increase, only decrease",
+                  "A base between 0 and 1 produces exponential decay, so the claim is false",
+                  "The base must always equal Euler's number"
+                ],
+                "answerIndex": 2,
+                "explanation": "An **exponential function** with a **growth/decay factor** between 0 and 1 models **exponential decay**, a decreasing function, so the student's claim is incorrect."
+              }
+            ]
+          },
+          {
+            "id": "math10-u3-l2",
+            "title": "Logarithmic Functions and Properties",
+            "summary": "A **logarithm** is the inverse operation of exponentiation: log_b(x) = y means b^y = x, and the **logarithmic function** f(x) = log_b(x) is the inverse of the exponential function f(x) = bˣ. The **common logarithm** uses base 10, and the **natural logarithm** (written ln) uses base e. Three key rules — the **product property of logarithms**, the **quotient property of logarithms**, and the **power property of logarithms** — allow logarithmic expressions to be expanded or condensed.",
+            "keyTerms": [
+              {
+                "term": "Logarithm",
+                "definition": "The exponent to which a base must be raised to produce a given number; log_b(x) = y means b^y = x."
+              },
+              {
+                "term": "Logarithmic Function",
+                "definition": "The function f(x) = log_b(x), which is the inverse of the exponential function f(x) = bˣ."
+              },
+              {
+                "term": "Common Logarithm",
+                "definition": "A **logarithm** with base 10, often written log(x) without a subscript."
+              },
+              {
+                "term": "Natural Logarithm",
+                "definition": "A **logarithm** with base e (Euler's number), written ln(x)."
+              },
+              {
+                "term": "Product Property of Logarithms",
+                "definition": "The rule that log_b(mn) = log_b(m) + log_b(n), turning a product inside a logarithm into a sum of logarithms."
+              },
+              {
+                "term": "Quotient Property of Logarithms",
+                "definition": "The rule that log_b(m/n) = log_b(m) - log_b(n), turning a quotient inside a logarithm into a difference of logarithms."
+              },
+              {
+                "term": "Power Property of Logarithms",
+                "definition": "The rule that log_b(mⁿ) = n·log_b(m), allowing an exponent inside a logarithm to move out front as a multiplier."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What is log₂(32)?",
+                "choices": [
+                  "4",
+                  "16",
+                  "6",
+                  "5"
+                ],
+                "answerIndex": 3,
+                "explanation": "This **logarithm** asks what power of 2 gives 32; since 2⁵ = 32, log₂(32) = 5."
+              },
+              {
+                "question": "How can log(5x³) be expanded?",
+                "choices": [
+                  "log(5) + log(3) + log(x)",
+                  "log(5) + 3log(x)",
+                  "3log(5) + log(x)",
+                  "log(5) · 3log(x)"
+                ],
+                "answerIndex": 1,
+                "explanation": "Using the **product property of logarithms**, log(5x³) = log(5) + log(x³), and then the **power property of logarithms** moves the exponent out front: log(5) + 3log(x)."
+              },
+              {
+                "question": "Which expression is equivalent to 2ln(x) + ln(y) - ln(z)?",
+                "choices": [
+                  "ln(x²y/z)",
+                  "ln(2xy/z)",
+                  "ln(x² + y - z)",
+                  "ln(x²yz)"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **power property of logarithms** turns 2ln(x) into ln(x²), the **product property of logarithms** combines ln(x²) + ln(y) into ln(x²y), and the **quotient property of logarithms** places the -ln(z) term in the denominator: ln(x²y/z)."
+              },
+              {
+                "question": "Which equation is equivalent to log_b(x) = y?",
+                "choices": [
+                  "yᵇ = x",
+                  "bʸ = x",
+                  "xʸ = b",
+                  "bˣ = y"
+                ],
+                "answerIndex": 1,
+                "explanation": "By the definition of a **logarithm**, log_b(x) = y is equivalent to raising the base to the y power: bʸ = x."
+              },
+              {
+                "question": "A solution's acidity is measured as pH = -log[H⁺]. If [H⁺] = 1 × 10⁻⁴, what is the pH?",
+                "choices": [
+                  "0.25",
+                  "-4",
+                  "10",
+                  "4"
+                ],
+                "answerIndex": 3,
+                "explanation": "This uses a **common logarithm**: -log(10⁻⁴) = -(-4) = 4."
+              }
+            ]
+          },
+          {
+            "id": "math10-u3-l3",
+            "title": "Solving Exponential and Logarithmic Equations",
+            "summary": "An **exponential equation** has a variable in the exponent and is often solved with the **same-base method**, rewriting both sides with a matching base and setting the exponents equal. A **logarithmic equation** is solved by rewriting it in exponential form or by combining terms with the properties of logarithms first. Because logarithms are only defined for positive arguments (the **domain restriction** of a logarithm), a candidate solution must always be checked, since it may turn out to be an **extraneous solution**.",
+            "keyTerms": [
+              {
+                "term": "Exponential Equation",
+                "definition": "An equation in which the variable appears in an exponent, such as 3^(x+1) = 81."
+              },
+              {
+                "term": "Same-Base Method",
+                "definition": "A technique for solving an **exponential equation** by rewriting both sides as powers of the same base, then setting the exponents equal."
+              },
+              {
+                "term": "Logarithmic Equation",
+                "definition": "An equation that contains a logarithm of an expression involving the variable."
+              },
+              {
+                "term": "Domain Restriction",
+                "definition": "The requirement that the argument (input) of a logarithm must be positive for the logarithm to be defined."
+              },
+              {
+                "term": "Extraneous Solution",
+                "definition": "A value produced while solving an equation that does not satisfy the original equation, often because it violates a **domain restriction**."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Solve for x: 3^(x+1) = 81.",
+                "choices": [
+                  "x = -5",
+                  "x = 4",
+                  "x = 3",
+                  "x = 5"
+                ],
+                "answerIndex": 2,
+                "explanation": "Using the **same-base method**, rewrite 81 as 3⁴, so x + 1 = 4, giving x = 3."
+              },
+              {
+                "question": "Solve 5ˣ = 40 for x, rounded to two decimal places.",
+                "choices": [
+                  "1.60",
+                  "8",
+                  "2.29",
+                  "0.44"
+                ],
+                "answerIndex": 2,
+                "explanation": "Since the bases don't match, solve this **exponential equation** by taking a logarithm of both sides: x = log(40)/log(5) ≈ 1.602/0.699 ≈ 2.29."
+              },
+              {
+                "question": "Solve log₃(x + 2) = 2 for x.",
+                "choices": [
+                  "x = 11",
+                  "x = 9",
+                  "x = 4",
+                  "x = 7"
+                ],
+                "answerIndex": 3,
+                "explanation": "Rewriting this **logarithmic equation** in exponential form gives 3² = x + 2, so 9 = x + 2, and x = 7."
+              },
+              {
+                "question": "Solve log(x) + log(x - 3) = 1, checking for extraneous solutions.",
+                "choices": [
+                  "{2, 5}",
+                  "{5}",
+                  "{-2}",
+                  "{5, -2}"
+                ],
+                "answerIndex": 1,
+                "explanation": "Combining terms gives log[x(x-3)] = 1, so x(x-3) = 10, leading to x² - 3x - 10 = 0, or (x-5)(x+2) = 0, giving x = 5 or x = -2; but x = -2 violates the **domain restriction** of the original logarithms, making it an **extraneous solution**, so only {5} remains."
+              },
+              {
+                "question": "A student solves 2ˣ = -8 and claims x = -3 works. What is the correct conclusion?",
+                "choices": [
+                  "x = -3 is correct",
+                  "There is no real solution, since 2ˣ is always positive",
+                  "x = -1/8 is the correct solution",
+                  "x = 3 is the correct solution instead"
+                ],
+                "answerIndex": 1,
+                "explanation": "This **exponential equation** has no real solution because a positive base raised to any real power always produces a positive result, never -8."
               }
             ]
           }
@@ -3264,6 +3264,90 @@
                 ],
                 "answerIndex": 1,
                 "explanation": "**Hydrogen bonding** requires hydrogen bonded directly to N, O, or F; ammonia (NH3) meets this requirement, unlike the other nonpolar or non-qualifying molecules."
+              }
+            ]
+          },
+          {
+            "id": "sci10-u2-l4",
+            "title": "Naming Compounds: Ionic and Covalent Nomenclature",
+            "summary": "**Chemical nomenclature** is the system of rules for naming compounds so their formula can be determined from the name alone, and vice versa. For binary ionic compounds, the cation is named first followed by the anion with an **-ide** suffix (sodium chloride, NaCl). Transition metals that form more than one charge require the **Stock system**, a Roman numeral showing the cation's charge (iron(III) oxide). Compounds containing a **polyatomic ion**, like sulfate (SO4^2-) or nitrate (NO3-), keep that ion's name as a unit. Covalent compounds between two nonmetals instead use **Greek prefixes** (mono-, di-, tri-, tetra-) to show exactly how many atoms of each element are present, since covalent compounds don't follow fixed ionic charge ratios.",
+            "keyTerms": [
+              {
+                "term": "Chemical nomenclature",
+                "definition": "The systematic set of rules used to name chemical compounds based on their composition."
+              },
+              {
+                "term": "Binary ionic compound",
+                "definition": "A compound made of exactly two elements, one a metal cation and one a nonmetal anion, named cation-first with an -ide suffix on the anion."
+              },
+              {
+                "term": "Stock system",
+                "definition": "A Roman numeral placed after a transition metal's name to show its charge in that compound, used because many transition metals form more than one possible cation."
+              },
+              {
+                "term": "Polyatomic ion",
+                "definition": "A charged group of covalently bonded atoms (such as sulfate, SO4^2-, or nitrate, NO3-) that acts as a single unit in ionic compounds and keeps its own name."
+              },
+              {
+                "term": "Greek prefixes",
+                "definition": "Prefixes (mono-, di-, tri-, tetra-, penta-, etc.) used to name covalent compounds, showing exactly how many atoms of each element are present."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What is the correct name for NaCl?",
+                "choices": [
+                  "Sodium chlorine",
+                  "Sodium chloride",
+                  "Monosodium chloride",
+                  "Sodium(I) chloride"
+                ],
+                "answerIndex": 1,
+                "explanation": "For a **binary ionic compound**, the cation name (sodium) is followed by the anion with an -ide suffix (chloride) — no prefix or Roman numeral is needed since sodium only forms a +1 ion."
+              },
+              {
+                "question": "Why does iron(III) oxide need a Roman numeral in its name, but sodium chloride does not?",
+                "choices": [
+                  "Iron is a nonmetal and sodium is a metal",
+                  "Iron is a transition metal that can form more than one possible charge, so the Stock system specifies which one",
+                  "Oxide compounds always require Roman numerals",
+                  "Roman numerals are only used for covalent compounds"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Stock system** Roman numeral is needed for transition metals like iron, which can form multiple charges (Fe^2+ or Fe^3+) — sodium only ever forms Na+, so no numeral is needed."
+              },
+              {
+                "question": "What is the correct name for CaSO4?",
+                "choices": [
+                  "Calcium sulfate",
+                  "Calcium sulfur oxide",
+                  "Monocalcium sulfate",
+                  "Calcium(II) sulfate"
+                ],
+                "answerIndex": 0,
+                "explanation": "Sulfate (SO4^2-) is a **polyatomic ion** that keeps its own name as a unit, so the compound is simply calcium sulfate."
+              },
+              {
+                "question": "What is the correct name for N2O4?",
+                "choices": [
+                  "Nitrogen oxide",
+                  "Nitrogen(IV) oxide",
+                  "Dinitrogen tetroxide",
+                  "Binitrogen quadoxide"
+                ],
+                "answerIndex": 2,
+                "explanation": "Since this is a covalent compound between two nonmetals, **Greek prefixes** show the exact atom counts: di- for two nitrogen atoms and tetr(a)- for four oxygen atoms."
+              },
+              {
+                "question": "Why do covalent compound names use Greek prefixes (like di- and tri-) while ionic compound names do not?",
+                "choices": [
+                  "Covalent compounds are always larger than ionic compounds",
+                  "Ionic compound ratios are fixed by charge balance and can be determined without stating atom counts, while covalent compounds need prefixes to show their exact atom ratio",
+                  "Greek prefixes are only used for compounds containing oxygen",
+                  "Ionic compounds never contain more than one atom of any element"
+                ],
+                "answerIndex": 1,
+                "explanation": "Ionic formulas are determined by balancing charges, so the ratio is implied by the ions' names, but covalent compounds can form in several different atom ratios, so **Greek prefixes** are needed to specify which one."
               }
             ]
           }

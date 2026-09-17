@@ -1345,7 +1345,7 @@
     "credits": 0.5,
     "weighted": true,
     "stateCourseStandard": "TEKS §111.41 Geometry (Advanced) — Semester 1",
-    "description": "First semester of Advanced Geometry. Covers logical reasoning and proof, angle relationships with parallel lines, and triangle congruence/similarity/right-triangle trigonometry.",
+    "description": "First semester of Advanced Geometry. Covers logical reasoning and proof, angle relationships with parallel lines, rigid transformations and dilations, and triangle congruence/similarity/the Pythagorean Theorem.",
     "units": [
       {
         "id": "math9-u1",
@@ -1905,7 +1905,7 @@
       },
       {
         "id": "math9-u3",
-        "title": "Triangle Congruence, Similarity, and Right Triangle Trigonometry",
+        "title": "Triangle Congruence, Similarity, and the Pythagorean Theorem",
         "lessons": [
           {
             "id": "math9-u3-l1",
@@ -2191,7 +2191,7 @@
     "credits": 0.5,
     "weighted": true,
     "stateCourseStandard": "TEKS §111.41 Geometry (Advanced) — Semester 2",
-    "description": "Second semester of Advanced Geometry. Covers polygons, quadrilaterals, and circles, then coordinate and three-dimensional geometry, building on the formulas and proof skills from Semester A.",
+    "description": "Second semester of Advanced Geometry. Covers polygons, quadrilaterals, and circles, then coordinate and three-dimensional geometry, and finishes with right triangle trigonometry, building on the formulas and proof skills from Semester A.",
     "units": [
       {
         "id": "math9-u4",

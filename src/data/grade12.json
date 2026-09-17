@@ -2577,7 +2577,7 @@
           {
             "id": "math12-u4-l2",
             "title": "Optimization and Extrema",
-            "summary": "One of the most powerful applications of the derivative is finding the largest or smallest possible value of a quantity, called **optimization**. Candidates for these extreme values occur at **critical points**, where f'(x) = 0 or is undefined. To classify a critical point, the **first derivative test** examines whether f' changes from positive to negative (a local maximum) or negative to positive (a local minimum). Alternatively, the **second derivative test** uses the sign of f''(x) there: positive indicates a local minimum, negative a local maximum. It is important to distinguish **local extrema**, highest or lowest only nearby, from **absolute extrema**, the highest or lowest values over the whole domain or interval. Optimization problems translate a real-world scenario into a function, then apply these tools.",
+            "summary": "One of the most powerful applications of the derivative is finding the largest or smallest possible value of a quantity, called **optimization**. Candidates for these extreme values occur at **critical points**, where f'(x) = 0 or is undefined. To classify a critical point, the **first derivative test** examines whether f' changes from positive to negative (a local maximum) or negative to positive (a local minimum). Alternatively, the **second derivative test** uses the sign of f''(x) there: positive indicates a local minimum, negative a local maximum. It is important to distinguish **local extrema**, highest or lowest only nearby, from **absolute extrema**, the highest or lowest values over the whole domain or interval. The **Extreme Value Theorem** guarantees that a function continuous on a closed interval [a, b] actually attains both an absolute maximum and an absolute minimum somewhere on that interval — and the **Closed Interval Method** puts that guarantee to work: evaluate f at every critical point inside [a, b] plus both endpoints, and the largest and smallest of those values are the absolute extrema. Optimization problems translate a real-world scenario into a function, then apply these tools.",
             "keyTerms": [
               {
                 "term": "Optimization",
@@ -2598,6 +2598,14 @@
               {
                 "term": "Local Extremum",
                 "definition": "A point where f(x) is greater than (local max) or less than (local min) all nearby values, but not necessarily the greatest or least value overall."
+              },
+              {
+                "term": "Extreme Value Theorem",
+                "definition": "If a function is continuous on a closed interval [a, b], it is guaranteed to attain both an absolute maximum and an absolute minimum value somewhere on that interval."
+              },
+              {
+                "term": "Closed Interval Method",
+                "definition": "A procedure for finding absolute extrema on a closed interval: evaluate f at all critical points inside the interval and at both endpoints, then compare the results."
               },
               {
                 "term": "Absolute Extremum",
@@ -2659,6 +2667,17 @@
                 ],
                 "answerIndex": 2,
                 "explanation": "Checking the critical point x=0 (giving f=0) and both endpoints (f(-1)=1 and f(3)=9), the **absolute extremum** maximum value on the closed interval is 9 at x=3."
+              },
+              {
+                "question": "A function is continuous on the closed interval [2, 8]. What does the Extreme Value Theorem guarantee?",
+                "choices": [
+                  "The function has exactly one critical point in [2, 8]",
+                  "The function is guaranteed to attain both an absolute maximum and an absolute minimum somewhere on [2, 8]",
+                  "The function must be increasing on the entire interval",
+                  "The function has no local extrema on [2, 8]"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Extreme Value Theorem** guarantees a continuous function on a closed interval attains both an absolute max and absolute min somewhere on that interval — it does not say anything about how many critical points exist."
               }
             ]
           },
