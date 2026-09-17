@@ -2093,101 +2093,89 @@
           },
           {
             "id": "math9-u3-l3",
-            "title": "Pythagorean Theorem and Right Triangle Trigonometry",
-            "summary": "This lesson covers the **Pythagorean Theorem** and its **converse**, which is used to test whether a triangle is a right triangle from its side lengths alone. It also introduces special right triangle ratios (**45-45-90** and **30-60-90**) and the **sine**, **cosine**, and **tangent ratios**, which are used to solve for missing sides or angles in right triangles, including **angle of elevation** and depression problems.",
+            "title": "The Pythagorean Theorem and Special Right Triangles",
+            "summary": "This lesson covers the **Pythagorean Theorem** and its **converse**, which tests whether a triangle is a right triangle from its side lengths alone. A set of three whole numbers that satisfies the theorem, like 3-4-5, is called a **Pythagorean triple**. The lesson also introduces two special right triangles with fixed side ratios: the **45-45-90 triangle**, and the **30-60-90 triangle**, whose ratios let you find any missing side instantly once you know one. Right triangle trigonometry, which builds on these same right-triangle relationships, is covered later in Geometry B.",
             "keyTerms": [
               {
                 "term": "Pythagorean Theorem",
                 "definition": "In a right triangle, the sum of the squares of the two legs equals the square of the hypotenuse: a² + b² = c²."
               },
               {
-                "term": "45-45-90 triangle",
-                "definition": "A right triangle with two 45° angles; its two legs are congruent, and its hypotenuse equals a leg length times √2."
-              },
-              {
-                "term": "Tangent ratio",
-                "definition": "In a right triangle, the ratio of the length of the side opposite an acute angle to the length of the side adjacent to that angle."
-              },
-              {
-                "term": "Angle of elevation",
-                "definition": "The angle formed between a horizontal line of sight and the line of sight looking up toward an object above that horizontal."
-              },
-              {
                 "term": "Converse of the Pythagorean Theorem",
                 "definition": "If the square of the longest side of a triangle equals the sum of the squares of the other two sides, then the triangle is a right triangle."
+              },
+              {
+                "term": "Pythagorean triple",
+                "definition": "A set of three positive whole numbers that satisfies a² + b² = c², such as 3-4-5 or 5-12-13."
+              },
+              {
+                "term": "45-45-90 triangle",
+                "definition": "A right triangle with two 45° angles; its two legs are congruent, and its hypotenuse equals a leg length times √2."
               },
               {
                 "term": "30-60-90 triangle",
                 "definition": "A right triangle with acute angles of 30° and 60°; its side lengths follow the ratio x : x√3 : 2x for the short leg, long leg, and hypotenuse."
               },
               {
-                "term": "Angle of depression",
-                "definition": "The angle formed between a horizontal line of sight and the line of sight looking down toward an object below that horizontal."
-              },
-              {
-                "term": "Sine ratio",
-                "definition": "In a right triangle, the ratio of the length of the side opposite an acute angle to the length of the hypotenuse."
-              },
-              {
-                "term": "Cosine ratio",
-                "definition": "In a right triangle, the ratio of the length of the side adjacent to an acute angle to the length of the hypotenuse."
+                "term": "Hypotenuse",
+                "definition": "The longest side of a right triangle, located opposite the right angle."
               }
             ],
             "practiceQuestions": [
               {
                 "question": "A right triangle has legs of length 9 and 12. What is the length of the hypotenuse?",
                 "choices": [
-                  "15",
                   "21",
+                  "15",
                   "10.5",
                   "225"
                 ],
-                "answerIndex": 0,
+                "answerIndex": 1,
                 "explanation": "By the **Pythagorean Theorem**, 9² + 12² = 81 + 144 = 225, and the square root of 225 is 15."
               },
               {
                 "question": "A triangle has side lengths 7, 24, and 25. Is it a right triangle?",
                 "choices": [
-                  "Yes, because 7² + 24² = 25²",
                   "No, because the sides are not in the ratio 3-4-5",
-                  "Yes, because all three sides are whole numbers",
-                  "No, because 25 is too large to form a triangle"
+                  "No, because 25 is too large to form a triangle",
+                  "Yes, because 7² + 24² = 25²",
+                  "Yes, because all three sides are whole numbers"
                 ],
-                "answerIndex": 0,
-                "explanation": "Checking the **Converse of the Pythagorean Theorem**: 49 + 576 = 625, and 25² = 625, so the triangle is a right triangle."
+                "answerIndex": 2,
+                "explanation": "Checking the **Converse of the Pythagorean Theorem**: 49 + 576 = 625, and 25² = 625, so the triangle is a right triangle — and 7-24-25 is a **Pythagorean triple**."
               },
               {
                 "question": "In a 45-45-90 triangle, each leg measures 8. What is the length of the hypotenuse?",
                 "choices": [
-                  "8√2",
                   "16",
+                  "4√2",
                   "8√3",
-                  "4√2"
+                  "8√2"
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "explanation": "In a **45-45-90 triangle**, the hypotenuse equals a leg length times √2, so the hypotenuse is 8√2."
               },
               {
                 "question": "In a right triangle, one acute angle measures 30° and the hypotenuse is 20. What is the length of the side opposite the 30° angle?",
                 "choices": [
-                  "10",
                   "17.3",
                   "20",
-                  "5"
+                  "5",
+                  "10"
                 ],
-                "answerIndex": 0,
+                "answerIndex": 3,
                 "explanation": "In a **30-60-90 triangle**, the side opposite the 30° angle (the short leg) is half the hypotenuse: 20 / 2 = 10."
               },
               {
-                "question": "From the top of a 50-meter lighthouse, the **angle of depression** to a boat is 20°. Approximately how far is the boat from the base of the lighthouse?",
+                "question": "A 13-foot ladder leans against a wall with its base 5 feet from the wall. How high up the wall does the ladder reach?",
                 "choices": [
-                  "≈137 m",
-                  "≈18 m",
-                  "≈53 m",
-                  "≈150 m"
+                  "8 ft",
+                  "18 ft",
+                  "12 ft",
+                  "14 ft"
                 ],
-                "answerIndex": 0,
-                "explanation": "The **angle of depression** equals the **angle of elevation** from the boat, so tan(20°) = 50/d, giving d = 50 / tan(20°) ≈ 137 meters."
+                "answerIndex": 2,
+                "explanation": "By the **Pythagorean Theorem**, 5² + h² = 13², so h² = 169 − 25 = 144, and h = 12 ft — another 5-12-13 **Pythagorean triple**."
               }
             ]
           }
@@ -2732,6 +2720,272 @@
                 ],
                 "answerIndex": 0,
                 "explanation": "Base area is 10² = 100 ft², and each triangular face has area (1/2)(10)(13) = 65 ft², so four faces add 260 ft², giving a total of 100 + 260 = 360 ft²."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "math9-u6",
+        "title": "Right Triangle Trigonometry",
+        "lessons": [
+          {
+            "id": "math9-u6-l1",
+            "title": "Trigonometric Ratios: Sine, Cosine, and Tangent",
+            "summary": "For any acute angle in a right triangle, the ratio between two of its sides stays constant no matter how big or small the triangle is — this is the basis of right-triangle trigonometry. The **sine ratio** compares the **opposite side** to the hypotenuse, the **cosine ratio** compares the **adjacent side** to the hypotenuse, and the **tangent ratio** compares the opposite side to the adjacent side. The mnemonic **SOH-CAH-TOA** helps remember all three: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent. Correctly labeling which side is opposite, adjacent, and the hypotenuse relative to the angle in question is the key first step to using any of these ratios.",
+            "keyTerms": [
+              {
+                "term": "Sine ratio",
+                "definition": "In a right triangle, the ratio of the side opposite an acute angle to the hypotenuse."
+              },
+              {
+                "term": "Cosine ratio",
+                "definition": "In a right triangle, the ratio of the side adjacent to an acute angle to the hypotenuse."
+              },
+              {
+                "term": "Tangent ratio",
+                "definition": "In a right triangle, the ratio of the side opposite an acute angle to the side adjacent to that angle."
+              },
+              {
+                "term": "Opposite side",
+                "definition": "The leg of a right triangle that does not touch the acute angle being considered."
+              },
+              {
+                "term": "Adjacent side",
+                "definition": "The leg of a right triangle that touches the acute angle being considered (and is not the hypotenuse)."
+              },
+              {
+                "term": "SOH-CAH-TOA",
+                "definition": "A mnemonic for the three basic trig ratios: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "In a right triangle, an acute angle has an opposite side of 6 and a hypotenuse of 10. What is sin of that angle?",
+                "choices": [
+                  "0.8",
+                  "0.4",
+                  "0.6",
+                  "1.67"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **sine ratio** is opposite/hypotenuse: 6/10 = 0.6."
+              },
+              {
+                "question": "Which trig ratio is defined as adjacent side divided by hypotenuse?",
+                "choices": [
+                  "Tangent",
+                  "Cosine",
+                  "Sine",
+                  "None of these"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **cosine ratio** compares the adjacent side to the hypotenuse."
+              },
+              {
+                "question": "A right triangle has an opposite side of 8 and an adjacent side of 15 relative to an acute angle. What is the tangent of that angle?",
+                "choices": [
+                  "1.875",
+                  "0.47",
+                  "8.15",
+                  "0.53"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **tangent ratio** is opposite/adjacent: 8/15 ≈ 0.53."
+              },
+              {
+                "question": "In the mnemonic SOH-CAH-TOA, what does 'CAH' stand for?",
+                "choices": [
+                  "Cosine = Adjacent/Hypotenuse",
+                  "Cosine = Adjacent/Height",
+                  "Cosine = Across/Hypotenuse",
+                  "Cosine = Angle/Hypotenuse"
+                ],
+                "answerIndex": 0,
+                "explanation": "**SOH-CAH-TOA** stands for Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent."
+              },
+              {
+                "question": "A right triangle has a hypotenuse of 10 and, relative to one acute angle, sides of 6 (opposite) and 8 (adjacent). What is the cosine of that angle?",
+                "choices": [
+                  "0.6",
+                  "0.8",
+                  "1.33",
+                  "0.75"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **cosine ratio** is adjacent/hypotenuse: 8/10 = 0.8."
+              }
+            ]
+          },
+          {
+            "id": "math9-u6-l2",
+            "title": "Solving Right Triangles Using Trigonometric Ratios",
+            "summary": "**Solving a triangle** means finding every missing side length and angle measure. When you know one acute angle and one side, you can find another side by setting up the matching trig ratio and solving for the unknown. When you know two sides but not an angle, you instead need an **inverse trig function** — **inverse sine**, **inverse cosine**, or **inverse tangent** — which undoes a trig ratio to recover the angle that produced it. The key to setting either kind of problem up correctly is first identifying, relative to the angle you're working with, which side is the **opposite side**, which is the **adjacent side**, and which is the hypotenuse.",
+            "keyTerms": [
+              {
+                "term": "Solving a triangle",
+                "definition": "Finding the measures of all missing sides and angles of a triangle."
+              },
+              {
+                "term": "Inverse trig function",
+                "definition": "A function (inverse sine, inverse cosine, or inverse tangent) that takes a ratio of sides and returns the angle that produces it."
+              },
+              {
+                "term": "Inverse sine",
+                "definition": "Written sin⁻¹; finds the acute angle whose sine ratio equals a given value."
+              },
+              {
+                "term": "Inverse tangent",
+                "definition": "Written tan⁻¹; finds the acute angle whose tangent ratio equals a given value."
+              },
+              {
+                "term": "Missing side",
+                "definition": "An unknown side length found using a trig ratio once an angle and one other side are known."
+              },
+              {
+                "term": "Missing angle",
+                "definition": "An unknown angle measure found using an inverse trig function once two sides are known."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A right triangle has a 40° angle and an adjacent side of 12. Using tan(40°) ≈ 0.839, what is the length of the opposite side (rounded to the nearest tenth)?",
+                "choices": [
+                  "14.3",
+                  "9.2",
+                  "10.1",
+                  "12.8"
+                ],
+                "answerIndex": 2,
+                "explanation": "Tangent = opposite/adjacent, so opposite = 12 × tan(40°) ≈ 12 × 0.839 ≈ 10.1."
+              },
+              {
+                "question": "A right triangle has a 30° angle with an opposite side of 5. What is the length of the hypotenuse? (sin 30° = 0.5)",
+                "choices": [
+                  "2.5",
+                  "10",
+                  "8.7",
+                  "5.8"
+                ],
+                "answerIndex": 1,
+                "explanation": "Sine = opposite/hypotenuse, so hypotenuse = opposite / sin(30°) = 5 / 0.5 = 10."
+              },
+              {
+                "question": "A right triangle has an opposite side of 7 and a hypotenuse of 25 relative to an acute angle. Which calculation finds that angle?",
+                "choices": [
+                  "tan⁻¹(7/25)",
+                  "sin⁻¹(7/25)",
+                  "cos⁻¹(7/25)",
+                  "sin⁻¹(25/7)"
+                ],
+                "answerIndex": 1,
+                "explanation": "Since sine = opposite/hypotenuse, the angle equals **inverse sine** of 7/25 — written sin⁻¹(7/25) ≈ 16.3°."
+              },
+              {
+                "question": "A right triangle has an opposite side of 9 and an adjacent side of 12 relative to an acute angle. Which calculation finds that angle?",
+                "choices": [
+                  "tan⁻¹(9/12)",
+                  "tan⁻¹(12/9)",
+                  "cos⁻¹(9/12)",
+                  "sin⁻¹(9/12)"
+                ],
+                "answerIndex": 0,
+                "explanation": "Since tangent = opposite/adjacent, the angle equals **inverse tangent** of 9/12 — written tan⁻¹(9/12) ≈ 36.9°."
+              },
+              {
+                "question": "To correctly set up a trig ratio for solving a triangle, what must you identify first?",
+                "choices": [
+                  "The perimeter of the triangle",
+                  "Which sides are the opposite side, adjacent side, and hypotenuse relative to the known angle",
+                  "Whether the triangle is isosceles",
+                  "The area of the triangle"
+                ],
+                "answerIndex": 1,
+                "explanation": "Every trig ratio depends on correctly labeling the **opposite side**, **adjacent side**, and hypotenuse relative to the specific angle being used."
+              }
+            ]
+          },
+          {
+            "id": "math9-u6-l3",
+            "title": "Angles of Elevation and Depression",
+            "summary": "The **angle of elevation** is the angle formed between a horizontal **line of sight** and a line of sight looking up toward an object; the **angle of depression** is the angle formed looking down from horizontal toward an object below. Because the two lines of sight are parallel horizontal lines cut by the same line of sight, **alternate interior angles** show that the angle of elevation from a lower point equals the angle of depression measured from the higher point back down to it. These setups are solved with the same trig ratios from earlier lessons — most often the tangent ratio, since elevation/depression problems typically involve a known horizontal distance and an unknown height, or vice versa.",
+            "keyTerms": [
+              {
+                "term": "Angle of elevation",
+                "definition": "The angle formed between a horizontal line of sight and the line of sight looking up toward an object above that horizontal."
+              },
+              {
+                "term": "Angle of depression",
+                "definition": "The angle formed between a horizontal line of sight and the line of sight looking down toward an object below that horizontal."
+              },
+              {
+                "term": "Line of sight",
+                "definition": "The straight line from an observer's eye to the object being viewed."
+              },
+              {
+                "term": "Horizontal line",
+                "definition": "A level reference line, perpendicular to vertical, from which angles of elevation and depression are measured."
+              },
+              {
+                "term": "Alternate interior angles",
+                "definition": "Equal angles formed on opposite sides of a transversal crossing two parallel lines — the reason angle of elevation equals the corresponding angle of depression."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "From the top of a 50-meter lighthouse, the angle of depression to a boat is 20°. Using tan(20°) ≈ 0.364, approximately how far is the boat from the base of the lighthouse?",
+                "choices": [
+                  "≈18 m",
+                  "≈53 m",
+                  "≈137 m",
+                  "≈150 m"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **angle of depression** equals the **angle of elevation** from the boat, so tan(20°) = 50/d, giving d = 50 / tan(20°) ≈ 137 meters."
+              },
+              {
+                "question": "A surveyor stands 80 feet from a building and measures a 35° angle of elevation to its top. Using tan(35°) ≈ 0.700, approximately how tall is the building?",
+                "choices": [
+                  "≈114 ft",
+                  "≈97.7 ft",
+                  "≈56 ft",
+                  "≈80 ft"
+                ],
+                "answerIndex": 2,
+                "explanation": "Tangent = opposite/adjacent, so height = 80 × tan(35°) ≈ 80 × 0.700 ≈ 56 ft."
+              },
+              {
+                "question": "A person standing at the top of a 30-foot cliff looks down at a boat and measures a 25° angle of depression. What is the angle of elevation from the boat up to the person?",
+                "choices": [
+                  "65°",
+                  "25°",
+                  "155°",
+                  "90°"
+                ],
+                "answerIndex": 1,
+                "explanation": "By **alternate interior angles** with the parallel horizontal lines of sight, the angle of elevation from the boat equals the angle of depression from the cliff: 25°."
+              },
+              {
+                "question": "A ramp rises at a 10° angle of elevation and covers a horizontal distance of 40 feet. Using tan(10°) ≈ 0.176, approximately how much does the ramp rise vertically?",
+                "choices": [
+                  "≈4 ft",
+                  "≈7 ft",
+                  "≈40.6 ft",
+                  "≈2.3 ft"
+                ],
+                "answerIndex": 1,
+                "explanation": "Tangent = opposite/adjacent, so rise = 40 × tan(10°) ≈ 40 × 0.176 ≈ 7 ft."
+              },
+              {
+                "question": "Which statement correctly describes the relationship between angle of elevation and angle of depression for the same line of sight between two points?",
+                "choices": [
+                  "They are always supplementary (sum to 180°)",
+                  "The angle of elevation from the lower point equals the angle of depression from the higher point",
+                  "They are unrelated and must be measured separately",
+                  "The angle of depression is always twice the angle of elevation"
+                ],
+                "answerIndex": 1,
+                "explanation": "Because the two horizontal **line of sight** references are parallel, **alternate interior angles** make the angle of elevation from below equal to the angle of depression from above."
               }
             ]
           }
