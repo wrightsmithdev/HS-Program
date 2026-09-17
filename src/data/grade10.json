@@ -5890,7 +5890,1624 @@
         ]
       }
     ],
-    "units": []
+    "units": [
+      {
+        "id": "ss10-u1",
+        "title": "Colonial America and the Road to Revolution",
+        "lessons": [
+          {
+            "id": "ss10-u1-l1",
+            "title": "European Exploration and Colonization",
+            "summary": "European powers pushed across the Atlantic in the 1400s and 1500s seeking new trade routes, precious metals, and converts to Christianity, driven by the economic theory of **mercantilism**, which held that colonies existed to enrich the mother country. Contact between the Eastern and Western Hemispheres set off the **Columbian Exchange**, a massive transfer of plants, animals, and diseases that reshaped populations on both sides of the ocean. English settlement soon followed a **joint-stock company** funding model, since no single monarch or investor could bear the cost of colonization alone. Distinct regional patterns emerged: New England colonies formed around **Puritanism** and tight-knit towns, the Middle Colonies grew diverse and commercial, and Southern colonies relied increasingly on **indentured servitude** and, later, enslaved labor to work cash-crop plantations such as those built on the **headright system**.",
+            "keyTerms": [
+              {
+                "term": "Mercantilism",
+                "definition": "An economic policy holding that colonies should supply raw materials to and buy manufactured goods from their home country to increase the mother country's wealth and power."
+              },
+              {
+                "term": "Columbian Exchange",
+                "definition": "The widespread transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres following Columbus's voyages."
+              },
+              {
+                "term": "Joint-Stock Company",
+                "definition": "A business owned by investors who pooled money to fund risky ventures like colonization in exchange for a share of the profits."
+              },
+              {
+                "term": "Puritanism",
+                "definition": "A religious movement seeking to purify the Church of England of Catholic practices, whose adherents founded much of New England."
+              },
+              {
+                "term": "Indentured Servitude",
+                "definition": "A labor system in which a person worked for a set number of years, often to pay off the cost of passage to the colonies, in exchange for eventual freedom."
+              },
+              {
+                "term": "Headright System",
+                "definition": "A land-grant policy, used especially in Virginia, that awarded acreage to colonists who paid for their own or another's passage to the colony."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What economic theory held that colonies existed primarily to enrich their mother country?",
+                "choices": [
+                  "Mercantilism",
+                  "Capitalism",
+                  "Socialism",
+                  "Federalism"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Mercantilism** taught that a nation's wealth depended on controlling trade and resources through its colonies."
+              },
+              {
+                "question": "The transfer of crops such as maize and diseases such as smallpox between hemispheres after 1492 is known as the:",
+                "choices": [
+                  "Triangular Trade",
+                  "Columbian Exchange",
+                  "Middle Passage",
+                  "Atlantic Compact"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Columbian Exchange** describes this large-scale biological and cultural exchange between the Old and New Worlds."
+              },
+              {
+                "question": "Why did England rely on joint-stock companies like the Virginia Company to fund early colonies?",
+                "choices": [
+                  "The king personally financed every voyage",
+                  "Colonies were required to be religious missions only",
+                  "They spread the financial risk among many investors",
+                  "Parliament banned private investment in colonies"
+                ],
+                "answerIndex": 2,
+                "explanation": "A **joint-stock company** let multiple investors share the high cost and risk of colonization in return for potential profit."
+              },
+              {
+                "question": "Which labor system allowed poor Europeans to gain passage to the colonies in exchange for years of unpaid work?",
+                "choices": [
+                  "Headright system",
+                  "Chattel slavery",
+                  "Apprenticeship guild",
+                  "Indentured servitude"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Indentured servitude** required a set term of labor, after which the servant was freed, often with land or supplies."
+              },
+              {
+                "question": "The headright system in colonies like Virginia primarily encouraged what?",
+                "choices": [
+                  "Population growth and labor recruitment through land grants",
+                  "Religious tolerance",
+                  "Direct royal taxation",
+                  "Abolition of slavery"
+                ],
+                "answerIndex": 0,
+                "explanation": "Under the **headright system**, colonists received land for bringing themselves or others to the colony, encouraging immigration and labor supply."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u1-l2",
+            "title": "Colonial Society and Economy",
+            "summary": "By the early 1700s, Britain's thirteen colonies had developed distinct patterns of governance and economic life while still operating under royal oversight. Most colonies held elected assemblies that practiced a degree of **self-governance**, a tradition rooted in institutions like Virginia's **House of Burgesses**, even as royal governors retained veto power. In the Southern colonies, the demand for cheap, permanent labor on tobacco, rice, and indigo plantations fueled the rapid expansion of **chattel slavery** and a rigid **plantation economy** built on forced African labor. Meanwhile, a wave of emotional religious revivalism known as the **Great Awakening** swept the colonies in the 1730s and 1740s, challenging established church authority and encouraging ordinary colonists to trust their own judgment—an attitude that subtly prepared many Americans to question distant political authority as well.",
+            "keyTerms": [
+              {
+                "term": "Self-Governance",
+                "definition": "The colonial practice of electing representative assemblies to make local laws and levy taxes, even while remaining under the British crown."
+              },
+              {
+                "term": "House of Burgesses",
+                "definition": "The elected legislative assembly of colonial Virginia, established in 1619 and considered the first representative body in British America."
+              },
+              {
+                "term": "Chattel Slavery",
+                "definition": "A system in which enslaved people were legally treated as permanent, inheritable property with no rights."
+              },
+              {
+                "term": "Plantation Economy",
+                "definition": "An economic system centered on large agricultural estates producing cash crops for export, heavily dependent on enslaved or bound labor."
+              },
+              {
+                "term": "Great Awakening",
+                "definition": "A series of religious revivals in the 1730s-1740s that emphasized personal faith and emotional conversion over formal church hierarchy."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Virginia's House of Burgesses is significant because it was:",
+                "choices": [
+                  "The first British colony founded in North America",
+                  "The first elected representative assembly in British America",
+                  "A court that tried enslaved people",
+                  "A royal council appointed entirely by the king"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **House of Burgesses** established a precedent of elected self-governance that other colonies later followed."
+              },
+              {
+                "question": "What best explains the rapid growth of chattel slavery in the Southern colonies?",
+                "choices": [
+                  "A religious mandate from the Church of England",
+                  "Royal orders requiring equal numbers of enslaved and free workers",
+                  "A shortage of indentured servants and rising demand for cheap, permanent labor on cash-crop plantations",
+                  "The end of the Atlantic slave trade in 1700"
+                ],
+                "answerIndex": 2,
+                "explanation": "As indentured servitude declined, planters turned to **chattel slavery** to meet the labor needs of an expanding **plantation economy**."
+              },
+              {
+                "question": "The Great Awakening most directly encouraged colonists to:",
+                "choices": [
+                  "Obey royal governors without question",
+                  "Abandon Christianity in favor of Enlightenment deism",
+                  "Unite politically under a single colonial governor",
+                  "Trust individual religious experience and question established authority"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Great Awakening** emphasized personal conversion and questioned the authority of established churches and elites."
+              },
+              {
+                "question": "Colonial assemblies retained real political power primarily because they controlled:",
+                "choices": [
+                  "Local tax levies and colonial budgets",
+                  "The appointment of royal governors",
+                  "British naval policy",
+                  "The Church of England's doctrine"
+                ],
+                "answerIndex": 0,
+                "explanation": "The power of the purse gave colonial assemblies practicing **self-governance** real leverage over royal governors."
+              },
+              {
+                "question": "Which crop was most associated with the plantation economy of the Chesapeake colonies?",
+                "choices": [
+                  "Cotton",
+                  "Tobacco",
+                  "Wheat",
+                  "Sugar beets"
+                ],
+                "answerIndex": 1,
+                "explanation": "Tobacco cultivation drove the growth of the **plantation economy** and demand for enslaved labor in Virginia and Maryland."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u1-l3",
+            "title": "The Causes of the American Revolution",
+            "summary": "Britain emerged from the French and Indian War in 1763 deeply in debt and newly determined to tighten control over its American colonies. Parliament abandoned its earlier policy of **salutary neglect** and began enforcing direct taxes such as the **Stamp Act** and Townshend Acts to help pay war costs, provoking colonial outrage over **taxation without representation**. Colonists organized boycotts and formed groups such as the **Sons of Liberty** to resist these measures, while events like the Boston Massacre and Boston Tea Party escalated tensions on both sides. Parliament's harsh response, the **Coercive Acts**, convinced many colonists that compromise was impossible. Underlying this resistance was **Enlightenment** political philosophy, which held that legitimate government rested on the consent of the governed and that people possessed natural rights no ruler could justly deny.",
+            "keyTerms": [
+              {
+                "term": "Salutary Neglect",
+                "definition": "Britain's earlier policy of loosely enforcing trade and tax laws in the colonies, allowing them significant practical self-rule."
+              },
+              {
+                "term": "Taxation Without Representation",
+                "definition": "The colonial grievance that Parliament taxed the colonies despite colonists having no elected representatives in Parliament."
+              },
+              {
+                "term": "Sons of Liberty",
+                "definition": "A colonial organization that used protest, boycotts, and sometimes intimidation to resist British taxation policies."
+              },
+              {
+                "term": "Stamp Act",
+                "definition": "A 1765 British law taxing printed materials in the colonies, sparking widespread protest and its eventual repeal."
+              },
+              {
+                "term": "Coercive Acts",
+                "definition": "A series of punitive British laws passed in 1774 to punish Massachusetts after the Boston Tea Party, called the 'Intolerable Acts' by colonists."
+              },
+              {
+                "term": "Enlightenment",
+                "definition": "An intellectual movement emphasizing reason, natural rights, and government by consent, which shaped revolutionary political thought."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Why did Britain begin enforcing stricter taxation on the colonies after 1763?",
+                "choices": [
+                  "To fund colonial universities",
+                  "To punish colonists for supporting France",
+                  "To pay off war debt from the French and Indian War and cover the cost of colonial defense",
+                  "Colonial assemblies requested higher taxes"
+                ],
+                "answerIndex": 2,
+                "explanation": "Britain ended **salutary neglect** and sought new revenue to cover debts from the French and Indian War."
+              },
+              {
+                "question": "The phrase 'taxation without representation' expressed colonists' objection that:",
+                "choices": [
+                  "Taxes were too low to fund defense",
+                  "Only wealthy colonists paid taxes",
+                  "Taxes could only be approved by the king",
+                  "They had no elected voice in Parliament yet were taxed by it"
+                ],
+                "answerIndex": 3,
+                "explanation": "Colonists framed this as **Taxation Without Representation**, arguing that being taxed by a Parliament in which they had no elected representatives violated their rights."
+              },
+              {
+                "question": "What was the primary purpose of groups like the Sons of Liberty?",
+                "choices": [
+                  "To organize resistance and boycotts against British taxation",
+                  "To recruit soldiers for the British army",
+                  "To negotiate trade deals with France",
+                  "To govern the colonies after independence"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Sons of Liberty** organized protests, boycotts, and sometimes direct action against British tax policies."
+              },
+              {
+                "question": "The Coercive Acts of 1774 were passed by Parliament in direct response to:",
+                "choices": [
+                  "The Stamp Act protests",
+                  "The Boston Tea Party",
+                  "The Battle of Bunker Hill",
+                  "The signing of the Declaration of Independence"
+                ],
+                "answerIndex": 1,
+                "explanation": "Parliament passed the **Coercive Acts** to punish Massachusetts after colonists destroyed British tea in Boston Harbor."
+              },
+              {
+                "question": "Enlightenment ideas influenced revolutionary thought mainly by promoting the belief that:",
+                "choices": [
+                  "Monarchs ruled by divine right",
+                  "Colonies should remain loyal regardless of taxation",
+                  "Government authority should rest on the consent of the governed and protect natural rights",
+                  "Religious leaders should control government"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Enlightenment** philosophy argued that legitimate government depended on the people's consent and the protection of natural rights."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ss10-u2",
+        "title": "The American Revolution and the New Nation",
+        "lessons": [
+          {
+            "id": "ss10-u2-l1",
+            "title": "The Revolutionary War",
+            "summary": "After fighting broke out at Lexington and Concord in April 1775, the Second Continental Congress moved toward a formal break with Britain. In July 1776 it adopted the **Declaration of Independence**, drafted largely by Thomas Jefferson, which justified separation using Enlightenment ideas about natural rights and government by consent. Militarily, the war began badly for the poorly trained Continental Army, but the poorly trained **Continental Army** rallied, and the American victory at the **Battle of Saratoga** in 1777 proved a crucial turning point, since it convinced France that the colonists could win and persuaded the French government to sign a formal **Franco-American Alliance**. French money, troops, and naval power—alongside aid from Spain and the Netherlands—proved decisive in the war's final phase, helping trap British forces at the **Battle of Yorktown** in 1781 and forcing Britain to sign the **Treaty of Paris (1783)**, which recognized American independence.",
+            "keyTerms": [
+              {
+                "term": "Declaration of Independence",
+                "definition": "The 1776 document, primarily written by Thomas Jefferson, announcing the colonies' separation from Britain and justifying it through natural rights philosophy."
+              },
+              {
+                "term": "Continental Army",
+                "definition": "The American military force created by the Second Continental Congress and commanded by George Washington during the Revolutionary War."
+              },
+              {
+                "term": "Battle of Saratoga",
+                "definition": "An American victory in 1777 that marked a turning point in the war by convincing France to formally ally with the colonies."
+              },
+              {
+                "term": "Franco-American Alliance",
+                "definition": "The 1778 treaty in which France formally recognized American independence and provided military and financial support."
+              },
+              {
+                "term": "Battle of Yorktown",
+                "definition": "The 1781 siege that resulted in the surrender of British General Cornwallis, effectively ending major fighting in the Revolutionary War."
+              },
+              {
+                "term": "Treaty of Paris (1783)",
+                "definition": "The agreement that formally ended the Revolutionary War and recognized the United States as an independent nation."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What was the primary purpose of the Declaration of Independence?",
+                "choices": [
+                  "To request more British troops",
+                  "To establish the first American constitution",
+                  "To declare war on France",
+                  "To announce and justify the colonies' break from British rule"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Declaration of Independence** formally announced separation from Britain and justified it using natural rights philosophy."
+              },
+              {
+                "question": "Why is the Battle of Saratoga considered a major turning point in the Revolutionary War?",
+                "choices": [
+                  "It convinced France to formally ally with the American colonies",
+                  "It ended the war immediately",
+                  "It was the first battle of the war",
+                  "It led to Washington's surrender"
+                ],
+                "answerIndex": 0,
+                "explanation": "The American victory at **Saratoga** persuaded France that the colonies had a real chance of winning, leading to a formal alliance."
+              },
+              {
+                "question": "How did French support most directly help American forces achieve victory?",
+                "choices": [
+                  "France declared war on Spain to distract Britain",
+                  "France provided troops, naval power, and funding, including at the decisive Siege of Yorktown",
+                  "France sent settlers to populate the colonies",
+                  "France refused to trade with Britain"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Franco-American Alliance** brought French ships, soldiers, and money that were critical to the American victory at Yorktown."
+              },
+              {
+                "question": "The surrender of British forces at Yorktown in 1781 resulted primarily from:",
+                "choices": [
+                  "A British decision to abandon North America",
+                  "A peace agreement signed in advance",
+                  "Combined American and French forces trapping Cornwallis's army",
+                  "British troops running out of food supplies alone"
+                ],
+                "answerIndex": 2,
+                "explanation": "American and French land and naval forces combined to surround and force the surrender of Cornwallis at **Yorktown**."
+              },
+              {
+                "question": "What was the outcome of the Treaty of Paris in 1783?",
+                "choices": [
+                  "Britain retained control of the thirteen colonies",
+                  "France annexed the American colonies",
+                  "The war continued for another decade",
+                  "The United States gained formal recognition as an independent nation"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Treaty of Paris (1783)** formally ended the war and recognized American independence."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u2-l2",
+            "title": "The Articles of Confederation and Its Failures",
+            "summary": "To govern the new nation during and after the war, the Second Continental Congress drafted the **Articles of Confederation**, ratified in 1781, which created a single-chamber **Confederation Congress** in which each state cast one equal vote. Wary of recreating the powerful, distant monarchy they had just overthrown, the framers deliberately weakened the central government: Congress could not levy taxes or maintain a standing army, and any amendment required **unanimous consent** from all thirteen states. This structure produced serious problems, including a worthless national currency, mounting war debts, and unresolved **interstate commerce disputes** among states over tariffs and currency. These weaknesses became impossible to ignore during **Shays' Rebellion** in 1786-1787, when debt-burdened Massachusetts farmers, unable to pay taxes and facing foreclosure, took up arms against state courts. Despite such flaws, the Confederation Congress did pass the **Northwest Ordinance**, a genuine success establishing an orderly process for admitting new states.",
+            "keyTerms": [
+              {
+                "term": "Articles of Confederation",
+                "definition": "The first written constitution of the United States, in effect from 1781 to 1789, which created a deliberately weak central government."
+              },
+              {
+                "term": "Confederation Congress",
+                "definition": "The single-chamber legislative body under the Articles of Confederation, in which each state had one vote regardless of population."
+              },
+              {
+                "term": "Unanimous Consent",
+                "definition": "The requirement under the Articles of Confederation that all thirteen states agree before any amendment could take effect, making reform nearly impossible."
+              },
+              {
+                "term": "Shays' Rebellion",
+                "definition": "An armed uprising of indebted Massachusetts farmers in 1786-1787 that exposed the weakness of the national government under the Articles."
+              },
+              {
+                "term": "Interstate Commerce Disputes",
+                "definition": "Conflicts among states over tariffs, currency, and trade that the weak Confederation government had no power to resolve."
+              },
+              {
+                "term": "Northwest Ordinance",
+                "definition": "An important 1787 law passed under the Articles that established a process for admitting new states and banned slavery in the Northwest Territory."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Why did the framers of the Articles of Confederation intentionally create a weak central government?",
+                "choices": [
+                  "They feared recreating the type of powerful, distant authority they had just fought to escape",
+                  "They wanted to copy the British system exactly",
+                  "Congress lacked enough delegates to form a strong government",
+                  "States demanded a strong monarchy instead"
+                ],
+                "answerIndex": 0,
+                "explanation": "Fear of centralized tyranny led the framers of the **Articles of Confederation** to limit national power in favor of strong state authority."
+              },
+              {
+                "question": "Which power did Congress lack under the Articles of Confederation?",
+                "choices": [
+                  "The power to declare war",
+                  "The power to levy taxes directly on citizens",
+                  "The power to negotiate treaties",
+                  "The power to coin money"
+                ],
+                "answerIndex": 1,
+                "explanation": "Congress under the **Articles of Confederation** could request funds from states but had no power to directly tax citizens."
+              },
+              {
+                "question": "Shays' Rebellion is most significant because it:",
+                "choices": [
+                  "Led directly to the Louisiana Purchase",
+                  "Resulted in the immediate abolition of slavery",
+                  "Exposed the national government's inability to maintain order and protect property",
+                  "Convinced Britain to return to war"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Shays' Rebellion** revealed that the Confederation government could not effectively respond to internal unrest, spurring calls for reform."
+              },
+              {
+                "question": "What made amending the Articles of Confederation extremely difficult?",
+                "choices": [
+                  "Amendments required approval from the king",
+                  "Only Congress could propose amendments with no state input",
+                  "Amendments were permanently banned",
+                  "Amendments required unanimous consent of all thirteen states"
+                ],
+                "answerIndex": 3,
+                "explanation": "The requirement of **unanimous consent** meant that a single dissenting state could block any change to the Articles."
+              },
+              {
+                "question": "Which accomplishment is credited to the government under the Articles of Confederation?",
+                "choices": [
+                  "Passing the Northwest Ordinance to organize new territories",
+                  "Establishing a national income tax",
+                  "Creating a standing national army",
+                  "Ratifying the Bill of Rights"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Northwest Ordinance** was a genuine success of the Confederation Congress, setting rules for admitting new states."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u2-l3",
+            "title": "The Constitution and the Early Federal Government",
+            "summary": "In 1787, delegates gathered in Philadelphia for what became the **Constitutional Convention**, intending to revise the Articles but ultimately drafting an entirely new frame of government. Sharp disagreements over representation were resolved by the **Great Compromise**, which created a bicameral Congress with a House based on population and a Senate with equal state representation, while the divisive **Three-Fifths Compromise** determined how enslaved people would be counted for representation and taxation. Ratification required intense public debate between **Federalists**, who supported the stronger national government, and Anti-Federalists, who feared it threatened liberty; the promise of a **Bill of Rights** helped secure approval. Once government began under President Washington, sharp disagreements over economic policy and the scope of federal power gave rise to the nation's first political parties, as Alexander Hamilton's **Federalists** and Thomas Jefferson's **Democratic-Republicans** offered competing visions for the young republic.",
+            "keyTerms": [
+              {
+                "term": "Constitutional Convention",
+                "definition": "The 1787 Philadelphia meeting of state delegates that drafted the United States Constitution to replace the Articles of Confederation."
+              },
+              {
+                "term": "Great Compromise",
+                "definition": "The Constitutional Convention agreement creating a two-house Congress, balancing large and small state interests through the House and Senate."
+              },
+              {
+                "term": "Three-Fifths Compromise",
+                "definition": "The convention agreement counting each enslaved person as three-fifths of a person for purposes of representation and taxation."
+              },
+              {
+                "term": "Federalists",
+                "definition": "Supporters of ratifying the Constitution and establishing a stronger national government, led by figures like Hamilton and Madison."
+              },
+              {
+                "term": "Bill of Rights",
+                "definition": "The first ten amendments to the Constitution, ratified in 1791, guaranteeing fundamental individual liberties and limiting federal power."
+              },
+              {
+                "term": "Democratic-Republicans",
+                "definition": "The political party led by Thomas Jefferson that favored limited federal power and strict interpretation of the Constitution."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What was the main purpose of the Great Compromise at the Constitutional Convention?",
+                "choices": [
+                  "To abolish slavery immediately",
+                  "To balance representation between large and small states through a bicameral Congress",
+                  "To create a single national political party",
+                  "To eliminate the presidency"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Great Compromise** resolved the representation dispute by creating a House based on population and a Senate with equal votes per state."
+              },
+              {
+                "question": "The Three-Fifths Compromise addressed which issue at the Constitutional Convention?",
+                "choices": [
+                  "How many senators each state would have",
+                  "The length of presidential terms",
+                  "How to count enslaved people for representation and taxation",
+                  "Whether the capital would be in the North or South"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Three-Fifths Compromise** determined that enslaved people would count as three-fifths of a person for these purposes."
+              },
+              {
+                "question": "Why did Anti-Federalists initially oppose ratifying the Constitution?",
+                "choices": [
+                  "They wanted an even stronger national government",
+                  "They supported continued British rule",
+                  "They opposed a bicameral legislature",
+                  "They feared a strong central government would threaten individual liberties"
+                ],
+                "answerIndex": 3,
+                "explanation": "Anti-Federalists worried that a powerful national government could become tyrannical unless individual rights were explicitly protected by a **Bill of Rights**."
+              },
+              {
+                "question": "What compromise helped secure ratification of the Constitution by addressing Anti-Federalist concerns?",
+                "choices": [
+                  "The promise to add a Bill of Rights",
+                  "The elimination of the Senate",
+                  "A guarantee that no president would serve more than one term",
+                  "The abolition of federal courts"
+                ],
+                "answerIndex": 0,
+                "explanation": "The promise of a **Bill of Rights** reassured skeptics that individual liberties would be explicitly protected."
+              },
+              {
+                "question": "The first American political parties emerged largely due to disagreements over:",
+                "choices": [
+                  "Whether to hold a Constitutional Convention",
+                  "The proper scope of federal power and economic policy",
+                  "Whether Washington should be president",
+                  "The location of the national capital alone"
+                ],
+                "answerIndex": 1,
+                "explanation": "Debates over federal power and economic policy split Washington's administration into Federalists and **Democratic-Republicans**."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ss10-u3",
+        "title": "Expansion, Sectionalism, and the Civil War Era",
+        "lessons": [
+          {
+            "id": "ss10-u3-l1",
+            "title": "Jacksonian Democracy and Westward Expansion",
+            "summary": "The 1820s and 1830s brought a dramatic expansion of political participation as most states eliminated property requirements for voting, extending **suffrage** to nearly all white men and fueling what historians call **Jacksonian Democracy**. Andrew Jackson styled himself a champion of the **common man** against entrenched elites, though his presidency also revealed the era's contradictions, most starkly in his support for Indian removal and his expansion of the **spoils system**, which rewarded political loyalty with government jobs. The 1830 **Indian Removal Act** and its brutal enforcement, exemplified by the **Trail of Tears**, forcibly displaced tens of thousands of Native Americans from their ancestral lands in the Southeast. At the same time, many Americans embraced the belief in **Manifest Destiny**, the conviction that the United States was destined to expand across the continent, which drove annexation of Texas, war with Mexico, and settlement of the Oregon Territory, dramatically enlarging the nation's borders by mid-century.",
+            "keyTerms": [
+              {
+                "term": "Jacksonian Democracy",
+                "definition": "A political movement of the 1820s-1830s expanding voting rights to most white men and emphasizing the political power of ordinary citizens."
+              },
+              {
+                "term": "Suffrage",
+                "definition": "The right to vote, which expanded significantly for white men during the Jacksonian era as property requirements were removed."
+              },
+              {
+                "term": "Indian Removal Act",
+                "definition": "An 1830 law authorizing the federal government to forcibly relocate Native American nations from the Southeast to lands west of the Mississippi River."
+              },
+              {
+                "term": "Trail of Tears",
+                "definition": "The forced march of the Cherokee and other Native nations to Indian Territory in the 1830s, during which thousands died from disease, exposure, and starvation."
+              },
+              {
+                "term": "Manifest Destiny",
+                "definition": "The widespread nineteenth-century belief that the United States was destined by God or nature to expand across the North American continent."
+              },
+              {
+                "term": "Spoils System",
+                "definition": "The practice of awarding government jobs to political supporters, expanded significantly under Andrew Jackson's administration."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Jacksonian Democracy is most closely associated with which political change?",
+                "choices": [
+                  "The abolition of slavery",
+                  "Women's right to vote",
+                  "Expanded suffrage for white men through the removal of property requirements",
+                  "The creation of a national bank"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Jacksonian Democracy** expanded political participation by removing property qualifications for voting among white men."
+              },
+              {
+                "question": "What was the direct result of the Indian Removal Act of 1830?",
+                "choices": [
+                  "Native nations were granted US citizenship",
+                  "Reservations were abolished entirely",
+                  "Native Americans gained voting rights",
+                  "Native American nations in the Southeast were forcibly relocated west of the Mississippi"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Indian Removal Act** authorized the forced relocation of Native peoples, leading to tragedies like the Trail of Tears."
+              },
+              {
+                "question": "The Trail of Tears refers to:",
+                "choices": [
+                  "The forced, deadly relocation of the Cherokee and other nations to Indian Territory",
+                  "A famous frontier trade route",
+                  "A protest march against slavery",
+                  "A battle during the War of 1812"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Trail of Tears** caused immense suffering and death among Native peoples forced from their homelands."
+              },
+              {
+                "question": "The belief in Manifest Destiny primarily encouraged Americans to:",
+                "choices": [
+                  "Limit territorial expansion",
+                  "Support continental expansion as a natural and justified national mission",
+                  "Strengthen ties with European monarchies",
+                  "Focus exclusively on industrial development in the North"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Manifest Destiny** provided ideological justification for aggressive westward expansion across the continent."
+              },
+              {
+                "question": "Andrew Jackson's expansion of the spoils system most directly reflected his belief that:",
+                "choices": [
+                  "Only the wealthy should hold government office",
+                  "Government jobs should be inherited",
+                  "Ordinary citizens deserved a role in government, including through political appointments",
+                  "Federal jobs should be eliminated entirely"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **spoils system** rewarded political loyalty with government jobs, reflecting Jackson's populist appeal to common citizens."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u3-l2",
+            "title": "The Road to the Civil War",
+            "summary": "As the nation expanded westward, the question of whether new territories and states would permit slavery grew increasingly explosive. The **Missouri Compromise** of 1820 temporarily eased tensions by admitting Missouri as a slave state and Maine as a free state while banning slavery north of a specific line, but this fragile balance unraveled as expansion continued. The **Compromise of 1850**, which admitted California as a free state and included a stronger **Fugitive Slave Act**, only intensified sectional bitterness rather than resolving it. The **Kansas-Nebraska Act** of 1854 shattered previous compromises by allowing territories to decide the slavery question through **popular sovereignty**, triggering violent conflict known as 'Bleeding Kansas' and accelerating the collapse of the existing party system. By the **Election of 1860**, the Democratic Party had split along sectional lines, and Abraham Lincoln's victory as a Republican candidate opposed to slavery's expansion convinced many Southern states that secession was their only remaining option.",
+            "keyTerms": [
+              {
+                "term": "Missouri Compromise",
+                "definition": "An 1820 agreement admitting Missouri as a slave state and Maine as a free state while prohibiting slavery north of the 36°30' line in the Louisiana Territory."
+              },
+              {
+                "term": "Compromise of 1850",
+                "definition": "A package of laws admitting California as a free state, enacting a stronger fugitive slave law, and using popular sovereignty in other new territories."
+              },
+              {
+                "term": "Fugitive Slave Act",
+                "definition": "A law strengthened in 1850 requiring citizens in free states to assist in the capture and return of escaped enslaved people."
+              },
+              {
+                "term": "Kansas-Nebraska Act",
+                "definition": "An 1854 law allowing settlers in the Kansas and Nebraska territories to decide the slavery question themselves, repealing the Missouri Compromise line."
+              },
+              {
+                "term": "Popular Sovereignty",
+                "definition": "The principle that residents of a territory should vote to decide whether slavery would be permitted within its borders."
+              },
+              {
+                "term": "Election of 1860",
+                "definition": "The presidential election in which Abraham Lincoln's victory, without any Southern electoral votes, triggered the secession of Southern states."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What was the main purpose of the Missouri Compromise of 1820?",
+                "choices": [
+                  "To abolish slavery nationwide",
+                  "To grant statehood to California",
+                  "To end the Mexican-American War",
+                  "To maintain the balance between free and slave states while restricting slavery's expansion north of a set line"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Missouri Compromise** preserved sectional balance in Congress by pairing Missouri's admission with Maine's and drawing a line restricting future slavery expansion."
+              },
+              {
+                "question": "Which provision of the Compromise of 1850 most angered many Northerners?",
+                "choices": [
+                  "The stronger Fugitive Slave Act requiring their cooperation in returning escaped enslaved people",
+                  "The admission of California as a free state",
+                  "The banning of slavery in Washington, D.C.",
+                  "The annexation of Texas"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Fugitive Slave Act** forced Northerners to actively participate in slavery's enforcement, deepening sectional resentment."
+              },
+              {
+                "question": "The Kansas-Nebraska Act increased sectional conflict primarily because it:",
+                "choices": [
+                  "Banned slavery in all new territories",
+                  "Repealed the Missouri Compromise line and let territories decide slavery through popular sovereignty",
+                  "Admitted Kansas directly as a free state",
+                  "Ended the practice of popular sovereignty"
+                ],
+                "answerIndex": 1,
+                "explanation": "By overturning the Missouri Compromise line, the **Kansas-Nebraska Act** reopened the explosive question of slavery's expansion and led to violence in Kansas."
+              },
+              {
+                "question": "Popular sovereignty, as applied in Kansas, meant that:",
+                "choices": [
+                  "Congress alone would decide the slavery question",
+                  "The Supreme Court would rule on slavery in each territory",
+                  "Territorial settlers would vote on whether to permit slavery",
+                  "Slavery would automatically be banned in all territories"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Popular sovereignty** placed the decision on slavery directly in the hands of territorial voters, leading to violent contests over the outcome."
+              },
+              {
+                "question": "Why did Lincoln's victory in the election of 1860 prompt Southern secession?",
+                "choices": [
+                  "He promised to immediately abolish slavery everywhere",
+                  "He was a former Confederate officer",
+                  "He proposed expanding slavery into new territories",
+                  "He won without any Southern electoral support, signaling the South's declining political power"
+                ],
+                "answerIndex": 3,
+                "explanation": "Lincoln's win in the **Election of 1860** without a single Southern electoral vote convinced many Southerners that their interests could no longer be protected within the Union."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u3-l3",
+            "title": "The Civil War and Reconstruction",
+            "summary": "The Civil War, fought from 1861 to 1865, tested whether the Union could survive and ultimately transformed the nation's understanding of freedom and citizenship. Early Confederate advantages gave way to Union momentum after victories at Gettysburg and Vicksburg in 1863, the same year Lincoln issued the **Emancipation Proclamation**, which reframed the war as a fight against slavery and permitted Black men to enlist in the Union Army. Confederate surrender at Appomattox in 1865 ended the fighting, but the deeper work of rebuilding the nation, known as **Reconstruction**, proved far more difficult. Constitutional change came quickly through the Reconstruction Amendments: the **Thirteenth Amendment** abolished slavery, the **Fourteenth Amendment** extended citizenship and equal protection, and the **Fifteenth Amendment** barred racial discrimination in voting. Yet Reconstruction's promise was undermined by Southern resistance, the rise of discriminatory **Black Codes** and later Jim Crow laws, and the withdrawal of federal troops in 1877, leaving many of its civil rights gains unrealized for generations.",
+            "keyTerms": [
+              {
+                "term": "Emancipation Proclamation",
+                "definition": "Lincoln's 1863 executive order declaring enslaved people in Confederate states free and reframing the Civil War as a fight against slavery."
+              },
+              {
+                "term": "Reconstruction",
+                "definition": "The 1865-1877 period following the Civil War focused on rebuilding the South and defining the rights of formerly enslaved people."
+              },
+              {
+                "term": "Thirteenth Amendment",
+                "definition": "The 1865 constitutional amendment that formally abolished slavery throughout the United States."
+              },
+              {
+                "term": "Fourteenth Amendment",
+                "definition": "The 1868 constitutional amendment granting citizenship and equal protection under the law to all persons born in the United States."
+              },
+              {
+                "term": "Fifteenth Amendment",
+                "definition": "The 1870 constitutional amendment prohibiting the denial of voting rights based on race."
+              },
+              {
+                "term": "Black Codes",
+                "definition": "Restrictive laws passed by Southern states after the Civil War to limit the freedom and economic opportunities of formerly enslaved people."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What was the most significant political effect of the Emancipation Proclamation?",
+                "choices": [
+                  "It reframed the war's purpose around ending slavery and allowed Black men to join the Union Army",
+                  "It immediately freed all enslaved people in the United States",
+                  "It ended the Civil War immediately",
+                  "It gave enslaved people the right to vote"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Emancipation Proclamation** shifted the war's meaning toward abolition and opened Union military service to Black soldiers, though it did not free enslaved people in border states."
+              },
+              {
+                "question": "Which amendment formally abolished slavery in the United States?",
+                "choices": [
+                  "Fourteenth Amendment",
+                  "Thirteenth Amendment",
+                  "Fifteenth Amendment",
+                  "Nineteenth Amendment"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Thirteenth Amendment**, ratified in 1865, formally and permanently abolished slavery nationwide."
+              },
+              {
+                "question": "The Fourteenth Amendment is significant primarily because it:",
+                "choices": [
+                  "Granted women the right to vote",
+                  "Abolished the electoral college",
+                  "Guaranteed citizenship and equal protection under the law to all persons born in the US",
+                  "Established the income tax"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Fourteenth Amendment** extended citizenship and equal legal protection to formerly enslaved people and all persons born in the US."
+              },
+              {
+                "question": "Black Codes passed in the South after the Civil War were designed to:",
+                "choices": [
+                  "Expand economic opportunities for freedpeople",
+                  "Grant immediate full voting rights to Black men",
+                  "Provide land grants to Confederate veterans",
+                  "Restrict the freedom and labor options of formerly enslaved people"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Black Codes** aimed to control Black labor and limit the practical freedoms gained through emancipation."
+              },
+              {
+                "question": "Reconstruction is generally considered to have ended in what year, with the withdrawal of federal troops from the South?",
+                "choices": [
+                  "1877",
+                  "1865",
+                  "1870",
+                  "1890"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Reconstruction** ended in 1877 as part of a political compromise that removed federal troops from the South."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ss10-u4",
+        "title": "The Gilded Age and Progressive Era",
+        "lessons": [
+          {
+            "id": "ss10-u4-l1",
+            "title": "Industrialization and the Gilded Age",
+            "summary": "In the decades after the Civil War, the United States underwent rapid industrial transformation, a period historians call the **Gilded Age** for its glittering surface prosperity masking deep inequality and corruption. New technologies, abundant natural resources, and a growing railroad network enabled the rise of **big business** and industrial capitalism on an unprecedented scale. Titans like Andrew Carnegie and John D. Rockefeller built massive corporations through strategies such as **vertical integration** and **horizontal integration**, earning them contested labels as either **robber barons** who exploited workers or captains of industry who drove national growth. Many companies also formed **trusts** to eliminate competition and control entire industries. Workers responded to long hours, low wages, and dangerous conditions by forming **labor unions**, and industrial conflict often turned violent, as strikes like the Homestead and Pullman strikes revealed the deep tensions between capital and labor in this rapidly industrializing economy.",
+            "keyTerms": [
+              {
+                "term": "Gilded Age",
+                "definition": "The period of rapid industrial growth and wealth inequality in the late 19th century, named for its outward prosperity concealing social problems."
+              },
+              {
+                "term": "Vertical Integration",
+                "definition": "A business strategy of controlling every stage of production, from raw materials to finished product, used notably by Andrew Carnegie's steel company."
+              },
+              {
+                "term": "Horizontal Integration",
+                "definition": "A business strategy of buying out or merging with competitors in the same industry to eliminate competition, used notably by John D. Rockefeller."
+              },
+              {
+                "term": "Trusts",
+                "definition": "A combination of companies formed to reduce competition and control prices within an industry, often targeted by later antitrust laws."
+              },
+              {
+                "term": "Labor Unions",
+                "definition": "An organization of workers formed to negotiate collectively with employers for better wages, hours, and working conditions."
+              },
+              {
+                "term": "Robber Barons",
+                "definition": "A critical term for industrial leaders accused of building fortunes through exploitative labor practices and unfair business tactics."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The term 'Gilded Age' reflects the idea that the period's prosperity:",
+                "choices": [
+                  "Was evenly shared across all social classes",
+                  "Masked serious inequality, corruption, and labor exploitation beneath a glittering surface",
+                  "Was caused entirely by agricultural growth",
+                  "Ended the practice of monopoly business"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Gilded Age** name suggests a thin layer of gold over a less attractive reality of inequality and corruption."
+              },
+              {
+                "question": "Andrew Carnegie's control of every stage of steel production, from mines to mills, is an example of:",
+                "choices": [
+                  "Horizontal integration",
+                  "Popular sovereignty",
+                  "Vertical integration",
+                  "The spoils system"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Vertical integration** means controlling all stages of production, which Carnegie used to dominate the steel industry."
+              },
+              {
+                "question": "John D. Rockefeller's strategy of buying out competing oil refineries is best described as:",
+                "choices": [
+                  "Vertical integration",
+                  "Popular sovereignty",
+                  "Indentured servitude",
+                  "Horizontal integration"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Horizontal integration** involves absorbing or merging with competitors in the same industry, which Rockefeller used to build Standard Oil."
+              },
+              {
+                "question": "What was the primary goal of a business trust in the Gilded Age?",
+                "choices": [
+                  "To combine companies and reduce competition, allowing greater control over prices",
+                  "To increase competition among small businesses",
+                  "To guarantee higher wages for workers",
+                  "To fund public education"
+                ],
+                "answerIndex": 0,
+                "explanation": "A **trust** consolidated control of an industry, reducing competition and allowing dominant firms to set prices."
+              },
+              {
+                "question": "Labor unions formed during the Gilded Age primarily to address:",
+                "choices": [
+                  "Excessive government regulation of business",
+                  "Low wages, long hours, and dangerous working conditions in industrial jobs",
+                  "The decline of agricultural prices",
+                  "The expansion of voting rights"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Labor unions** organized workers to collectively demand better wages, hours, and safety conditions from powerful employers."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u4-l2",
+            "title": "Immigration and Urbanization",
+            "summary": "Between roughly 1880 and 1920, a wave of **new immigration** brought millions of newcomers to the United States primarily from Southern and Eastern Europe, differing in language, religion, and culture from earlier immigrant groups. These immigrants, along with growing numbers of Americans leaving rural life, fueled explosive **urbanization**, as cities swelled with factory workers crowded into **tenement** housing under often unsanitary conditions. Cultural differences and economic competition fueled **nativism**, a hostility toward immigrants that led to restrictive measures like the **Chinese Exclusion Act** and calls for further limits on immigration. In many rapidly growing cities, **political machines** such as New York's Tammany Hall filled the vacuum left by weak formal city government, trading services, jobs, and assistance for votes and loyalty, often accompanied by significant graft and corruption that later reformers would target.",
+            "keyTerms": [
+              {
+                "term": "New Immigration",
+                "definition": "The wave of immigrants arriving primarily from Southern and Eastern Europe between roughly 1880 and 1920, distinct from earlier waves of Western European immigrants."
+              },
+              {
+                "term": "Urbanization",
+                "definition": "The rapid growth of cities driven by industrial jobs, immigration, and migration from rural areas in the late 19th century."
+              },
+              {
+                "term": "Tenement",
+                "definition": "A crowded, often unsafe multi-family apartment building common in poor urban neighborhoods during rapid industrialization."
+              },
+              {
+                "term": "Nativism",
+                "definition": "Hostility toward immigrants, often rooted in the belief that native-born citizens' interests should be protected over those of newcomers."
+              },
+              {
+                "term": "Chinese Exclusion Act",
+                "definition": "An 1882 federal law banning nearly all Chinese immigration to the United States, reflecting nativist sentiment."
+              },
+              {
+                "term": "Political Machines",
+                "definition": "An organized urban political group, often led by a powerful boss, that traded favors and services for votes, frequently involving corruption."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The 'new immigration' of the late 19th and early 20th centuries came primarily from:",
+                "choices": [
+                  "Western Europe",
+                  "Latin America",
+                  "Southern and Eastern Europe",
+                  "Sub-Saharan Africa"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **new immigration** wave brought large numbers of people from Southern and Eastern Europe, differing culturally from earlier immigrant groups."
+              },
+              {
+                "question": "Rapid urbanization in the late 19th century was driven mainly by:",
+                "choices": [
+                  "A decline in factory jobs",
+                  "Government relocation programs",
+                  "The abolition of child labor",
+                  "Industrial job growth attracting immigrants and rural migrants to cities"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Urbanization** accelerated as industrial jobs drew both immigrants and rural Americans into rapidly growing cities."
+              },
+              {
+                "question": "The Chinese Exclusion Act of 1882 is an example of:",
+                "choices": [
+                  "Nativist immigration restriction",
+                  "A labor union victory",
+                  "A trust-busting law",
+                  "A Progressive Era reform"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Chinese Exclusion Act** reflected **nativism** by banning nearly all immigration from China."
+              },
+              {
+                "question": "Urban political machines like Tammany Hall gained influence primarily by:",
+                "choices": [
+                  "Enforcing strict anti-corruption laws",
+                  "Providing jobs, services, and assistance to immigrants and the poor in exchange for votes",
+                  "Eliminating all city government functions",
+                  "Banning immigration to their cities"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Political machines** built loyal voting blocs by offering practical help to urban residents, often alongside significant corruption."
+              },
+              {
+                "question": "Tenement housing in industrial cities was generally characterized by:",
+                "choices": [
+                  "Spacious, well-ventilated apartments",
+                  "Government-subsidized luxury housing",
+                  "Overcrowded, often unsanitary living conditions for factory workers and immigrants",
+                  "Housing reserved exclusively for factory owners"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Tenements** were typically crowded and poorly maintained, reflecting the harsh realities of rapid **urbanization**."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u4-l3",
+            "title": "The Progressive Era",
+            "summary": "Responding to the excesses of the Gilded Age, a broad coalition of reformers launched the **Progressive movement**, seeking to address corruption, inequality, and unsafe conditions created by rapid industrialization. Journalists known as **muckrakers** exposed corporate abuses and urban poverty, building public support for reform at the local, state, and national levels. Presidents Theodore Roosevelt and later Woodrow Wilson pursued **trust-busting** and new regulatory agencies to rein in corporate power, while reformers pushed through the **Seventeenth Amendment** to allow direct election of senators, reducing the influence of state legislatures controlled by political machines. The era also saw major expansions of democratic participation, most notably the decades-long struggle known as the **Women's Suffrage Movement**, which culminated in the **Nineteenth Amendment** in 1920. Together, these reforms reshaped the relationship between government, business, and citizens in lasting ways.",
+            "keyTerms": [
+              {
+                "term": "Progressive Movement",
+                "definition": "A broad early-20th-century reform movement seeking to address corruption, inequality, and unsafe conditions caused by industrialization and urbanization."
+              },
+              {
+                "term": "Muckrakers",
+                "definition": "Investigative journalists who exposed corporate corruption, unsafe products, and urban poverty to build public support for reform."
+              },
+              {
+                "term": "Trust-Busting",
+                "definition": "Government efforts, especially under Theodore Roosevelt, to break up or regulate monopolistic trusts that stifled competition."
+              },
+              {
+                "term": "Seventeenth Amendment",
+                "definition": "The 1913 constitutional amendment establishing direct popular election of US senators, replacing selection by state legislatures."
+              },
+              {
+                "term": "Women's Suffrage Movement",
+                "definition": "The decades-long campaign for women's voting rights that culminated in the ratification of the Nineteenth Amendment in 1920."
+              },
+              {
+                "term": "Nineteenth Amendment",
+                "definition": "The 1920 constitutional amendment that guaranteed women the right to vote nationwide."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Muckrakers contributed to the Progressive movement primarily by:",
+                "choices": [
+                  "Financing political campaigns",
+                  "Leading labor strikes",
+                  "Drafting the Bill of Rights",
+                  "Investigating and publicizing corporate corruption and social problems"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Muckrakers** used investigative journalism to expose abuses and build public momentum for reform."
+              },
+              {
+                "question": "Theodore Roosevelt's trust-busting efforts were aimed at:",
+                "choices": [
+                  "Breaking up or regulating powerful trusts that limited competition",
+                  "Expanding monopolies",
+                  "Ending all forms of business regulation",
+                  "Nationalizing all American industries"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Trust-busting** sought to curb the power of monopolistic trusts and restore competitive markets."
+              },
+              {
+                "question": "The Seventeenth Amendment changed how US senators were selected by:",
+                "choices": [
+                  "Allowing state legislatures exclusive control over selection",
+                  "Establishing direct popular election of senators",
+                  "Eliminating the Senate entirely",
+                  "Requiring senators to be appointed by the president"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Seventeenth Amendment** replaced legislative selection with direct election by voters, reducing machine influence."
+              },
+              {
+                "question": "The women's suffrage movement achieved its central national goal with the:",
+                "choices": [
+                  "Fifteenth Amendment",
+                  "Seventeenth Amendment",
+                  "Nineteenth Amendment",
+                  "Twenty-Sixth Amendment"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Nineteenth Amendment**, ratified in 1920, guaranteed women's right to vote nationwide."
+              },
+              {
+                "question": "Which best describes the overall goals of the Progressive movement?",
+                "choices": [
+                  "Restoring unregulated Gilded Age business practices",
+                  "Eliminating all forms of government regulation",
+                  "Reversing the expansion of suffrage",
+                  "Addressing corruption, inequality, and unsafe conditions through reform at multiple levels of government"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Progressive Movement** sought practical reforms to correct the abuses of rapid industrialization and urban growth."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ss10-u5",
+        "title": "America's Rise to World Power and the Great Depression",
+        "lessons": [
+          {
+            "id": "ss10-u5-l1",
+            "title": "World War I and Its Aftermath",
+            "summary": "When war erupted in Europe in 1914, President Wilson urged **neutrality**, reflecting a strong public desire to avoid the conflict's bloodshed. American neutrality eroded over time due to unrestricted German submarine warfare, including the sinking of the Lusitania, and the provocative **Zimmermann Telegram**, in which Germany proposed a military alliance with Mexico against the United States. Congress declared war in April 1917, and American troops, industry, and financing helped tip the balance toward an Allied victory by late 1918. At home, the war effort required unprecedented government coordination of the economy and public opinion, alongside restrictions on dissent under laws like the **Espionage Act**. Wilson's postwar vision, embodied in his **Fourteen Points** and proposed **League of Nations**, ultimately failed at home when the Senate refused to ratify the **Treaty of Versailles**, reflecting many Americans' renewed preference for avoiding binding international commitments.",
+            "keyTerms": [
+              {
+                "term": "Neutrality",
+                "definition": "The official US policy at the outset of World War I of avoiding formal alliance with either side in the conflict."
+              },
+              {
+                "term": "Zimmermann Telegram",
+                "definition": "A 1917 secret German proposal to Mexico for a military alliance against the United States, which helped push American public opinion toward war."
+              },
+              {
+                "term": "Fourteen Points",
+                "definition": "President Wilson's 1918 proposal for a postwar peace settlement, including the creation of an international body to prevent future wars."
+              },
+              {
+                "term": "League of Nations",
+                "definition": "An international organization proposed by Wilson to promote collective security and prevent future wars, which the US Senate refused to join."
+              },
+              {
+                "term": "Treaty of Versailles",
+                "definition": "The 1919 peace treaty ending World War I, which the US Senate rejected largely due to objections over League of Nations membership."
+              },
+              {
+                "term": "Espionage Act",
+                "definition": "A 1917 law restricting speech and actions deemed to interfere with US military operations or aid the nation's enemies during wartime."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What event most directly pushed American public opinion toward joining World War I?",
+                "choices": [
+                  "The Zimmermann Telegram and unrestricted German submarine warfare",
+                  "The assassination of Archduke Franz Ferdinand",
+                  "The signing of the Treaty of Versailles",
+                  "The formation of the League of Nations"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Zimmermann Telegram** and German submarine attacks on American shipping eroded US **neutrality** and led to war."
+              },
+              {
+                "question": "Wilson's Fourteen Points primarily proposed:",
+                "choices": [
+                  "Harsh punishment of Germany with no international cooperation",
+                  "A framework for postwar peace, including an international organization to prevent future wars",
+                  "Immediate US withdrawal from world affairs",
+                  "The annexation of German colonies by the United States"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Fourteen Points** outlined Wilson's vision for a just and lasting peace, including the League of Nations."
+              },
+              {
+                "question": "Why did the US Senate refuse to ratify the Treaty of Versailles?",
+                "choices": [
+                  "It required the US to pay reparations to Germany",
+                  "It banned trade with European nations",
+                  "Many senators opposed the League of Nations and feared it would drag the US into future conflicts",
+                  "It gave Germany control over US territories"
+                ],
+                "answerIndex": 2,
+                "explanation": "Senators concerned about entangling alliances rejected the **Treaty of Versailles**, largely over League of Nations membership."
+              },
+              {
+                "question": "The Espionage Act of 1917 was primarily used to:",
+                "choices": [
+                  "Expand voting rights during wartime",
+                  "Fund the League of Nations",
+                  "Regulate international trade with Germany",
+                  "Restrict speech and dissent that could undermine the war effort"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Espionage Act** limited wartime dissent and was used to prosecute critics of US involvement in the war."
+              },
+              {
+                "question": "The League of Nations, proposed as part of Wilson's peace plan, ultimately:",
+                "choices": [
+                  "Was rejected by the US Senate, weakening the organization's effectiveness",
+                  "Was joined by the United States immediately",
+                  "Prevented all future European conflicts",
+                  "Was created before World War I began"
+                ],
+                "answerIndex": 0,
+                "explanation": "Despite Wilson's advocacy, the US never joined the **League of Nations** due to Senate opposition."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u5-l2",
+            "title": "The Roaring Twenties and the Great Depression",
+            "summary": "The 1920s brought sweeping cultural and economic change, as rising consumerism, new technologies like radio and automobiles, and shifting social norms characterized what became known as the **Roaring Twenties**. This decade of apparent prosperity, however, rested on unstable foundations, including widespread speculative investment and excessive **buying on margin**. When stock prices collapsed in October 1929 in the **Stock Market Crash of 1929**, panic selling wiped out fortunes and confidence alike, triggering a wave of **bank runs** and business closures. The resulting **Great Depression** became the most severe economic crisis in American history, as unemployment soared past 25 percent and millions of families lost homes, savings, and farms. President **Herbert Hoover**'s limited, largely voluntary relief efforts proved unable to counter the crisis's scale, deepening public demand for more direct and forceful government intervention.",
+            "keyTerms": [
+              {
+                "term": "Roaring Twenties",
+                "definition": "The 1920s decade marked by cultural change, consumerism, and economic growth, preceding the Great Depression."
+              },
+              {
+                "term": "Buying on Margin",
+                "definition": "The practice of purchasing stocks with borrowed money, which amplified both gains and losses and contributed to the 1929 crash."
+              },
+              {
+                "term": "Stock Market Crash of 1929",
+                "definition": "The sudden collapse of stock prices in October 1929 that triggered the onset of the Great Depression."
+              },
+              {
+                "term": "Great Depression",
+                "definition": "The severe worldwide economic downturn of the 1930s marked by mass unemployment, bank failures, and widespread poverty."
+              },
+              {
+                "term": "Bank Runs",
+                "definition": "A crisis in which large numbers of depositors withdraw funds simultaneously, fearing bank failure, often causing the very collapse they fear."
+              },
+              {
+                "term": "Herbert Hoover",
+                "definition": "The US president during the onset of the Great Depression, whose limited, voluntary relief approach was widely seen as inadequate to the crisis."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What practice most directly increased the risk and severity of the 1929 stock market crash?",
+                "choices": [
+                  "Government price controls",
+                  "Buying stocks on margin with borrowed money",
+                  "High tariffs on imported goods",
+                  "Mandatory savings requirements"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Buying on margin** meant that falling stock prices wiped out investors who had borrowed heavily, deepening the crash's impact."
+              },
+              {
+                "question": "The Stock Market Crash of 1929 is best understood as:",
+                "choices": [
+                  "The sole cause of the Great Depression with no other contributing factors",
+                  "An event unrelated to the Great Depression",
+                  "A major trigger that exposed deeper economic weaknesses, leading into the Great Depression",
+                  "A crisis that only affected European economies"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Stock Market Crash of 1929** triggered a chain reaction of bank failures and business closures that deepened into the **Great Depression**."
+              },
+              {
+                "question": "During the Great Depression, unemployment in the United States reached approximately:",
+                "choices": [
+                  "5 percent",
+                  "10 percent",
+                  "50 percent",
+                  "Over 25 percent"
+                ],
+                "answerIndex": 3,
+                "explanation": "Unemployment during the **Great Depression** exceeded 25 percent at its worst point, an unprecedented level."
+              },
+              {
+                "question": "Why were bank runs so damaging during the early Great Depression?",
+                "choices": [
+                  "Mass withdrawals often caused otherwise stable banks to fail, since reserves could not cover all deposits at once",
+                  "Banks had unlimited cash reserves to cover withdrawals",
+                  "Bank runs were illegal and rarely occurred",
+                  "The government guaranteed all deposits at the time"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Bank runs** could force the collapse of banks that lacked cash reserves to meet sudden, simultaneous withdrawal demands."
+              },
+              {
+                "question": "President Hoover's response to the Great Depression is generally criticized for:",
+                "choices": [
+                  "Being too aggressive and expensive",
+                  "Relying too heavily on voluntary and limited measures that failed to match the crisis's scale",
+                  "Immediately ending the Depression",
+                  "Focusing exclusively on foreign policy"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Herbert Hoover's** cautious, largely voluntary approach was widely seen as insufficient given the severity of the crisis."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u5-l3",
+            "title": "The New Deal and World War II",
+            "summary": "Franklin D. Roosevelt won the presidency in 1932 promising bold action, and his **New Deal** launched an unprecedented array of relief, recovery, and reform programs aimed at combating the Great Depression. Agencies like the **Civilian Conservation Corps** provided jobs, while landmark legislation such as the **Social Security Act** created a lasting safety net for the elderly and unemployed, fundamentally expanding the federal government's role in economic life. As the New Deal reshaped the domestic economy, war again engulfed Europe and Asia; the United States maintained official neutrality until the Japanese attack on **Pearl Harbor** in December 1941 brought it directly into World War II. The war effort mobilized the entire nation, as factories converted to military production, women entered industrial jobs in unprecedented numbers as symbolized by **Rosie the Riveter**, and the **home front** transformed socially and economically—developments that would carry lasting consequences well beyond the war's end in 1945.",
+            "keyTerms": [
+              {
+                "term": "New Deal",
+                "definition": "Franklin D. Roosevelt's set of programs and reforms in the 1930s designed to provide relief, promote economic recovery, and reform the financial system."
+              },
+              {
+                "term": "Social Security Act",
+                "definition": "A 1935 law creating a federal system of old-age pensions and unemployment insurance, a cornerstone of the New Deal's legacy."
+              },
+              {
+                "term": "Civilian Conservation Corps",
+                "definition": "A New Deal program providing jobs to unemployed young men in environmental conservation projects."
+              },
+              {
+                "term": "Pearl Harbor",
+                "definition": "The US naval base in Hawaii attacked by Japan on December 7, 1941, which brought the United States into World War II."
+              },
+              {
+                "term": "Home Front",
+                "definition": "The civilian side of a nation during wartime, encompassing economic mobilization, rationing, and major social changes."
+              },
+              {
+                "term": "Rosie the Riveter",
+                "definition": "A cultural icon representing the millions of American women who entered industrial jobs during World War II."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The primary goal of the New Deal was to:",
+                "choices": [
+                  "Reduce the size of the federal government",
+                  "End all government spending programs",
+                  "Provide relief, promote recovery, and reform the economy during the Great Depression",
+                  "Return the country to the gold standard permanently"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **New Deal** aimed to address the Depression through relief, recovery, and reform, expanding the federal government's economic role."
+              },
+              {
+                "question": "The Social Security Act of 1935 established:",
+                "choices": [
+                  "A federal minimum wage",
+                  "Free public higher education",
+                  "A national healthcare system",
+                  "A system of old-age pensions and unemployment insurance"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Social Security Act** created a lasting safety net for retirees and unemployed workers, a defining New Deal reform."
+              },
+              {
+                "question": "What event directly brought the United States into World War II?",
+                "choices": [
+                  "The Japanese attack on Pearl Harbor",
+                  "The invasion of Poland",
+                  "The fall of France",
+                  "The signing of the Treaty of Versailles"
+                ],
+                "answerIndex": 0,
+                "explanation": "The attack on **Pearl Harbor** in December 1941 ended US neutrality and led to a declaration of war."
+              },
+              {
+                "question": "During World War II, American women contributed significantly to the war effort mainly by:",
+                "choices": [
+                  "Serving as elected officials in Congress",
+                  "Entering industrial and manufacturing jobs in unprecedented numbers",
+                  "Leading the military draft boards",
+                  "Managing foreign diplomacy"
+                ],
+                "answerIndex": 1,
+                "explanation": "Women filled industrial jobs vacated by men serving overseas, symbolized by figures like **Rosie the Riveter**, transforming the **home front**."
+              },
+              {
+                "question": "Which best describes the effect of World War II mobilization on the home front?",
+                "choices": [
+                  "Factories reduced production to conserve resources",
+                  "The Great Depression continued unaffected by the war",
+                  "Industry converted to military production and society underwent major economic and social change",
+                  "Rationing and mobilization had no lasting social effects"
+                ],
+                "answerIndex": 2,
+                "explanation": "Wartime mobilization transformed the **home front** through industrial conversion, rationing, and shifting labor patterns."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ss10-u6",
+        "title": "The Cold War Era to Contemporary America",
+        "lessons": [
+          {
+            "id": "ss10-u6-l1",
+            "title": "The Cold War and Containment",
+            "summary": "In the aftermath of World War II, wartime cooperation between the United States and Soviet Union gave way to decades of ideological rivalry known as the **Cold War**, fought through political, economic, and military competition rather than direct combat between the superpowers. American policy centered on **containment**, the strategy of preventing the further spread of communism without risking full-scale war, articulated through measures like the **Marshall Plan** and the formation of NATO. This rivalry turned into direct combat during the **Korean War**, when US-led United Nations forces intervened to defend South Korea, resulting in a costly stalemate that left the peninsula divided. At home, the Cold War fueled an intense **nuclear arms race** with the Soviet Union, prompting widespread civil defense drills, bomb shelter construction, and a pervasive climate of anxiety, while also sparking a heightened fear of domestic communist subversion known as the **Second Red Scare**.",
+            "keyTerms": [
+              {
+                "term": "Cold War",
+                "definition": "The prolonged state of political and military tension between the United States and the Soviet Union from roughly 1947 to 1991, without direct large-scale combat between them."
+              },
+              {
+                "term": "Containment",
+                "definition": "The US strategy of preventing the spread of communism to new countries without direct war with the Soviet Union."
+              },
+              {
+                "term": "Marshall Plan",
+                "definition": "A US program providing economic aid to rebuild Western European nations after World War II, partly to prevent the spread of communism."
+              },
+              {
+                "term": "Korean War",
+                "definition": "A 1950-1953 conflict in which US-led United Nations forces defended South Korea against a communist invasion from the North, ending in a stalemate."
+              },
+              {
+                "term": "Nuclear Arms Race",
+                "definition": "The intense competition between the United States and Soviet Union to develop and stockpile ever more powerful nuclear weapons."
+              },
+              {
+                "term": "Second Red Scare",
+                "definition": "A period of intense fear of communist infiltration within the United States during the late 1940s and 1950s, associated with investigations like McCarthyism."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The Cold War is best defined as a period of:",
+                "choices": [
+                  "Direct large-scale war between the US and Soviet Union",
+                  "Complete cooperation between the US and Soviet Union",
+                  "A war fought exclusively in Europe",
+                  "Political, economic, and military rivalry without direct combat between the superpowers"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Cold War** involved intense rivalry and proxy conflicts but no direct war between the United States and Soviet Union."
+              },
+              {
+                "question": "The policy of containment aimed to:",
+                "choices": [
+                  "Prevent the further spread of communism without direct war with the Soviet Union",
+                  "Expand communism worldwide",
+                  "Reunite Germany immediately after the war",
+                  "Withdraw the US from all foreign involvement"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Containment** guided US foreign policy toward stopping communist expansion through means short of full-scale war."
+              },
+              {
+                "question": "The Korean War resulted in what outcome?",
+                "choices": [
+                  "A decisive US victory and reunification of Korea",
+                  "A stalemate leaving the Korean peninsula divided near its prewar border",
+                  "A Soviet victory and communist control of all Korea",
+                  "Full withdrawal of both North and South Korean governments"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Korean War** ended in an armistice that left Korea divided, without a decisive victory for either side."
+              },
+              {
+                "question": "The nuclear arms race between the US and Soviet Union most directly led to:",
+                "choices": [
+                  "A significant reduction in global military spending",
+                  "The immediate end of the Cold War",
+                  "Widespread civil defense preparations and heightened public anxiety in the United States",
+                  "A ban on all nuclear weapons development"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **nuclear arms race** fueled civil defense drills, bomb shelters, and pervasive fear among American citizens."
+              },
+              {
+                "question": "The Second Red Scare in the United States was characterized by:",
+                "choices": [
+                  "Widespread public support for Soviet policies",
+                  "The end of anti-communist sentiment in America",
+                  "Cooperation between the US and Soviet governments on domestic policy",
+                  "Intense fear of communist subversion and investigations into alleged domestic communists"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Second Red Scare** produced intense domestic anxiety about communist infiltration, fueling investigations like McCarthyism."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u6-l2",
+            "title": "The Civil Rights Movement and Social Change",
+            "summary": "Beginning in the 1950s, the **Civil Rights Movement** mounted a sustained challenge to legal segregation and racial discrimination through strategies including litigation, boycotts, and **nonviolent direct action**. The Supreme Court's decision in **Brown v. Board of Education** declared school segregation unconstitutional, while grassroots campaigns like the Montgomery Bus Boycott and the March on Washington built momentum toward landmark federal legislation, including the **Civil Rights Act of 1964** and the Voting Rights Act of 1965. This era of activism inspired related movements, as women, Latino Americans, Native Americans, and others organized for greater rights and recognition throughout the 1960s and 1970s. Simultaneously, the escalating **Vietnam War** provoked enormous domestic controversy, as a costly and inconclusive conflict fueled a growing **antiwar movement**, deepened generational and political divisions, and contributed to a broader erosion of public trust in government institutions.",
+            "keyTerms": [
+              {
+                "term": "Civil Rights Movement",
+                "definition": "The organized effort, particularly strong from the 1950s through the 1960s, to end legal segregation and secure equal rights for Black Americans."
+              },
+              {
+                "term": "Brown v. Board of Education",
+                "definition": "The 1954 Supreme Court decision declaring racial segregation in public schools unconstitutional, overturning 'separate but equal.'"
+              },
+              {
+                "term": "Civil Rights Act of 1964",
+                "definition": "Landmark federal legislation outlawing discrimination based on race, color, religion, sex, or national origin in public accommodations and employment."
+              },
+              {
+                "term": "Nonviolent Direct Action",
+                "definition": "A protest strategy using peaceful methods such as sit-ins, boycotts, and marches to challenge unjust laws and draw public attention."
+              },
+              {
+                "term": "Vietnam War",
+                "definition": "A prolonged Cold War-era conflict in Southeast Asia that became deeply controversial in the United States due to its cost and inconclusive outcome."
+              },
+              {
+                "term": "Antiwar Movement",
+                "definition": "A broad social and political movement opposing US involvement in the Vietnam War, especially active among younger Americans."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "The Supreme Court's ruling in Brown v. Board of Education established that:",
+                "choices": [
+                  "Racial segregation in public schools was unconstitutional",
+                  "Segregated schools were constitutional under 'separate but equal'",
+                  "Voting rights could be restricted by literacy tests",
+                  "Public transportation could remain segregated"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Brown v. Board of Education** overturned the 'separate but equal' doctrine and declared school segregation unconstitutional."
+              },
+              {
+                "question": "The Civil Rights Act of 1964 primarily accomplished what?",
+                "choices": [
+                  "It guaranteed women's suffrage",
+                  "It outlawed discrimination based on race, color, religion, sex, or national origin in key areas of public life",
+                  "It ended the Vietnam War",
+                  "It established the Voting Rights Act"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Civil Rights Act of 1964** banned discrimination in public accommodations and employment on several protected grounds."
+              },
+              {
+                "question": "Which strategy was most associated with the Civil Rights Movement's approach to protest?",
+                "choices": [
+                  "Armed rebellion against the federal government",
+                  "Exclusive reliance on lawsuits with no public demonstrations",
+                  "Nonviolent direct action such as boycotts, sit-ins, and marches",
+                  "Secession from the United States"
+                ],
+                "answerIndex": 2,
+                "explanation": "Leaders of the **Civil Rights Movement** largely relied on **nonviolent direct action** to challenge segregation and injustice."
+              },
+              {
+                "question": "The Vietnam War generated significant domestic controversy in the United States primarily because of:",
+                "choices": [
+                  "Its low cost and quick resolution",
+                  "Overwhelming public support throughout its duration",
+                  "Its lack of connection to Cold War policy",
+                  "Its high costs, mounting casualties, and inconclusive outcome"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **Vietnam War's** heavy costs and unclear outcome fueled a growing **antiwar movement** and deep national division."
+              },
+              {
+                "question": "The broader wave of social movements in the 1960s and 1970s, including for women's and Latino rights, was most directly inspired by:",
+                "choices": [
+                  "The strategies and momentum of the Civil Rights Movement",
+                  "The end of the Cold War",
+                  "The passage of the Nineteenth Amendment",
+                  "The Marshall Plan"
+                ],
+                "answerIndex": 0,
+                "explanation": "The organizing strategies and successes of the **Civil Rights Movement** inspired other groups to pursue similar activism."
+              }
+            ]
+          },
+          {
+            "id": "ss10-u6-l3",
+            "title": "Late Twentieth-Century and Contemporary America",
+            "summary": "The Cold War gradually wound down in the late 1980s as reforms within the Soviet Union and diplomatic engagement with US leaders eased decades of tension, culminating in the fall of the **Berlin Wall** in 1989 and the **collapse of the Soviet Union** in 1991. Domestically, the decades that followed brought significant political and economic shifts, including a turn toward **deregulation** and tax cuts beginning in the 1980s, alongside ongoing debates over the proper size and role of the federal government. The **September 11 Attacks** of 2001 reshaped American foreign and domestic policy, prompting the **War on Terror** and new approaches to national security that continue to influence US politics. Entering the twenty-first century, the nation has grappled with rapid technological change, significant economic disruptions including the **2008 Financial Crisis**, and ongoing debates over immigration, healthcare, and America's role in an increasingly interconnected and often polarized global era.",
+            "keyTerms": [
+              {
+                "term": "Collapse of the Soviet Union",
+                "definition": "The 1991 dissolution of the USSR into independent states, marking the definitive end of the Cold War."
+              },
+              {
+                "term": "Berlin Wall",
+                "definition": "The barrier dividing East and West Berlin during the Cold War, whose fall in 1989 symbolized the end of Soviet control over Eastern Europe."
+              },
+              {
+                "term": "Deregulation",
+                "definition": "The reduction of government rules and oversight of industries, a major policy trend beginning in the late 1970s and 1980s."
+              },
+              {
+                "term": "September 11 Attacks",
+                "definition": "The 2001 terrorist attacks on the United States that led to major changes in national security policy and foreign military engagement."
+              },
+              {
+                "term": "War on Terror",
+                "definition": "The sustained US military and policy response to the September 11 attacks, including military action in Afghanistan and Iraq."
+              },
+              {
+                "term": "2008 Financial Crisis",
+                "definition": "A severe global economic downturn triggered by the collapse of the US housing market and financial sector instability."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What event is generally considered to mark the symbolic end of Soviet control over Eastern Europe?",
+                "choices": [
+                  "The signing of the Treaty of Versailles",
+                  "The fall of the Berlin Wall in 1989",
+                  "The Korean War armistice",
+                  "The Marshall Plan's implementation"
+                ],
+                "answerIndex": 1,
+                "explanation": "The fall of the **Berlin Wall** in 1989 symbolized the collapse of Soviet influence in Eastern Europe, preceding the full **collapse of the Soviet Union**."
+              },
+              {
+                "question": "The Cold War formally ended with which event in 1991?",
+                "choices": [
+                  "The Korean War armistice",
+                  "The passage of the Civil Rights Act",
+                  "The dissolution of the Soviet Union",
+                  "The September 11 attacks"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **collapse of the Soviet Union** in 1991 marked the definitive end of the decades-long Cold War rivalry."
+              },
+              {
+                "question": "Deregulation, as a major policy trend beginning in the 1980s, generally involved:",
+                "choices": [
+                  "Increasing government oversight of industries",
+                  "Nationalizing major industries",
+                  "Expanding Social Security benefits",
+                  "Reducing government rules and regulatory oversight of businesses"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Deregulation** reduced government oversight of industries, reflecting a broader political shift beginning in the late 1970s and 1980s."
+              },
+              {
+                "question": "The September 11, 2001 attacks most directly led to:",
+                "choices": [
+                  "The launch of the War on Terror and major changes to national security policy",
+                  "The end of the Cold War",
+                  "The collapse of the Soviet Union",
+                  "The 2008 financial crisis"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **September 11 Attacks** prompted the **War on Terror** and reshaped US foreign and domestic security policy."
+              },
+              {
+                "question": "The 2008 financial crisis was primarily triggered by instability in which sector?",
+                "choices": [
+                  "Agriculture",
+                  "The housing market and financial sector",
+                  "Manufacturing exports",
+                  "Higher education funding"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **2008 Financial Crisis** stemmed largely from the collapse of the US housing market and related financial instability."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "avid10",
