@@ -6055,7 +6055,1358 @@
     "peimsCode": "03251000",
     "description": "Satisfies the state's Fine Arts requirement while earning AA/AS elective credit at TCC, taken freshman year.",
     "textbook": "Theatre: A Way of Seeing, 7th ed., by Milly S. Barranger",
-    "units": []
+    "units": [
+      {
+        "id": "fa9-u1",
+        "title": "What Is Theatre? Foundations and Dramatic Structure",
+        "lessons": [
+          {
+            "id": "fa9-u1-l1",
+            "title": "Theatre as a Live, Collaborative Art",
+            "summary": "Theatre is a live art form: performers and audience share the same time and space, something film and television cannot replicate. This **liveness** creates **ephemerality**—each performance is a singular event that vanishes as soon as it happens and can never be exactly repeated. Unlike a fixed film, a production depends on ongoing **collaboration** among a playwright, director, designers, and performers who coordinate countless choices into one event. Central to live theatre is the **audience-performer relationship**, the reciprocal exchange of energy between spectators and performers that can shift a performance moment to moment. Audiences accept a play's fiction through **suspension of disbelief**, while performers function as an **ensemble**, working together toward a shared theatrical event rather than as separate individuals seeking personal attention.",
+            "keyTerms": [
+              {
+                "term": "Liveness",
+                "definition": "The quality of theatre happening in real time before a present audience, making each performance a unique, unrepeatable event."
+              },
+              {
+                "term": "Ephemerality",
+                "definition": "Theatre's inherent impermanence; a performance exists only in the moment it is performed and cannot be replayed exactly."
+              },
+              {
+                "term": "Collaboration",
+                "definition": "The combined creative work of playwright, director, designers, actors, and technicians needed to bring a production to life."
+              },
+              {
+                "term": "Audience-Performer Relationship",
+                "definition": "The reciprocal exchange of energy and attention between performers and spectators that shapes each live performance."
+              },
+              {
+                "term": "Suspension of Disbelief",
+                "definition": "The audience's willingness to accept the fictional world of a play as real for the duration of the performance."
+              },
+              {
+                "term": "Ensemble",
+                "definition": "A company of performers working together toward a unified theatrical event rather than as isolated individual performers."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What best distinguishes live theatre from film or television?",
+                "choices": [
+                  "It always uses more elaborate costumes",
+                  "It happens in real time in the shared presence of performers and audience",
+                  "It cannot tell complex stories",
+                  "It requires a larger budget"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Liveness** is the defining feature of theatre—performers and audience share the same time and space."
+              },
+              {
+                "question": "Why is theatre often described as ephemeral?",
+                "choices": [
+                  "Because scripts are destroyed after opening night",
+                  "Because each performance is a singular event that cannot be exactly repeated",
+                  "Because actors never rehearse",
+                  "Because theatres are temporary buildings"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Ephemerality** means each live performance exists only in its moment and can never be duplicated identically."
+              },
+              {
+                "question": "Which best describes theatre as a collaborative art?",
+                "choices": [
+                  "A single playwright controls every element without input",
+                  "It is produced by combining the work of many artists—playwrights, directors, designers, actors",
+                  "It relies only on the actors' improvisation",
+                  "It requires no coordination among artists"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Collaboration** among many artists—not one person's sole effort—produces a theatrical event."
+              },
+              {
+                "question": "The audience's active presence during a performance is best described by which term?",
+                "choices": [
+                  "Suspension of disbelief",
+                  "Denouement",
+                  "Audience-performer relationship",
+                  "Exposition"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **audience-performer relationship** refers to the live, reciprocal exchange between spectators and performers."
+              },
+              {
+                "question": "When an audience member accepts painted flats as a castle or a bare stage as a forest, this depends on what?",
+                "choices": [
+                  "Ensemble acting",
+                  "Suspension of disbelief",
+                  "Ephemerality",
+                  "Blocking"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Suspension of disbelief** allows audiences to accept a play's fictional world despite knowing it is staged."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u1-l2",
+            "title": "Aristotle's Elements of Drama",
+            "summary": "In the Poetics, Aristotle identified six elements that make up any drama, ranked by importance. **Plot**, the arrangement of incidents into a structured action, stands first because it organizes everything else a play does. **Character** follows closely, referring to the moral and psychological qualities revealed through a person's choices within that plot. **Thought** encompasses the ideas, themes, and reasoning a play explores, including the arguments characters use to justify their actions. **Diction** is the specific language and word choice through which thought and character become audible. **Melody**, originally the choral song of Greek tragedy, and **Spectacle**, the visual elements of staging, complete the list, though Aristotle considered them the least essential to a play's core dramatic effect.",
+            "keyTerms": [
+              {
+                "term": "Plot",
+                "definition": "The arrangement of incidents and structure of action in a play, which Aristotle considered the most important element because it organizes everything else."
+              },
+              {
+                "term": "Character",
+                "definition": "The moral and psychological qualities of the people in a play, revealed through their choices and actions."
+              },
+              {
+                "term": "Thought",
+                "definition": "The ideas, themes, and reasoning expressed in a play, including the arguments characters make to justify their actions."
+              },
+              {
+                "term": "Diction",
+                "definition": "The specific word choice and language used by characters to express thought."
+              },
+              {
+                "term": "Melody",
+                "definition": "The musical and rhythmic elements of a play's performance, originally the choral song and instrumental accompaniment in Greek drama."
+              },
+              {
+                "term": "Spectacle",
+                "definition": "The visual elements of a production, including scenery, costumes, and stage effects."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "According to Aristotle in the Poetics, which element of drama did he consider most essential?",
+                "choices": [
+                  "Spectacle",
+                  "Plot",
+                  "Music",
+                  "Diction"
+                ],
+                "answerIndex": 1,
+                "explanation": "Aristotle ranked **Plot** as the most important element because it organizes the action and determines a play's structure."
+              },
+              {
+                "question": "Which element refers to the moral and psychological qualities revealed by a person's choices in a play?",
+                "choices": [
+                  "Character",
+                  "Diction",
+                  "Melody",
+                  "Spectacle"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Character** encompasses the ethical and psychological traits shown through a figure's decisions and actions."
+              },
+              {
+                "question": "The ideas and themes a play explores, including the reasoning characters use to justify decisions, correspond to which Aristotelian element?",
+                "choices": [
+                  "Plot",
+                  "Thought",
+                  "Spectacle",
+                  "Melody"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Thought** refers to the underlying ideas and argumentation expressed through the play."
+              },
+              {
+                "question": "In Aristotle's system, the specific language and word choice used by characters is called what?",
+                "choices": [
+                  "Diction",
+                  "Melody",
+                  "Plot",
+                  "Spectacle"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Diction** is the precise selection and arrangement of words characters use to convey thought."
+              },
+              {
+                "question": "Which element did Aristotle rank as least important to the effect of tragedy, though it appeals most immediately to the senses?",
+                "choices": [
+                  "Plot",
+                  "Character",
+                  "Spectacle",
+                  "Thought"
+                ],
+                "answerIndex": 2,
+                "explanation": "Aristotle considered **Spectacle**, the visual staging, the least essential element because it depends on production rather than the poet's craft."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u1-l3",
+            "title": "Dramatic Structure and Conflict",
+            "summary": "Most Western drama follows a recognizable shape built around conflict and its consequences. **Exposition** opens the play, introducing characters, setting, and the circumstances that precede the main action. As characters pursue their goals, they meet obstacles that form the **rising action**, a sequence of complications that steadily increases tension. This tension peaks at the **climax**, the turning point where the central conflict reaches its height and the outcome becomes clear. The **falling action** then traces the consequences of that turning point, before the **resolution**, or denouement, ties up remaining loose ends and reveals the new order the conflict has produced. Driving this entire structure is **conflict** itself, commonly classified as person versus person, self, society, or nature, depending on the nature of the opposing forces at work.",
+            "keyTerms": [
+              {
+                "term": "Exposition",
+                "definition": "The opening portion of a play that introduces characters, setting, and the circumstances preceding the main action."
+              },
+              {
+                "term": "Rising Action",
+                "definition": "The series of complications and events that build tension as characters pursue their goals and encounter obstacles."
+              },
+              {
+                "term": "Climax",
+                "definition": "The turning point of highest tension in a play, where the central conflict reaches its peak and the outcome becomes clear."
+              },
+              {
+                "term": "Falling Action",
+                "definition": "The events following the climax that show the consequences of the turning point as the plot moves toward resolution."
+              },
+              {
+                "term": "Resolution (Denouement)",
+                "definition": "The final portion of a play in which loose ends are tied up and the new order established by the conflict's outcome is revealed."
+              },
+              {
+                "term": "Conflict",
+                "definition": "The struggle between opposing forces that drives dramatic action, commonly classified as person versus person, self, society, or nature."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which part of a play's structure introduces the setting, characters, and background information needed to understand the story?",
+                "choices": [
+                  "Climax",
+                  "Exposition",
+                  "Falling action",
+                  "Resolution"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Exposition** establishes the necessary background before the central conflict develops."
+              },
+              {
+                "question": "The point of highest tension, where the central conflict reaches its peak, is known as the:",
+                "choices": [
+                  "Rising action",
+                  "Exposition",
+                  "Climax",
+                  "Denouement"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Climax** marks the turning point where the outcome of the conflict becomes evident."
+              },
+              {
+                "question": "A protagonist struggling against a hurricane threatening to destroy her home exemplifies which type of conflict?",
+                "choices": [
+                  "Person versus self",
+                  "Person versus society",
+                  "Person versus nature",
+                  "Person versus person"
+                ],
+                "answerIndex": 2,
+                "explanation": "A struggle against natural forces like a storm is classified as **person versus nature** conflict."
+              },
+              {
+                "question": "Which structural stage follows the climax and shows the consequences of the turning point unfolding?",
+                "choices": [
+                  "Exposition",
+                  "Falling action",
+                  "Rising action",
+                  "Inciting incident"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Falling action** depicts the events that result from the climax as the play moves toward its ending."
+              },
+              {
+                "question": "A character torn between personal ambition and loyalty to family illustrates which type of dramatic conflict?",
+                "choices": [
+                  "Person versus nature",
+                  "Person versus society",
+                  "Person versus self",
+                  "Person versus person"
+                ],
+                "answerIndex": 2,
+                "explanation": "An internal struggle between competing desires within one character is **person versus self** conflict."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa9-u2",
+        "title": "The Playwright and Dramatic Genres",
+        "lessons": [
+          {
+            "id": "fa9-u2-l1",
+            "title": "The Playwright's Craft",
+            "summary": "Every play begins with the **playwright**, the author who invents characters, shapes dialogue, and builds dramatic structure from scratch. The playwright's finished text is called the **script**, a written blueprint of dialogue and stage directions that exists independently of any particular staging. A **production**, by contrast, is the full live realization of that script, combining directing, acting, and design to transform words on a page into a shared performance. Much of a script's content is **dialogue**, the spoken exchanges through which the playwright reveals plot, character, and conflict without direct narration. Interspersed with dialogue are **stage directions**, the playwright's notes describing setting, entrances, and physical action, which guide a production without being spoken aloud. Skilled playwrights also build in **subtext**, unspoken meaning beneath the lines that invites actors and directors to interpret what a character truly wants.",
+            "keyTerms": [
+              {
+                "term": "Playwright",
+                "definition": "The author who creates a play's characters, dialogue, and structure, shaping raw dramatic material into a performable text."
+              },
+              {
+                "term": "Script",
+                "definition": "The written text of a play, including dialogue and stage directions, that serves as the blueprint for a production."
+              },
+              {
+                "term": "Production",
+                "definition": "The full realization of a script on stage, combining directing, acting, and design to transform text into live performance."
+              },
+              {
+                "term": "Dialogue",
+                "definition": "The spoken exchanges between characters through which a playwright reveals plot, character, and conflict."
+              },
+              {
+                "term": "Stage Directions",
+                "definition": "The playwright's written instructions describing setting, movement, and action, distinct from the dialogue itself."
+              },
+              {
+                "term": "Subtext",
+                "definition": "The unspoken meaning or motivation beneath a character's spoken lines, which actors and directors interpret in performance."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What is the primary role of the playwright in theatre?",
+                "choices": [
+                  "Designing costumes for the production",
+                  "Creating characters, dialogue, and structure in a written text",
+                  "Directing actors during rehearsal",
+                  "Operating lighting equipment during the show"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Playwright** is the author who originates a play's characters, dialogue, and dramatic structure."
+              },
+              {
+                "question": "Which term refers to the written blueprint of a play, before it becomes a live performance?",
+                "choices": [
+                  "Production",
+                  "Script",
+                  "Blocking",
+                  "Spectacle"
+                ],
+                "answerIndex": 1,
+                "explanation": "A **Script** is the written text that guides a production but is distinct from the performance itself."
+              },
+              {
+                "question": "What best describes the difference between a script and a production?",
+                "choices": [
+                  "A script is the written text; a production is the live realization of that text on stage",
+                  "They are identical terms for the same thing",
+                  "A production always precedes the script",
+                  "A script includes only stage directions, never dialogue"
+                ],
+                "answerIndex": 0,
+                "explanation": "A **Script** is the fixed written text, while a **Production** is its live, collaborative staging, which can vary each time."
+              },
+              {
+                "question": "The playwright's written instructions describing setting and movement, separate from characters' spoken lines, are called:",
+                "choices": [
+                  "Dialogue",
+                  "Subtext",
+                  "Stage directions",
+                  "Denouement"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Stage directions** are the playwright's notes on action and setting, distinguished from spoken dialogue."
+              },
+              {
+                "question": "When a character says \"I'm fine\" while clearly upset, the true unspoken feeling beneath the line is an example of:",
+                "choices": [
+                  "Exposition",
+                  "Subtext",
+                  "Diction",
+                  "Spectacle"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Subtext** is the underlying meaning or emotion beneath what a character actually says aloud."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u2-l2",
+            "title": "Tragedy and Comedy",
+            "summary": "Classical dramatic theory divides plays into two foundational genres. **Tragedy** depicts the serious downfall of a significant figure, traditionally evoking pity and fear as the audience watches disaster unfold. At the center of many tragedies stands the **tragic hero**, a protagonist of high standing undone not by pure misfortune but by **hamartia**, a critical error in judgment or personal flaw that sets the downfall in motion. Witnessing this fall, audiences experience **catharsis**, an emotional release or purification that classical theorists considered tragedy's essential effect. **Comedy** works in the opposite direction, provoking laughter and typically resolving happily while still commenting on human behavior and social folly. Within comedy, **farce** pushes exaggeration furthest, relying on improbable coincidences, mistaken identities, and physical mishaps to generate laughter rather than careful social observation.",
+            "keyTerms": [
+              {
+                "term": "Tragedy",
+                "definition": "A serious dramatic genre depicting the downfall of a significant character, traditionally evoking pity and fear in the audience."
+              },
+              {
+                "term": "Comedy",
+                "definition": "A dramatic genre that provokes laughter and typically ends happily, often using humor to critique or reflect on human behavior."
+              },
+              {
+                "term": "Tragic Hero",
+                "definition": "A protagonist of high standing whose own flaw or error leads to a downfall that arouses pity and fear."
+              },
+              {
+                "term": "Catharsis",
+                "definition": "The emotional release or purification an audience experiences after witnessing the pity and fear evoked by tragedy."
+              },
+              {
+                "term": "Hamartia",
+                "definition": "The tragic hero's error in judgment or fatal flaw that sets the downfall in motion."
+              },
+              {
+                "term": "Farce",
+                "definition": "A comic form relying on exaggerated situations, improbable coincidences, and physical humor to provoke laughter."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "According to classical theory, what emotional experience does tragedy aim to produce in its audience through pity and fear?",
+                "choices": [
+                  "Catharsis",
+                  "Farce",
+                  "Subtext",
+                  "Spectacle"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Catharsis** describes the emotional purification or release tragedy provides audiences through pity and fear."
+              },
+              {
+                "question": "A protagonist of noble stature whose personal flaw leads to their downfall is known as a:",
+                "choices": [
+                  "Chorus leader",
+                  "Tragic hero",
+                  "Stock character",
+                  "Antagonist only"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Tragic hero** is a figure of high standing brought down by a flaw or error in judgment."
+              },
+              {
+                "question": "The specific error in judgment or fatal flaw that causes a tragic hero's downfall is called:",
+                "choices": [
+                  "Denouement",
+                  "Hamartia",
+                  "Catharsis",
+                  "Exposition"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Hamartia** is the term for the tragic hero's critical mistake or flaw that triggers the tragic outcome."
+              },
+              {
+                "question": "Which genre typically ends happily and uses humor, often to comment on human folly or social behavior?",
+                "choices": [
+                  "Tragedy",
+                  "Comedy",
+                  "Melodrama",
+                  "Tragicomedy only"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Comedy** generally resolves happily and uses humor to reflect on or critique human behavior."
+              },
+              {
+                "question": "A play featuring mistaken identities, slamming doors, and exaggerated physical mishaps best exemplifies which comic form?",
+                "choices": [
+                  "Tragic catharsis",
+                  "Farce",
+                  "Hamartia",
+                  "Exposition"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Farce** relies on exaggerated, improbable situations and physical comedy to generate laughter."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u2-l3",
+            "title": "Realism and Non-Realism",
+            "summary": "Playwrights choose how closely their work should resemble everyday life. **Realism** aims to represent ordinary experience truthfully, with believable characters, settings, and speech patterns that create **verisimilitude**, the impression that events could plausibly happen as shown. Other playwrights reject this approach in favor of **non-realism**, using stylized or symbolic means to express ideas that literal representation cannot capture. **Expressionism**, one non-realistic style, distorts sets, lighting, or dialogue to project a character's inner emotional state outward onto the stage itself. **Absurdism** goes further, depicting a world without inherent order or meaning through illogical situations and dialogue that fails to communicate. Both realistic and non-realistic plays rely on **theatrical convention**, an agreed-upon, non-literal device—such as a soliloquy or an aside—that audiences accept as meaningful within a play's particular fictional world.",
+            "keyTerms": [
+              {
+                "term": "Realism",
+                "definition": "A dramatic mode that attempts to represent everyday life truthfully, with believable characters, settings, and dialogue."
+              },
+              {
+                "term": "Verisimilitude",
+                "definition": "The quality of a work appearing true to life, creating the impression that events could plausibly happen as depicted."
+              },
+              {
+                "term": "Non-Realism",
+                "definition": "An umbrella term for dramatic approaches that depart from lifelike representation, using stylized or symbolic means to express ideas or emotion."
+              },
+              {
+                "term": "Expressionism",
+                "definition": "A non-realistic style that distorts external reality to project a character's inner emotional or psychological state."
+              },
+              {
+                "term": "Absurdism",
+                "definition": "A non-realistic dramatic mode depicting a world without inherent meaning or order, often through illogical situations and fragmented dialogue."
+              },
+              {
+                "term": "Theatrical Convention",
+                "definition": "An agreed-upon, non-literal device—such as a soliloquy or a chorus—that audiences accept as meaningful within a play's world."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A play that attempts to depict everyday speech, believable characters, and lifelike settings belongs to which dramatic mode?",
+                "choices": [
+                  "Absurdism",
+                  "Realism",
+                  "Expressionism",
+                  "Farce"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Realism** seeks to mirror everyday life through believable characters and situations."
+              },
+              {
+                "question": "The quality of a play appearing plausible and true to life is called:",
+                "choices": [
+                  "Verisimilitude",
+                  "Hamartia",
+                  "Spectacle",
+                  "Catharsis"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Verisimilitude** describes how convincingly a work creates the impression of real life."
+              },
+              {
+                "question": "A play that distorts sets, lighting, or dialogue to visually project a character's inner turmoil is an example of:",
+                "choices": [
+                  "Realism",
+                  "Expressionism",
+                  "Farce",
+                  "Verisimilitude"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Expressionism** externalizes a character's psychological state through distorted, non-literal staging."
+              },
+              {
+                "question": "A play depicting characters trapped in illogical, repetitive situations with dialogue that fails to communicate meaning reflects which mode?",
+                "choices": [
+                  "Realism",
+                  "Tragedy",
+                  "Absurdism",
+                  "Verisimilitude"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Absurdism** portrays a meaningless or illogical world, often through fragmented action and dialogue."
+              },
+              {
+                "question": "When an audience accepts a character's aside to the audience as unheard by other characters onstage, they are accepting a:",
+                "choices": [
+                  "Theatrical convention",
+                  "Hamartia",
+                  "Climax",
+                  "Verisimilitude"
+                ],
+                "answerIndex": 0,
+                "explanation": "A **Theatrical convention** is a non-literal device audiences agree to accept as meaningful within the play's fictional world."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa9-u3",
+        "title": "The Director and the Actor",
+        "lessons": [
+          {
+            "id": "fa9-u3-l1",
+            "title": "The Director's Vision",
+            "summary": "The **director** serves as the primary artistic authority responsible for interpreting a script and guiding every creative element of a production toward a single vision. That process begins with **interpretation**, the director's specific reading of what a script means and how its conflicts should be understood. From interpretation often emerges a **concept**, an overarching artistic approach—perhaps a particular setting or central image—that reframes the material for a contemporary audience. During rehearsal, the director determines **blocking**, the planned movement and positioning of actors in space, as part of broader **staging** decisions about how actors, scenery, and stage elements combine to direct focus and communicate meaning. When acting, design, and staging all reinforce the same interpretation, a production achieves **unity**, the coherence that distinguishes a well-directed show from a collection of unrelated choices.",
+            "keyTerms": [
+              {
+                "term": "Director",
+                "definition": "The artist responsible for interpreting a script and guiding all creative elements of a production toward a unified vision."
+              },
+              {
+                "term": "Interpretation",
+                "definition": "The director's particular understanding and reading of a script's meaning, which shapes choices throughout the production."
+              },
+              {
+                "term": "Concept",
+                "definition": "The director's overarching artistic approach to a production, often expressed through a central idea, image, or setting choice."
+              },
+              {
+                "term": "Blocking",
+                "definition": "The planned movement and positioning of actors on stage, determined largely by the director during rehearsal."
+              },
+              {
+                "term": "Staging",
+                "definition": "The arrangement of actors, scenery, and stage elements in space to communicate meaning and focus attention."
+              },
+              {
+                "term": "Unity",
+                "definition": "The coherence achieved when all production elements—acting, design, and staging—work together to support a single artistic vision."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which theatre artist is primarily responsible for interpreting a script and unifying all elements of a production?",
+                "choices": [
+                  "Stage manager",
+                  "Playwright",
+                  "Director",
+                  "Costume designer"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Director** interprets the script and guides all creative elements toward a cohesive production."
+              },
+              {
+                "question": "A director's particular reading or understanding of a script's meaning is called their:",
+                "choices": [
+                  "Blocking",
+                  "Interpretation",
+                  "Diction",
+                  "Denouement"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Interpretation** refers to the director's specific understanding of the script that shapes production choices."
+              },
+              {
+                "question": "Setting a traditional play in a modern dystopian world to comment on contemporary politics reflects a director's:",
+                "choices": [
+                  "Blocking",
+                  "Concept",
+                  "Subtext",
+                  "Hamartia"
+                ],
+                "answerIndex": 1,
+                "explanation": "A **Concept** is the director's overarching artistic approach that reframes or focuses a production's meaning."
+              },
+              {
+                "question": "The planned movement and stage positions given to actors during rehearsal is known as:",
+                "choices": [
+                  "Blocking",
+                  "Exposition",
+                  "Catharsis",
+                  "Verisimilitude"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Blocking** refers to the actors' planned movement and placement on stage."
+              },
+              {
+                "question": "When acting, design, and staging all work together coherently to support one artistic vision, a production has achieved:",
+                "choices": [
+                  "Farce",
+                  "Unity",
+                  "Hamartia",
+                  "Subtext"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Unity** describes the coherence of all production elements supporting a single vision."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u3-l2",
+            "title": "Actor Training and Character Development",
+            "summary": "Much of modern actor training descends from **Stanislavski's system**, developed by the Russian director Konstantin Stanislavski to help performers achieve truthful, believable performance rather than mechanical delivery. Central to this approach is **psychological realism**, the goal of portraying a character's inner emotional life and motivation as consistent with genuine human behavior. To build such a performance, actors examine the **given circumstances** of a scene—the specific facts of time, place, relationships, and events that shape a character's world—and identify an **objective**, the concrete goal a character pursues that drives choices moment to moment. This psychologically grounded approach is typically paired with **representational acting**, which creates the illusion of a self-contained reality as though the audience were not present. Other traditions instead favor **presentational acting**, in which performers openly acknowledge or address the audience, breaking that illusion by design.",
+            "keyTerms": [
+              {
+                "term": "Stanislavski's System",
+                "definition": "An approach to actor training developed by Konstantin Stanislavski that emphasizes truthful, psychologically grounded performance."
+              },
+              {
+                "term": "Psychological Realism",
+                "definition": "An acting approach that seeks to portray believable inner emotional life and motivation consistent with real human behavior."
+              },
+              {
+                "term": "Given Circumstances",
+                "definition": "The specific facts of a character's situation—time, place, relationships, and events—that an actor uses to build a truthful performance."
+              },
+              {
+                "term": "Objective",
+                "definition": "What a character wants to achieve in a scene, which drives the actor's choices and actions moment to moment."
+              },
+              {
+                "term": "Representational Acting",
+                "definition": "An approach in which actors aim to create the illusion of a self-contained reality, as if the audience were not present."
+              },
+              {
+                "term": "Presentational Acting",
+                "definition": "An approach in which performers acknowledge or directly address the audience, breaking the illusion of a self-contained world."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which approach to acting, developed by a Russian director, emphasizes truthful, psychologically grounded performance?",
+                "choices": [
+                  "Presentational acting",
+                  "Stanislavski's System",
+                  "Farce",
+                  "Spectacle"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Stanislavski's System** established techniques for achieving emotionally truthful, psychologically realistic performance."
+              },
+              {
+                "question": "The specific facts of a character's situation—such as time, place, and relationships—that actors use to build a role are called:",
+                "choices": [
+                  "Given circumstances",
+                  "Hamartia",
+                  "Blocking",
+                  "Subtext"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Given circumstances** are the concrete facts of a character's world that ground an actor's choices."
+              },
+              {
+                "question": "What a character actively wants to achieve within a scene, driving their choices, is known as their:",
+                "choices": [
+                  "Concept",
+                  "Objective",
+                  "Denouement",
+                  "Convention"
+                ],
+                "answerIndex": 1,
+                "explanation": "An **Objective** is the specific goal a character pursues, which shapes the actor's moment-to-moment behavior."
+              },
+              {
+                "question": "An actor who directly addresses the audience, acknowledging their presence, is using which approach?",
+                "choices": [
+                  "Representational acting",
+                  "Psychological realism",
+                  "Presentational acting",
+                  "Given circumstances"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Presentational acting** involves performers openly acknowledging or engaging the audience rather than ignoring them."
+              },
+              {
+                "question": "An acting style that creates the illusion of a private, self-contained world as though no audience were watching is called:",
+                "choices": [
+                  "Presentational acting",
+                  "Representational acting",
+                  "Farce",
+                  "Spectacle"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Representational acting** maintains the illusion of a self-contained reality unaware of the audience."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u3-l3",
+            "title": "Ensemble and Collaboration on Stage",
+            "summary": "Live performance depends on actors functioning as an **ensemble**, a company that supports one another and serves the whole production rather than any single standout performance. Achieving this requires **active listening**, an actor's genuine attentiveness to scene partners that allows responses to arise from what is actually being said and done, not from memorized expectation. Out of that listening comes **reacting**, the authentic, in-the-moment response to a partner's action that keeps a scene feeling alive rather than rehearsed. These skills are built during **rehearsal**, the structured process in which a director guides actors through repeated exploration and refinement before a production opens. Because ensemble work requires performers to take creative risks in front of one another, **trust** among cast members becomes essential, as does a healthy **actor-director relationship**, the collaborative dynamic balancing a director's overall interpretation with each actor's individual instincts.",
+            "keyTerms": [
+              {
+                "term": "Ensemble",
+                "definition": "A group of actors who function collectively, supporting one another to serve the production rather than individual performance alone."
+              },
+              {
+                "term": "Active Listening",
+                "definition": "An actor's genuine attentiveness to scene partners, allowing responses to arise truthfully from what is actually being said and done."
+              },
+              {
+                "term": "Reacting",
+                "definition": "An actor's authentic response to a partner's action or line, essential to keeping a scene alive and spontaneous."
+              },
+              {
+                "term": "Rehearsal",
+                "definition": "The structured process in which actors, under a director's guidance, explore, repeat, and refine a production before performance."
+              },
+              {
+                "term": "Trust",
+                "definition": "The mutual confidence among ensemble members that allows performers to take creative risks together on stage."
+              },
+              {
+                "term": "Actor-Director Relationship",
+                "definition": "The collaborative dynamic in which a director guides interpretation while actors bring individual choices and instincts to a role."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A group of actors functioning collectively to serve the whole production, rather than competing for individual attention, is called an:",
+                "choices": [
+                  "Audience",
+                  "Ensemble",
+                  "Chorus only",
+                  "Understudy"
+                ],
+                "answerIndex": 1,
+                "explanation": "An **Ensemble** works collectively, prioritizing the production as a whole over individual performances."
+              },
+              {
+                "question": "An actor's genuine attentiveness to a scene partner's words and actions, which allows truthful responses, is called:",
+                "choices": [
+                  "Blocking",
+                  "Active listening",
+                  "Hamartia",
+                  "Spectacle"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Active listening** keeps an actor's responses genuine and grounded in what is actually happening on stage."
+              },
+              {
+                "question": "The structured process in which actors explore and refine a production under a director's guidance before opening is called:",
+                "choices": [
+                  "Denouement",
+                  "Rehearsal",
+                  "Exposition",
+                  "Casting only"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Rehearsal** is the collaborative process of preparing and refining a production prior to performance."
+              },
+              {
+                "question": "Which quality among ensemble members allows performers to take creative risks together on stage?",
+                "choices": [
+                  "Hamartia",
+                  "Trust",
+                  "Verisimilitude",
+                  "Subtext"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Trust** among performers enables the confidence needed to take creative risks in front of an audience."
+              },
+              {
+                "question": "The collaborative dynamic in which a director shapes overall interpretation while actors contribute individual choices is called the:",
+                "choices": [
+                  "Actor-director relationship",
+                  "Given circumstances",
+                  "Concept",
+                  "Stage directions"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Actor-director relationship** describes the collaboration between a director's guidance and an actor's individual contributions."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa9-u4",
+        "title": "Design and Production Elements",
+        "lessons": [
+          {
+            "id": "fa9-u4-l1",
+            "title": "Scenic and Costume Design",
+            "summary": "Design elements work together to establish the physical and visual world of a production. **Scenic design** creates the sets, structures, and environment that tell an audience where and when a play takes place, often mapped out first through a **ground plan**, a scale drawing showing exactly where scenery and furniture sit on the stage floor. Working alongside scenery, **costume design** dresses each character to communicate identity, personality, and social **status**, frequently through fabric, color, and fit that a modern audience reads almost instinctively. Both designers must commit to a consistent **period style**, the historical era a production represents, which shapes everything from architectural details to clothing cut. A costume's **silhouette**, the overall outline it creates on an actor's body, can instantly signal a character's era or class before a single line is spoken, showing how deeply visual design shapes audience understanding.",
+            "keyTerms": [
+              {
+                "term": "Scenic Design",
+                "definition": "The creation of a play's physical environment—sets, structures, and props—to establish world, time, and place."
+              },
+              {
+                "term": "Costume Design",
+                "definition": "The creation of clothing and accessories for characters to communicate identity, status, era, and personality."
+              },
+              {
+                "term": "Ground Plan",
+                "definition": "A scale drawing showing the placement of scenery, furniture, and playing areas on the stage floor, used to plan movement and blocking."
+              },
+              {
+                "term": "Period Style",
+                "definition": "The historical era a production is designed to represent, influencing scenery, costume, and overall visual approach."
+              },
+              {
+                "term": "Status",
+                "definition": "A character's social rank or power, often communicated visually through costume choices like fabric, color, and fit."
+              },
+              {
+                "term": "Silhouette",
+                "definition": "The overall outline or shape created by a costume, which can signal era, class, or character traits at a glance."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which design area is primarily responsible for establishing a play's physical environment, including sets and structures?",
+                "choices": [
+                  "Costume design",
+                  "Scenic design",
+                  "Sound design",
+                  "Lighting design"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Scenic design** creates the physical world of the play, establishing time and place through sets and structures."
+              },
+              {
+                "question": "Which design element uses clothing and accessories to communicate a character's identity and social status?",
+                "choices": [
+                  "Scenic design",
+                  "Lighting design",
+                  "Costume design",
+                  "Sound design"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Costume design** conveys character traits, status, and era through clothing choices."
+              },
+              {
+                "question": "A scale drawing showing where scenery and furniture are placed on the stage floor is called a:",
+                "choices": [
+                  "Ground plan",
+                  "Script",
+                  "Concept",
+                  "Storyboard"
+                ],
+                "answerIndex": 0,
+                "explanation": "A **Ground plan** maps the placement of scenic elements to guide staging and movement."
+              },
+              {
+                "question": "A costume using rich fabrics and an elaborate cut to suggest a character's wealth and power is communicating the character's:",
+                "choices": [
+                  "Objective",
+                  "Status",
+                  "Hamartia",
+                  "Given circumstances"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Status** is a character's social rank, often signaled visually through costume choices."
+              },
+              {
+                "question": "The overall outline or shape a costume creates on an actor's body, which can instantly suggest era or class, is called:",
+                "choices": [
+                  "Silhouette",
+                  "Ground plan",
+                  "Period style",
+                  "Blocking"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Silhouette** is the outline a costume creates, communicating information about era or class at a glance."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u4-l2",
+            "title": "Lighting and Sound Design",
+            "summary": "Two design areas shape a production primarily through what an audience hears and sees without touching the stage itself. **Lighting design** controls the intensity, color, and direction of stage light to establish time of day, shape **mood**, and create **focus**, directing an audience's attention to a particular performer or area of the stage. **Sound design** works in parallel, creating or selecting music and effects that support storytelling and reinforce atmosphere, sometimes through **underscoring**, music played quietly beneath dialogue to heighten emotional tone without overwhelming the scene. Both lighting and sound changes are executed through a **cue**, a precise, timed signal that triggers a technical shift at an exact moment during a live performance. Because these elements operate largely below conscious awareness, audiences often feel a scene's emotional shift without recognizing that a lighting or sound cue caused it.",
+            "keyTerms": [
+              {
+                "term": "Lighting Design",
+                "definition": "The use of stage light—its intensity, color, and direction—to shape mood, focus, and the illusion of time or place."
+              },
+              {
+                "term": "Sound Design",
+                "definition": "The creation and integration of music and sound effects to support storytelling, atmosphere, and emotional tone."
+              },
+              {
+                "term": "Focus",
+                "definition": "The lighting technique of directing the audience's attention to a specific performer or area of the stage through illumination."
+              },
+              {
+                "term": "Mood",
+                "definition": "The emotional atmosphere of a scene, often shaped significantly by choices in color, intensity, and quality of light or sound."
+              },
+              {
+                "term": "Cue",
+                "definition": "A specific, timed signal that triggers a change in lighting, sound, or other technical elements during a performance."
+              },
+              {
+                "term": "Underscoring",
+                "definition": "Music played beneath dialogue or action to heighten emotional tone without drawing attention away from the scene."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which design area uses intensity, color, and direction of stage light to shape mood and focus?",
+                "choices": [
+                  "Costume design",
+                  "Lighting design",
+                  "Scenic design",
+                  "Stage management"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Lighting design** shapes a scene's mood, focus, and sense of time through control of stage light."
+              },
+              {
+                "question": "Which design area creates or selects music and effects to support atmosphere and storytelling?",
+                "choices": [
+                  "Sound design",
+                  "Scenic design",
+                  "Costume design",
+                  "Blocking"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Sound design** integrates music and effects to reinforce a production's atmosphere and narrative."
+              },
+              {
+                "question": "Directing the audience's eye to a specific actor through a spotlight or brighter area of the stage is an example of lighting's role in:",
+                "choices": [
+                  "Focus",
+                  "Status",
+                  "Silhouette",
+                  "Given circumstances"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Focus** is the lighting technique used to guide audience attention to a particular area or performer."
+              },
+              {
+                "question": "A specific, timed signal that triggers a change in lighting or sound during a performance is called a:",
+                "choices": [
+                  "Cue",
+                  "Concept",
+                  "Ground plan",
+                  "Objective"
+                ],
+                "answerIndex": 0,
+                "explanation": "A **Cue** is the precise, timed trigger for a technical change during a live performance."
+              },
+              {
+                "question": "Music played quietly beneath a dialogue scene to heighten emotional tone without overpowering it is called:",
+                "choices": [
+                  "Farce",
+                  "Underscoring",
+                  "Focus",
+                  "Period style"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Underscoring** is music placed beneath dialogue or action to support emotional tone subtly."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u4-l3",
+            "title": "The Production Process",
+            "summary": "Turning a script into a finished production requires a structured process coordinated by many hands. Early on, the director and designers gather for a **production meeting** to align artistic choices with practical realities like budget and schedule. Throughout rehearsals, the **stage manager** coordinates logistics, records blocking, and eventually calls every cue during performances, serving as the connective thread between the creative and technical teams. As actors gain familiarity with a script, rehearsals shift toward the **run-through**, performing a scene, act, or the entire play without stopping to build pacing and continuity. Once scenery and equipment arrive during **load-in**, the production moves into a **tech rehearsal**, which integrates lighting, sound, and scenic cues with the actors' performance. Finally, a **dress rehearsal** brings every element together—costumes, makeup, and technical cues—exactly as audiences will experience it on opening night.",
+            "keyTerms": [
+              {
+                "term": "Stage Manager",
+                "definition": "The production team member who coordinates rehearsals, records blocking, and calls cues during performances to keep the show running smoothly."
+              },
+              {
+                "term": "Production Meeting",
+                "definition": "A gathering of the director and designers to coordinate the artistic and practical elements of a production before and during rehearsals."
+              },
+              {
+                "term": "Run-Through",
+                "definition": "A rehearsal in which a scene, act, or the entire play is performed without stopping, used to build pacing and continuity."
+              },
+              {
+                "term": "Tech Rehearsal",
+                "definition": "A rehearsal focused on integrating lighting, sound, and scenic cues with the actors' performance, often without emphasis on acting nuance."
+              },
+              {
+                "term": "Dress Rehearsal",
+                "definition": "A full rehearsal performed with costumes, makeup, and all technical elements exactly as they will appear in performance."
+              },
+              {
+                "term": "Load-In",
+                "definition": "The process of moving and installing scenery, lighting, and equipment into the theatre before rehearsals move into the performance space."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which production team member coordinates rehearsals, records blocking, and calls cues during performances?",
+                "choices": [
+                  "Director",
+                  "Stage manager",
+                  "Scenic designer",
+                  "Playwright"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Stage manager** coordinates the rehearsal process and calls technical cues during the run of a show."
+              },
+              {
+                "question": "A gathering where the director and designers coordinate artistic and practical decisions for a production is called a:",
+                "choices": [
+                  "Tech rehearsal",
+                  "Production meeting",
+                  "Load-in",
+                  "Dress rehearsal"
+                ],
+                "answerIndex": 1,
+                "explanation": "A **Production meeting** brings the director and designers together to coordinate the show's elements."
+              },
+              {
+                "question": "A rehearsal that performs a scene or act without stopping, primarily to build pacing and continuity, is called a:",
+                "choices": [
+                  "Run-through",
+                  "Tech rehearsal",
+                  "Load-in",
+                  "Cold read"
+                ],
+                "answerIndex": 0,
+                "explanation": "A **Run-through** performs continuous stretches of the play to establish pacing and flow."
+              },
+              {
+                "question": "A rehearsal focused specifically on integrating lighting, sound, and scenic cues with the performance is called:",
+                "choices": [
+                  "Dress rehearsal",
+                  "Tech rehearsal",
+                  "Run-through",
+                  "Load-in"
+                ],
+                "answerIndex": 1,
+                "explanation": "A **Tech rehearsal** concentrates on coordinating technical elements—lighting, sound, and scenery—with the actors."
+              },
+              {
+                "question": "A full rehearsal using costumes, makeup, and all technical elements exactly as they will appear on opening night is called a:",
+                "choices": [
+                  "Tech rehearsal",
+                  "Load-in",
+                  "Dress rehearsal",
+                  "Production meeting"
+                ],
+                "answerIndex": 2,
+                "explanation": "A **Dress rehearsal** replicates the full performance conditions, including costumes and technical elements."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa9-u5",
+        "title": "Theatre History and Global/Contemporary Theatre",
+        "lessons": [
+          {
+            "id": "fa9-u5-l1",
+            "title": "Origins of Western Theatre in Ancient Greece",
+            "summary": "Western theatre traces its roots to religious festivals in ancient Athens honoring **Dionysus**, the god of wine, fertility, and ecstatic ritual. The most important of these celebrations, the **City Dionysia**, became a civic competition where playwrights presented new tragedies and comedies before large public audiences. These plays were staged in the **amphitheater**, an open-air venue built into a hillside with tiered, semicircular seating designed for strong sightlines and natural acoustics across thousands of spectators. At the center of the action stood the **chorus**, a group of performers who sang, danced, and commented on events, often voicing a communal or civic perspective distinct from the individual characters. The chorus performed within the **orchestra**, the circular playing space at the theatre's base, backed by the **skene**, a scene-building that served as a changing area and visual backdrop, giving us the modern word scene.",
+            "keyTerms": [
+              {
+                "term": "Dionysus",
+                "definition": "The Greek god of wine, fertility, and ecstatic ritual, in whose honor Athenian theatrical festivals originated."
+              },
+              {
+                "term": "City Dionysia",
+                "definition": "The major Athenian festival honoring Dionysus at which playwrights competed with new tragedies and comedies before large civic audiences."
+              },
+              {
+                "term": "Amphitheater",
+                "definition": "An open-air performance space built into a hillside, with tiered seating arranged in a semicircle around the playing area for strong sightlines and acoustics."
+              },
+              {
+                "term": "Chorus",
+                "definition": "A group of performers in Greek drama who commented on the action, provided background information, and represented communal or public perspective."
+              },
+              {
+                "term": "Orchestra",
+                "definition": "The circular playing area at the base of a Greek theatre where the chorus danced and sang."
+              },
+              {
+                "term": "Skene",
+                "definition": "The scene-building behind the orchestra in a Greek theatre, used as a backdrop and changing area, and the origin of the word 'scene.'"
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Western theatre traditionally traces its origins to religious festivals honoring which Greek god?",
+                "choices": [
+                  "Zeus",
+                  "Apollo",
+                  "Dionysus",
+                  "Poseidon"
+                ],
+                "answerIndex": 2,
+                "explanation": "Greek theatre developed from ritual festivals honoring **Dionysus**, god of wine and ecstatic celebration."
+              },
+              {
+                "question": "The major Athenian festival at which playwrights competed with new tragedies and comedies was called the:",
+                "choices": [
+                  "Olympic Games",
+                  "City Dionysia",
+                  "Panathenaea only",
+                  "Skene Festival"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **City Dionysia** was the civic festival where Athenian playwrights presented new works in competition."
+              },
+              {
+                "question": "Ancient Greek theatres were typically built as open-air structures with tiered seating on a hillside, known as:",
+                "choices": [
+                  "Amphitheaters",
+                  "Proscenium houses",
+                  "Black box theatres",
+                  "Thrust stages only"
+                ],
+                "answerIndex": 0,
+                "explanation": "The Greek **Amphitheater** used tiered, semicircular seating on a hillside for strong sightlines and natural acoustics."
+              },
+              {
+                "question": "In Greek drama, the group of performers who commented on the action and represented a communal perspective was the:",
+                "choices": [
+                  "Skene",
+                  "Chorus",
+                  "Orchestra",
+                  "Ensemble only"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Chorus** commented on the dramatic action and voiced a collective or civic viewpoint."
+              },
+              {
+                "question": "The circular area at the base of a Greek theatre where the chorus sang and danced was called the:",
+                "choices": [
+                  "Skene",
+                  "Amphitheater",
+                  "Orchestra",
+                  "Proscenium"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Orchestra** was the circular space where the chorus performed its songs and dances."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u5-l2",
+            "title": "Theatre Through the Ages",
+            "summary": "Theatre's history after antiquity moves through several distinct stages before arriving at modern practice. In medieval Europe, **liturgical drama** began as brief dramatized episodes performed within church services to illustrate biblical stories for largely illiterate congregations. This practice grew into the **mystery play**, staged by town guilds on outdoor wagons or platforms and aimed at public audiences rather than churchgoers alone. Centuries later, English Renaissance theatre flourished at venues like the **Globe Theatre**, associated with Shakespeare's company and built around a **thrust stage** extending into the audience on three sides. Continental Europe developed a different model, the **proscenium arch**, a framed opening separating stage from audience that dominated Western theatre architecture for centuries afterward. By the late nineteenth century, playwrights increasingly turned toward **modern realism**, seeking to depict ordinary life and pressing social issues with psychological and physical accuracy.",
+            "keyTerms": [
+              {
+                "term": "Liturgical Drama",
+                "definition": "Short dramatized scenes performed within medieval church services to illustrate biblical stories for largely illiterate congregations."
+              },
+              {
+                "term": "Mystery Play",
+                "definition": "A medieval play, often performed by town guilds on wagons or outdoor stages, dramatizing biblical narratives for public audiences outside the church."
+              },
+              {
+                "term": "Globe Theatre",
+                "definition": "The open-air London playhouse associated with Shakespeare's company, notable for its thrust stage surrounded on three sides by standing and seated spectators."
+              },
+              {
+                "term": "Thrust Stage",
+                "definition": "A stage configuration that extends into the audience, who sit on three sides, common in Renaissance English playhouses."
+              },
+              {
+                "term": "Proscenium Arch",
+                "definition": "A framed opening separating the stage from the audience, developed in Renaissance Italy, that became the dominant Western stage form for centuries."
+              },
+              {
+                "term": "Modern Realism",
+                "definition": "The late nineteenth and early twentieth century movement in which playwrights turned toward depicting ordinary life and social issues with psychological and physical accuracy."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Short dramatized scenes performed within medieval church services to illustrate Bible stories were known as:",
+                "choices": [
+                  "Mystery plays",
+                  "Liturgical drama",
+                  "Morality plays only",
+                  "Farces"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Liturgical drama** consisted of brief dramatized episodes performed as part of church services."
+              },
+              {
+                "question": "Medieval plays dramatizing biblical narratives, often staged by town guilds on outdoor wagons, were called:",
+                "choices": [
+                  "Mystery plays",
+                  "Proscenium plays",
+                  "Tragedies only",
+                  "Interludes only"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Mystery plays** were guild-produced dramatizations of biblical stories performed for public audiences outside church walls."
+              },
+              {
+                "question": "Shakespeare's company performed at which open-air London playhouse featuring a stage surrounded on three sides by spectators?",
+                "choices": [
+                  "The Proscenium House",
+                  "The Globe Theatre",
+                  "The Skene",
+                  "The Black Box"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Globe Theatre** was the open-air playhouse associated with Shakespeare's company and its thrust stage design."
+              },
+              {
+                "question": "A framed stage opening separating performers from the audience, developed in Renaissance Italy, is called a:",
+                "choices": [
+                  "Thrust stage",
+                  "Orchestra",
+                  "Proscenium arch",
+                  "Amphitheater"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **Proscenium arch** frames the stage opening and became the dominant Western theatre form for centuries."
+              },
+              {
+                "question": "The late nineteenth and early twentieth century movement toward depicting ordinary life and social issues with psychological accuracy is known as:",
+                "choices": [
+                  "Modern realism",
+                  "Liturgical drama",
+                  "Expressionism only",
+                  "Farce"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Modern realism** shifted playwriting toward truthful depictions of everyday life and social concerns."
+              }
+            ]
+          },
+          {
+            "id": "fa9-u5-l3",
+            "title": "Contemporary and World Theatre Traditions",
+            "summary": "Theatre history extends well beyond the Western lineage traced from ancient Greece through Broadway. Traditions such as **Kabuki**, a highly stylized Japanese form combining dance, music, and elaborate costume and makeup performed traditionally by all-male companies, represent just one example of a rich **world theatre tradition** developed independently of European models, each with distinct conventions and purposes. Contemporary practice continues to expand theatrical form, including through **devised theatre**, in which a company collaboratively creates a production without starting from a completed playwright's script. Today, **contemporary American theatre** spans an enormous range of styles and voices, from Broadway spectacle to intimate regional and community stages. Increasingly, productions also embrace **interculturalism**, deliberately blending conventions from different cultural traditions within a single work. Understanding and evaluating any of these productions depends on **theatre criticism**, the informed analysis of a production's artistic choices and effectiveness for its audience.",
+            "keyTerms": [
+              {
+                "term": "Kabuki",
+                "definition": "A highly stylized Japanese theatre form combining dance, music, and elaborate costume and makeup, traditionally performed by all-male companies."
+              },
+              {
+                "term": "World Theatre Tradition",
+                "definition": "A broad term for performance forms developed outside the Western dramatic lineage, each with distinct conventions, training, and purposes."
+              },
+              {
+                "term": "Devised Theatre",
+                "definition": "A contemporary process in which a production is created collaboratively by a company, often without a pre-existing script, rather than staged from a playwright's finished text."
+              },
+              {
+                "term": "Contemporary American Theatre",
+                "definition": "Theatre produced in the present era in the United States, encompassing a wide range of styles, voices, and venues from Broadway to regional and community theatres."
+              },
+              {
+                "term": "Theatre Criticism",
+                "definition": "The practice of analyzing and evaluating a live production's artistic choices, execution, and effectiveness for an audience."
+              },
+              {
+                "term": "Interculturalism",
+                "definition": "The blending or juxtaposition of theatrical traditions and conventions from different cultures within a single production."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which highly stylized Japanese theatre form combines dance, music, and elaborate costume and makeup, traditionally performed by all-male companies?",
+                "choices": [
+                  "Kabuki",
+                  "Devised theatre",
+                  "Farce",
+                  "Liturgical drama"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Kabuki** is a stylized Japanese theatrical form known for its dance, music, and elaborate visual presentation."
+              },
+              {
+                "question": "A broad term for performance traditions that developed outside the Western dramatic lineage, each with distinct conventions, is:",
+                "choices": [
+                  "Proscenium theatre",
+                  "World theatre tradition",
+                  "Modern realism",
+                  "Liturgical drama"
+                ],
+                "answerIndex": 1,
+                "explanation": "**World theatre tradition** refers collectively to performance forms outside the Western theatrical lineage."
+              },
+              {
+                "question": "A production created collaboratively by a company without starting from a completed playwright's script is called:",
+                "choices": [
+                  "Devised theatre",
+                  "Liturgical drama",
+                  "Mystery play",
+                  "Proscenium theatre"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Devised theatre** is generated collaboratively by an ensemble rather than staged from a pre-written text."
+              },
+              {
+                "question": "The practice of analyzing and evaluating a live production's artistic choices and effectiveness for an audience is called:",
+                "choices": [
+                  "Blocking",
+                  "Theatre criticism",
+                  "Given circumstances",
+                  "Interculturalism"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Theatre criticism** involves the informed analysis and evaluation of a production's artistic execution."
+              },
+              {
+                "question": "When a single production deliberately blends conventions from two distinct cultural theatrical traditions, this is an example of:",
+                "choices": [
+                  "Interculturalism",
+                  "Hamartia",
+                  "Verisimilitude",
+                  "Farce"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Interculturalism** describes the blending of theatrical traditions from different cultures within one production."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "speech9",
@@ -6068,7 +7419,1354 @@
     "stateCourseStandard": "TCC SPCH 1315 — Public Speaking",
     "peimsCode": "13009900 / 03241100",
     "description": "Satisfies the state's 0.5-credit Speech requirement while earning AA/AS elective credit at TCC, taken freshman year.",
-    "units": []
+    "units": [
+      {
+        "id": "speech9-u1",
+        "title": "Foundations of Public Speaking",
+        "lessons": [
+          {
+            "id": "speech9-u1-l1",
+            "title": "The Communication Process",
+            "summary": "Every act of public speaking begins with a basic model of human interaction. The **sender** is the speaker who encodes an idea into a **message**, the verbal and nonverbal content carrying meaning. That message travels through a **channel** — voice, gesture, slides — to reach the **receiver**, who decodes it using personal experience and background. Communication is rarely one-directional: the receiver returns **feedback**, signals telling the speaker how the message landed, so the speaker can adjust in real time. Throughout this exchange, **noise**, any physical, psychological, or semantic interference, can distort or block meaning entirely, which is why effective speakers anticipate it rather than ignore it.",
+            "keyTerms": [
+              {
+                "term": "Sender",
+                "definition": "The speaker who originates and encodes an idea into a message for an audience."
+              },
+              {
+                "term": "Message",
+                "definition": "The verbal and nonverbal content a speaker communicates, including words, tone, and gestures."
+              },
+              {
+                "term": "Channel",
+                "definition": "The medium through which a message travels from speaker to audience, such as voice, visual aids, or video."
+              },
+              {
+                "term": "Receiver",
+                "definition": "The audience member who receives and decodes a speaker's message based on their own knowledge and experience."
+              },
+              {
+                "term": "Feedback",
+                "definition": "The verbal and nonverbal responses an audience gives that tell a speaker how a message is being received."
+              },
+              {
+                "term": "Noise",
+                "definition": "Any physical, psychological, or semantic interference that distorts or blocks communication between speaker and audience."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "When a receiver interprets a speaker's words and gestures to construct meaning, this process is called what?",
+                "choices": [
+                  "Feedback",
+                  "Noise",
+                  "Decoding",
+                  "Encoding"
+                ],
+                "answerIndex": 2,
+                "explanation": "Decoding is how a receiver interprets a speaker's **message** to construct meaning from it."
+              },
+              {
+                "question": "A student speaker notices confused expressions and slows down her pace to clarify a point. This audience reaction is an example of what?",
+                "choices": [
+                  "Noise",
+                  "Feedback",
+                  "Channel",
+                  "Sender"
+                ],
+                "answerIndex": 1,
+                "explanation": "The confused expressions are **feedback**, cues that tell the speaker how the message is landing."
+              },
+              {
+                "question": "A rattling air conditioner during a speech that makes it hard for the audience to hear the speaker is an example of what?",
+                "choices": [
+                  "Feedback",
+                  "Channel",
+                  "Noise",
+                  "Message"
+                ],
+                "answerIndex": 2,
+                "explanation": "External physical interference like a loud air conditioner is a form of **noise** that disrupts communication."
+              },
+              {
+                "question": "Which of the following best describes the channel in a classroom speech given with PowerPoint slides and a microphone?",
+                "choices": [
+                  "The speaker's ideas",
+                  "The audience's reactions",
+                  "The medium through which the message travels, such as voice and visuals",
+                  "The interference that blocks the message"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **channel** is the medium — here, voice amplified by a microphone and visual slides — that carries the message to receivers."
+              },
+              {
+                "question": "Semantic noise occurs when...",
+                "choices": [
+                  "A receiver misunderstands a word or jargon term the speaker used",
+                  "A dog barks outside the room",
+                  "The speaker forgets their outline",
+                  "The audience applauds"
+                ],
+                "answerIndex": 0,
+                "explanation": "Semantic **noise** arises from confusing language or unfamiliar wording that interferes with a receiver's understanding of the message."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u1-l2",
+            "title": "Managing Speech Anxiety",
+            "summary": "Nearly every speaker feels nervous before addressing an audience, and this response has a name: **communication apprehension**, the fear or anxiety associated with real or anticipated communication. Not all of this nervous energy is harmful. **Facilitative anxiety** is the manageable arousal that sharpens focus and can actually improve a performance, while **debilitative anxiety** is the more intense fear that interferes with concentration and undermines delivery. Speakers can shift anxiety from debilitative to facilitative using several strategies. **Cognitive restructuring** replaces irrational, catastrophic thoughts about failure with realistic, encouraging ones. **Visualization** involves mentally rehearsing a successful speech from start to finish. **Systematic desensitization** gradually exposes a speaker to public speaking situations in small, increasingly challenging steps, building comfort over time.",
+            "keyTerms": [
+              {
+                "term": "Communication Apprehension",
+                "definition": "The fear or anxiety a person feels about real or anticipated communication with others."
+              },
+              {
+                "term": "Facilitative Anxiety",
+                "definition": "A manageable level of nervous energy that sharpens focus and can improve speech performance."
+              },
+              {
+                "term": "Debilitative Anxiety",
+                "definition": "An intense level of fear that interferes with concentration, memory, and delivery during a speech."
+              },
+              {
+                "term": "Cognitive Restructuring",
+                "definition": "A strategy of replacing irrational, negative thoughts about speaking with realistic, positive ones."
+              },
+              {
+                "term": "Visualization",
+                "definition": "A technique of mentally rehearsing a successful speech performance before delivering it."
+              },
+              {
+                "term": "Systematic Desensitization",
+                "definition": "A method of gradually exposing oneself to increasingly challenging speaking situations to reduce anxiety over time."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What term describes the fear or anxiety a person experiences about communicating in front of others?",
+                "choices": [
+                  "Noise",
+                  "Communication apprehension",
+                  "Feedback",
+                  "Debilitative listening"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Communication apprehension** is the general term for fear or anxiety tied to real or anticipated communication."
+              },
+              {
+                "question": "A speaker feels a rush of adrenaline before speaking that helps her stay alert and deliver with energy. This is best described as...",
+                "choices": [
+                  "Debilitative anxiety",
+                  "Communication apprehension",
+                  "Facilitative anxiety",
+                  "Systematic desensitization"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Facilitative anxiety** is nervous energy that, in a manageable amount, can enhance rather than harm a speaker's performance."
+              },
+              {
+                "question": "A student is so overwhelmed by fear before a speech that he forgets his main points and freezes. This illustrates...",
+                "choices": [
+                  "Facilitative anxiety",
+                  "Debilitative anxiety",
+                  "Cognitive restructuring",
+                  "Visualization"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Debilitative anxiety** is fear severe enough to disrupt memory, concentration, and overall delivery."
+              },
+              {
+                "question": "Which strategy involves a speaker replacing the thought 'I will humiliate myself' with 'I am prepared and my audience wants me to succeed'?",
+                "choices": [
+                  "Systematic desensitization",
+                  "Visualization",
+                  "Cognitive restructuring",
+                  "Feedback"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Cognitive restructuring** works by swapping catastrophic, irrational thoughts for realistic and encouraging ones."
+              },
+              {
+                "question": "A speech instructor has students first speak briefly to a partner, then to a small group, and finally to the whole class over several weeks. This approach is an example of...",
+                "choices": [
+                  "Visualization",
+                  "Systematic desensitization",
+                  "Debilitative anxiety",
+                  "Communication apprehension"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Systematic desensitization** reduces anxiety by gradually increasing exposure to more challenging speaking situations."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u1-l3",
+            "title": "Ethical Speaking and Listening",
+            "summary": "Public speaking carries real responsibility because a speaker holds an audience's trust and attention. **Ethical speaking** means being honest, using reliable evidence, respecting the audience's ability to decide for itself, and crediting borrowed ideas rather than presenting them as one's own. **Plagiarism**, using another person's words or ideas without credit, violates that trust, whether it means copying an entire speech or lifting a single uncredited statistic. Proper **attribution**, naming a source aloud or in writing, protects both a speaker's integrity and an audience's ability to judge evidence. Listening carries duties too: **active listening** requires giving focused attention and genuinely working to understand a message, while **critical listening** means evaluating its accuracy and reasoning. Both are often disrupted by a **listening barrier** such as distraction or prejudgment.",
+            "keyTerms": [
+              {
+                "term": "Ethical Speaking",
+                "definition": "Communicating honestly, using credible evidence, and respecting the audience's right to make informed decisions."
+              },
+              {
+                "term": "Plagiarism",
+                "definition": "Presenting another person's words, ideas, or research as one's own without giving credit."
+              },
+              {
+                "term": "Attribution",
+                "definition": "The practice of naming the source of borrowed information, whether spoken aloud or written in an outline."
+              },
+              {
+                "term": "Active Listening",
+                "definition": "Giving a speaker full, focused attention and working to accurately understand the intended message."
+              },
+              {
+                "term": "Critical Listening",
+                "definition": "Evaluating the accuracy, logic, and credibility of a speaker's message rather than simply absorbing it."
+              },
+              {
+                "term": "Listening Barrier",
+                "definition": "Any obstacle, such as distraction, prejudgment, or information overload, that interferes with effective listening."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A student copies three sentences from a website into her speech outline without citing the source. This is an example of...",
+                "choices": [
+                  "Attribution",
+                  "Critical listening",
+                  "Plagiarism",
+                  "Facilitative anxiety"
+                ],
+                "answerIndex": 2,
+                "explanation": "Using another's words without credit, even a few sentences, is **plagiarism**."
+              },
+              {
+                "question": "Which behavior best reflects ethical speaking?",
+                "choices": [
+                  "Exaggerating statistics to make a stronger case",
+                  "Naming the source of a quoted statistic during the speech",
+                  "Leaving out evidence that complicates the argument",
+                  "Presenting a classmate's research as original work"
+                ],
+                "answerIndex": 1,
+                "explanation": "Naming a source aloud demonstrates **attribution**, a core practice of ethical speaking."
+              },
+              {
+                "question": "An audience member sets aside his phone, faces the speaker, and mentally summarizes each main point as it's presented. This behavior demonstrates...",
+                "choices": [
+                  "Critical listening",
+                  "Debilitative anxiety",
+                  "Active listening",
+                  "Noise"
+                ],
+                "answerIndex": 2,
+                "explanation": "Giving focused attention and working to understand the message is the definition of **active listening**."
+              },
+              {
+                "question": "A listener questions whether a speaker's statistics come from a credible, unbiased source before accepting the speaker's conclusion. This listener is practicing...",
+                "choices": [
+                  "Active listening",
+                  "Critical listening",
+                  "Plagiarism",
+                  "Encoding"
+                ],
+                "answerIndex": 1,
+                "explanation": "Evaluating the accuracy and credibility of a message is **critical listening**."
+              },
+              {
+                "question": "Which of the following is an example of a listening barrier?",
+                "choices": [
+                  "Taking brief notes on main points",
+                  "Making eye contact with the speaker",
+                  "Deciding you already disagree with the speaker before she begins",
+                  "Asking a clarifying question after the speech"
+                ],
+                "answerIndex": 2,
+                "explanation": "Prejudging a speaker's message before hearing it is a common **listening barrier** that blocks understanding."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "speech9-u2",
+        "title": "Audience Analysis and Topic Selection",
+        "lessons": [
+          {
+            "id": "speech9-u2-l1",
+            "title": "Analyzing Your Audience",
+            "summary": "No speech succeeds in a vacuum; it succeeds because it fits the people hearing it. **Audience analysis** is the process of gathering information about listeners in order to shape a speech's content, language, and approach. One part of this process, **demographic analysis**, examines traits such as age, education, and cultural background that influence how a topic will be received. A second part, **attitudinal analysis**, looks at what the audience already believes, values, and knows about the topic. Armed with this information, a speaker practices **audience adaptation**, adjusting examples, vocabulary, and appeals to fit the specific listeners in the room. A speaker who consistently makes these choices with listeners' needs in mind is called an **audience-centered speaker**. Analysis matters even more with a **captive audience**, listeners required to attend rather than choosing to.",
+            "keyTerms": [
+              {
+                "term": "Audience Analysis",
+                "definition": "The process of gathering and interpreting information about listeners to shape a speech's content and approach."
+              },
+              {
+                "term": "Demographic Analysis",
+                "definition": "Examining audience traits such as age, gender, education, and cultural background that may affect how a topic is received."
+              },
+              {
+                "term": "Attitudinal Analysis",
+                "definition": "Assessing what an audience already believes, values, and knows about a speech topic."
+              },
+              {
+                "term": "Audience Adaptation",
+                "definition": "Adjusting a speech's language, examples, and appeals to fit the specific needs and interests of listeners."
+              },
+              {
+                "term": "Audience-Centered Speaker",
+                "definition": "A speaker who consistently makes choices about content and delivery based on the audience's needs and expectations."
+              },
+              {
+                "term": "Captive Audience",
+                "definition": "Listeners who are required to attend a speech, such as students in a class, rather than attending by choice."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speaker researches the average age, education level, and cultural backgrounds of her audience before writing her speech. This is an example of...",
+                "choices": [
+                  "Attitudinal analysis",
+                  "Demographic analysis",
+                  "Systematic desensitization",
+                  "Critical listening"
+                ],
+                "answerIndex": 1,
+                "explanation": "Examining traits like age and education is the focus of **demographic analysis**."
+              },
+              {
+                "question": "Before speaking, a student surveys classmates to find out whether they already support or oppose recycling programs on campus. This is an example of...",
+                "choices": [
+                  "Demographic analysis",
+                  "Plagiarism",
+                  "Attitudinal analysis",
+                  "Encoding"
+                ],
+                "answerIndex": 2,
+                "explanation": "Gauging existing beliefs and opinions about a topic is the purpose of **attitudinal analysis**."
+              },
+              {
+                "question": "Which choice best illustrates audience adaptation?",
+                "choices": [
+                  "Using the same speech unchanged for every audience",
+                  "Replacing technical jargon with everyday language for a general audience",
+                  "Ignoring audience demographics entirely",
+                  "Refusing to consider audience attitudes toward the topic"
+                ],
+                "answerIndex": 1,
+                "explanation": "Adjusting language to fit specific listeners is a clear example of **audience adaptation**."
+              },
+              {
+                "question": "Students required to attend a mandatory school assembly are an example of what kind of audience?",
+                "choices": [
+                  "Voluntary audience",
+                  "Captive audience",
+                  "Attitudinal audience",
+                  "Demographic audience"
+                ],
+                "answerIndex": 1,
+                "explanation": "Listeners who must attend rather than choosing to are called a **captive audience**."
+              },
+              {
+                "question": "Which best describes an audience-centered speaker?",
+                "choices": [
+                  "One who focuses primarily on personal preferences when choosing content",
+                  "One who consistently shapes choices around listeners' needs and expectations",
+                  "One who avoids researching the audience beforehand",
+                  "One who never adjusts a speech regardless of the audience"
+                ],
+                "answerIndex": 1,
+                "explanation": "An **audience-centered speaker** makes deliberate choices based on the audience's needs rather than personal preference alone."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u2-l2",
+            "title": "Selecting and Narrowing a Topic",
+            "summary": "Choosing what to speak about is often the hardest first step in speech preparation. **Brainstorming** is a free, uncensored generation of possible ideas drawn from personal interests, current events, or assignments. **Mind mapping**, a related technique, visually connects a broad subject to related ideas by branching outward from a central word. It helps to distinguish a **subject**, a broad area such as climate change, from a **topic**, the specific angle a speaker addresses, such as local flood-prevention funding. Moving from one to the other requires **topic narrowing**, shrinking a broad subject into a focused, manageable topic. Every choice must also respect **scope**, how much material can realistically be covered within the speech's time limit.",
+            "keyTerms": [
+              {
+                "term": "Brainstorming",
+                "definition": "A free, uncensored process of generating many possible speech ideas without immediately judging them."
+              },
+              {
+                "term": "Mind Mapping",
+                "definition": "A visual brainstorming technique that branches related ideas outward from a central subject."
+              },
+              {
+                "term": "Subject",
+                "definition": "A broad area of interest, such as technology or health, from which a speech topic is drawn."
+              },
+              {
+                "term": "Topic",
+                "definition": "The specific angle or focus within a broad subject that a speech will actually address."
+              },
+              {
+                "term": "Topic Narrowing",
+                "definition": "The process of reducing a broad subject into a specific, manageable topic suited to the speech's constraints."
+              },
+              {
+                "term": "Scope",
+                "definition": "The amount of material that can realistically be covered in a speech given its time limit and audience."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A student lists every idea that comes to mind about 'the environment' without stopping to evaluate them. This process is called...",
+                "choices": [
+                  "Topic narrowing",
+                  "Brainstorming",
+                  "Attitudinal analysis",
+                  "Attribution"
+                ],
+                "answerIndex": 1,
+                "explanation": "Freely generating ideas without judging them is the definition of **brainstorming**."
+              },
+              {
+                "question": "Which of the following is a broad subject rather than a narrowed topic?",
+                "choices": [
+                  "How campus dining halls reduce food waste",
+                  "Nutrition",
+                  "Why one cafeteria adopted a composting program",
+                  "Steps to start a campus composting club"
+                ],
+                "answerIndex": 1,
+                "explanation": "'Nutrition' is a broad **subject**, while the other options describe a specific, narrowed angle."
+              },
+              {
+                "question": "A speaker starts with the broad subject of 'sports' and narrows it down to 'the benefits of youth flag football leagues.' This process is called...",
+                "choices": [
+                  "Scope",
+                  "Mind mapping",
+                  "Topic narrowing",
+                  "Attitudinal analysis"
+                ],
+                "answerIndex": 2,
+                "explanation": "Reducing a broad subject to a specific, manageable focus is **topic narrowing**."
+              },
+              {
+                "question": "A student writes 'music' in the center of a page, then draws branches to related ideas like genres, instruments, and streaming platforms. This technique is called...",
+                "choices": [
+                  "Mind mapping",
+                  "Systematic desensitization",
+                  "Critical listening",
+                  "Attribution"
+                ],
+                "answerIndex": 0,
+                "explanation": "Branching related ideas outward from a central word is the technique of **mind mapping**."
+              },
+              {
+                "question": "A five-minute classroom speech attempting to cover the entire history of the internet would most likely violate which principle?",
+                "choices": [
+                  "Attitudinal analysis",
+                  "Scope",
+                  "Attribution",
+                  "Feedback"
+                ],
+                "answerIndex": 1,
+                "explanation": "Covering too much material for the available time exceeds a speech's appropriate **scope**."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u2-l3",
+            "title": "General and Specific Purpose, and the Thesis Statement",
+            "summary": "Before drafting content, a speaker must decide what the speech is meant to accomplish. The **general purpose** is the broad goal behind a speech: to inform, persuade, or entertain. **Informative speaking** aims to increase an audience's understanding without advocating a position, **persuasive speaking** aims to influence an audience's beliefs or actions, and **entertaining speaking** aims chiefly to engage and amuse. Once the general purpose is set, a speaker writes a **specific purpose statement**, a single infinitive-phrase sentence naming exactly what the speech should accomplish, such as 'to inform my classmates about three causes of coral bleaching.' From that statement grows the **thesis statement**, a concise sentence that identifies the topic and previews the speech's main points.",
+            "keyTerms": [
+              {
+                "term": "General Purpose",
+                "definition": "The broad goal of a speech, typically to inform, persuade, or entertain an audience."
+              },
+              {
+                "term": "Specific Purpose Statement",
+                "definition": "A single infinitive-phrase sentence stating exactly what a speech intends to accomplish with a particular audience."
+              },
+              {
+                "term": "Thesis Statement",
+                "definition": "A concise sentence that identifies a speech's topic and previews its main points for the audience."
+              },
+              {
+                "term": "Informative Speaking",
+                "definition": "Speaking intended to increase an audience's knowledge or understanding of a topic without advocating a position."
+              },
+              {
+                "term": "Persuasive Speaking",
+                "definition": "Speaking intended to influence an audience's beliefs, attitudes, or actions."
+              },
+              {
+                "term": "Entertaining Speaking",
+                "definition": "Speaking intended chiefly to engage, amuse, or celebrate an audience, such as a toast or after-dinner speech."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speech that explains the steps of the water cycle without arguing for any particular action has which general purpose?",
+                "choices": [
+                  "To persuade",
+                  "To entertain",
+                  "To inform",
+                  "To narrate"
+                ],
+                "answerIndex": 2,
+                "explanation": "A speech that explains a process without advocacy has **informative speaking** as its general purpose."
+              },
+              {
+                "question": "Which of the following is written as a proper specific purpose statement?",
+                "choices": [
+                  "Recycling",
+                  "To persuade my audience to support a campus recycling mandate",
+                  "Recycling is important",
+                  "My speech about recycling"
+                ],
+                "answerIndex": 1,
+                "explanation": "A **specific purpose statement** uses an infinitive phrase stating exactly what the speech will accomplish."
+              },
+              {
+                "question": "Which sentence best functions as a thesis statement for an informative speech about volcanoes?",
+                "choices": [
+                  "Volcanoes are dangerous",
+                  "I love studying volcanoes",
+                  "Volcanoes form through three main geological processes: subduction, hot spots, and rift zones",
+                  "Everyone should learn about volcanoes"
+                ],
+                "answerIndex": 2,
+                "explanation": "A **thesis statement** identifies the topic and previews the speech's main points, as this sentence does."
+              },
+              {
+                "question": "A graduation speech meant to celebrate students and amuse the audience with light stories best reflects which general purpose?",
+                "choices": [
+                  "To inform",
+                  "To entertain",
+                  "To persuade",
+                  "To narrate"
+                ],
+                "answerIndex": 1,
+                "explanation": "A celebratory speech focused on engaging and amusing listeners fits **entertaining speaking**."
+              },
+              {
+                "question": "A speech arguing that students should have a later school start time has which general purpose?",
+                "choices": [
+                  "To entertain",
+                  "To inform",
+                  "To persuade",
+                  "To narrate"
+                ],
+                "answerIndex": 2,
+                "explanation": "A speech advocating for a specific action or belief reflects **persuasive speaking**."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "speech9-u3",
+        "title": "Research and Supporting Material",
+        "lessons": [
+          {
+            "id": "speech9-u3-l1",
+            "title": "Finding and Evaluating Sources",
+            "summary": "Strong speeches rest on evidence gathered from more than personal opinion. A **primary source** offers firsthand, original information, such as an interview or an original research study, while a **secondary source** interprets or summarizes primary material, such as a news article reporting on a study. Not every source deserves equal trust, so speakers must assess **source credibility**, the overall trustworthiness of where information comes from. Three factors guide this judgment: **authority**, whether the author or publisher has relevant expertise; **currency**, whether the information is recent enough to remain accurate; and **bias**, whether the source has a financial or political interest that might slant its facts.",
+            "keyTerms": [
+              {
+                "term": "Primary Source",
+                "definition": "A firsthand, original source of information, such as an interview, dataset, or original study."
+              },
+              {
+                "term": "Secondary Source",
+                "definition": "A source that interprets, summarizes, or reports on primary material, such as a news article about a study."
+              },
+              {
+                "term": "Source Credibility",
+                "definition": "The overall trustworthiness and reliability of where a piece of information comes from."
+              },
+              {
+                "term": "Authority",
+                "definition": "The relevant expertise, qualifications, or credentials of an author or publisher behind a source."
+              },
+              {
+                "term": "Currency",
+                "definition": "How recent a source is, and whether its information remains accurate for a changing topic."
+              },
+              {
+                "term": "Bias",
+                "definition": "A financial, political, or personal interest that may cause a source to slant its presentation of facts."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "An original scientific study published by the researchers who conducted it is an example of a...",
+                "choices": [
+                  "Secondary source",
+                  "Primary source",
+                  "Biased source",
+                  "Demographic source"
+                ],
+                "answerIndex": 1,
+                "explanation": "A study reported firsthand by the researchers themselves is a **primary source**."
+              },
+              {
+                "question": "A news article summarizing the findings of a scientific study is an example of a...",
+                "choices": [
+                  "Primary source",
+                  "Attitudinal source",
+                  "Secondary source",
+                  "Captive source"
+                ],
+                "answerIndex": 2,
+                "explanation": "An article that reports on someone else's original research is a **secondary source**."
+              },
+              {
+                "question": "A speaker checking whether an author has a relevant degree or professional experience in the topic is evaluating which factor of source credibility?",
+                "choices": [
+                  "Currency",
+                  "Bias",
+                  "Scope",
+                  "Authority"
+                ],
+                "answerIndex": 3,
+                "explanation": "Checking an author's expertise or credentials evaluates a source's **authority**."
+              },
+              {
+                "question": "Using a ten-year-old statistic about smartphone ownership rates would raise concerns about which factor?",
+                "choices": [
+                  "Authority",
+                  "Currency",
+                  "Attribution",
+                  "Plagiarism"
+                ],
+                "answerIndex": 1,
+                "explanation": "Outdated statistics on a fast-changing topic raise concerns about a source's **currency**."
+              },
+              {
+                "question": "A company-funded study concluding that the company's own product is the safest on the market should raise concerns about...",
+                "choices": [
+                  "Currency",
+                  "Authority",
+                  "Bias",
+                  "Scope"
+                ],
+                "answerIndex": 2,
+                "explanation": "A source with a financial stake in its own conclusion raises legitimate concerns about **bias**."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u3-l2",
+            "title": "Types of Supporting Material",
+            "summary": "Claims in a speech need evidence to become convincing rather than merely asserted. An **example**, a specific instance illustrating a general point, helps an audience picture an abstract idea in concrete terms. A **statistic** expresses information numerically, summarizing large amounts of data in a way that can make a claim's scope vivid. **Testimony** draws on another person's words to support a point, in two forms: **expert testimony** cites someone with recognized authority on the subject, while **peer testimony** cites an ordinary person with direct, firsthand experience. Finally, a **definition** clarifies an unfamiliar or contested term so the audience shares the speaker's understanding of key vocabulary.",
+            "keyTerms": [
+              {
+                "term": "Example",
+                "definition": "A specific instance, real or hypothetical, used to illustrate and clarify a general claim."
+              },
+              {
+                "term": "Statistic",
+                "definition": "Numerical data used to summarize information and demonstrate the scope or significance of a claim."
+              },
+              {
+                "term": "Testimony",
+                "definition": "Supporting material drawn from another person's words or experience to reinforce a speaker's point."
+              },
+              {
+                "term": "Expert Testimony",
+                "definition": "Testimony from someone with recognized authority, credentials, or specialized knowledge on the topic."
+              },
+              {
+                "term": "Peer Testimony",
+                "definition": "Testimony from an ordinary person with direct, firsthand experience relevant to the topic."
+              },
+              {
+                "term": "Definition",
+                "definition": "An explanation of an unfamiliar or contested term so the audience shares the speaker's understanding of it."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speaker describes a specific classmate's experience with test anxiety to illustrate a broader point about student stress. This is an example of...",
+                "choices": [
+                  "Statistic",
+                  "Example",
+                  "Expert testimony",
+                  "Definition"
+                ],
+                "answerIndex": 1,
+                "explanation": "A single, specific illustrative case is an **example**."
+              },
+              {
+                "question": "A speaker states that '68 percent of surveyed students report feeling stressed about exams.' This is an example of...",
+                "choices": [
+                  "Definition",
+                  "Peer testimony",
+                  "Statistic",
+                  "Expert testimony"
+                ],
+                "answerIndex": 2,
+                "explanation": "Numerical data summarizing a survey result is a **statistic**."
+              },
+              {
+                "question": "Quoting a licensed psychologist's professional opinion on test anxiety is an example of...",
+                "choices": [
+                  "Peer testimony",
+                  "Expert testimony",
+                  "Example",
+                  "Definition"
+                ],
+                "answerIndex": 1,
+                "explanation": "Testimony from someone with recognized credentials in the field is **expert testimony**."
+              },
+              {
+                "question": "Quoting a fellow student's personal account of overcoming test anxiety is an example of...",
+                "choices": [
+                  "Expert testimony",
+                  "Statistic",
+                  "Peer testimony",
+                  "Bias"
+                ],
+                "answerIndex": 2,
+                "explanation": "Testimony from an ordinary person with firsthand experience is **peer testimony**."
+              },
+              {
+                "question": "Explaining what the term 'test anxiety' clinically means before discussing it further is an example of...",
+                "choices": [
+                  "Statistic",
+                  "Definition",
+                  "Example",
+                  "Peer testimony"
+                ],
+                "answerIndex": 1,
+                "explanation": "Clarifying the meaning of a term for the audience is a **definition**."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u3-l3",
+            "title": "Citing Sources Orally",
+            "summary": "A speaker who has researched carefully must also share that research honestly while speaking aloud. An **oral citation** is the spoken acknowledgment of where evidence came from, delivered within the speech rather than left to a written bibliography. A strong oral citation includes a **source qualifier**, a brief phrase establishing why the source is credible, such as an author's expertise. Speakers present borrowed material two ways: a **paraphrase** restates another's idea in the speaker's own words while still crediting the source, and a **direct quotation** repeats the source's exact wording, clearly marked as such. Consistent **attribution** throughout a speech strengthens a speaker's **ethos**, the audience's perception of the speaker's credibility and trustworthiness.",
+            "keyTerms": [
+              {
+                "term": "Oral Citation",
+                "definition": "The spoken acknowledgment of a source's identity, delivered aloud as part of a speech."
+              },
+              {
+                "term": "Source Qualifier",
+                "definition": "A brief phrase within an oral citation that establishes why a source is credible, such as an author's expertise."
+              },
+              {
+                "term": "Paraphrase",
+                "definition": "Restating another person's idea in the speaker's own words while still crediting the original source."
+              },
+              {
+                "term": "Direct Quotation",
+                "definition": "Repeating a source's exact original wording, clearly marked as a quotation within the speech."
+              },
+              {
+                "term": "Attribution",
+                "definition": "The consistent practice of naming a source whenever its information or ideas are used in a speech."
+              },
+              {
+                "term": "Ethos",
+                "definition": "The audience's perception of a speaker's credibility, character, and trustworthiness."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Saying aloud, 'According to a 2024 report from the Centers for Disease Control...' before sharing a statistic is an example of...",
+                "choices": [
+                  "Plagiarism",
+                  "Oral citation",
+                  "Paraphrase",
+                  "Noise"
+                ],
+                "answerIndex": 1,
+                "explanation": "Speaking a source's identity aloud during a speech is an **oral citation**."
+              },
+              {
+                "question": "Which phrase functions as a source qualifier within an oral citation?",
+                "choices": [
+                  "'I think that...'",
+                  "'...said one student'",
+                  "'...according to Dr. Maria Chen, a climate scientist at Rice University'",
+                  "'In my opinion...'"
+                ],
+                "answerIndex": 2,
+                "explanation": "Naming the speaker's relevant expertise is what makes this phrase a **source qualifier**."
+              },
+              {
+                "question": "Restating a source's main idea in the speaker's own words, while still naming the source, is an example of...",
+                "choices": [
+                  "Direct quotation",
+                  "Plagiarism",
+                  "Paraphrase",
+                  "Bias"
+                ],
+                "answerIndex": 2,
+                "explanation": "Restating an idea in one's own words while crediting the source is a **paraphrase**."
+              },
+              {
+                "question": "Repeating a source's exact sentence word for word, clearly marked as a quotation, is an example of...",
+                "choices": [
+                  "Paraphrase",
+                  "Direct quotation",
+                  "Oral citation only",
+                  "Statistic"
+                ],
+                "answerIndex": 1,
+                "explanation": "Using a source's exact original wording is a **direct quotation**."
+              },
+              {
+                "question": "Consistently and clearly crediting sources throughout a speech primarily helps build which quality?",
+                "choices": [
+                  "Pathos",
+                  "Noise reduction",
+                  "Ethos",
+                  "Scope"
+                ],
+                "answerIndex": 2,
+                "explanation": "Careful attribution builds a speaker's **ethos** by demonstrating honesty and thorough research."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "speech9-u4",
+        "title": "Organizing and Outlining Speeches",
+        "lessons": [
+          {
+            "id": "speech9-u4-l1",
+            "title": "Organizational Patterns",
+            "summary": "Once a speaker gathers supporting material, that material needs a logical structure built around **main points**, the major divisions of a speech's body that directly support the thesis. Several patterns can organize those points. A **chronological pattern** arranges points in time sequence, useful for explaining a process or history. A **spatial pattern** arranges points by physical location or direction. A **topical pattern** divides a subject into natural categories that don't depend on time or place. A **problem-solution pattern** first establishes a problem, then proposes a solution, common in persuasive speeches. A **cause-effect pattern** explains how one event or condition leads to another.",
+            "keyTerms": [
+              {
+                "term": "Main Points",
+                "definition": "The major divisions of a speech's body that directly support and develop the thesis statement."
+              },
+              {
+                "term": "Chronological Pattern",
+                "definition": "An organizational pattern that arranges main points according to a time sequence."
+              },
+              {
+                "term": "Spatial Pattern",
+                "definition": "An organizational pattern that arranges main points according to physical location or direction."
+              },
+              {
+                "term": "Topical Pattern",
+                "definition": "An organizational pattern that divides a subject into natural categories or types."
+              },
+              {
+                "term": "Problem-Solution Pattern",
+                "definition": "An organizational pattern that first establishes a problem, then proposes a solution to it."
+              },
+              {
+                "term": "Cause-Effect Pattern",
+                "definition": "An organizational pattern that explains the relationship between a cause and its resulting effect."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speech that explains the history of the internet by moving from the 1960s to the 1990s to today uses which pattern?",
+                "choices": [
+                  "Spatial pattern",
+                  "Chronological pattern",
+                  "Topical pattern",
+                  "Cause-effect pattern"
+                ],
+                "answerIndex": 1,
+                "explanation": "Arranging points by time sequence is the **chronological pattern**."
+              },
+              {
+                "question": "A speech describing a museum by walking the audience from the first floor to the second floor to the rooftop uses which pattern?",
+                "choices": [
+                  "Chronological pattern",
+                  "Problem-solution pattern",
+                  "Spatial pattern",
+                  "Topical pattern"
+                ],
+                "answerIndex": 2,
+                "explanation": "Organizing points by physical location or direction is the **spatial pattern**."
+              },
+              {
+                "question": "A speech about a music genre organized into three types—jazz, blues, and swing—uses which pattern?",
+                "choices": [
+                  "Cause-effect pattern",
+                  "Topical pattern",
+                  "Spatial pattern",
+                  "Problem-solution pattern"
+                ],
+                "answerIndex": 1,
+                "explanation": "Dividing a subject into natural, non-sequential categories reflects the **topical pattern**."
+              },
+              {
+                "question": "A speech first describing rising food insecurity, then proposing a community garden program to address it, uses which pattern?",
+                "choices": [
+                  "Chronological pattern",
+                  "Spatial pattern",
+                  "Problem-solution pattern",
+                  "Topical pattern"
+                ],
+                "answerIndex": 2,
+                "explanation": "Establishing a problem before proposing a fix is the **problem-solution pattern**."
+              },
+              {
+                "question": "A speech explaining how deforestation leads to soil erosion, which then leads to flooding, uses which pattern?",
+                "choices": [
+                  "Cause-effect pattern",
+                  "Spatial pattern",
+                  "Topical pattern",
+                  "Problem-solution pattern"
+                ],
+                "answerIndex": 0,
+                "explanation": "Tracing how one condition produces another is the **cause-effect pattern**."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u4-l2",
+            "title": "The Preparation Outline and Speaking Outline",
+            "summary": "Outlining happens in two stages that serve different purposes. Early on, a speaker writes a **preparation outline**, a detailed document laying out the speech's structure and wording to test its logic before rehearsal. Because it spells out complete ideas, it is usually a **full-sentence outline**, with every point written as a complete sentence. Once content is set, the speaker condenses it into a **speaking outline**, a brief reference tool used during actual delivery, typically written as a **keyword outline** of short words and phrases that trigger memory rather than full sentences. Both outline types depend on **coordination and subordination**, ranking ideas by importance and specificity, and on the **rule of division**, which holds that any point split into sub-points must yield at least two.",
+            "keyTerms": [
+              {
+                "term": "Preparation Outline",
+                "definition": "A detailed outline written early in the speechmaking process to test and organize a speech's content and logic."
+              },
+              {
+                "term": "Full-Sentence Outline",
+                "definition": "An outline style in which every main point and sub-point is written as a complete, grammatical sentence."
+              },
+              {
+                "term": "Speaking Outline",
+                "definition": "A brief outline used as a reference tool during the actual delivery of a speech."
+              },
+              {
+                "term": "Keyword Outline",
+                "definition": "An outline style using only short words or phrases as memory triggers rather than full sentences."
+              },
+              {
+                "term": "Coordination and Subordination",
+                "definition": "The principle of ranking ideas in an outline according to their level of importance and specificity."
+              },
+              {
+                "term": "Rule of Division",
+                "definition": "The outlining principle that any point divided into sub-points must be divided into at least two sub-points."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which outline is typically written first and used to test the logic and wording of a speech before rehearsal?",
+                "choices": [
+                  "Speaking outline",
+                  "Keyword outline",
+                  "Preparation outline",
+                  "Mind map"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **preparation outline** is drafted early to organize and test a speech's full content."
+              },
+              {
+                "question": "An outline in which every point is written as a complete grammatical sentence is best described as a...",
+                "choices": [
+                  "Keyword outline",
+                  "Full-sentence outline",
+                  "Speaking outline",
+                  "Spatial pattern"
+                ],
+                "answerIndex": 1,
+                "explanation": "Writing every point as a complete sentence is the defining feature of a **full-sentence outline**."
+              },
+              {
+                "question": "Which type of outline is best suited for use while actually delivering a speech to an audience?",
+                "choices": [
+                  "Preparation outline",
+                  "Full-sentence outline",
+                  "Speaking outline",
+                  "Mind map"
+                ],
+                "answerIndex": 2,
+                "explanation": "The **speaking outline** is a condensed reference tool designed for use during delivery."
+              },
+              {
+                "question": "An outline listing only short phrases like 'water cycle - 3 stages' instead of full sentences is an example of a...",
+                "choices": [
+                  "Full-sentence outline",
+                  "Keyword outline",
+                  "Preparation outline",
+                  "Topical pattern"
+                ],
+                "answerIndex": 1,
+                "explanation": "Using brief phrases as memory triggers rather than full sentences describes a **keyword outline**."
+              },
+              {
+                "question": "An outline that includes a main point labeled 'I' with only a single sub-point labeled 'A' and nothing else violates which principle?",
+                "choices": [
+                  "Coordination and subordination",
+                  "The rule of division",
+                  "The spatial pattern",
+                  "Source credibility"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **rule of division** requires that any point split into sub-points must include at least two."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u4-l3",
+            "title": "Introductions, Conclusions, and Transitions",
+            "summary": "The opening and closing moments of a speech carry disproportionate weight with an audience, so both deserve careful design. A strong introduction opens with an **attention-getter**, a device such as a question, story, or startling fact that draws listeners in. It should include a **credibility statement**, a brief mention of why the speaker is qualified to address the topic, and a **preview statement**, a sentence outlining the main points to come. As the speech unfolds, a **transition** signals movement from one idea to the next, and a **signpost**, a short numbered phrase like 'my second point,' helps listeners track the structure. The speech should end with a **clincher**, a final memorable statement that reinforces the thesis and provides closure.",
+            "keyTerms": [
+              {
+                "term": "Attention-Getter",
+                "definition": "An opening device, such as a question or story, used to draw an audience's interest at the start of a speech."
+              },
+              {
+                "term": "Credibility Statement",
+                "definition": "A brief statement early in a speech explaining why the speaker is qualified to address the topic."
+              },
+              {
+                "term": "Preview Statement",
+                "definition": "A sentence in the introduction that outlines the main points a speech will cover, in order."
+              },
+              {
+                "term": "Transition",
+                "definition": "A word or phrase that signals movement from one idea or main point to the next."
+              },
+              {
+                "term": "Signpost",
+                "definition": "A brief, often numbered phrase, such as 'my second point,' that helps an audience track a speech's structure."
+              },
+              {
+                "term": "Clincher",
+                "definition": "A speech's final memorable statement, designed to reinforce the thesis and provide a sense of closure."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speaker opens with a surprising statistic about teen sleep deprivation to immediately draw the audience's interest. This is an example of a(n)...",
+                "choices": [
+                  "Clincher",
+                  "Attention-getter",
+                  "Signpost",
+                  "Transition"
+                ],
+                "answerIndex": 1,
+                "explanation": "A device used to draw audience interest at the start of a speech is an **attention-getter**."
+              },
+              {
+                "question": "A speaker mentions her two years volunteering at a homeless shelter before discussing homelessness policy. This is an example of a...",
+                "choices": [
+                  "Preview statement",
+                  "Signpost",
+                  "Credibility statement",
+                  "Clincher"
+                ],
+                "answerIndex": 2,
+                "explanation": "Explaining why the speaker is qualified to speak on the topic is a **credibility statement**."
+              },
+              {
+                "question": "'Today I'll cover three causes of coral bleaching: rising temperatures, pollution, and ocean acidification' is an example of a...",
+                "choices": [
+                  "Clincher",
+                  "Preview statement",
+                  "Transition",
+                  "Credibility statement"
+                ],
+                "answerIndex": 1,
+                "explanation": "Outlining the main points to come is the function of a **preview statement**."
+              },
+              {
+                "question": "Saying 'now that we've seen the problem, let's turn to a possible solution' between main points is an example of a...",
+                "choices": [
+                  "Signpost",
+                  "Attention-getter",
+                  "Transition",
+                  "Clincher"
+                ],
+                "answerIndex": 2,
+                "explanation": "A phrase signaling movement from one idea to the next is a **transition**."
+              },
+              {
+                "question": "Ending a speech with the line 'so the next time you fill your water bottle, remember: every drop counts' is an example of a...",
+                "choices": [
+                  "Preview statement",
+                  "Signpost",
+                  "Attention-getter",
+                  "Clincher"
+                ],
+                "answerIndex": 3,
+                "explanation": "A final memorable statement that reinforces the thesis and closes the speech is a **clincher**."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "speech9-u5",
+        "title": "Delivery and Speech Types",
+        "lessons": [
+          {
+            "id": "speech9-u5-l1",
+            "title": "Verbal and Nonverbal Delivery",
+            "summary": "How a speech is delivered shapes an audience's experience as much as what is said. Several vocal elements create effective verbal delivery. **Rate** refers to how quickly or slowly a speaker talks, and varying it builds emphasis. **Pitch** is the highness or lowness of a voice, and natural variation keeps delivery from sounding flat. **Volume** is how loud or soft a voice is, adjusted for room size and audience needs. **Articulation** is the clarity with which a speaker forms individual sounds and words. Delivery also depends on **nonverbal communication**, including posture, gestures, and facial expression, and especially on **eye contact**, which builds connection and trust between speaker and audience.",
+            "keyTerms": [
+              {
+                "term": "Rate",
+                "definition": "How quickly or slowly a speaker talks, which can be varied to build emphasis or match content."
+              },
+              {
+                "term": "Pitch",
+                "definition": "The relative highness or lowness of a speaker's voice."
+              },
+              {
+                "term": "Volume",
+                "definition": "How loud or soft a speaker's voice is, adjusted to fit the room and audience."
+              },
+              {
+                "term": "Articulation",
+                "definition": "The clarity and precision with which a speaker forms individual sounds and words."
+              },
+              {
+                "term": "Nonverbal Communication",
+                "definition": "Delivery elements beyond words, such as posture, gestures, and facial expression, that convey meaning."
+              },
+              {
+                "term": "Eye Contact",
+                "definition": "Direct visual connection between a speaker and audience members that builds trust and engagement."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speaker slows down dramatically before revealing a key statistic to emphasize its importance. This is an adjustment in...",
+                "choices": [
+                  "Pitch",
+                  "Rate",
+                  "Articulation",
+                  "Volume"
+                ],
+                "answerIndex": 1,
+                "explanation": "Adjusting how quickly or slowly one speaks is a change in **rate**."
+              },
+              {
+                "question": "A speaker whose voice stays at the exact same highness or lowness throughout a speech may sound monotone due to a lack of variation in...",
+                "choices": [
+                  "Volume",
+                  "Articulation",
+                  "Pitch",
+                  "Eye contact"
+                ],
+                "answerIndex": 2,
+                "explanation": "Insufficient variation in the highness or lowness of the voice is a lack of **pitch** variation."
+              },
+              {
+                "question": "A speaker mumbles words together, making 'going to' sound like 'gonna' in a way that obscures clarity. This reflects an issue with...",
+                "choices": [
+                  "Articulation",
+                  "Volume",
+                  "Rate",
+                  "Nonverbal communication"
+                ],
+                "answerIndex": 0,
+                "explanation": "The clarity of forming individual sounds and words is a matter of **articulation**."
+              },
+              {
+                "question": "Adjusting how loudly one speaks so listeners in the back row can hear clearly is an adjustment of...",
+                "choices": [
+                  "Pitch",
+                  "Volume",
+                  "Articulation",
+                  "Rate"
+                ],
+                "answerIndex": 1,
+                "explanation": "How loud or soft a speaker's voice is describes **volume**."
+              },
+              {
+                "question": "A speaker who scans the room and looks directly at different audience members while speaking is using...",
+                "choices": [
+                  "Articulation",
+                  "Rate",
+                  "Eye contact",
+                  "Pitch"
+                ],
+                "answerIndex": 2,
+                "explanation": "Looking directly at audience members to build connection is the use of **eye contact**."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u5-l2",
+            "title": "Methods of Delivery",
+            "summary": "Speakers choose among four basic methods of delivery depending on the occasion, each with tradeoffs. **Impromptu delivery** means speaking with little or no advance preparation, relying on existing knowledge. **Extemporaneous delivery** is thoroughly researched and outlined in advance but delivered from brief notes, allowing natural wording while keeping structure intact; it is the method most commonly taught in academic speaking. **Manuscript delivery** means reading a fully written speech word for word, useful when precise wording matters. **Memorized delivery** means reciting a speech word for word from memory without notes, risking a blank moment if the speaker loses their place. Across all methods, audiences respond best to a **conversational quality**, a natural tone that sounds like genuine communication rather than recitation.",
+            "keyTerms": [
+              {
+                "term": "Impromptu Delivery",
+                "definition": "Speaking with little or no advance preparation, relying on existing knowledge and quick thinking."
+              },
+              {
+                "term": "Extemporaneous Delivery",
+                "definition": "A method that is thoroughly prepared and outlined in advance but delivered from brief notes rather than a full script."
+              },
+              {
+                "term": "Manuscript Delivery",
+                "definition": "Reading a speech word for word from a fully written text."
+              },
+              {
+                "term": "Memorized Delivery",
+                "definition": "Reciting a fully prepared speech word for word from memory without notes."
+              },
+              {
+                "term": "Conversational Quality",
+                "definition": "A natural, unforced speaking tone that sounds like genuine communication rather than recitation."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A student asked an unexpected question in class answers immediately with no preparation time. This best reflects...",
+                "choices": [
+                  "Manuscript delivery",
+                  "Memorized delivery",
+                  "Impromptu delivery",
+                  "Extemporaneous delivery"
+                ],
+                "answerIndex": 2,
+                "explanation": "Speaking with no advance preparation is the definition of **impromptu delivery**."
+              },
+              {
+                "question": "A speaker researches and outlines a speech thoroughly in advance, then delivers it using only brief keyword notes, wording it slightly differently each rehearsal. This is...",
+                "choices": [
+                  "Manuscript delivery",
+                  "Extemporaneous delivery",
+                  "Impromptu delivery",
+                  "Memorized delivery"
+                ],
+                "answerIndex": 1,
+                "explanation": "Thorough preparation combined with delivery from brief notes describes **extemporaneous delivery**."
+              },
+              {
+                "question": "A press secretary reads a prepared statement word for word from a printed page to ensure exact wording. This is...",
+                "choices": [
+                  "Impromptu delivery",
+                  "Extemporaneous delivery",
+                  "Manuscript delivery",
+                  "Memorized delivery"
+                ],
+                "answerIndex": 2,
+                "explanation": "Reading a fully written text word for word is **manuscript delivery**."
+              },
+              {
+                "question": "A student recites an entire speech word for word from memory without any notes. This is...",
+                "choices": [
+                  "Memorized delivery",
+                  "Manuscript delivery",
+                  "Extemporaneous delivery",
+                  "Impromptu delivery"
+                ],
+                "answerIndex": 0,
+                "explanation": "Reciting a speech word for word from memory is **memorized delivery**."
+              },
+              {
+                "question": "Regardless of the method chosen, audiences generally respond best to delivery that sounds like...",
+                "choices": [
+                  "A recitation of memorized text",
+                  "A stiff, formal reading",
+                  "A natural, conversational quality",
+                  "A rushed monotone"
+                ],
+                "answerIndex": 2,
+                "explanation": "Audiences respond best to a **conversational quality** that feels like genuine communication."
+              }
+            ]
+          },
+          {
+            "id": "speech9-u5-l3",
+            "title": "Informative and Persuasive Speaking",
+            "summary": "The final major speech types apply everything covered so far toward two distinct goals. **Informative speaking** seeks to increase an audience's understanding through clear explanation or demonstration, without asking listeners to adopt a belief. **Persuasive speaking** seeks to change or reinforce an audience's beliefs, attitudes, or actions, typically relying on three classical appeals identified by Aristotle. **Ethos** is persuasion built on the audience's perception of a speaker's credibility and character. **Pathos** appeals to the audience's emotions. **Logos** is persuasion built on logical reasoning and evidence. One widely used structure for arranging a persuasive speech is **Monroe's Motivated Sequence**, a five-step pattern moving an audience through attention, need, satisfaction, visualization, and a call to action.",
+            "keyTerms": [
+              {
+                "term": "Informative Speaking",
+                "definition": "Speaking intended to increase an audience's knowledge or understanding without advocating a particular belief."
+              },
+              {
+                "term": "Persuasive Speaking",
+                "definition": "Speaking intended to change or reinforce an audience's beliefs, attitudes, or actions."
+              },
+              {
+                "term": "Ethos",
+                "definition": "A persuasive appeal based on the audience's perception of a speaker's credibility and character."
+              },
+              {
+                "term": "Pathos",
+                "definition": "A persuasive appeal that engages an audience's emotions."
+              },
+              {
+                "term": "Logos",
+                "definition": "A persuasive appeal based on logical reasoning and evidence, such as facts and statistics."
+              },
+              {
+                "term": "Monroe's Motivated Sequence",
+                "definition": "A five-step persuasive organizational pattern covering attention, need, satisfaction, visualization, and action."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "A speech that explains how solar panels convert sunlight into electricity without urging any particular action is an example of...",
+                "choices": [
+                  "Persuasive speaking",
+                  "Informative speaking",
+                  "Monroe's Motivated Sequence",
+                  "Pathos"
+                ],
+                "answerIndex": 1,
+                "explanation": "A speech that explains a topic without advocacy is **informative speaking**."
+              },
+              {
+                "question": "A speaker cites her years of firefighting experience to convince listeners to trust her recommendations on fire safety. This appeal is an example of...",
+                "choices": [
+                  "Logos",
+                  "Pathos",
+                  "Ethos",
+                  "A signpost"
+                ],
+                "answerIndex": 2,
+                "explanation": "Persuasion based on a speaker's credibility and character is **ethos**."
+              },
+              {
+                "question": "A speaker shows photos of families displaced by flooding to move the audience emotionally toward supporting disaster relief funding. This appeal is an example of...",
+                "choices": [
+                  "Ethos",
+                  "Pathos",
+                  "Logos",
+                  "A clincher"
+                ],
+                "answerIndex": 1,
+                "explanation": "An appeal designed to stir the audience's emotions is **pathos**."
+              },
+              {
+                "question": "A speaker cites peer-reviewed statistics and expert studies to build a logical case for a new policy. This appeal is an example of...",
+                "choices": [
+                  "Pathos",
+                  "Ethos",
+                  "A preview statement",
+                  "Logos"
+                ],
+                "answerIndex": 3,
+                "explanation": "Persuasion built on logical reasoning and evidence is **logos**."
+              },
+              {
+                "question": "A persuasive speech that moves from grabbing attention, to establishing a need, to satisfying that need, to visualizing results, and ending with a call to action follows...",
+                "choices": [
+                  "The topical pattern",
+                  "The cause-effect pattern",
+                  "Monroe's Motivated Sequence",
+                  "The spatial pattern"
+                ],
+                "answerIndex": 2,
+                "explanation": "This five-step structure moving through attention, need, satisfaction, visualization, and action is **Monroe's Motivated Sequence**."
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "avid9",
