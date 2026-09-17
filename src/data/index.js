@@ -71,15 +71,16 @@ function collectQuestions(units) {
   const questions = []
   for (const unit of units) {
     for (const lesson of unit.lessons) {
-      for (const q of lesson.practiceQuestions) {
+      lesson.practiceQuestions.forEach((q, questionIndex) => {
         questions.push({
-          id: `${lesson.id}-${questions.length}`,
+          id: `${lesson.id}-${questionIndex}`,
           ...q,
           unitTitle: unit.title,
           lessonId: lesson.id,
           lessonTitle: lesson.title,
+          questionIndex,
         })
-      }
+      })
     }
   }
   return questions
@@ -93,4 +94,13 @@ export function getUnitTestQuestions(course, unitId) {
 
 export function getCourseTestQuestions(course) {
   return collectQuestions(course.units)
+}
+
+// Missed-question review links need a grade to build a route, but only know
+// the courseId - courses ids are unique across grades so this is unambiguous.
+export function findGradeForCourse(courseId) {
+  for (const { grade } of gradesMeta) {
+    if (getCourse(grade, courseId)) return grade
+  }
+  return null
 }

@@ -12,7 +12,7 @@ export default function Nav() {
           <span className="text-xl">🐎</span>
           <span>Stallion Prep</span>
         </Link>
-        <nav className="flex gap-1">
+        <nav className="flex items-center gap-1">
           {grades.map((g) => {
             const path = `/grade/${g.grade}`
             const active = location.pathname.startsWith(path)
@@ -30,6 +30,40 @@ export default function Nav() {
               </Link>
             )
           })}
+          <span className="mx-1 h-5 w-px bg-slate-200 dark:bg-slate-700" />
+          <Link
+            to="/review"
+            title="Questions to Review"
+            className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
+              location.pathname === '/review'
+                ? 'bg-indigo-600 text-white'
+                : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+            }`}
+          >
+            📋
+          </Link>
+          <Link
+            to="/ask"
+            title="Ask AI"
+            className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
+              location.pathname === '/ask'
+                ? 'bg-indigo-600 text-white'
+                : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+            }`}
+          >
+            🤖
+          </Link>
+          <Link
+            to="/settings"
+            title="Settings"
+            className={`rounded-md px-2 py-1.5 text-sm font-medium transition ${
+              location.pathname === '/settings'
+                ? 'bg-indigo-600 text-white'
+                : 'text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'
+            }`}
+          >
+            ⚙️
+          </Link>
         </nav>
       </div>
     </header>

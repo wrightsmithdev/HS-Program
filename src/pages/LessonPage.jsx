@@ -2,11 +2,18 @@ import { useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { getLesson, getLessonPosition } from '../data'
 import { isLessonComplete, setLessonComplete } from '../lib/progress'
+import { recordAttempt } from '../lib/missedQuestions'
 import { getSubjectColor } from '../lib/subjectColors'
 import Formatted from '../components/Formatted'
+import EssayPractice from '../components/EssayPractice'
 
-function QuizQuestion({ question, index }) {
+function QuizQuestion({ question, index, onAnswered }) {
   const [selected, setSelected] = useState(null)
+
+  const choose = (i) => {
+    setSelected(i)
+    onAnswered?.(i)
+  }
 
   return (
     <div className="rounded-lg border border-slate-200 p-4 dark:border-slate-800">
@@ -25,7 +32,7 @@ function QuizQuestion({ question, index }) {
           return (
             <button
               key={i}
-              onClick={() => setSelected(i)}
+              onClick={() => choose(i)}
               disabled={selected !== null}
               className={`rounded-md border px-3 py-2 text-left text-sm text-slate-700 disabled:cursor-default dark:text-slate-200 ${style}`}
             >
@@ -80,6 +87,22 @@ export default function LessonPage() {
     if (position?.next) navigate(`/grade/${grade}/course/${courseId}/lesson/${position.next.id}`)
   }
 
+  const handleAnswered = (questionIndex, question, selectedIndex) => {
+    recordAttempt({
+      courseId: course.id,
+      courseTitle: course.title,
+      unitTitle: unit.title,
+      lessonId: lesson.id,
+      lessonTitle: lesson.title,
+      questionIndex,
+      question: question.question,
+      choices: question.choices,
+      correctIndex: question.answerIndex,
+      selectedIndex,
+      explanation: question.explanation,
+    })
+  }
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <Link to={backLink} className="text-sm text-indigo-600 hover:underline dark:text-indigo-400">
@@ -123,9 +146,16 @@ export default function LessonPage() {
           <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">✏️ Practice Questions</h2>
           <div className="flex flex-col gap-3">
             {lesson.practiceQuestions.map((q, i) => (
-              <QuizQuestion key={i} question={q} index={i} />
+              <QuizQuestion key={i} question={q} index={i} onAnswered={(sel) => handleAnswered(i, q, sel)} />
             ))}
           </div>
+        </div>
+      )}
+
+      {lesson.essayPrompt && (
+        <div className="mt-8">
+          <h2 className="mb-3 text-lg font-semibold text-slate-900 dark:text-white">✍️ Essay Practice</h2>
+          <EssayPractice lessonId={lesson.id} essayPrompt={lesson.essayPrompt} color={color} />
         </div>
       )}
 

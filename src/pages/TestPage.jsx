@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getCourse, getGradeMeta, getUnitTestQuestions, getCourseTestQuestions } from '../data'
 import { getSubjectColor } from '../lib/subjectColors'
+import { recordAttempt } from '../lib/missedQuestions'
 import Formatted from '../components/Formatted'
 
 function scoreMessage(percent) {
@@ -55,6 +56,25 @@ export default function TestPage() {
     setAnswers({})
     setSubmitted(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const submitTest = () => {
+    setSubmitted(true)
+    for (const q of questions) {
+      recordAttempt({
+        courseId: course.id,
+        courseTitle: course.title,
+        unitTitle: q.unitTitle,
+        lessonId: q.lessonId,
+        lessonTitle: q.lessonTitle,
+        questionIndex: q.questionIndex,
+        question: q.question,
+        choices: q.choices,
+        correctIndex: q.answerIndex,
+        selectedIndex: answers[q.id] ?? -1,
+        explanation: q.explanation,
+      })
+    }
   }
 
   if (questions.length === 0) {
@@ -157,7 +177,7 @@ export default function TestPage() {
             {!allAnswered && answeredCount > 0 && ' — unanswered questions count as incorrect'}
           </p>
           <button
-            onClick={() => setSubmitted(true)}
+            onClick={submitTest}
             disabled={answeredCount === 0}
             className={`rounded-lg px-5 py-2 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-40 ${color.solid}`}
           >
