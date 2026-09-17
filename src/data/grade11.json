@@ -5229,6 +5229,276 @@
         ]
       },
       {
+        "id": "sci11-ucell",
+        "title": "Cell Division: Mitosis and Meiosis",
+        "lessons": [
+          {
+            "id": "sci11-ucell-l1",
+            "title": "The Cell Cycle and Mitosis",
+            "summary": "Every dividing cell passes through an orderly sequence of growth and division called the **cell cycle**, alternating between a long preparatory period, **interphase**, and a shorter division phase. During interphase the cell grows, duplicates its DNA, and produces proteins needed for division; the diffuse, thread-like DNA-protein material called **chromatin** condenses into discrete, visible **chromosomes**, each duplicated copy held together as paired sister chromatids, only as division begins. **Mitosis** then partitions one complete, duplicated set of chromosomes equally into two genetically identical nuclei through four coordinated stages—prophase, metaphase, anaphase, and telophase. Finally, **cytokinesis** divides the cytoplasm itself, producing two independent daughter cells that inherit identical genetic instructions from the parent cell.",
+            "keyTerms": [
+              {
+                "term": "Cell Cycle",
+                "definition": "The ordered sequence of growth, DNA replication, and division that a eukaryotic cell progresses through, consisting of interphase (G1, S, G2) followed by the mitotic (M) phase."
+              },
+              {
+                "term": "Interphase",
+                "definition": "The portion of the cell cycle between divisions, divided into G1 (cell growth and organelle production), S (DNA replication), and G2 (final growth and preparation for mitosis)."
+              },
+              {
+                "term": "Mitosis",
+                "definition": "The stage of the cell cycle in which a cell's duplicated chromosomes are separated into two genetically identical nuclei through the sequential stages of prophase, metaphase, anaphase, and telophase."
+              },
+              {
+                "term": "Cytokinesis",
+                "definition": "The physical division of the cytoplasm that follows mitosis, splitting one cell into two separate daughter cells, typically via a contractile ring in animal cells or a cell plate in plant cells."
+              },
+              {
+                "term": "Chromatin",
+                "definition": "The loosely packed complex of DNA and associated proteins that fills the nucleus during interphase and condenses into visible chromosomes as a cell enters mitosis."
+              },
+              {
+                "term": "Chromosome",
+                "definition": "A single, highly condensed DNA molecule with its associated proteins; after S phase, each chromosome consists of two identical sister chromatids joined at a centromere until anaphase."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "During which phase of interphase does DNA replication occur?",
+                "choices": [
+                  "G1",
+                  "S",
+                  "G2",
+                  "M"
+                ],
+                "answerIndex": 1,
+                "explanation": "DNA replication occurs during **S** phase (synthesis phase) of interphase, when each chromosome is duplicated into two sister chromatids."
+              },
+              {
+                "question": "What event marks the beginning of anaphase?",
+                "choices": [
+                  "Chromosomes align at the metaphase plate",
+                  "Nuclear envelope reforms",
+                  "Chromatin condenses",
+                  "Sister chromatids separate and move toward opposite poles"
+                ],
+                "answerIndex": 3,
+                "explanation": "Anaphase begins when sister chromatids separate, a defining event of **mitosis** that ensures each pole receives an identical chromosome set."
+              },
+              {
+                "question": "Which stage of mitosis is characterized by chromosomes lining up along the cell's equatorial plane?",
+                "choices": [
+                  "Prophase",
+                  "Anaphase",
+                  "Metaphase",
+                  "Telophase"
+                ],
+                "answerIndex": 2,
+                "explanation": "During **metaphase**, chromosomes align at the cell's midline so that spindle fibers can pull sister chromatids apart evenly."
+              },
+              {
+                "question": "What is the main function of cytokinesis?",
+                "choices": [
+                  "Duplicate the genome",
+                  "Condense chromatin into chromosomes",
+                  "Divide the cytoplasm into two separate daughter cells",
+                  "Align chromosomes at the metaphase plate"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Cytokinesis** physically splits the parent cell's cytoplasm and membrane, completing the formation of two distinct daughter cells after mitosis."
+              },
+              {
+                "question": "A cell that skips G1 checkpoint controls despite carrying DNA damage most directly risks which outcome?",
+                "choices": [
+                  "Uncontrolled division and potential tumor formation",
+                  "Immediate cytokinesis without mitosis",
+                  "Permanent chromatin condensation",
+                  "Fusion of sister chromatids"
+                ],
+                "answerIndex": 0,
+                "explanation": "Checkpoints in the **cell cycle** normally halt division when DNA is damaged; bypassing them allows damaged cells to keep dividing uncontrollably."
+              }
+            ]
+          },
+          {
+            "id": "sci11-ucell-l2",
+            "title": "Meiosis and Genetic Variation",
+            "summary": "**Meiosis** is a specialized form of nuclear division that produces gametes, and it differs fundamentally from mitosis by involving two sequential divisions—meiosis I and meiosis II—that reduce a **diploid** starting cell to four genetically distinct **haploid** cells. During meiosis I, **homologous chromosomes**, the maternal and paternal copies of each chromosome, pair closely together and exchange segments of DNA in a process called **crossing over**, which recombines maternal and paternal alleles onto the same chromosome. Meiosis I also separates homologous pairs from each other independently of how other pairs separate, a phenomenon called **independent assortment**, so that each gamete receives a unique combination of maternal and paternal chromosomes. Together, crossing over and independent assortment generate the genetic diversity seen among siblings.",
+            "keyTerms": [
+              {
+                "term": "Meiosis",
+                "definition": "A specialized two-round nuclear division (meiosis I and meiosis II) that reduces a diploid cell to four haploid gametes, each genetically distinct from the parent cell and from one another."
+              },
+              {
+                "term": "Homologous Chromosomes",
+                "definition": "A pair of chromosomes, one inherited from each parent, that carry the same genes in the same order but may carry different alleles of those genes."
+              },
+              {
+                "term": "Crossing Over",
+                "definition": "The exchange of corresponding DNA segments between paired homologous chromosomes during prophase I of meiosis, which recombines maternal and paternal alleles onto the same chromosome."
+              },
+              {
+                "term": "Independent Assortment",
+                "definition": "The random, independent orientation and separation of each pair of homologous chromosomes during meiosis I, which produces new combinations of maternal and paternal chromosomes in gametes."
+              },
+              {
+                "term": "Haploid",
+                "definition": "Containing a single copy of each chromosome, one full set, symbolized n; human gametes are haploid, each carrying 23 chromosomes."
+              },
+              {
+                "term": "Diploid",
+                "definition": "Containing two copies of each chromosome, one from each parent, two full sets, symbolized 2n; human somatic cells are diploid, carrying 46 chromosomes."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "How many haploid daughter cells result from one diploid cell completing meiosis?",
+                "choices": [
+                  "One",
+                  "Two",
+                  "Three",
+                  "Four"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Meiosis** consists of two divisions performed on a single starting cell, ultimately yielding four haploid cells."
+              },
+              {
+                "question": "Crossing over occurs between which structures?",
+                "choices": [
+                  "Sister chromatids of the same chromosome",
+                  "Non-homologous chromosomes",
+                  "Homologous chromosomes during prophase I",
+                  "Centrioles during metaphase II"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Crossing over** takes place between paired homologous chromosomes while they are closely associated during prophase I of meiosis."
+              },
+              {
+                "question": "Which process is directly responsible for producing new combinations of whole maternal and paternal chromosomes (as opposed to reshuffling alleles within a single chromosome)?",
+                "choices": [
+                  "Crossing over",
+                  "Independent assortment",
+                  "DNA replication",
+                  "Cytokinesis"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Independent assortment** randomizes how maternal and paternal homologs line up and separate, producing new chromosome combinations in gametes."
+              },
+              {
+                "question": "A human skin cell is diploid (2n = 46). After a germ cell in the same body completes meiosis, the resulting gametes would be:",
+                "choices": [
+                  "n = 23",
+                  "2n = 46",
+                  "n = 46",
+                  "4n = 92"
+                ],
+                "answerIndex": 0,
+                "explanation": "Meiosis halves the chromosome number, so a **haploid** gamete carries only 23 chromosomes, one from each original homologous pair."
+              },
+              {
+                "question": "Why does meiosis, rather than mitosis, generate genetically variable gametes?",
+                "choices": [
+                  "Meiosis produces diploid cells",
+                  "Meiosis only occurs in somatic cells",
+                  "Meiosis includes crossing over and independent assortment, which mitosis lacks",
+                  "Meiosis skips DNA replication entirely"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Crossing over** and independent assortment both occur during meiosis I but have no counterpart in mitosis, which is why meiosis produces variation and mitosis does not."
+              }
+            ]
+          },
+          {
+            "id": "sci11-ucell-l3",
+            "title": "Comparing Mitosis and Meiosis, and the Chromosomal Basis of Inheritance",
+            "summary": "Comparing the two forms of nuclear division reveals why they serve different biological purposes: mitosis produces two diploid daughter cells genetically identical to the parent, ideal for growth and repair of body tissue in a **somatic cell**, while meiosis produces four genetically unique haploid **gamete** cells suited for sexual reproduction. This chromosomal behavior is the physical basis of Mendel's laws of inheritance: because each pair of homologous chromosomes, joined as a **tetrad** during prophase I, separates so that only one homolog enters a given gamete, every gamete receives just one allele of each gene—the **Law of Segregation**. Because different homologous pairs separate independently of one another, genes on different chromosomes sort into gametes independently—the **Law of Independent Assortment**. Errors in this process, called **nondisjunction**, yield gametes with abnormal chromosome numbers.",
+            "keyTerms": [
+              {
+                "term": "Law of Segregation",
+                "definition": "Mendel's principle that the two alleles for a gene separate from each other during gamete formation, so each gamete carries only one allele; it reflects the separation of homologous chromosomes in meiosis I."
+              },
+              {
+                "term": "Law of Independent Assortment",
+                "definition": "Mendel's principle that alleles of genes located on different chromosomes segregate into gametes independently of one another; it reflects the random orientation of different homologous pairs during meiosis I."
+              },
+              {
+                "term": "Nondisjunction",
+                "definition": "The failure of homologous chromosomes (in meiosis I) or sister chromatids (in meiosis II or mitosis) to separate properly, producing gametes or cells with an abnormal chromosome number."
+              },
+              {
+                "term": "Gamete",
+                "definition": "A haploid reproductive cell, sperm or egg, produced by meiosis that fuses with another gamete during fertilization to form a diploid zygote."
+              },
+              {
+                "term": "Somatic Cell",
+                "definition": "Any diploid body cell other than a gamete or its precursor; somatic cells divide by mitosis to support growth, development, and tissue repair."
+              },
+              {
+                "term": "Tetrad",
+                "definition": "The structure formed when a pair of homologous chromosomes, each consisting of two sister chromatids, closely pair (synapse) during prophase I of meiosis, containing four total chromatids."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Which statement correctly describes the products of mitosis versus meiosis in a human cell?",
+                "choices": [
+                  "Mitosis: 4 haploid cells; Meiosis: 2 diploid cells",
+                  "Mitosis: 2 diploid identical cells; Meiosis: 4 haploid genetically distinct cells",
+                  "Both processes produce 2 diploid identical cells",
+                  "Both processes produce 4 haploid distinct cells"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Mitosis** yields two diploid cells identical to the parent, while meiosis yields four haploid cells that differ genetically from each other and the parent."
+              },
+              {
+                "question": "Mendel's Law of Segregation is explained at the chromosomal level by which event?",
+                "choices": [
+                  "Crossing over during prophase I",
+                  "The separation of sister chromatids during mitotic anaphase",
+                  "The separation of homologous chromosomes during meiosis I",
+                  "Random fertilization of gametes"
+                ],
+                "answerIndex": 2,
+                "explanation": "Because homologous chromosomes separate during meiosis I, each gamete ends up with only one allele per gene, which is exactly what the **Law of Segregation** describes."
+              },
+              {
+                "question": "Two genes are located on different, non-homologous chromosomes. Their alleles will assort into gametes according to which principle?",
+                "choices": [
+                  "The Law of Segregation only",
+                  "The Law of Independent Assortment",
+                  "Crossing over exclusively",
+                  "Mitotic checkpoints"
+                ],
+                "answerIndex": 1,
+                "explanation": "Genes on separate chromosome pairs sort into gametes independently of one another, which is the chromosomal basis of the **Law of Independent Assortment**."
+              },
+              {
+                "question": "A gamete ends up with two copies of chromosome 21 instead of one, because a homologous pair failed to separate during meiosis I. This is an example of:",
+                "choices": [
+                  "Nondisjunction",
+                  "Crossing over",
+                  "Independent assortment",
+                  "Cytokinesis failure"
+                ],
+                "answerIndex": 0,
+                "explanation": "**Nondisjunction** occurs when paired chromosomes fail to separate correctly during meiosis, leaving one gamete with an extra chromosome and another with one missing."
+              },
+              {
+                "question": "Which cell type divides by mitosis to repair a skin wound?",
+                "choices": [
+                  "A gamete",
+                  "A tetrad",
+                  "A zygote formed by fertilization",
+                  "A somatic cell"
+                ],
+                "answerIndex": 3,
+                "explanation": "Tissue repair relies on mitotic division of diploid **somatic cells**, producing genetically identical replacement cells rather than gametes."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "sci11-u3",
         "title": "Molecular Genetics",
         "lessons": [
@@ -5512,7 +5782,7 @@
       },
       {
         "id": "sci11-u4",
-        "title": "Mendelian and Population Genetics",
+        "title": "Mendelian Genetics and Inheritance Patterns",
         "lessons": [
           {
             "id": "sci11-u4-l1",

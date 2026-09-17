@@ -835,6 +835,276 @@
         ]
       },
       {
+        "id": "engl12-uneoc",
+        "title": "The Restoration and Eighteenth Century",
+        "lessons": [
+          {
+            "id": "engl12-uneoc-l1",
+            "title": "Restoration Drama and the Return of the Theatre",
+            "summary": "In 1660, the **Restoration** returned Charles II to the English throne after nearly two decades of Puritan rule, and one of his first acts as king was to permit London's theatres, closed since 1642 during the **Interregnum**, to reopen. The reopened stages introduced English audiences to a new theatrical world: professional **actress**es appeared for the first time, replacing the boy players of earlier eras, and playwrights developed **comedy of manners**, a witty, often risqué genre that satirized the courtship rituals, marriages, and social pretensions of fashionable aristocratic society. Presiding over this literary revival was **John Dryden**, whose poetry, plays, and criticism made him the era's dominant literary voice and earned him the title **Poet Laureate**, the first writer to hold that royal honor in its modern form.",
+            "keyTerms": [
+              {
+                "term": "Restoration",
+                "definition": "The period beginning in 1660 when the English monarchy was restored under Charles II after the Civil War and the Puritan Commonwealth."
+              },
+              {
+                "term": "Interregnum",
+                "definition": "The period between 1649 and 1660 when England was governed without a king under Puritan Commonwealth rule, during which public theatres were closed."
+              },
+              {
+                "term": "comedy of manners",
+                "definition": "A witty style of Restoration comedy that satirizes the courtship, marriage customs, and social affectations of upper-class society."
+              },
+              {
+                "term": "actress",
+                "definition": "A professional female stage performer; women appeared on the public English stage for the first time during the Restoration, replacing boy actors who had played female roles."
+              },
+              {
+                "term": "John Dryden",
+                "definition": "A leading Restoration poet, playwright, and critic whose versatile body of work and critical essays shaped the era's literary standards."
+              },
+              {
+                "term": "Poet Laureate",
+                "definition": "An officially appointed national poet honored by the crown; Dryden was among the first writers to hold this title in its modern form."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "What event in 1660 led directly to the reopening of London's theatres?",
+                "choices": [
+                  "The execution of Charles I",
+                  "The restoration of Charles II to the throne",
+                  "The publication of Paradise Lost",
+                  "The Great Fire of London"
+                ],
+                "answerIndex": 1,
+                "explanation": "The **Restoration** of Charles II in 1660 ended the Puritan-era ban on public stage plays and allowed theatres to reopen."
+              },
+              {
+                "question": "During the Interregnum, why were England's public theatres closed?",
+                "choices": [
+                  "Puritan authorities viewed theatre as morally corrupting",
+                  "Plague outbreaks made public gatherings illegal",
+                  "Playwrights had all emigrated to France",
+                  "Theatres had been destroyed during the Civil War"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **Interregnum** government, shaped by Puritan values, banned public stage plays as morally corrupting."
+              },
+              {
+                "question": "What performance innovation distinguished Restoration theatre from earlier English drama?",
+                "choices": [
+                  "The exclusive use of blank verse",
+                  "The abolition of comedy as a genre",
+                  "The introduction of professional actresses",
+                  "The construction of outdoor amphitheaters"
+                ],
+                "answerIndex": 2,
+                "explanation": "For the first time, women performed as professional **actress**es on the English public stage rather than having boys play female roles."
+              },
+              {
+                "question": "Restoration comedy of manners plays most typically satirize which subject?",
+                "choices": [
+                  "Religious doctrine and church authority",
+                  "Foreign wars and military campaigns",
+                  "Rural farming life and labor",
+                  "Courtship and the social pretensions of the aristocracy"
+                ],
+                "answerIndex": 3,
+                "explanation": "**Comedy of manners** targets the courtship rituals, marriage customs, and social affectations of fashionable upper-class society."
+              },
+              {
+                "question": "Which Restoration writer became the era's dominant literary figure across poetry, drama, and criticism, and was honored as Poet Laureate?",
+                "choices": [
+                  "John Dryden",
+                  "Ben Jonson",
+                  "William Shakespeare",
+                  "John Milton"
+                ],
+                "answerIndex": 0,
+                "explanation": "**John Dryden**'s achievements across multiple genres and his critical writing made him the era's leading literary figure."
+              }
+            ]
+          },
+          {
+            "id": "engl12-uneoc-l2",
+            "title": "Augustan Neoclassicism and the Age of Satire",
+            "summary": "The early eighteenth century is often called the **Augustan Age**, a name borrowed from the reign of the Roman emperor Augustus to signal writers' devotion to classical ideals of order, reason, balance, and proportion, a literary and cultural movement known as **Neoclassicism** that reacted against what many saw as the excess and disorder of earlier generations. Alexander Pope perfected the **heroic couplet**, pairs of rhymed iambic pentameter lines prized for their epigrammatic wit, and used the **mock-epic** form to apply grand epic conventions to trivial subjects for comic effect. Jonathan Swift turned prose into a weapon of **satire**, exposing human folly, greed, and political corruption through irony and exaggeration, while **Samuel Johnson** shaped the era's literary taste as critic, essayist, and author of an influential English dictionary.",
+            "keyTerms": [
+              {
+                "term": "Augustan Age",
+                "definition": "The early-to-mid eighteenth-century literary period, named for the Roman emperor Augustus, prized for classical ideals of order, reason, and proportion."
+              },
+              {
+                "term": "Neoclassicism",
+                "definition": "A literary movement modeled on ancient Greek and Roman forms that valued balance, restraint, and adherence to established rules over unchecked imagination."
+              },
+              {
+                "term": "heroic couplet",
+                "definition": "A pair of rhymed lines in iambic pentameter, favored by Alexander Pope for its precision, balance, and epigrammatic wit."
+              },
+              {
+                "term": "mock-epic",
+                "definition": "A satirical form that applies the grand conventions of epic poetry, such as elevated language and supernatural machinery, to a trivial or petty subject for comic effect."
+              },
+              {
+                "term": "satire",
+                "definition": "A literary mode that uses irony, wit, and exaggeration to criticize human vice, folly, or societal and political corruption."
+              },
+              {
+                "term": "Samuel Johnson",
+                "definition": "An influential critic, essayist, and lexicographer whose landmark dictionary and literary judgments helped define eighteenth-century English literary taste."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "Why did eighteenth-century writers look to the Augustan Age of Rome as a literary model?",
+                "choices": [
+                  "They admired its emphasis on order, reason, and proportion",
+                  "They wanted to revive Roman religious rituals",
+                  "They sought to imitate medieval romance conventions",
+                  "They rejected all classical influence outright"
+                ],
+                "answerIndex": 0,
+                "explanation": "Writers embraced the **Augustan Age** ideal of classical balance and rational order as a reaction against the perceived excess of earlier literature."
+              },
+              {
+                "question": "What is the defining feature of Neoclassicism as a literary movement?",
+                "choices": [
+                  "Rejection of all rules in favor of spontaneous emotion",
+                  "Adherence to classical models emphasizing balance, restraint, and order",
+                  "A focus on supernatural and Gothic settings",
+                  "Preference for free verse over rhymed forms"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Neoclassicism** prized restraint, proportion, and fidelity to classical literary standards over unchecked imagination."
+              },
+              {
+                "question": "What poetic form did Alexander Pope master, pairing rhymed iambic pentameter lines for epigrammatic effect?",
+                "choices": [
+                  "Blank verse",
+                  "Free verse",
+                  "The heroic couplet",
+                  "The Petrarchan sonnet"
+                ],
+                "answerIndex": 2,
+                "explanation": "Pope's control of the **heroic couplet** let him compress sharp wit into tightly balanced, rhymed lines."
+              },
+              {
+                "question": "A mock-epic achieves its comic effect primarily by",
+                "choices": [
+                  "avoiding any reference to classical literature",
+                  "using only prose instead of verse",
+                  "eliminating irony from the narrative entirely",
+                  "applying the grand conventions of epic poetry to a trivial subject"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **mock-epic** borrows the scale and elevated language of epic poetry to mock a minor incident or subject."
+              },
+              {
+                "question": "Samuel Johnson's most lasting contribution to eighteenth-century literary culture was",
+                "choices": [
+                  "writing the first English novel",
+                  "compiling an influential dictionary and shaping literary criticism",
+                  "founding the genre of Restoration comedy",
+                  "inventing the heroic couplet"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Samuel Johnson** helped define literary taste through his dictionary, essays, and critical judgments."
+              }
+            ]
+          },
+          {
+            "id": "engl12-uneoc-l3",
+            "title": "The Rise of the English Novel",
+            "summary": "The early eighteenth century saw the emergence of the **novel** as a distinct literary form, a long work of prose fiction that departed from earlier romance traditions by claiming to depict the experiences of ordinary, believable individuals rather than idealized heroes, an approach grounded in **realism**. **Daniel Defoe** pioneered this new realist fiction, presenting invented narratives with such convincing factual detail that readers debated whether they were true accounts. **Samuel Richardson** advanced the form further by writing the **epistolary novel**, a narrative told through a sequence of letters that let readers access characters' private thoughts and emotions as events unfolded. **Henry Fielding** brought comic breadth and satirical narration to the genre, and together these writers established prose fiction as English literature's most influential new form.",
+            "keyTerms": [
+              {
+                "term": "novel",
+                "definition": "An extended work of prose fiction that emerged in the early eighteenth century, distinguished from earlier romance by its focus on plausible, individual experience."
+              },
+              {
+                "term": "realism",
+                "definition": "A literary approach that aims to represent ordinary life and characters believably, rather than idealizing them as earlier romance had done."
+              },
+              {
+                "term": "epistolary novel",
+                "definition": "A novel told through a series of letters written by its characters, a form that allowed close access to their private thoughts and feelings."
+              },
+              {
+                "term": "Daniel Defoe",
+                "definition": "An early novelist whose realistic, detailed narratives of individual adventure and survival helped establish prose fiction as a serious literary form."
+              },
+              {
+                "term": "Samuel Richardson",
+                "definition": "A novelist best known for pioneering the epistolary novel and exploring characters' inner moral and emotional lives."
+              },
+              {
+                "term": "Henry Fielding",
+                "definition": "A novelist known for comic, satirical narratives with a broad social canvas and an intrusive, ironic narrating voice."
+              }
+            ],
+            "practiceQuestions": [
+              {
+                "question": "How did the eighteenth-century novel differ from earlier prose romance?",
+                "choices": [
+                  "It focused on plausible, ordinary individual experience rather than idealized heroism",
+                  "It was always written in verse rather than prose",
+                  "It avoided any historical or contemporary setting",
+                  "It excluded dialogue between characters"
+                ],
+                "answerIndex": 0,
+                "explanation": "The **novel** distinguished itself from romance by grounding its stories in believable, everyday experience."
+              },
+              {
+                "question": "What literary approach is most closely associated with the rise of the novel?",
+                "choices": [
+                  "Symbolism",
+                  "Realism",
+                  "Surrealism",
+                  "Allegory"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Realism** describes fiction's new commitment to depicting believable characters and plausible events."
+              },
+              {
+                "question": "Which novelist wrote fiction so convincingly detailed that readers debated whether his narratives were true accounts?",
+                "choices": [
+                  "Henry Fielding",
+                  "Samuel Richardson",
+                  "Daniel Defoe",
+                  "Alexander Pope"
+                ],
+                "answerIndex": 2,
+                "explanation": "**Daniel Defoe**'s realistic narrative detail blurred the line between fiction and factual report."
+              },
+              {
+                "question": "The epistolary novel tells its story primarily through",
+                "choices": [
+                  "third-person omniscient narration",
+                  "stage directions and dialogue tags",
+                  "footnotes and appendices",
+                  "a sequence of letters exchanged between characters"
+                ],
+                "answerIndex": 3,
+                "explanation": "The **epistolary novel** form uses letters to reveal characters' private thoughts as events unfold."
+              },
+              {
+                "question": "Henry Fielding's fiction is most distinguished by its",
+                "choices": [
+                  "strict adherence to tragedy",
+                  "comic, satirical narration with a broad social scope",
+                  "exclusive use of verse form",
+                  "complete rejection of narrator commentary"
+                ],
+                "answerIndex": 1,
+                "explanation": "**Henry Fielding** combined comedy and satire with an intrusive narrating voice across a wide social canvas."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "engl12-u4",
         "title": "The Romantic Period",
         "lessons": [
