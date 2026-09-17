@@ -1,4 +1,4 @@
-# Build Plan: "Stallion Prep" — A 4-Year Accelerated High School Curriculum App
+# Build Plan: "Stallion Study" — A 4-Year Accelerated High School Curriculum App
 **Modeled on Mansfield ISD Early College High School (ECHS) at Timberview / TCC Southeast Campus, Mansfield, TX**
 
 This is a hand-off document for Claude Code. It contains the research, the grade-by-grade curriculum, the data model, the app architecture, and a phased build order.

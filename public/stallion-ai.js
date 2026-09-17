@@ -1,4 +1,4 @@
-// Stallion Prep — Ask AI add-on.
+// Stallion Study — Ask AI add-on.
 //
 // This file is intentionally separate from the main app bundle. The main
 // app looks for it (via a plain <script> tag, which still works when the

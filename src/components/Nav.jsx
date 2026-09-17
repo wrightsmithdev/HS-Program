@@ -12,7 +12,7 @@ export default function Nav() {
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <Link to="/" className="flex items-center gap-2 font-semibold text-slate-900 dark:text-white">
           <span className="text-xl">🐎</span>
-          <span>Stallion Prep</span>
+          <span>Stallion Study</span>
         </Link>
         <nav className="flex items-center gap-1">
           {grades.map((g) => {

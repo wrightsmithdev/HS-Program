@@ -1,4 +1,4 @@
-# Stallion Prep
+# Stallion Study
 
 A self-paced study app modeling Mansfield ISD's Early College High School (ECHS) program at Timberview / TCC Southeast Campus — four grade-level tabs (9–12), each listing that year's course load, with courses broken into units → lessons → key terms → practice questions.
 
