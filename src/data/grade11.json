@@ -1648,7 +1648,19 @@
                 "answerIndex": 0,
                 "explanation": "Understanding the **audience** helps a writer choose suitable **diction** and **tone** and decide how much background explanation is needed."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Choose a topic you care about and write a well-organized essay that argues a specific, arguable thesis about it, written for a specific audience of your choosing (for example, classmates, a school board, or general newspaper readers). State your intended audience and purpose near the start, then keep your word choice and tone consistent with those choices throughout the essay.",
+              "rubric": [
+                "States a clear, specific, and arguable thesis statement near the end of the introduction.",
+                "Identifies an intended audience and purpose for the essay near the beginning.",
+                "Maintains a tone and diction consistent with the stated audience and purpose throughout.",
+                "Organizes ideas into clear paragraphs that each focus on one main point.",
+                "Uses formal academic language rather than slang or texting-style abbreviations, unless the chosen audience and purpose call for informal diction.",
+                "Shows evidence of revision, such as varied sentence structure and precise word choice, rather than reading like a single unedited draft.",
+                "Is free of major grammar, spelling, and punctuation errors that interfere with meaning."
+              ]
+            }
           }
         ]
       },
@@ -1914,7 +1926,19 @@
                 "answerIndex": 1,
                 "explanation": "'As a result' is a **transition** that signals cause and effect, showing how one idea leads to another and improving **coherence**."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Write a complete five-paragraph essay on a topic of your choice. Include an engaging introduction with a hook and a clear thesis, three body paragraphs with topic sentences and supporting evidence, and a conclusion that restates your thesis in fresh words and reflects on its significance.",
+              "rubric": [
+                "Introduction opens with an effective hook (a fact, anecdote, or question) before narrowing to the thesis.",
+                "Includes a clear, specific thesis statement at the end of the introduction.",
+                "Each body paragraph opens with a topic sentence that states its main idea.",
+                "Each body paragraph includes specific supporting evidence plus the writer's own analysis of it.",
+                "Transitions clearly signal relationships, such as addition, contrast, or cause and effect, between and within paragraphs.",
+                "Conclusion restates the thesis in new words rather than repeating it verbatim and reflects on its significance.",
+                "Essay reads as coherent and unified, with paragraphs building logically toward the conclusion."
+              ]
+            }
           }
         ]
       },
@@ -2172,7 +2196,19 @@
                 "answerIndex": 1,
                 "explanation": "**Voice** comes from how information is expressed, so a clear, fact-based **expository writing** essay can still sound distinctly like its author."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Write an expository essay that explains a process, a cause-and-effect relationship, or a comparison of your choosing (for example, how a hobby is done, why a historical event happened, or how two schools of thought differ). Organize the essay using one clear expository pattern and let your own authentic voice come through in your word choice and sentence style.",
+              "rubric": [
+                "Essay clearly explains or informs rather than telling a story or arguing a persuasive claim.",
+                "Uses one identifiable organizational pattern, such as compare-and-contrast, cause-and-effect, or process analysis, consistently.",
+                "Includes specific facts, examples, or details rather than vague generalizations.",
+                "Shows a distinct personal voice through word choice and sentence rhythm rather than a flat recitation of facts.",
+                "Paragraphs are unified, each covering one clear part of the explanation.",
+                "Uses clear transitions to move readers through the steps, points, or comparisons.",
+                "Is free of major grammar and mechanics errors."
+              ]
+            }
           }
         ]
       },
@@ -2342,7 +2378,19 @@
                 "answerIndex": 1,
                 "explanation": "Fairly presenting a **counterargument** and following it with a clear **rebuttal** is the standard, persuasive structure for handling opposition."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Write a persuasive essay defending a debatable claim on a topic of your choice. Support your claim with evidence and reasoning, fairly present at least one counterargument, and then rebut it, explaining why your position still holds.",
+              "rubric": [
+                "States a clear, debatable claim in the introduction.",
+                "Supports the claim with specific evidence, such as facts, examples, or reasoning, rather than just opinion.",
+                "Uses at least one appeal (logos, ethos, or pathos) purposefully to strengthen the persuasion.",
+                "Fairly and accurately presents at least one genuine counterargument to the claim.",
+                "Offers a clear rebuttal explaining why the counterargument does not overturn the claim.",
+                "Avoids common logical fallacies, such as straw man, false dilemma, ad hominem, or slippery slope.",
+                "Is organized with clear topic sentences and transitions connecting the claim, evidence, counterargument, and rebuttal."
+              ]
+            }
           },
           {
             "id": "engl11-u4-l3",
@@ -2684,7 +2732,19 @@
                 "answerIndex": 0,
                 "explanation": "Consistently citing sources is the main safeguard against **plagiarism**, since it properly credits where borrowed ideas and words came from."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Find one short outside source (an article, an encyclopedia entry, or similar) about a topic of your choice and write a short essay that incorporates that source using both a direct quotation and a paraphrase, each properly credited. Explain in your own analysis how the source's information supports your main point.",
+              "rubric": [
+                "Includes a clear main point or claim that the outside source is used to support.",
+                "Contains at least one direct quotation from the source, marked with quotation marks.",
+                "Contains at least one paraphrase that restates source material in the writer's own words and sentence structure.",
+                "Every quotation and paraphrase is credited to its source with a citation.",
+                "Includes original analysis explaining how the source connects to the writer's own point, not just source summary.",
+                "Avoids patchwriting, such as changing only a few words of the original without proper restatement or citation.",
+                "Maintains the writer's own voice outside of the quoted or paraphrased material."
+              ]
+            }
           }
         ]
       },
@@ -2938,7 +2998,19 @@
                 "answerIndex": 1,
                 "explanation": "**Synthesis** demonstrates critical thinking by connecting **evidence** from multiple sources to support a **claim**, unlike a **source summary** that merely reports sources one by one."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Using at least two sources, write a short synthesis essay organized around your own claim about a topic, weaving evidence from both sources together (rather than summarizing them one at a time) to support your point. Include correct MLA in-text citations and a Works Cited page listing both sources.",
+              "rubric": [
+                "States the writer's own claim or thesis, rather than simply describing what the sources say.",
+                "Draws on at least two sources and combines their ideas within the same paragraphs, showing true synthesis rather than a source-by-source list report.",
+                "Uses correct MLA in-text citation format, such as author and page number or a signal phrase plus page number.",
+                "Includes a Works Cited page with entries in alphabetical order and hanging indents.",
+                "Explains, in the writer's own analysis, how the synthesized evidence supports the claim.",
+                "Notes where sources agree or disagree with each other, if relevant, rather than treating them in isolation.",
+                "Is organized with clear topic sentences and transitions connecting ideas across sources."
+              ]
+            }
           }
         ]
       }
@@ -3045,7 +3117,7 @@
                   "-5"
                 ],
                 "answerIndex": 0,
-                "explanation": "Distribute to get 2x+6-5=11, combine **Like Terms** to 2x+1=11, then subtract 1 and divide by 2 to get x=5, using the **Distributive Property**."
+                "explanation": "Step 1: Apply the **Distributive Property**: 2(x+3)-5 = 2x+6-5.\nStep 2: Combine like terms: 2x+1=11.\nStep 3: Subtract 1 then divide by 2: 2x=10, so x=5."
               },
               {
                 "question": "Solve for x: 4x - 7 = 2x + 9",
@@ -3056,7 +3128,7 @@
                   "-8"
                 ],
                 "answerIndex": 1,
-                "explanation": "Move variable terms to one side and constants to the other: 4x-2x=9+7, giving 2x=16, so x=8. This relies on combining **Like Terms** on both sides of the **Linear Equation**."
+                "explanation": "Step 1: Subtract 2x from both sides of the **Linear Equation**: 4x-2x-7=9, giving 2x-7=9.\nStep 2: Add 7 to both sides: 2x=16.\nStep 3: Divide both sides by 2: x=8."
               },
               {
                 "question": "Solve for x: 7 - 3x = 2(x - 4)",
@@ -3067,7 +3139,7 @@
                   "1"
                 ],
                 "answerIndex": 2,
-                "explanation": "Distribute to get 2x-8, then move x-terms and constants: 7+8=2x+3x, so 15=5x and x=3. This uses the **Distributive Property** and combining **Like Terms** to solve the **Linear Equation**."
+                "explanation": "Step 1: Apply the **Distributive Property** to the right side: 2(x-4)=2x-8, so the equation becomes 7-3x=2x-8.\nStep 2: Move variable terms together and constants together: 7+8=2x+3x, giving 15=5x.\nStep 3: Divide both sides by 5: x=3."
               },
               {
                 "question": "What is true about the equation 2(x + 3) = 2x + 6?",
@@ -3078,7 +3150,7 @@
                   "It is an identity, true for all values of x"
                 ],
                 "answerIndex": 3,
-                "explanation": "Distributing gives 2x+6=2x+6, which simplifies to 6=6, a statement true regardless of x, so the equation is an **Identity**, not a **Contradiction** or a single-solution **Linear Equation**."
+                "explanation": "Step 1: Distribute the left side: 2(x+3)=2x+6, so the equation reads 2x+6=2x+6.\nStep 2: Subtract 2x from both sides: 6=6, a statement that is always true no matter what x is.\nStep 3: Because every real number satisfies the equation, it is an **Identity**, not a **Contradiction** or a single-solution equation."
               },
               {
                 "question": "Solve for x: 3(2x - 1) = 4x + 7",
@@ -3089,7 +3161,7 @@
                   "-5"
                 ],
                 "answerIndex": 0,
-                "explanation": "Distribute to get 6x-3=4x+7, then combine **Like Terms**: 2x=10, so x=5, applying the **Distributive Property** to solve the **Linear Equation**."
+                "explanation": "Step 1: Apply the **Distributive Property**: 3(2x-1)=6x-3, so the equation is 6x-3=4x+7.\nStep 2: Subtract 4x from both sides and add 3 to both sides: 2x=10.\nStep 3: Divide by 2: x=5."
               }
             ]
           },
@@ -3133,7 +3205,7 @@
                   "x < 3"
                 ],
                 "answerIndex": 1,
-                "explanation": "Subtract 6 to get -3x>9. Dividing by -3 requires flipping the **Inequality Symbol**, giving x<-3. Forgetting to flip is a common mistake when solving a **Linear Inequality**."
+                "explanation": "Step 1: Subtract 6 from both sides: -3x>9.\nStep 2: Divide both sides by -3, remembering to flip the **Inequality Symbol** since you're dividing by a negative number: x<-3."
               },
               {
                 "question": "Solve: |2x - 4| = 10",
@@ -3144,7 +3216,7 @@
                   "x = 7 or x = -7"
                 ],
                 "answerIndex": 2,
-                "explanation": "An **Absolute Value Equation** splits into two cases: 2x-4=10 or 2x-4=-10, giving x=7 or x=-3. Forgetting the negative case is a common error."
+                "explanation": "Step 1: An **Absolute Value Equation** splits into two cases: 2x-4=10 or 2x-4=-10.\nStep 2: Solve the first case: 2x=14, so x=7.\nStep 3: Solve the second case: 2x=-6, so x=-3. The solutions are x=7 or x=-3."
               },
               {
                 "question": "Solve the compound inequality: -2 < 3x + 1 ≤ 10",
@@ -3155,7 +3227,7 @@
                   "-1 < x ≤ 3"
                 ],
                 "answerIndex": 3,
-                "explanation": "Subtract 1 from all three parts to get -3<3x≤9, then divide every part by 3 (no flip needed since 3 is positive) to get -1<x≤3, the solution to the **Compound Inequality**."
+                "explanation": "Step 1: Subtract 1 from all three parts of the **Compound Inequality**: -2-1<3x+1-1≤10-1, giving -3<3x≤9.\nStep 2: Divide every part by 3 (no flip needed since 3 is positive): -1<x≤3."
               },
               {
                 "question": "Solve |x + 5| < 3 and write the solution in interval notation.",
@@ -3166,7 +3238,7 @@
                   "x < -8 or x > -2"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Absolute Value** less-than statements become a **Compound Inequality**: -3<x+5<3. Subtracting 5 from each part gives -8<x<-2, written in **Interval Notation** as (-8,-2)."
+                "explanation": "Step 1: Rewrite the **Absolute Value** inequality as a **Compound Inequality**: -3<x+5<3.\nStep 2: Subtract 5 from all three parts: -8<x<-2.\nStep 3: Write the solution in **Interval Notation**: (-8,-2)."
               },
               {
                 "question": "Solve the inequality: 5 - 2x ≤ 1",
@@ -3177,7 +3249,7 @@
                   "x ≥ 4"
                 ],
                 "answerIndex": 1,
-                "explanation": "Subtract 5 from both sides to get -2x≤-4. Dividing by -2 flips the **Inequality Symbol**, giving x≥2 — a required step when solving a **Linear Inequality** by a negative number."
+                "explanation": "Step 1: Subtract 5 from both sides: -2x≤-4.\nStep 2: Divide both sides by -2, flipping the **Inequality Symbol** because you divided by a negative: x≥2."
               }
             ]
           },
@@ -3221,7 +3293,7 @@
                   "-2"
                 ],
                 "answerIndex": 2,
-                "explanation": "**Slope** is rise over run: (11-3)/(6-2)=8/4=2. Flipping the numerator and denominator is a common mistake that gives 1/2 instead."
+                "explanation": "Step 1: Apply the **Slope** formula: m=(y2-y1)/(x2-x1)=(11-3)/(6-2).\nStep 2: Simplify: 8/4=2, so the slope is 2."
               },
               {
                 "question": "Write the equation, in slope-intercept form, of a line with slope -3 and y-intercept 4.",
@@ -3232,7 +3304,7 @@
                   "y = -3x + 4"
                 ],
                 "answerIndex": 3,
-                "explanation": "**Slope-Intercept Form** is y=mx+b. With m=-3 and b=4, the equation is y=-3x+4; mixing up which number is the slope and which is the intercept is a common error."
+                "explanation": "Step 1: Recall **Slope-Intercept Form**: y=mx+b.\nStep 2: Substitute m=-3 and b=4: y=-3x+4."
               },
               {
                 "question": "A line passes through (1, 5) with slope 4. What is its equation in slope-intercept form?",
@@ -3243,7 +3315,7 @@
                   "y = 4x - 4"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using **Point-Slope Form** y-5=4(x-1), distribute to get y-5=4x-4, then add 5: y=4x+1. Forgetting to add the 5 back leaves the incorrect y=4x-4."
+                "explanation": "Step 1: Use **Point-Slope Form**: y-5=4(x-1).\nStep 2: Distribute the 4: y-5=4x-4.\nStep 3: Add 5 to both sides: y=4x+1."
               },
               {
                 "question": "Line A: y = 2x + 3. Line B: y = 2x - 7. What is the relationship between the two lines?",
@@ -3254,7 +3326,7 @@
                   "They are the same line"
                 ],
                 "answerIndex": 1,
-                "explanation": "Both lines have **Slope** 2 but different **Y-Intercept** values (3 and -7), so they are **Parallel Lines** that never intersect."
+                "explanation": "Step 1: Compare the **Slope** of each line: both have slope 2.\nStep 2: Compare the **Y-Intercept** values: 3 for Line A and -7 for Line B — they differ.\nStep 3: Equal slopes with different y-intercepts mean the lines are **Parallel Lines** that never intersect."
               },
               {
                 "question": "What is the slope of a line perpendicular to y = (2/3)x - 5?",
@@ -3265,7 +3337,7 @@
                   "-2/3"
                 ],
                 "answerIndex": 2,
-                "explanation": "**Perpendicular Lines** have slopes that are negative reciprocals. The negative reciprocal of 2/3 is -3/2; forgetting to flip the fraction gives the incorrect -2/3."
+                "explanation": "Step 1: **Perpendicular Lines** have slopes that are negative reciprocals of each other.\nStep 2: The given slope is 2/3; flip it to get 3/2, then negate: -3/2."
               }
             ]
           }
@@ -3315,7 +3387,7 @@
                   "15"
                 ],
                 "answerIndex": 3,
-                "explanation": "Substitute x=-2 into **Function Notation**: f(-2)=2(-2)^2-3(-2)+1=2(4)+6+1=8+6+1=15. A common mistake is treating (-2)^2 as -4 instead of 4."
+                "explanation": "Step 1: Substitute x=-2 into the **Function Notation**: f(-2)=2(-2)^2-3(-2)+1.\nStep 2: Compute (-2)^2=4, so 2(4)=8, and -3(-2)=6.\nStep 3: Add: 8+6+1=15."
               },
               {
                 "question": "What is the domain of f(x) = 1/(x - 4)?",
@@ -3326,7 +3398,7 @@
                   "All real numbers"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **Domain** excludes values that make the denominator zero. Setting x-4=0 gives x=4, so 4 must be excluded from the domain of this **Function**."
+                "explanation": "Step 1: The **Domain** of a **Function** excludes values that make the denominator zero.\nStep 2: Set x-4=0 to find x=4, so the domain is all real numbers except x=4."
               },
               {
                 "question": "What is the range of f(x) = x^2 + 3?",
@@ -3337,7 +3409,7 @@
                   "All real numbers"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since x^2 is never negative, the smallest value of x^2+3 is 3, occurring at x=0, so the **Range** is y≥3, not all real numbers."
+                "explanation": "Step 1: Since x^2 is never negative, its smallest possible value is 0, occurring at x=0.\nStep 2: Substitute x=0: f(0)=0+3=3, the minimum output.\nStep 3: Because f(x) can only increase from there, the **Range** is y≥3."
               },
               {
                 "question": "Which test determines whether a graph represents a function?",
@@ -3348,7 +3420,7 @@
                   "Domain Test"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Vertical Line Test** states that if any vertical line crosses a graph more than once, the graph does not represent a **Function**, since that input would have two outputs."
+                "explanation": "Step 1: Recall that a graph represents a **Function** only if every input has exactly one output.\nStep 2: The **Vertical Line Test** checks this: if any vertical line crosses the graph more than once, it is not a function."
               },
               {
                 "question": "A piecewise function is defined as f(x) = x + 2 for x < 0, and f(x) = x^2 for x ≥ 0. Find f(3).",
@@ -3359,7 +3431,7 @@
                   "9"
                 ],
                 "answerIndex": 3,
-                "explanation": "Since 3≥0, use the rule x^2 from this **Piecewise Function**: f(3)=3^2=9. Using the other piece (x+2) would incorrectly give 5."
+                "explanation": "Step 1: Since 3≥0, use the rule x^2 from this **Piecewise Function**.\nStep 2: Compute f(3)=3^2=9. (Using the other piece, x+2, would incorrectly give 5.)"
               }
             ]
           },
@@ -3403,7 +3475,7 @@
                   "1"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **Sum of Functions** is (f+g)(x)=f(x)+g(x)=x+3+2x=3x+3. Evaluating at x=4 gives 3(4)+3=15."
+                "explanation": "Step 1: Form the **Sum of Functions**: (f+g)(x)=f(x)+g(x)=(x+3)+2x=3x+3.\nStep 2: Substitute x=4: (f+g)(4)=3(4)+3=12+3=15."
               },
               {
                 "question": "If f(x) = x^2 and g(x) = x - 1, find (f∘g)(3).",
@@ -3414,7 +3486,7 @@
                   "2"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Function Composition** (f∘g)(3) means first find g(3)=3-1=2, then apply f: f(2)=2^2=4. Computing g(f(3)) instead reverses the order and gives a different result."
+                "explanation": "Step 1: **Function Composition** (f∘g)(3) means evaluate g first: g(3)=3-1=2.\nStep 2: Then apply f to that result: f(2)=2^2=4."
               },
               {
                 "question": "If f(x) = 3x and g(x) = x + 5, what is (f/g)(2)?",
@@ -3425,7 +3497,7 @@
                   "2/5"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Quotient of Functions** (f/g)(x)=f(x)/g(x). At x=2, f(2)=6 and g(2)=7, so (f/g)(2)=6/7, valid since g(2)≠0."
+                "explanation": "Step 1: Form the **Quotient of Functions**: (f/g)(x)=f(x)/g(x).\nStep 2: Evaluate f(2)=3(2)=6 and g(2)=2+5=7.\nStep 3: Divide: (f/g)(2)=6/7."
               },
               {
                 "question": "If f(x) = 2x - 1, what is f^-1(x)?",
@@ -3436,7 +3508,7 @@
                   "(x + 1)/2"
                 ],
                 "answerIndex": 3,
-                "explanation": "To find the **Inverse Function**, swap x and y in y=2x-1 to get x=2y-1, then solve for y: y=(x+1)/2. Forgetting to add 1 before dividing gives the incorrect x/2-1."
+                "explanation": "Step 1: Write y=2x-1, then swap x and y to begin finding the **Inverse Function**: x=2y-1.\nStep 2: Add 1 to both sides: x+1=2y.\nStep 3: Divide by 2: y=(x+1)/2."
               },
               {
                 "question": "If f(x) = x + 2 and g(x) = x - 2, find (f∘g)(x) in simplified form.",
@@ -3447,7 +3519,7 @@
                   "2x"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Function Composition** substitutes g(x) into f: f(g(x))=f(x-2)=(x-2)+2=x. Here f and g are **Inverse Functions** of each other since composing them returns x."
+                "explanation": "Step 1: **Function Composition** substitutes g(x) into f: f(g(x))=f(x-2).\nStep 2: Simplify: (x-2)+2=x. Since composing f and g returns x, they are **Inverse Functions** of each other."
               }
             ]
           },
@@ -3491,7 +3563,7 @@
                   "Vertical stretch by a factor of 5"
                 ],
                 "answerIndex": 1,
-                "explanation": "Subtracting outside the function, f(x)-5, produces a **Vertical Shift** downward by 5 units; changes outside the function affect the y-values directly."
+                "explanation": "Step 1: The change f(x)-5 is applied outside the function, so it affects the output (y-value) directly.\nStep 2: Subtracting 5 from every output produces a **Vertical Shift** downward by 5 units."
               },
               {
                 "question": "The graph of g(x) = f(x + 3) is obtained from f(x) by which transformation?",
@@ -3502,7 +3574,7 @@
                   "Vertical shift down 3 units"
                 ],
                 "answerIndex": 2,
-                "explanation": "Changes inside the function affect x-values and work opposite to intuition: f(x+3) is a **Horizontal Shift** to the left by 3 units, not to the right."
+                "explanation": "Step 1: The change +3 is applied inside the function's input, so it affects x-values, not y-values.\nStep 2: Changes inside the function work opposite to intuition: f(x+3) shifts the graph left by 3 units, giving a **Horizontal Shift**, not to the right."
               },
               {
                 "question": "How does the graph of g(x) = -f(x) compare to f(x)?",
@@ -3513,7 +3585,7 @@
                   "It is reflected over the x-axis"
                 ],
                 "answerIndex": 3,
-                "explanation": "Multiplying the entire **Function** by -1 flips every y-value's sign, producing a **Reflection** over the x-axis. Reflecting over the y-axis instead would require f(-x)."
+                "explanation": "Step 1: Multiplying the entire **Function** by -1 changes the sign of every output value.\nStep 2: Flipping the sign of every y-value produces a **Reflection** over the x-axis (reflecting over the y-axis instead would require f(-x))."
               },
               {
                 "question": "How does the graph of g(x) = 3f(x) compare to the parent function f(x)?",
@@ -3524,7 +3596,7 @@
                   "Vertical shift up by 3 units"
                 ],
                 "answerIndex": 0,
-                "explanation": "Multiplying a **Parent Function** by a constant greater than 1 outside the function produces a **Vertical Stretch/Compression** — here, a stretch by a factor of 3, since every output is tripled."
+                "explanation": "Step 1: The constant 3 multiplies the entire **Parent Function** from outside, so it scales every output value.\nStep 2: Since 3>1, every y-value triples, producing a **Vertical Stretch/Compression** — specifically a stretch by a factor of 3."
               },
               {
                 "question": "Is f(x) = x^3 an even function, an odd function, or neither?",
@@ -3535,7 +3607,7 @@
                   "Both even and odd"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since f(-x) = (-x)^3 = -x^3 = -f(x), the function matches the odd case of the **Even Function / Odd Function** classification, not the even case."
+                "explanation": "Step 1: Substitute -x into the function: f(-x)=(-x)^3=-x^3.\nStep 2: Since f(-x)=-f(x), the function matches the odd case of the **Even Function / Odd Function** classification."
               }
             ]
           }
@@ -3589,7 +3661,7 @@
                   "1"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Degree** of a **Polynomial** is its highest exponent. Even though -2x^5 is written second, it has the highest exponent, 5, so that is the degree."
+                "explanation": "Step 1: The **Degree** of a **Polynomial** is its highest exponent on x, regardless of the order terms are written.\nStep 2: Scanning the exponents 3, 5, 1, the highest is 5 (from -2x^5), so the degree is 5."
               },
               {
                 "question": "Factor completely: x^2 - 9",
@@ -3600,7 +3672,7 @@
                   "(x - 3)(x + 3)"
                 ],
                 "answerIndex": 3,
-                "explanation": "x^2-9 fits the **Difference of Squares** pattern a^2-b^2=(a-b)(a+b) with a=x, b=3, **Factoring** to (x-3)(x+3)."
+                "explanation": "Step 1: Recognize x^2-9 as a **Difference of Squares**: a^2-b^2 with a=x and b=3.\nStep 2: Apply the pattern a^2-b^2=(a-b)(a+b): **Factoring** gives (x-3)(x+3)."
               },
               {
                 "question": "Factor the trinomial: x^2 + 7x + 12",
@@ -3611,7 +3683,7 @@
                   "(x - 3)(x - 4)"
                 ],
                 "answerIndex": 0,
-                "explanation": "To factor this **Trinomial**, find two numbers that multiply to 12 and add to 7: 3 and 4. This gives (x+3)(x+4); pairs like 2 and 6 multiply correctly but do not add to 7."
+                "explanation": "Step 1: To factor this **Trinomial**, find two numbers that multiply to 12 and add to 7.\nStep 2: Those numbers are 3 and 4 (2 and 6 multiply to 12 but add to 8, not 7).\nStep 3: Write the factored form: (x+3)(x+4)."
               },
               {
                 "question": "Factor by pulling out the GCF: 6x^3 + 9x^2",
@@ -3622,7 +3694,7 @@
                   "3(2x^3 + 3x^2)"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **Greatest Common Factor (GCF)** of 6x^3 and 9x^2 is 3x^2. Dividing each term by 3x^2 leaves 2x+3, so the factored form is 3x^2(2x+3)."
+                "explanation": "Step 1: Find the **Greatest Common Factor (GCF)** of 6x^3 and 9x^2, which is 3x^2.\nStep 2: Divide each term by 3x^2: 6x^3/3x^2=2x and 9x^2/3x^2=3.\nStep 3: Write the factored form: 3x^2(2x+3)."
               },
               {
                 "question": "What is the leading coefficient of -5x^4 + 3x^2 - x?",
@@ -3633,7 +3705,7 @@
                   "3"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Leading Coefficient** is the number multiplying the highest-degree term. Since -5x^4 has the highest degree (4), the leading coefficient is -5, not the degree itself or another term's coefficient."
+                "explanation": "Step 1: Identify the term with the highest degree: -5x^4 has degree 4, the highest in the polynomial.\nStep 2: The **Leading Coefficient** is the number multiplying that term, which is -5."
               }
             ]
           },
@@ -3677,7 +3749,7 @@
                   "x = 2"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **Axis of Symmetry** of a **Quadratic Function** is x=-b/(2a). Here a=2, b=-8, so x=-(-8)/(2·2)=8/4=2."
+                "explanation": "Step 1: The **Axis of Symmetry** of a **Quadratic Function** is x=-b/(2a).\nStep 2: With a=2 and b=-8: x=-(-8)/(2·2)=8/4=2."
               },
               {
                 "question": "What is the discriminant of 3x^2 + 2x - 1 = 0, and what does it indicate?",
@@ -3688,7 +3760,7 @@
                   "16, so there is exactly one real solution"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **Discriminant** is b^2-4ac = (2)^2-4(3)(-1) = 4+12=16. Since it's positive, the **Quadratic Formula** yields two distinct real solutions."
+                "explanation": "Step 1: The **Discriminant** is b^2-4ac. Here a=3, b=2, c=-1: (2)^2-4(3)(-1)=4+12=16.\nStep 2: Since 16 is positive, the **Quadratic Formula** yields two distinct real solutions."
               },
               {
                 "question": "Find the vertex of f(x) = x^2 - 6x + 5.",
@@ -3699,7 +3771,7 @@
                   "(6, 5)"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **Vertex** occurs at x=-b/(2a)=6/2=3. Substituting back: f(3)=9-18+5=-4, so the vertex is (3,-4), the minimum point of this **Parabola**."
+                "explanation": "Step 1: Find the x-coordinate of the **Vertex**: x=-b/(2a)=-(-6)/(2·1)=6/2=3.\nStep 2: Substitute x=3 back into f(x): f(3)=9-18+5=-4.\nStep 3: The vertex of this **Parabola** is (3,-4)."
               },
               {
                 "question": "Solve 2x^2 + 3x - 5 = 0 using the quadratic formula.",
@@ -3710,7 +3782,7 @@
                   "x = 4 or x = -10"
                 ],
                 "answerIndex": 2,
-                "explanation": "Using the **Quadratic Formula** with a=2, b=3, c=-5: the **Discriminant** is 9+40=49, so x=(-3±7)/4, giving x=1 or x=-2.5."
+                "explanation": "Step 1: Identify a=2, b=3, c=-5, and compute the **Discriminant**: b^2-4ac=9-4(2)(-5)=9+40=49.\nStep 2: Apply the **Quadratic Formula**: x=(-3±√49)/(2·2)=(-3±7)/4.\nStep 3: Compute both cases: x=4/4=1 or x=-10/4=-2.5."
               },
               {
                 "question": "Does the parabola f(x) = -2x^2 + 4x + 1 open upward or downward, and why?",
@@ -3721,7 +3793,7 @@
                   "Downward, because a is negative"
                 ],
                 "answerIndex": 3,
-                "explanation": "For a **Quadratic Function** f(x)=ax^2+bx+c, the **Parabola** opens downward when a<0. Here a=-2, so the graph opens downward, with the **Vertex** as its highest point."
+                "explanation": "Step 1: For a **Quadratic Function** f(x)=ax^2+bx+c, the sign of a determines the direction the **Parabola** opens.\nStep 2: Here a=-2, which is negative, so the graph opens downward, with the **Vertex** as its highest point."
               }
             ]
           },
@@ -3769,7 +3841,7 @@
                   "5"
                 ],
                 "answerIndex": 0,
-                "explanation": "A polynomial of degree n has at most n-1 **Turning Point**s. For degree 4, that is 3 — confusing this with the degree itself is a common mistake."
+                "explanation": "Step 1: A polynomial of degree n has at most n-1 **Turning Point**s.\nStep 2: For degree 4, that maximum is 4-1=3."
               },
               {
                 "question": "Describe the end behavior of f(x) = -3x^5 + 2x^2 - 1.",
@@ -3780,7 +3852,7 @@
                   "As x→∞, f(x)→-∞; as x→-∞, f(x)→-∞"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **End Behavior** of a polynomial depends on its degree's parity and the **Leading Coefficient**'s sign. With odd degree 5 and a negative leading coefficient, the graph rises on the left and falls on the right."
+                "explanation": "Step 1: The **End Behavior** depends on the degree's parity and the **Leading Coefficient**'s sign; here the degree is 5 (odd) and the leading coefficient is -3 (negative).\nStep 2: An odd-degree polynomial with a negative leading coefficient rises on the left and falls on the right: as x→∞, f(x)→-∞, and as x→-∞, f(x)→∞."
               },
               {
                 "question": "The factored polynomial f(x) = (x - 2)^3(x + 1) has a zero at x = 2 with what multiplicity?",
@@ -3791,7 +3863,7 @@
                   "4"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Multiplicity** of a **Zero of a Function** is the exponent on its factor. Since (x-2) is raised to the third power, x=2 is a zero with multiplicity 3."
+                "explanation": "Step 1: The **Multiplicity** of a **Zero of a Function** is the exponent on its corresponding factor.\nStep 2: Since (x-2) is raised to the third power, x=2 is a zero with multiplicity 3."
               },
               {
                 "question": "According to the Rational Zero Theorem, which of the following is a possible rational zero of f(x) = 2x^3 - 5x^2 + x - 3?",
@@ -3802,7 +3874,7 @@
                   "3/2"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **Rational Zero Theorem** limits possible rational zeros to ± (factor of constant term 3)/(factor of leading coefficient 2): ±1, ±3, ±1/2, ±3/2. Since 3/2 fits this pattern, it is a possible zero, while 2/3 has the numerator and denominator reversed."
+                "explanation": "Step 1: The **Rational Zero Theorem** says possible rational zeros are ±(factor of constant term)/(factor of leading coefficient) = ±(factor of 3)/(factor of 2).\nStep 2: This gives the list ±1, ±3, ±1/2, ±3/2.\nStep 3: Of the choices, 3/2 matches this list, while 2/3 has the numerator and denominator reversed."
               },
               {
                 "question": "Use synthetic division to divide f(x) = x^3 - 4x^2 + x + 6 by (x - 2). What is the remainder?",
@@ -3813,7 +3885,7 @@
                   "2"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Synthetic Division** of x^3-4x^2+x+6 by (x-2) gives coefficients 1, -2, -3 and a remainder of 0, confirming that x=2 is a **Zero of a Function** for this polynomial."
+                "explanation": "Step 1: Perform **Synthetic Division** with root 2 on coefficients 1, -4, 1, 6.\nStep 2: Bring down 1; multiply by 2 and add: -4+2=-2; multiply by 2 and add: 1+(-4)=-3; multiply by 2 and add: 6+(-6)=0.\nStep 3: The remainder is 0, confirming x=2 is a **Zero of a Function** for this polynomial."
               }
             ]
           }
@@ -3863,7 +3935,7 @@
                   "x^2 - 9 (cannot be simplified)"
                 ],
                 "answerIndex": 1,
-                "explanation": "Factor the numerator into (x-3)(x+3), then cancel the shared factor (x+3) using **Simplifying Rational Expressions**, leaving x-3. Since the original denominator is zero at x=-3, that is the **Excluded Value**."
+                "explanation": "Step 1: Factor the numerator using **Difference of Squares**: x^2-9=(x-3)(x+3).\nStep 2: Cancel the shared factor (x+3) when **Simplifying Rational Expressions**, leaving x-3.\nStep 3: Since the original denominator is zero at x=-3, that value is the **Excluded Value**."
               },
               {
                 "question": "Solve the rational equation: 3/x + 1 = 7/x",
@@ -3874,7 +3946,7 @@
                   "x = 0"
                 ],
                 "answerIndex": 2,
-                "explanation": "Multiply both sides by the **Least Common Denominator (LCD)**, x, to clear denominators: 3+x=7, so x=4. Since x=4 does not make the denominator zero, it is valid and not an **Excluded Value**."
+                "explanation": "Step 1: Multiply every term by the **Least Common Denominator (LCD)**, x, to clear denominators: 3+x=7.\nStep 2: Solve: x=7-3=4.\nStep 3: Since x=4 doesn't make the denominator zero, it is valid, not an **Excluded Value**."
               },
               {
                 "question": "Solve x/(x - 2) = 2/(x - 2) + 3 and identify any extraneous solution.",
@@ -3885,7 +3957,7 @@
                   "x = 2 is extraneous; there is no solution"
                 ],
                 "answerIndex": 3,
-                "explanation": "Solving gives x=2, but substituting back into the original **Rational Equation** makes the denominator (x-2) zero. This makes x=2 an **Extraneous Solution**, so the equation has no valid solution."
+                "explanation": "Step 1: Multiply both sides by (x-2) to clear denominators: x=2+3(x-2).\nStep 2: Distribute and solve: x=3x-4, so -2x=-4, giving x=2.\nStep 3: Substituting x=2 back into the original **Rational Equation** makes the denominator zero, so x=2 is **Extraneous**, meaning there is no valid solution."
               },
               {
                 "question": "What value(s) must be excluded from the domain of (x + 1)/(x^2 - 5x + 6)?",
@@ -3896,7 +3968,7 @@
                   "x = 5 and x = 6"
                 ],
                 "answerIndex": 0,
-                "explanation": "Factor the denominator: x^2-5x+6=(x-2)(x-3). Setting each factor to zero gives the **Excluded Value**s x=2 and x=3, which must be removed from the domain of this **Rational Expression**."
+                "explanation": "Step 1: Factor the denominator: x^2-5x+6=(x-2)(x-3).\nStep 2: Set each factor equal to zero: x-2=0 or x-3=0, giving the **Excluded Value**s x=2 and x=3 that must be removed from the domain of this **Rational Expression**."
               },
               {
                 "question": "What is the LCD needed to solve 1/(x + 1) + 1/(x - 3) = 0?",
@@ -3907,7 +3979,7 @@
                   "(x + 1)^2(x - 3)^2"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the two denominators share no common factors, the **Least Common Denominator (LCD)** is their product, (x+1)(x-3), used to clear denominators when solving this **Rational Equation**."
+                "explanation": "Step 1: Check whether the two denominators, (x+1) and (x-3), share any common factors — they do not.\nStep 2: Since they have no common factors, the **Least Common Denominator (LCD)** is their product, (x+1)(x-3), used to clear denominators in this **Rational Equation**."
               }
             ]
           },
@@ -3947,7 +4019,7 @@
                   "x = 0"
                 ],
                 "answerIndex": 2,
-                "explanation": "A **Vertical Asymptote** occurs where the denominator of a **Rational Function** equals zero (and the numerator does not). Here x-5=0 gives x=5."
+                "explanation": "Step 1: A **Vertical Asymptote** of a **Rational Function** occurs where the denominator equals zero (and the numerator does not).\nStep 2: Set x-5=0: x=5."
               },
               {
                 "question": "Find the horizontal asymptote of f(x) = (3x^2 + 1)/(x^2 - 4).",
@@ -3958,7 +4030,7 @@
                   "y = 3"
                 ],
                 "answerIndex": 3,
-                "explanation": "By **Degree Comparison**, when the numerator and denominator of a **Rational Function** have equal degree, the **Horizontal Asymptote** is the ratio of leading coefficients: 3/1=3, so y=3."
+                "explanation": "Step 1: Compare degrees of numerator and denominator using **Degree Comparison** — both are degree 2, so they're equal.\nStep 2: When degrees are equal, the **Horizontal Asymptote** is the ratio of leading coefficients: 3/1=3, so y=3."
               },
               {
                 "question": "Find the horizontal asymptote of f(x) = (2x + 1)/(x^2 - 9).",
@@ -3969,7 +4041,7 @@
                   "y = 9"
                 ],
                 "answerIndex": 0,
-                "explanation": "When the denominator's degree is greater than the numerator's degree, **Degree Comparison** tells us the **Horizontal Asymptote** is always y=0."
+                "explanation": "Step 1: Compare degrees: the numerator has degree 1 and the denominator has degree 2, so the denominator's degree is greater.\nStep 2: By **Degree Comparison**, when the denominator's degree is greater, the **Horizontal Asymptote** is always y=0."
               },
               {
                 "question": "The function f(x) = ((x - 3)(x + 2))/(x - 3) has a hole at which point?",
@@ -3980,7 +4052,7 @@
                   "There is no hole, only a vertical asymptote"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the factor (x-3) cancels from numerator and denominator, x=3 creates a **Hole (Removable Discontinuity)**, not a **Vertical Asymptote**. Substituting x=3 into the simplified form x+2 gives the hole's y-value, 5, so the hole is at (3,5)."
+                "explanation": "Step 1: Notice the factor (x-3) appears in both numerator and denominator and cancels, creating a **Hole (Removable Discontinuity)** at x=3 instead of a **Vertical Asymptote**.\nStep 2: Simplify the function to x+2, then substitute x=3: 3+2=5.\nStep 3: The hole is located at (3,5)."
               },
               {
                 "question": "Which rational function has no horizontal asymptote (instead having slant/oblique behavior)?",
@@ -3991,7 +4063,7 @@
                   "(x^2 + 1)/(x^2 - 1)"
                 ],
                 "answerIndex": 2,
-                "explanation": "A **Rational Function** has no horizontal asymptote when the numerator's degree exceeds the denominator's degree by exactly one; by **Degree Comparison**, (x^2+1)/(x-1) fits this case (degree 2 vs. degree 1), producing slant behavior instead."
+                "explanation": "Step 1: A **Rational Function** has no horizontal asymptote (instead having slant behavior) when the numerator's degree is exactly one more than the denominator's.\nStep 2: By **Degree Comparison**, (x^2+1)/(x-1) has numerator degree 2 and denominator degree 1, a difference of exactly one, so it produces slant behavior."
               }
             ]
           },
@@ -4035,7 +4107,7 @@
                   "x = 22"
                 ],
                 "answerIndex": 3,
-                "explanation": "**Squaring Both Sides** of √(x+3)=5 gives x+3=25, so x=22. Checking in the original **Radical Equation** confirms √25=5, so it is valid, not extraneous."
+                "explanation": "Step 1: **Squaring Both Sides** eliminates the radical: (√(x+3))^2=5^2, giving x+3=25.\nStep 2: Subtract 3: x=22.\nStep 3: Check in the original **Radical Equation**: √(22+3)=√25=5. It checks out, so x=22 is valid."
               },
               {
                 "question": "Rewrite x^(3/2) using radical notation.",
@@ -4046,7 +4118,7 @@
                   "the square root of 3x"
                 ],
                 "answerIndex": 0,
-                "explanation": "For a **Rational Exponent** x^(m/n), n is the **Index** of the root and m is the power: x^(3/2) means the square root of x^3, written √(x^3). Using 3 as the index instead of 2 gives the incorrect ∛x."
+                "explanation": "Step 1: For a **Rational Exponent** x^(m/n), the denominator n is the **Index** of the root and the numerator m is the power applied.\nStep 2: Here m=3 and n=2, so x^(3/2) means the square root of x^3, written √(x^3)."
               },
               {
                 "question": "Solve √(2x - 1) = x - 2, and check for extraneous solutions.",
@@ -4057,7 +4129,7 @@
                   "There is no solution"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Squaring Both Sides** gives x^2-6x+5=0, so x=1 or x=5. Since the **Principal Root** is never negative, substituting x=1 gives √1=1 but x-2=-1, a mismatch, making x=1 an **Extraneous Solution**. Only x=5 checks out in the original **Radical Equation**."
+                "explanation": "Step 1: **Squaring Both Sides** gives (x-2)^2=2x-1, which expands to x^2-4x+4=2x-1.\nStep 2: Move everything to one side: x^2-6x+5=0, which factors to (x-1)(x-5)=0, giving x=1 or x=5.\nStep 3: Check each in the original equation: x=1 gives √1=1 but x-2=-1 (mismatch, since the **Principal Root** is never negative), so x=1 is **Extraneous**; x=5 gives √9=3 and x-2=3, which checks out."
               },
               {
                 "question": "Simplify: 16^(3/4)",
@@ -4068,7 +4140,7 @@
                   "4"
                 ],
                 "answerIndex": 2,
-                "explanation": "A **Rational Exponent** m/n means take the nth root, then raise to the m power. Here 16^(1/4)=2, and 2^3=8, so 16^(3/4)=8. Multiplying 16 by 3/4 directly is a common but incorrect shortcut."
+                "explanation": "Step 1: A **Rational Exponent** m/n means take the nth root first, then raise to the m power: 16^(1/4)=2 (since 2^4=16).\nStep 2: Raise that result to the 3rd power: 2^3=8."
               },
               {
                 "question": "What is the index of the radical in ⁵√32?",
@@ -4079,7 +4151,7 @@
                   "5"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **Index** of a radical is the small number written before the radical symbol, indicating which root to take. Here the index is 5, meaning we want the fifth root of 32 (which equals 2), and should not be confused with the **Principal Root**'s value itself."
+                "explanation": "Step 1: The **Index** of a radical is the small number written before the radical symbol, telling you which root to take.\nStep 2: Here that number is 5, so the radical asks for the fifth root of 32 (which equals 2, since 2^5=32)."
               }
             ]
           }
@@ -4129,7 +4201,7 @@
                   "f(x) = 4(1)^x"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Exponential Decay** occurs when the **Base** b satisfies 0<b<1. Since 0.5 is between 0 and 1, f(x)=2(0.5)^x models decay, while bases greater than 1 model **Exponential Growth**."
+                "explanation": "Step 1: **Exponential Decay** occurs when the **Base** b satisfies 0<b<1.\nStep 2: Among the choices, only 0.5 fits between 0 and 1, so f(x)=2(0.5)^x models decay (bases greater than 1 model **Exponential Growth**)."
               },
               {
                 "question": "For the exponential function f(x) = 5(2)^x, what is the horizontal asymptote?",
@@ -4140,7 +4212,7 @@
                   "There is no horizontal asymptote"
                 ],
                 "answerIndex": 1,
-                "explanation": "Every basic **Exponential Function** f(x)=a·b^x approaches, but never reaches, y=0 as x decreases, giving a horizontal **Asymptote (Horizontal)** at y=0 — not the coefficient a or the base b."
+                "explanation": "Step 1: A basic **Exponential Function** f(x)=a·b^x approaches, but never reaches, zero as x decreases.\nStep 2: This gives a horizontal **Asymptote (Horizontal)** at y=0, not the coefficient a=5 or the base b=2."
               },
               {
                 "question": "$1000 is invested at 6% annual interest compounded quarterly. Using A = P(1 + r/n)^(nt), what expression gives the amount after 5 years?",
@@ -4151,7 +4223,7 @@
                   "1000(1.06/4)^20"
                 ],
                 "answerIndex": 2,
-                "explanation": "In the **Compound Interest Formula** A=P(1+r/n)^(nt), r/n = 0.06/4 = 0.015 and nt = 4·5 = 20, giving A=1000(1.015)^20. Forgetting to divide the rate by n before adding 1 is a common error."
+                "explanation": "Step 1: In the **Compound Interest Formula** A=P(1+r/n)^(nt), identify r=0.06, n=4, t=5.\nStep 2: Compute r/n=0.06/4=0.015 and nt=4·5=20.\nStep 3: Substitute into the formula: A=1000(1.015)^20."
               },
               {
                 "question": "A population grows according to P(t) = 200(1.08)^t. What does the value 1.08 represent?",
@@ -4162,7 +4234,7 @@
                   "A growth factor showing an 8% increase per time period"
                 ],
                 "answerIndex": 3,
-                "explanation": "In an **Exponential Function** modeling **Exponential Growth**, the **Base** 1+r represents the growth factor. Since 1.08=1+0.08, the population increases by 8% each period, not 108%."
+                "explanation": "Step 1: In an **Exponential Function** modeling **Exponential Growth**, the **Base** is written as 1+r, where r is the growth rate.\nStep 2: Since 1.08=1+0.08, r=0.08, meaning the population increases by 8% (not 108%) each time period."
               },
               {
                 "question": "Which value of x makes f(x) = 3^x equal to 81?",
@@ -4173,7 +4245,7 @@
                   "5"
                 ],
                 "answerIndex": 0,
-                "explanation": "Since 3^4=81, x=4 satisfies this **Exponential Function**. Recognizing powers of the **Base** 3 (3, 9, 27, 81, ...) helps avoid picking an incorrect power like 27 (which is 3^3)."
+                "explanation": "Step 1: Recognize the powers of the **Base** 3: 3^1=3, 3^2=9, 3^3=27, 3^4=81.\nStep 2: Since 3^4=81, x=4 satisfies this **Exponential Function**."
               }
             ]
           },
@@ -4217,7 +4289,7 @@
                   "4"
                 ],
                 "answerIndex": 1,
-                "explanation": "A **Logarithm** log_b(x) asks what power b must be raised to in order to get x. Since 2^5=32, log_2(32)=5."
+                "explanation": "Step 1: A **Logarithm** log_b(x) asks what power b must be raised to in order to get x.\nStep 2: Since 2^5=32, log_2(32)=5."
               },
               {
                 "question": "What is the domain of f(x) = log_3(x - 4)?",
@@ -4228,7 +4300,7 @@
                   "All real numbers"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Domain (of a Logarithmic Function)** requires the argument to be strictly positive. Setting x-4>0 gives x>4; note that x=4 itself is excluded since log(0) is undefined."
+                "explanation": "Step 1: The **Domain (of a Logarithmic Function)** requires its argument to be strictly positive.\nStep 2: Set x-4>0, giving x>4 (note x=4 itself is excluded since log(0) is undefined)."
               },
               {
                 "question": "Rewrite log(50) using the change of base formula in terms of natural logarithms.",
@@ -4239,7 +4311,7 @@
                   "ln(50)/ln(10)"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **Change of Base Formula** states log_b(x)=log(x)/log(b) for any valid base, including base e: log(50)=ln(50)/ln(10), converting a **Common Logarithm** into **Natural Logarithm** form."
+                "explanation": "Step 1: The **Change of Base Formula** states log_b(x)=log(x)/log(b) for any valid base.\nStep 2: Using base e (natural log), rewrite the **Common Logarithm** log(50) as ln(50)/ln(10)."
               },
               {
                 "question": "Which expression is equivalent to ln(e^7)?",
@@ -4250,7 +4322,7 @@
                   "1"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **Natural Logarithm** is the inverse of the base-e exponential, so ln(e^7) simplifies directly to 7, since applying inverse operations cancels them out."
+                "explanation": "Step 1: The **Natural Logarithm** ln is the inverse operation of the base-e exponential function.\nStep 2: Applying inverse operations to e^7 cancels them out, leaving ln(e^7)=7."
               },
               {
                 "question": "Evaluate the common logarithm: log(1000)",
@@ -4261,7 +4333,7 @@
                   "30"
                 ],
                 "answerIndex": 1,
-                "explanation": "A **Common Logarithm** uses base 10. Since 10^3=1000, log(1000)=3 — this is a direct application of what a **Logarithm** measures."
+                "explanation": "Step 1: A **Common Logarithm** uses base 10, so log(1000) asks what power of 10 gives 1000.\nStep 2: Since 10^3=1000, log(1000)=3."
               }
             ]
           },
@@ -4305,7 +4377,7 @@
                   "x = 15"
                 ],
                 "answerIndex": 2,
-                "explanation": "Rewrite 16 as 2^4, then apply the **One-to-One Property** of this **Exponential Equation**: since bases match, exponents must be equal, x+1=4, so x=3."
+                "explanation": "Step 1: Rewrite 16 as a power of 2: 16=2^4, so the equation becomes 2^(x+1)=2^4.\nStep 2: By the **One-to-One Property** of this **Exponential Equation**, matching bases means the exponents must be equal: x+1=4.\nStep 3: Solve: x=3."
               },
               {
                 "question": "Solve: log_2(x) + log_2(3) = log_2(15)",
@@ -4316,7 +4388,7 @@
                   "x = 5"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **Product Rule (Logarithms)** combines the left side: log_2(3x)=log_2(15). Since the logs have the same base, 3x=15, so x=5. This is an example of solving a **Logarithmic Equation**."
+                "explanation": "Step 1: Apply the **Product Rule (Logarithms)** to combine the left side: log_2(x)+log_2(3)=log_2(3x).\nStep 2: Since log_2(3x)=log_2(15) and the bases match, set the arguments equal: 3x=15.\nStep 3: Solve: x=5. This is an example of solving a **Logarithmic Equation**."
               },
               {
                 "question": "Solve: 3^(2x) = 27^(x - 1)",
@@ -4327,7 +4399,7 @@
                   "x = 6"
                 ],
                 "answerIndex": 0,
-                "explanation": "Rewrite 27 as 3^3, so the equation becomes 3^(2x)=3^(3x-3). By the **One-to-One Property** of this **Exponential Equation**, 2x=3x-3, giving x=3."
+                "explanation": "Step 1: Rewrite 27 as a power of 3: 27=3^3, so 27^(x-1)=3^(3(x-1))=3^(3x-3).\nStep 2: The equation becomes 3^(2x)=3^(3x-3); by the **One-to-One Property** of this **Exponential Equation**, set the exponents equal: 2x=3x-3.\nStep 3: Solve: -x=-3, so x=3."
               },
               {
                 "question": "Solve log_5(x + 2) = 2 and check whether the solution is valid.",
@@ -4338,7 +4410,7 @@
                   "x = 3, which is valid"
                 ],
                 "answerIndex": 1,
-                "explanation": "Rewriting the **Logarithmic Equation** in exponential form: 5^2=x+2, so 25=x+2 and x=23. Since x+2=25 is positive, this is not an **Extraneous Solution**."
+                "explanation": "Step 1: Rewrite the **Logarithmic Equation** in exponential form: 5^2=x+2.\nStep 2: Compute: 25=x+2, so x=23.\nStep 3: Check: x+2=25 is positive, so the argument of the log is valid and x=23 is not an **Extraneous Solution**."
               },
               {
                 "question": "Simplify log_3(x^4) using the power rule.",
@@ -4349,7 +4421,7 @@
                   "log_3(4x)"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Power Rule (Logarithms)** states log_b(M^p)=p·log_b(M). Applying it here brings the exponent 4 down as a multiplier: 4·log_3(x)."
+                "explanation": "Step 1: The **Power Rule (Logarithms)** states log_b(M^p)=p·log_b(M).\nStep 2: Applying it with M=x and p=4 brings the exponent down as a multiplier: log_3(x^4)=4·log_3(x)."
               }
             ]
           }
@@ -4399,7 +4471,7 @@
                   "(2, 5)"
                 ],
                 "answerIndex": 3,
-                "explanation": "Using the **Substitution Method**, replace y in the second equation: 3x+(2x+1)=11, giving 5x=10, so x=2. Then y=2(2)+1=5, so the **Solution of a System** is (2,5)."
+                "explanation": "Step 1: Substitute y=2x+1 into the second equation using the **Substitution Method**: 3x+(2x+1)=11.\nStep 2: Combine like terms: 5x+1=11, so 5x=10 and x=2.\nStep 3: Substitute x=2 back into y=2x+1: y=5. The **Solution of a System** is (2,5)."
               },
               {
                 "question": "Solve using elimination: 2x + 3y = 12 and 2x - y = 4",
@@ -4410,7 +4482,7 @@
                   "(6, 2)"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using the **Elimination Method**, subtract the equations to remove x: 4y=8, so y=2. Substituting back gives 2x-2=4, so x=3, making (3,2) the **Solution of a System**."
+                "explanation": "Step 1: Subtract the second equation from the first to eliminate x using the **Elimination Method**: (2x+3y)-(2x-y)=12-4, giving 4y=8.\nStep 2: Solve: y=2.\nStep 3: Substitute y=2 into 2x-y=4: 2x-2=4, so x=3. The **Solution of a System** is (3,2)."
               },
               {
                 "question": "How many solutions does the system y = 3x + 2 and y = 3x - 5 have?",
@@ -4421,7 +4493,7 @@
                   "Two solutions"
                 ],
                 "answerIndex": 1,
-                "explanation": "Both equations have the same slope (3) but different y-intercepts, so their graphs are parallel lines that never meet — this is an **Inconsistent System** with no solution."
+                "explanation": "Step 1: Compare the two equations: both have slope 3, but different y-intercepts (2 and -5).\nStep 2: Equal slopes with different intercepts mean the lines are parallel and never meet, making this an **Inconsistent System** with no solution."
               },
               {
                 "question": "How many solutions does the system 2x + y = 6 and 4x + 2y = 12 have?",
@@ -4432,7 +4504,7 @@
                   "Exactly one solution, (0, 6)"
                 ],
                 "answerIndex": 2,
-                "explanation": "Multiplying the first equation by 2 gives 4x+2y=12, identical to the second equation. Since both equations describe the same line, this is a **Dependent System** with infinitely many solutions."
+                "explanation": "Step 1: Multiply the first equation by 2: 2(2x+y)=2(6), giving 4x+2y=12.\nStep 2: This matches the second equation exactly, so both equations describe the same line — a **Dependent System** with infinitely many solutions."
               },
               {
                 "question": "Solve the system by substitution: x + y = 7 and x - y = 1",
@@ -4443,7 +4515,7 @@
                   "(4, 3)"
                 ],
                 "answerIndex": 3,
-                "explanation": "Solve the first equation for x: x=7-y, then substitute into the second: (7-y)-y=1, giving y=3 and x=4. This **Substitution Method** confirms the **Solution of a System** is (4,3)."
+                "explanation": "Step 1: Solve the first equation for x using the **Substitution Method**: x=7-y.\nStep 2: Substitute into the second equation: (7-y)-y=1, giving 7-2y=1, so y=3.\nStep 3: Substitute y=3 back into x=7-y: x=4. The **Solution of a System** is (4,3)."
               }
             ]
           },
@@ -4487,7 +4559,7 @@
                   "(3, 6) and (-1, 1)"
                 ],
                 "answerIndex": 0,
-                "explanation": "For this **Nonlinear System**, set the expressions equal: x^2=2x+3, giving x^2-2x-3=0, which factors to (x-3)(x+1)=0. The **Point of Intersection**s occur at x=3 and x=-1, giving (3,9) and (-1,1)."
+                "explanation": "Step 1: In this **Nonlinear System**, set the expressions equal: x^2=2x+3.\nStep 2: Rearrange and factor: x^2-2x-3=0 becomes (x-3)(x+1)=0, so x=3 or x=-1.\nStep 3: Find y for each x using y=x^2: (3,9) and (-1,1) are the **Point of Intersection**s."
               },
               {
                 "question": "What are the dimensions of the matrix [[1, 2, 3], [4, 5, 6]]?",
@@ -4498,7 +4570,7 @@
                   "6×1"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **Dimensions (of a Matrix)** are given as rows × columns. This **Matrix** has 2 rows and 3 columns, so its dimensions are 2×3 — reversing the order is a common mistake."
+                "explanation": "Step 1: Count the rows and columns of the **Matrix**: it has 2 rows and 3 columns.\nStep 2: The **Dimensions (of a Matrix)** are written rows × columns, so the dimensions are 2×3."
               },
               {
                 "question": "Write the augmented matrix for the system 2x + y = 5 and x - 3y = -4.",
@@ -4509,7 +4581,7 @@
                   "[[2, 1, 5], [1, 3, -4]]"
                 ],
                 "answerIndex": 2,
-                "explanation": "An **Augmented Matrix** includes the variable coefficients followed by a final column of constants. For this system, the rows are [2,1,5] and [1,-3,-4]; omitting the constants column would leave only the coefficient matrix."
+                "explanation": "Step 1: An **Augmented Matrix** lists each equation's variable coefficients followed by a final column of the constant.\nStep 2: For 2x+y=5, the row is [2,1,5]; for x-3y=-4, the row is [1,-3,-4].\nStep 3: Combine the rows: [[2,1,5],[1,-3,-4]]."
               },
               {
                 "question": "Which of the following is a valid row operation used to simplify a matrix when solving a system?",
@@ -4520,7 +4592,7 @@
                   "Multiply a row by a nonzero constant"
                 ],
                 "answerIndex": 3,
-                "explanation": "**Row Operations** allowed when simplifying a matrix are: swapping rows, multiplying a row by a nonzero constant, and adding a multiple of one row to another. Deleting rows or multiplying rows together are not valid operations."
+                "explanation": "Step 1: Recall the allowed **Row Operations**: swapping two rows, multiplying a row by a nonzero constant, or adding a multiple of one row to another.\nStep 2: Of the choices, only 'multiply a row by a nonzero constant' matches one of these valid operations; deleting a row or multiplying rows together are not permitted."
               },
               {
                 "question": "The graphs of a circle x^2 + y^2 = 25 and a line y = x could intersect in at most how many points?",
@@ -4531,7 +4603,7 @@
                   "0"
                 ],
                 "answerIndex": 0,
-                "explanation": "In a **Nonlinear System** pairing a line with a circle, the line can cross the circle at 0, 1 (tangent), or at most 2 points — each a **Point of Intersection** representing a solution."
+                "explanation": "Step 1: In a **Nonlinear System** pairing a line with a circle, substituting the line into the circle's equation produces a quadratic in one variable.\nStep 2: A quadratic equation has at most 2 real solutions, so the line can cross the circle at 0, 1 (tangent), or at most 2 **Point of Intersection**s."
               }
             ]
           },
@@ -4579,7 +4651,7 @@
                   "40"
                 ],
                 "answerIndex": 1,
-                "explanation": "For an **Arithmetic Sequence**, the **nth Term Formula** is a_n=a_1+(n-1)d. Here a_1=4 and the **Common Difference** d=5, so a_10=4+(9)(5)=49."
+                "explanation": "Step 1: Identify a_1=4 and the **Common Difference** d=5 (9-4=5) for this **Arithmetic Sequence**.\nStep 2: Apply the **nth Term Formula**: a_n=a_1+(n-1)d.\nStep 3: Substitute n=10: a_10=4+(9)(5)=4+45=49."
               },
               {
                 "question": "What is the common ratio of the geometric sequence 3, 6, 12, 24, ...?",
@@ -4590,7 +4662,7 @@
                   "6"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **Common Ratio** of a **Geometric Sequence** is found by dividing any term by the previous term: 6/3=2, and this ratio stays constant throughout the sequence (12/6=2 as well)."
+                "explanation": "Step 1: The **Common Ratio** of a **Geometric Sequence** is found by dividing any term by the term before it.\nStep 2: Compute 6/3=2 (and check: 12/6=2 as well), so the common ratio is 2."
               },
               {
                 "question": "Find the sum of the first 5 terms of the arithmetic sequence 2, 5, 8, 11, 14.",
@@ -4601,7 +4673,7 @@
                   "40"
                 ],
                 "answerIndex": 3,
-                "explanation": "The sum of a **Series** can be found with S_n=n/2(a_1+a_n). For this **Arithmetic Sequence**, S_5=5/2(2+14)=5/2(16)=40."
+                "explanation": "Step 1: Use the **Series** sum formula for an **Arithmetic Sequence**: S_n=n/2(a_1+a_n).\nStep 2: Substitute n=5, a_1=2, a_5=14: S_5=5/2(2+14)=5/2(16).\nStep 3: Compute: 5/2(16)=40."
               },
               {
                 "question": "Find the 6th term of the geometric sequence 5, 10, 20, 40, ...",
@@ -4612,7 +4684,7 @@
                   "30"
                 ],
                 "answerIndex": 0,
-                "explanation": "For a **Geometric Sequence**, the **nth Term Formula** is a_n=a_1·r^(n-1). With a_1=5 and **Common Ratio** r=2, a_6=5·2^5=5·32=160. Using the wrong exponent (r^4 instead of r^5) gives the incorrect 80."
+                "explanation": "Step 1: Identify a_1=5 and **Common Ratio** r=2 for this **Geometric Sequence**.\nStep 2: Apply the **nth Term Formula**: a_n=a_1·r^(n-1).\nStep 3: Substitute n=6: a_6=5·2^5=5·32=160 (using the wrong exponent, r^4, would incorrectly give 80)."
               },
               {
                 "question": "Is the sequence 7, 4, 1, -2, -5, ... arithmetic, geometric, or neither?",
@@ -4623,7 +4695,7 @@
                   "Neither arithmetic nor geometric"
                 ],
                 "answerIndex": 1,
-                "explanation": "Subtracting consecutive terms gives a constant value of -3 each time, so this is an **Arithmetic Sequence** with **Common Difference** -3, not a **Geometric Sequence**, which would instead have a constant ratio."
+                "explanation": "Step 1: Subtract each term from the one after it: 4-7=-3, 1-4=-3, -2-1=-3, -5-(-2)=-3.\nStep 2: Since the difference is a constant -3 every time, this is an **Arithmetic Sequence** with **Common Difference** -3, not a **Geometric Sequence** (which would instead have a constant ratio)."
               }
             ]
           }

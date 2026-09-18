@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAiAddon, getAiApi } from '../lib/aiAddon'
+import { getPendingQuestion, clearPendingQuestion } from '../lib/aiPrefill'
 
 const HISTORY_KEY = 'stallion-prep-ai-history-v1'
 const MAX_HISTORY = 10
@@ -31,9 +32,9 @@ function NotInstalled() {
   )
 }
 
-function AskAIForm() {
+function AskAIForm({ prefill }) {
   const ai = getAiApi()
-  const [question, setQuestion] = useState('')
+  const [question, setQuestion] = useState(prefill)
   const [history, setHistory] = useState(loadHistory)
   const [remaining, setRemaining] = useState(ai.getRemainingToday())
   const [loading, setLoading] = useState(false)
@@ -54,6 +55,7 @@ function AskAIForm() {
       saveHistory(next)
       setRemaining(ai.consumeOneQuestion())
       setQuestion('')
+      clearPendingQuestion()
     } catch (e2) {
       setError(e2)
     } finally {
@@ -114,6 +116,7 @@ function AskAIForm() {
 
 export default function AskAIPage() {
   const status = useAiAddon()
+  const [prefill] = useState(getPendingQuestion)
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
@@ -126,7 +129,7 @@ export default function AskAIPage() {
         <strong>3 questions per day</strong>.
       </p>
 
-      {status === 'available' ? <AskAIForm /> : status === 'missing' ? <NotInstalled /> : null}
+      {status === 'available' ? <AskAIForm prefill={prefill} /> : status === 'missing' ? <NotInstalled /> : null}
     </div>
   )
 }

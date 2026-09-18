@@ -275,7 +275,19 @@
                 "answerIndex": 3,
                 "explanation": "A narrative in which characters and events systematically stand for real-world ideas or events is an **allegory**."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Choose a symbol, motif, or extended metaphor from a literary work you have studied and write an essay analyzing how it reinforces the work's theme. Explain how the author's use of imagery or figurative language deepens the reader's understanding of that symbol's meaning, and support your analysis with specific details from the text.",
+              "rubric": [
+                "States a clear thesis identifying the symbol, motif, or extended metaphor and the theme it reinforces.",
+                "Explains how at least one specific instance of imagery or figurative language supports the analysis.",
+                "Uses at least two pieces of specific textual evidence (quotations or detailed references) to support claims.",
+                "States the theme as a complete insight about life, not merely the topic of the work.",
+                "Organizes the essay with an introduction, focused body paragraphs, and a conclusion.",
+                "Directly addresses how the symbol or imagery reinforces the theme, rather than only summarizing the plot.",
+                "Uses grammatically correct sentences with minimal spelling and punctuation errors."
+              ]
+            }
           }
         ]
       },
@@ -545,7 +557,19 @@
                 "answerIndex": 1,
                 "explanation": "A **theme** must state an insight about life, not just a fact about the texts' form or history."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Select two literary works from different genres or time periods that you have studied and write a comparative essay analyzing how each treats a shared theme. Discuss how differences in genre or cultural context shape the way that theme is expressed, and consider whether either work relies on a recognizable archetype.",
+              "rubric": [
+                "Identifies a specific, shared theme, stated as a complete insight rather than just a topic, that both works address.",
+                "Names the two texts being compared and their genres or time periods.",
+                "Explains at least one way cultural context shapes how the theme is presented differently in each text.",
+                "Discusses whether an archetype appears in either text and explains how it functions.",
+                "Supports each comparative point with specific evidence drawn from both texts.",
+                "Organizes the comparison clearly (e.g., point-by-point or text-by-text) rather than jumping randomly between texts.",
+                "Uses correct grammar and mechanics throughout."
+              ]
+            }
           }
         ]
       },
@@ -807,7 +831,19 @@
                 "answerIndex": 1,
                 "explanation": "**Reasoning** is the logical link that explains why the **evidence** supports the **claim**."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Choose a persuasive speech, editorial, or advertisement and write an essay evaluating the strength of its argument. Identify its central claim, assess the quality of its evidence and reasoning, and determine whether it contains any logical fallacies such as a hasty generalization or straw man.",
+              "rubric": [
+                "Clearly identifies the argument's central claim in the introduction.",
+                "Evaluates whether the evidence used is sufficient and relevant to the claim.",
+                "Explains the reasoning connecting the evidence to the claim, not just describing the evidence.",
+                "Identifies and explains at least one specific logical fallacy, or explains why the argument avoids common fallacies.",
+                "References specific rhetorical appeals (ethos, pathos, or logos) used in the text where relevant.",
+                "Reaches a clear, supported judgment about the argument's overall strength.",
+                "Uses correct grammar, punctuation, and clear paragraph organization."
+              ]
+            }
           }
         ]
       },
@@ -1069,7 +1105,19 @@
                 "answerIndex": 1,
                 "explanation": "**Citation** is the general term covering both in-text references and works cited entries."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Using at least three sources on a research question of your choosing, write a short synthesis essay that combines the sources' ideas into a unified argument rather than summarizing them one at a time. Note any points where your sources corroborate or conflict with one another, and cite each source correctly using in-text citations and a works cited entry.",
+              "rubric": [
+                "States a clear research question or claim that the essay addresses.",
+                "Draws on at least three sources and weaves their ideas together rather than summarizing each one separately.",
+                "Identifies at least one point of corroboration or discrepancy between sources.",
+                "Uses a mix of paraphrase and direct quotation, introducing each smoothly into the writer's own sentences.",
+                "Includes correctly formatted in-text citations for every borrowed idea or quotation.",
+                "Includes a complete works cited entry for each source used.",
+                "Avoids plagiarism by clearly distinguishing the writer's own analysis from cited material."
+              ]
+            }
           }
         ]
       },
@@ -1327,7 +1375,19 @@
                 "answerIndex": 1,
                 "explanation": "An **argumentative essay** takes a clear position on a debatable issue and supports it with reasoning and evidence, often addressing a **counterargument**."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Write a five-paragraph argumentative essay taking a clear position on a debatable issue relevant to your school or community. Include at least one paragraph that presents a counterargument and rebuts it with reasoning and evidence, and revise your draft for organization and content before editing it for grammar.",
+              "rubric": [
+                "States a clear, debatable claim in a thesis statement in the introduction.",
+                "Supports the claim with specific reasoning and evidence in the body paragraphs.",
+                "Includes at least one clearly stated counterargument.",
+                "Follows the counterargument with a rebuttal that uses reasoning or evidence to respond to it.",
+                "Uses topic sentences and transitions to organize ideas clearly between paragraphs.",
+                "Shows evidence of revision, such as logical paragraph order and focused content, separate from surface-level editing.",
+                "Is free of major grammar, punctuation, and spelling errors."
+              ]
+            }
           }
         ]
       }
@@ -1391,7 +1451,7 @@
                   "15"
                 ],
                 "answerIndex": 3,
-                "explanation": "Using **function notation**, substitute x = −2: 2(−2)² − 3(−2) + 1 = 2(4) + 6 + 1 = 15."
+                "explanation": "Step 1: Use **function notation** and substitute x = −2 into f(x) = 2x² − 3x + 1.\nStep 2: Compute each term: 2(−2)² = 2(4) = 8, and −3(−2) = 6.\nStep 3: Add the terms: 8 + 6 + 1 = 15, so f(−2) = 15."
               },
               {
                 "question": "What is the domain of g(x) = 1/(x + 4)?",
@@ -1402,7 +1462,7 @@
                   "All real numbers except x = -4"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **domain** excludes any x-value that makes the denominator zero; since x + 4 = 0 when x = −4, that value must be excluded."
+                "explanation": "Step 1: The **domain** of a rational function excludes values that make the denominator zero.\nStep 2: Set x + 4 = 0 and solve: x = −4.\nStep 3: Exclude x = −4, so the domain is all real numbers except x = −4."
               },
               {
                 "question": "Which set of ordered pairs does NOT represent a function?",
@@ -1413,7 +1473,7 @@
                   "{(1, 2), (2, 4), (3, 6)}"
                 ],
                 "answerIndex": 0,
-                "explanation": "By the **vertical line test** (equivalently, the definition of a **function**), an input cannot map to two outputs; here x = 1 pairs with both 2 and 5."
+                "explanation": "Step 1: Apply the **vertical line test** (or the definition of a function): each input can have only one output.\nStep 2: Check each set for repeated x-values; in {(1, 2), (1, 5), (3, 6)}, the input x = 1 maps to both 2 and 5.\nStep 3: Since one input has two outputs, this set is not a function."
               },
               {
                 "question": "The graph of f has a vertex at (2, -3) and opens upward. On which interval is f increasing?",
@@ -1424,7 +1484,7 @@
                   "(-3, ∞)"
                 ],
                 "answerIndex": 0,
-                "explanation": "An upward-opening parabola decreases up to its **vertex** and increases afterward, so f is increasing on the **increasing/decreasing interval** (2, ∞)."
+                "explanation": "Step 1: An upward-opening parabola decreases to the left of its **vertex** and increases to the right of it.\nStep 2: The vertex is at x = 2, so f decreases on (−∞, 2) and increases on (2, ∞).\nStep 3: Therefore f is increasing on (2, ∞)."
               },
               {
                 "question": "A company's cost function is C(x) = 15x + 200, where x is the number of items produced. What does C(50) represent, and what is its value?",
@@ -1435,7 +1495,7 @@
                   "$950, the total cost of producing 50 items"
                 ],
                 "answerIndex": 3,
-                "explanation": "In **function notation**, C(50) means substitute x = 50: 15(50) + 200 = 750 + 200 = $950, the total cost of making 50 items."
+                "explanation": "Step 1: Using **function notation**, substitute x = 50 into C(x) = 15x + 200.\nStep 2: Compute 15(50) = 750, then add the fixed cost: 750 + 200 = 950.\nStep 3: So C(50) = $950, the total cost of producing 50 items."
               }
             ]
           },
@@ -1479,7 +1539,7 @@
                   "Shifted right 3 units and up 5 units"
                 ],
                 "answerIndex": 3,
-                "explanation": "The −3 inside the parentheses causes a **horizontal shift** right 3 units, and the +5 outside causes a **vertical shift** up 5 units."
+                "explanation": "Step 1: Compare g(x) = (x − 3)² + 5 to the parent f(x) = x².\nStep 2: The **horizontal shift** is determined by the number subtracted inside the parentheses: (x − 3) shifts the graph right 3 units.\nStep 3: The **vertical shift** is the +5 outside the square: it shifts the graph up 5 units."
               },
               {
                 "question": "How does the graph of g(x) = -2|x| compare to the parent function f(x) = |x|?",
@@ -1490,7 +1550,7 @@
                   "Not reflected, only vertically stretched by a factor of 2"
                 ],
                 "answerIndex": 2,
-                "explanation": "The negative sign causes a **reflection** over the x-axis, and multiplying by 2 causes a vertical **stretch/compression** (a stretch, since 2 > 1)."
+                "explanation": "Step 1: The negative sign in front of 2 produces a **reflection** over the x-axis.\nStep 2: The factor of 2 multiplying |x| causes a vertical **stretch/compression**; since 2 > 1, this is a stretch.\nStep 3: Combining both, g(x) = −2|x| is |x| reflected over the x-axis and vertically stretched by a factor of 2."
               },
               {
                 "question": "The graph of the parent function f(x) = √x is shifted left 4 units and reflected over the x-axis. Which equation represents the new graph?",
@@ -1501,7 +1561,7 @@
                   "g(x) = √(-x + 4)"
                 ],
                 "answerIndex": 2,
-                "explanation": "A **horizontal shift** left 4 units adds 4 inside the radical, and a **reflection** over the x-axis places a negative sign in front of the whole expression."
+                "explanation": "Step 1: A **horizontal shift** left 4 units replaces x with (x + 4) inside the radical: √(x + 4).\nStep 2: A **reflection** over the x-axis multiplies the entire function by −1: −√(x + 4).\nStep 3: So the new equation is g(x) = −√(x + 4)."
               },
               {
                 "question": "A student claims that g(x) = (x + 2)² shifts the parabola f(x) = x² to the right 2 units. What is the error in this claim?",
@@ -1512,7 +1572,7 @@
                   "The shift should be right 2 units but also reflected"
                 ],
                 "answerIndex": 0,
-                "explanation": "A **horizontal shift** moves opposite the sign added inside the function, so +2 inside actually shifts the graph left 2 units, not right."
+                "explanation": "Step 1: A **horizontal shift** moves opposite the sign of the number added inside the function's parentheses.\nStep 2: In g(x) = (x + 2)², the +2 is inside, so the shift is to the left, not the right.\nStep 3: The correct shift is left 2 units, making the original claim incorrect."
               },
               {
                 "question": "If f(x) = x³ and g(x) = f(x - 1) + 4, what is g(3)?",
@@ -1523,7 +1583,7 @@
                   "11"
                 ],
                 "answerIndex": 2,
-                "explanation": "g(3) = f(3 - 1) + 4 = f(2) + 4 = 2³ + 4 = 8 + 4 = 12, combining a **horizontal shift** and a **vertical shift** of the **parent function** x³."
+                "explanation": "Step 1: Substitute x = 3: g(3) = f(3 − 1) + 4 = f(2) + 4.\nStep 2: Evaluate f(2) = 2³ = 8 using the **parent function** x³.\nStep 3: Add: g(3) = 8 + 4 = 12, combining a **horizontal shift** and a vertical shift."
               }
             ]
           },
@@ -1563,7 +1623,7 @@
                   "2x + 1"
                 ],
                 "answerIndex": 3,
-                "explanation": "**Composition of functions** means substituting g(x) into f: f(g(x)) = 2(x - 1) + 3 = 2x - 2 + 3 = 2x + 1."
+                "explanation": "Step 1: **Composition of functions** means substituting g(x) in place of x in f(x): f(g(x)) = 2(x − 1) + 3.\nStep 2: Distribute: 2(x − 1) = 2x − 2.\nStep 3: Combine like terms: 2x − 2 + 3 = 2x + 1."
               },
               {
                 "question": "Which of the following functions is one-to-one and therefore has an inverse that is also a function?",
@@ -1574,7 +1634,7 @@
                   "f(x) = x³"
                 ],
                 "answerIndex": 3,
-                "explanation": "By the **horizontal line test**, x³ passes since no horizontal line crosses it twice, making it **one-to-one**; the other three all fail the test."
+                "explanation": "Step 1: Apply the **horizontal line test** to each option to check whether it is **one-to-one**.\nStep 2: f(x) = −x² + 4, |x|, and x² each fail because a horizontal line can cross their graphs twice.\nStep 3: f(x) = x³ passes the test since no horizontal line intersects it more than once, so it has an inverse function."
               },
               {
                 "question": "What is the inverse of f(x) = 3x - 6?",
@@ -1585,7 +1645,7 @@
                   "f⁻¹(x) = 3x + 6"
                 ],
                 "answerIndex": 2,
-                "explanation": "To find an **inverse function**, swap x and y in y = 3x - 6 to get x = 3y - 6, then solve: y = (x + 6)/3."
+                "explanation": "Step 1: Write y = 3x − 6, then swap x and y to begin finding the **inverse function**: x = 3y − 6.\nStep 2: Add 6 to both sides: x + 6 = 3y.\nStep 3: Divide by 3: y = (x + 6)/3, so f⁻¹(x) = (x + 6)/3."
               },
               {
                 "question": "Given f(x) = 2x + 1 and g(x) = (x - 1)/2, which statement correctly justifies why g is the inverse of f?",
@@ -1596,7 +1656,7 @@
                   "f(g(x)) simplifies to x, confirming the composition undoes f"
                 ],
                 "answerIndex": 3,
-                "explanation": "f(g(x)) = 2((x-1)/2) + 1 = (x - 1) + 1 = x, and this **composition of functions** returning x confirms g is the true **inverse function**."
+                "explanation": "Step 1: To confirm g is the **inverse function** of f, check that the **composition of functions** f(g(x)) returns x.\nStep 2: Substitute: f(g(x)) = 2((x − 1)/2) + 1 = (x − 1) + 1.\nStep 3: Simplify: (x − 1) + 1 = x, confirming that g undoes f."
               },
               {
                 "question": "A company's revenue is R(x) = 50x and its cost is C(x) = 20x + 300. Using the profit function P(x) = R(x) - C(x), what is P(10), and what does it mean?",
@@ -1607,7 +1667,7 @@
                   "-$200, a $200 loss at 10 units"
                 ],
                 "answerIndex": 0,
-                "explanation": "This is an **arithmetic combination of functions**: P(x) = 50x - (20x + 300) = 30x - 300, so P(10) = 300 - 300 = 0, a break-even point."
+                "explanation": "Step 1: Form the **arithmetic combination of functions** P(x) = R(x) − C(x) = 50x − (20x + 300).\nStep 2: Simplify: P(x) = 30x − 300.\nStep 3: Substitute x = 10: P(10) = 30(10) − 300 = 300 − 300 = 0, a break-even point."
               }
             ]
           }
@@ -1661,7 +1721,7 @@
                   "(4, 3)"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **vertex** has x-coordinate −b/(2a) = 8/4 = 2, and f(2) = 2(4) − 16 + 3 = −5, giving vertex (2, −5)."
+                "explanation": "Step 1: Find the x-coordinate of the **vertex** using x = −b/(2a) = −(−8)/(2·2) = 8/4 = 2.\nStep 2: Substitute x = 2 into f(x): 2(2)² − 8(2) + 3 = 8 − 16 + 3.\nStep 3: Simplify: 8 − 16 + 3 = −5, so the vertex is (2, −5)."
               },
               {
                 "question": "What is f(x) = x² + 6x + 5 written in vertex form?",
@@ -1672,7 +1732,7 @@
                   "(x + 3)² - 4"
                 ],
                 "answerIndex": 3,
-                "explanation": "**Completing the square**: half of 6 is 3, and 3² = 9, so x² + 6x + 5 = (x + 3)² − 9 + 5 = (x + 3)² − 4, which is **vertex form**."
+                "explanation": "Step 1: **Completing the square** on x² + 6x + 5: take half of 6 (which is 3) and square it: 3² = 9.\nStep 2: Rewrite as (x² + 6x + 9) − 9 + 5 = (x + 3)² − 9 + 5.\nStep 3: Combine constants: −9 + 5 = −4, giving vertex form (x + 3)² − 4."
               },
               {
                 "question": "What is (3 + 2i) + (1 - 5i)?",
@@ -1683,7 +1743,7 @@
                   "2 - 3i"
                 ],
                 "answerIndex": 2,
-                "explanation": "Add real parts and imaginary parts of these **complex numbers** separately: (3 + 1) + (2 - 5)i = 4 - 3i."
+                "explanation": "Step 1: Add the real parts of these **complex numbers**: 3 + 1 = 4.\nStep 2: Add the imaginary parts: 2i + (−5i) = −3i.\nStep 3: Combine the results: 4 − 3i."
               },
               {
                 "question": "What is the product (2 + i)(3 - i)?",
@@ -1694,7 +1754,7 @@
                   "7 + i"
                 ],
                 "answerIndex": 3,
-                "explanation": "Using FOIL on these **complex numbers**: 6 - 2i + 3i - i² = 6 + i - i², and since the **imaginary unit** satisfies i² = -1, this becomes 6 + i + 1 = 7 + i."
+                "explanation": "Step 1: Apply FOIL to these **complex numbers**: (2)(3) + (2)(−i) + (i)(3) + (i)(−i) = 6 − 2i + 3i − i².\nStep 2: Combine like terms: 6 + i − i².\nStep 3: Since the **imaginary unit** satisfies i² = −1, this becomes 6 + i + 1 = 7 + i."
               },
               {
                 "question": "A ball's height is modeled by h(t) = -16t² + 64t + 5 (feet, t in seconds). What is the ball's maximum height?",
@@ -1705,7 +1765,7 @@
                   "197 feet"
                 ],
                 "answerIndex": 0,
-                "explanation": "The maximum occurs at the **vertex**: t = -64/(2(-16)) = 2, and h(2) = -16(4) + 128 + 5 = 69 feet."
+                "explanation": "Step 1: Find the time of the **vertex**: t = −b/(2a) = −64/(2(−16)) = 2.\nStep 2: Substitute t = 2 into h(t): −16(2)² + 64(2) + 5 = −64 + 128 + 5.\nStep 3: Simplify: −64 + 128 + 5 = 69, so the maximum height is 69 feet."
               }
             ]
           },
@@ -1749,7 +1809,7 @@
                   "x = -7 or x = 2"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Factoring** gives (x - 7)(x + 2) = 0, and by the **zero product property**, x = 7 or x = -2."
+                "explanation": "Step 1: **Factoring** x² − 5x − 14, find two numbers that multiply to −14 and add to −5: −7 and 2.\nStep 2: Write the factored form: (x − 7)(x + 2) = 0.\nStep 3: Apply the **zero product property**: x − 7 = 0 or x + 2 = 0, giving x = 7 or x = −2."
               },
               {
                 "question": "What are the solutions to 2x² + 3x - 5 = 0?",
@@ -1760,7 +1820,7 @@
                   "{2, -5}"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using the **quadratic formula** with a=2, b=3, c=-5: the **discriminant** is 9 - 4(2)(-5) = 49, so x = (-3 ± 7)/4, giving x = 1 or x = -2.5."
+                "explanation": "Step 1: Apply the **quadratic formula** with a = 2, b = 3, c = −5: x = [−b ± √(b² − 4ac)] / (2a).\nStep 2: Compute the **discriminant**: 3² − 4(2)(−5) = 9 + 40 = 49, so √49 = 7.\nStep 3: Substitute: x = (−3 ± 7)/4, giving x = 4/4 = 1 or x = −10/4 = −2.5."
               },
               {
                 "question": "Without solving, how many real solutions does 3x² - 2x + 5 = 0 have?",
@@ -1771,7 +1831,7 @@
                   "Zero real solutions (two complex solutions)"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **discriminant** is (-2)² - 4(3)(5) = 4 - 60 = -56, which is negative, so the equation has two complex (non-real) solutions."
+                "explanation": "Step 1: Compute the **discriminant** using a = 3, b = −2, c = 5: b² − 4ac = (−2)² − 4(3)(5).\nStep 2: Simplify: 4 − 60 = −56.\nStep 3: Since the discriminant is negative, the equation has zero real solutions (two complex solutions)."
               },
               {
                 "question": "A student solves x² + 4x + 4 = 0 by factoring and claims the solutions are x = -2 and x = 2. What is the error?",
@@ -1782,7 +1842,7 @@
                   "The equation cannot be factored at all"
                 ],
                 "answerIndex": 2,
-                "explanation": "x² + 4x + 4 = (x + 2)², so the only solution is the **repeated root** x = -2; checking x = 2 in the original equation gives 16, not 0, confirming it is not a solution."
+                "explanation": "Step 1: **Factor** x² + 4x + 4 by recognizing it as a perfect square: (x + 2)².\nStep 2: Set (x + 2)² = 0, which gives only one distinct value: x = −2 (a **repeated root**).\nStep 3: Check x = 2 in the original equation: 2² + 4(2) + 4 = 16 ≠ 0, confirming x = 2 is not a solution and the claim contains an error."
               },
               {
                 "question": "A projectile's height is modeled by h(t) = -5t² + 20t. After how many seconds (t > 0) does it return to the ground (h = 0)?",
@@ -1793,7 +1853,7 @@
                   "0 seconds"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Factoring** gives -5t(t - 4) = 0, so by the **zero product property**, t = 0 or t = 4; since t > 0 is required, the projectile lands at t = 4 seconds."
+                "explanation": "Step 1: **Factor** −5t² + 20t as −5t(t − 4).\nStep 2: Apply the **zero product property**: −5t = 0 or t − 4 = 0, giving t = 0 or t = 4.\nStep 3: Since t > 0 is required, the projectile returns to the ground at t = 4 seconds."
               }
             ]
           },
@@ -1841,7 +1901,7 @@
                   "As x → -∞, f(x) → -∞; as x → +∞, f(x) → +∞"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since the **degree** is 4 (even) and the **leading coefficient** is negative, the **end behavior** sends both ends of the graph downward."
+                "explanation": "Step 1: Identify the **degree** (4, even) and the **leading coefficient** (−3, negative).\nStep 2: For an even degree with a negative leading coefficient, both ends of the graph point in the same direction, downward.\nStep 3: So the **end behavior** is: as x → ±∞, f(x) → −∞."
               },
               {
                 "question": "Using the Rational Root Theorem, which of these is NOT a possible rational root of f(x) = 2x³ - 3x² - 8x + 12?",
@@ -1852,7 +1912,7 @@
                   "5"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **Rational Root Theorem** requires a possible root to be a factor of 12 divided by a factor of 2; since 5 does not divide 12, it cannot appear in that list."
+                "explanation": "Step 1: The **Rational Root Theorem** says possible rational roots are (factor of the constant term 12) ÷ (factor of the leading coefficient 2).\nStep 2: Factors of 12 include ±1, ±2, ±3, ±4, ±6, ±12, and factors of 2 include ±1, ±2, giving possible values like ±6, ±4, ±3/2, etc.\nStep 3: Since 5 is not a factor of 12, 5 cannot be a possible rational root."
               },
               {
                 "question": "Dividing f(x) = x³ - 4x² + x + 6 by (x - 3), what is the remainder, and is x = 3 a root?",
@@ -1863,7 +1923,7 @@
                   "Remainder = 6; no, x = 3 is not a root"
                 ],
                 "answerIndex": 2,
-                "explanation": "**Synthetic division** with c = 3 on coefficients 1, -4, 1, 6 gives a final remainder of 0, and a remainder of 0 means (x - 3) divides evenly, confirming x = 3 is a root."
+                "explanation": "Step 1: Perform **synthetic division** using c = 3 on the coefficients 1, −4, 1, 6.\nStep 2: Bring down 1, multiply by 3 to get 3, add to −4 for −1; multiply by 3 to get −3, add to 1 for −2; multiply by 3 to get −6, add to 6 for 0.\nStep 3: The remainder is 0, which means (x − 3) divides evenly and confirms x = 3 is a root."
               },
               {
                 "question": "A degree-5 polynomial with real coefficients has exactly 3 real roots. How many non-real complex roots must it have?",
@@ -1874,7 +1934,7 @@
                   "3"
                 ],
                 "answerIndex": 2,
-                "explanation": "By the **Fundamental Theorem of Algebra**, the polynomial has 5 roots total, and since non-real roots of a real-coefficient polynomial occur in conjugate pairs, the remaining 2 roots must both be non-real."
+                "explanation": "Step 1: By the **Fundamental Theorem of Algebra**, a degree-5 polynomial has exactly 5 roots (counting multiplicity).\nStep 2: With 3 real roots accounted for, 5 − 3 = 2 roots remain.\nStep 3: Since non-real roots of a real-coefficient polynomial occur in conjugate pairs, the remaining 2 roots must both be non-real."
               },
               {
                 "question": "Given that x = 1 is a root of f(x) = x³ - 6x² + 11x - 6, what are all the roots of f?",
@@ -1885,7 +1945,7 @@
                   "1, 2, and -3"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using **synthetic division** to divide out the known root x = 1 leaves x² - 5x + 6, which factors as (x - 2)(x - 3), giving roots 1, 2, and 3."
+                "explanation": "Step 1: Use **synthetic division** with c = 1 on coefficients 1, −6, 11, −6 to divide out the known root.\nStep 2: The quotient is x² − 5x + 6.\nStep 3: Factor the quotient: (x − 2)(x − 3) = 0, giving roots x = 2 and x = 3, so all roots are 1, 2, and 3."
               }
             ]
           }
@@ -1935,7 +1995,7 @@
                   "x = -2"
                 ],
                 "answerIndex": 1,
-                "explanation": "The denominator x² - 9 = 0 at the **excluded values** x = 3 and x = -3, and since the numerator is nonzero there, both are **vertical asymptotes**."
+                "explanation": "Step 1: Find the **excluded values** by setting the denominator equal to zero: x² − 9 = 0.\nStep 2: Factor and solve: (x − 3)(x + 3) = 0, giving x = 3 or x = −3.\nStep 3: Since the numerator (x + 2) is nonzero at both values, both x = 3 and x = −3 are **vertical asymptotes**."
               },
               {
                 "question": "What is the horizontal asymptote of f(x) = (3x² + 1)/(x² - 4)?",
@@ -1946,7 +2006,7 @@
                   "y = 3"
                 ],
                 "answerIndex": 3,
-                "explanation": "Since the numerator and denominator have equal degree (2), the **horizontal asymptote** is the ratio of leading coefficients: y = 3/1 = 3."
+                "explanation": "Step 1: Compare the degrees of the numerator and denominator: both are degree 2.\nStep 2: When degrees are equal, the **horizontal asymptote** is the ratio of leading coefficients.\nStep 3: That ratio is 3/1 = 3, so the horizontal asymptote is y = 3."
               },
               {
                 "question": "For f(x) = [(x-5)(x+1)] / [(x-5)(x+3)], what occurs at x = 5?",
@@ -1957,7 +2017,7 @@
                   "The function is undefined but continuous"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since the factor (x - 5) cancels from both numerator and denominator, the graph has a **hole (removable discontinuity)** at x = 5 rather than a **vertical asymptote**."
+                "explanation": "Step 1: Factor the numerator and denominator: [(x−5)(x+1)] / [(x−5)(x+3)].\nStep 2: Notice the factor (x − 5) appears in both and cancels.\nStep 3: Because that factor cancels rather than remaining in the denominator, x = 5 produces a **hole (removable discontinuity)**, not a **vertical asymptote**."
               },
               {
                 "question": "What best describes the end behavior of f(x) = (2x² + 3)/(x - 1)?",
@@ -1968,7 +2028,7 @@
                   "Horizontal asymptote y = 0"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the numerator's degree (2) is exactly one more than the denominator's degree (1), the graph has a **slant (oblique) asymptote** rather than a **horizontal asymptote**."
+                "explanation": "Step 1: Compare the degree of the numerator (2) to the degree of the denominator (1).\nStep 2: Since the numerator's degree is exactly one more than the denominator's, there is no horizontal asymptote.\nStep 3: Instead, dividing the numerator by the denominator produces a **slant (oblique) asymptote**."
               },
               {
                 "question": "A company's average cost per item is C(x) = (5000 + 12x)/x. As production x increases, the graph approaches a horizontal asymptote at y = 12. What does this mean in context?",
@@ -1979,7 +2039,7 @@
                   "The average cost per item approaches $12 as more items are produced"
                 ],
                 "answerIndex": 3,
-                "explanation": "Since numerator and denominator both have degree 1, the **horizontal asymptote** is 12/1 = 12, meaning average cost per item levels off near $12 for large production amounts."
+                "explanation": "Step 1: Both numerator and denominator of C(x) = (5000 + 12x)/x have degree 1, so find the **horizontal asymptote** as the ratio of leading coefficients: 12/1 = 12.\nStep 2: This means as x grows large, C(x) approaches 12 but never exceeds it meaningfully.\nStep 3: In context, the average cost per item approaches $12 as more items are produced."
               }
             ]
           },
@@ -2023,7 +2083,7 @@
                   "(x - 3)/(x + 2)"
                 ],
                 "answerIndex": 3,
-                "explanation": "**Simplifying rational expressions** starts with factoring: (x-3)(x+3) / [(x+2)(x+3)], and canceling the common factor (x+3) leaves (x-3)/(x+2)."
+                "explanation": "Step 1: **Simplifying rational expressions** starts with factoring both numerator and denominator: (x−3)(x+3) / [(x+2)(x+3)].\nStep 2: Cancel the common factor (x + 3) from numerator and denominator.\nStep 3: The simplified expression is (x − 3)/(x + 2)."
               },
               {
                 "question": "Simplify [x/(x+1)] · [(x+1)/x²].",
@@ -2034,7 +2094,7 @@
                   "1/x"
                 ],
                 "answerIndex": 3,
-                "explanation": "When multiplying **rational expressions**, cancel the common factor (x+1) and one factor of x, leaving 1/x."
+                "explanation": "Step 1: Multiply the **rational expressions** by combining numerators and denominators: [x(x+1)] / [(x+1)x²].\nStep 2: Cancel the common factor (x + 1) and one factor of x from numerator and denominator.\nStep 3: What remains is 1/x."
               },
               {
                 "question": "What is 3/x + 2/(x + 1) written as a single rational expression?",
@@ -2045,7 +2105,7 @@
                   "(5x + 3)/x"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **least common denominator (LCD)** is x(x+1); rewriting each fraction gives [3(x+1) + 2x] / [x(x+1)] = (5x + 3)/(x² + x)."
+                "explanation": "Step 1: Find the **least common denominator (LCD)**, which is x(x + 1).\nStep 2: Rewrite each fraction over the LCD: 3(x+1)/[x(x+1)] + 2x/[x(x+1)] = [3(x+1) + 2x] / [x(x+1)].\nStep 3: Simplify the numerator: 3x + 3 + 2x = 5x + 3, giving (5x + 3)/(x² + x)."
               },
               {
                 "question": "Solve (x + 2)/x = 5/3 for x.",
@@ -2056,7 +2116,7 @@
                   "x = 6"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using **cross multiplication** on this **rational equation**: 3(x + 2) = 5x, so 3x + 6 = 5x, 6 = 2x, and x = 3."
+                "explanation": "Step 1: Use **cross multiplication** on this **rational equation**: 3(x + 2) = 5x.\nStep 2: Distribute: 3x + 6 = 5x.\nStep 3: Solve: 6 = 2x, so x = 3."
               },
               {
                 "question": "Solve x/(x - 2) = 2/(x - 2) + 3, checking for extraneous solutions.",
@@ -2067,7 +2127,7 @@
                   "x = 2"
                 ],
                 "answerIndex": 1,
-                "explanation": "Multiplying this **rational equation** by (x-2) gives x = 2 + 3(x-2), which simplifies to x = 2, but x = 2 makes the original denominators zero, so it is an **extraneous solution** and there is no valid solution."
+                "explanation": "Step 1: Multiply every term of this **rational equation** by (x − 2) to clear denominators: x = 2 + 3(x − 2).\nStep 2: Distribute and simplify: x = 2 + 3x − 6 = 3x − 4, so −2x = −4, giving x = 2.\nStep 3: Check x = 2 in the original equation: it makes both denominators zero, so it is an **extraneous solution** and there is no valid solution."
               }
             ]
           },
@@ -2115,7 +2175,7 @@
                   "x ≥ 6"
                 ],
                 "answerIndex": 0,
-                "explanation": "This **radical function**'s **domain restriction** requires the **radicand** to be non-negative: 2x - 6 ≥ 0, so x ≥ 3."
+                "explanation": "Step 1: For this **radical function**, the **domain restriction** requires the **radicand** to be non-negative: 2x − 6 ≥ 0.\nStep 2: Add 6 to both sides: 2x ≥ 6.\nStep 3: Divide by 2: x ≥ 3."
               },
               {
                 "question": "Solve √(x + 7) = x + 1, checking for extraneous solutions.",
@@ -2126,7 +2186,7 @@
                   "{3}"
                 ],
                 "answerIndex": 0,
-                "explanation": "Squaring this **radical equation** gives x + 7 = x² + 2x + 1, leading to x² + x - 6 = 0, or (x+3)(x-2) = 0; checking shows x = -3 fails (it makes the right side negative), so it is an **extraneous solution**, leaving only {2}."
+                "explanation": "Step 1: Square both sides of this **radical equation**: x + 7 = (x + 1)² = x² + 2x + 1.\nStep 2: Rearrange to standard form: x² + x − 6 = 0, which factors as (x + 3)(x − 2) = 0, giving x = −3 or x = 2.\nStep 3: Check both in the original equation: x = −3 gives √4 = 2 but x+1 = −2, a contradiction (**extraneous solution**), while x = 2 checks correctly, leaving only {2}."
               },
               {
                 "question": "What is the value of 16^(3/4)?",
@@ -2137,7 +2197,7 @@
                   "8"
                 ],
                 "answerIndex": 3,
-                "explanation": "As a **rational exponent**, 16^(3/4) means the 4th root (**index** 4) of 16 raised to the 3rd power: (16^(1/4))³ = 2³ = 8."
+                "explanation": "Step 1: Interpret the **rational exponent**: 16^(3/4) means take the 4th root (**index** 4) of 16, then raise the result to the 3rd power.\nStep 2: Compute the 4th root of 16: 16^(1/4) = 2.\nStep 3: Raise to the 3rd power: 2³ = 8."
               },
               {
                 "question": "The speed of a wave is v = √(9.8d) meters per second, where d is depth in meters. What is the speed when d = 20 meters?",
@@ -2148,7 +2208,7 @@
                   "14 m/s"
                 ],
                 "answerIndex": 3,
-                "explanation": "Evaluating this **radical function**: v = √(9.8 × 20) = √196 = 14 m/s."
+                "explanation": "Step 1: Substitute d = 20 into this **radical function**: v = √(9.8 × 20).\nStep 2: Multiply inside the radical: 9.8 × 20 = 196.\nStep 3: Take the square root: √196 = 14 m/s."
               },
               {
                 "question": "A student solves √x = -5 by squaring both sides to get x = 25. What is the correct conclusion?",
@@ -2159,7 +2219,7 @@
                   "x = 25 is a valid solution"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the principal square root in a **radical function** is always non-negative, it can never equal -5; x = 25 is an **extraneous solution** introduced by squaring, so the equation has no real solution."
+                "explanation": "Step 1: Recall that the principal square root in a **radical function** always outputs a non-negative value.\nStep 2: Squaring √x = −5 to get x = 25 introduces an **extraneous solution**, since √25 = 5, not −5.\nStep 3: Because √x can never equal a negative number, the equation has no real solution."
               }
             ]
           }
@@ -2209,7 +2269,7 @@
                   "Growth, increasing by 85% each period"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the **growth/decay factor** 0.85 is less than 1, this is **exponential decay**, and the rate of decrease is 1 - 0.85 = 15% per period."
+                "explanation": "Step 1: Identify the **growth/decay factor** in f(x) = 500(0.85)ˣ, which is 0.85.\nStep 2: Since 0.85 is less than 1, the function models **exponential decay**.\nStep 3: The rate of decrease per period is 1 − 0.85 = 0.15, or 15%."
               },
               {
                 "question": "A population is modeled by P(t) = 200(1.06)ᵗ. What is P(3), rounded to the nearest whole number?",
@@ -2220,7 +2280,7 @@
                   "236"
                 ],
                 "answerIndex": 0,
-                "explanation": "This is **exponential growth**: P(3) = 200(1.06)³ = 200(1.191016) ≈ 238."
+                "explanation": "Step 1: This models **exponential growth**; substitute t = 3 into P(t) = 200(1.06)ᵗ.\nStep 2: Compute (1.06)³ ≈ 1.191016.\nStep 3: Multiply: 200 × 1.191016 ≈ 238.2, which rounds to 238."
               },
               {
                 "question": "A radioactive sample decays according to A(t) = 80(0.5)^(t/5), where t is in years. How many grams remain after 10 years?",
@@ -2231,7 +2291,7 @@
                   "5 grams"
                 ],
                 "answerIndex": 0,
-                "explanation": "This is **exponential decay**: A(10) = 80(0.5)^(10/5) = 80(0.5)² = 80(0.25) = 20 grams."
+                "explanation": "Step 1: This models **exponential decay**; substitute t = 10 into A(t) = 80(0.5)^(t/5).\nStep 2: Compute the exponent: 10/5 = 2, so A(10) = 80(0.5)².\nStep 3: Evaluate: 80 × 0.25 = 20 grams."
               },
               {
                 "question": "What is the horizontal asymptote of f(x) = 3(2)ˣ - 4?",
@@ -2242,7 +2302,7 @@
                   "y = 3"
                 ],
                 "answerIndex": 2,
-                "explanation": "The base function 3(2)ˣ has **asymptote** y = 0, and subtracting 4 shifts that **asymptote** down to y = -4."
+                "explanation": "Step 1: The base function 3(2)ˣ has a horizontal **asymptote** of y = 0.\nStep 2: Subtracting 4 shifts the entire graph down 4 units.\nStep 3: The **asymptote** shifts down accordingly, to y = −4."
               },
               {
                 "question": "A student claims 'exponential functions always increase because the base must be greater than 1.' What is the flaw in this reasoning?",
@@ -2253,7 +2313,7 @@
                   "The base must always equal Euler's number"
                 ],
                 "answerIndex": 2,
-                "explanation": "An **exponential function** with a **growth/decay factor** between 0 and 1 models **exponential decay**, a decreasing function, so the student's claim is incorrect."
+                "explanation": "Step 1: Recall that an **exponential function** has the form f(x) = a·bˣ, where the **growth/decay factor** b determines behavior.\nStep 2: When b is between 0 and 1, the function models **exponential decay**, which decreases rather than increases.\nStep 3: This counterexample shows the claim 'exponential functions always increase' is false."
               }
             ]
           },
@@ -2301,7 +2361,7 @@
                   "5"
                 ],
                 "answerIndex": 3,
-                "explanation": "This **logarithm** asks what power of 2 gives 32; since 2⁵ = 32, log₂(32) = 5."
+                "explanation": "Step 1: This **logarithm** asks: 2 raised to what power gives 32?\nStep 2: Compute powers of 2: 2⁵ = 32.\nStep 3: So log₂(32) = 5."
               },
               {
                 "question": "How can log(5x³) be expanded?",
@@ -2312,7 +2372,7 @@
                   "log(5) · 3log(x)"
                 ],
                 "answerIndex": 1,
-                "explanation": "Using the **product property of logarithms**, log(5x³) = log(5) + log(x³), and then the **power property of logarithms** moves the exponent out front: log(5) + 3log(x)."
+                "explanation": "Step 1: Apply the **product property of logarithms** to log(5x³): log(5) + log(x³).\nStep 2: Apply the **power property of logarithms** to log(x³), moving the exponent to the front: 3log(x).\nStep 3: Combine: log(5x³) = log(5) + 3log(x)."
               },
               {
                 "question": "Which expression is equivalent to 2ln(x) + ln(y) - ln(z)?",
@@ -2323,7 +2383,7 @@
                   "ln(x²yz)"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **power property of logarithms** turns 2ln(x) into ln(x²), the **product property of logarithms** combines ln(x²) + ln(y) into ln(x²y), and the **quotient property of logarithms** places the -ln(z) term in the denominator: ln(x²y/z)."
+                "explanation": "Step 1: Apply the **power property of logarithms** to 2ln(x), rewriting it as ln(x²).\nStep 2: Apply the **product property of logarithms** to combine ln(x²) + ln(y) into ln(x²y).\nStep 3: Apply the **quotient property of logarithms** to subtract ln(z), placing z in the denominator: ln(x²y/z)."
               },
               {
                 "question": "Which equation is equivalent to log_b(x) = y?",
@@ -2334,7 +2394,7 @@
                   "bˣ = y"
                 ],
                 "answerIndex": 1,
-                "explanation": "By the definition of a **logarithm**, log_b(x) = y is equivalent to raising the base to the y power: bʸ = x."
+                "explanation": "Step 1: Recall the definition of a **logarithm**: log_b(x) = y means 'b raised to the y power equals x.'\nStep 2: Rewrite this relationship in exponential form directly from the definition.\nStep 3: The equivalent equation is bʸ = x."
               },
               {
                 "question": "A solution's acidity is measured as pH = -log[H⁺]. If [H⁺] = 1 × 10⁻⁴, what is the pH?",
@@ -2345,7 +2405,7 @@
                   "4"
                 ],
                 "answerIndex": 3,
-                "explanation": "This uses a **common logarithm**: -log(10⁻⁴) = -(-4) = 4."
+                "explanation": "Step 1: Substitute [H⁺] = 1 × 10⁻⁴ into pH = −log[H⁺].\nStep 2: This uses a **common logarithm**: log(10⁻⁴) = −4.\nStep 3: Apply the negative sign: pH = −(−4) = 4."
               }
             ]
           },
@@ -2385,7 +2445,7 @@
                   "x = 5"
                 ],
                 "answerIndex": 2,
-                "explanation": "Using the **same-base method**, rewrite 81 as 3⁴, so x + 1 = 4, giving x = 3."
+                "explanation": "Step 1: Use the **same-base method** by rewriting 81 as a power of 3: 81 = 3⁴.\nStep 2: Since the bases match, set the exponents equal: x + 1 = 4.\nStep 3: Solve: x = 3."
               },
               {
                 "question": "Solve 5ˣ = 40 for x, rounded to two decimal places.",
@@ -2396,7 +2456,7 @@
                   "0.44"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since the bases don't match, solve this **exponential equation** by taking a logarithm of both sides: x = log(40)/log(5) ≈ 1.602/0.699 ≈ 2.29."
+                "explanation": "Step 1: Since the bases don't match a simple form, solve this **exponential equation** by taking the logarithm of both sides: log(5ˣ) = log(40).\nStep 2: Apply the power property to bring down the exponent: x·log(5) = log(40).\nStep 3: Divide: x = log(40)/log(5) ≈ 1.602/0.699 ≈ 2.29."
               },
               {
                 "question": "Solve log₃(x + 2) = 2 for x.",
@@ -2407,7 +2467,7 @@
                   "x = 7"
                 ],
                 "answerIndex": 3,
-                "explanation": "Rewriting this **logarithmic equation** in exponential form gives 3² = x + 2, so 9 = x + 2, and x = 7."
+                "explanation": "Step 1: Rewrite this **logarithmic equation** in exponential form: 3² = x + 2.\nStep 2: Simplify the left side: 9 = x + 2.\nStep 3: Solve for x: x = 7."
               },
               {
                 "question": "Solve log(x) + log(x - 3) = 1, checking for extraneous solutions.",
@@ -2418,7 +2478,7 @@
                   "{5, -2}"
                 ],
                 "answerIndex": 1,
-                "explanation": "Combining terms gives log[x(x-3)] = 1, so x(x-3) = 10, leading to x² - 3x - 10 = 0, or (x-5)(x+2) = 0, giving x = 5 or x = -2; but x = -2 violates the **domain restriction** of the original logarithms, making it an **extraneous solution**, so only {5} remains."
+                "explanation": "Step 1: Combine the logs using the product property: log[x(x − 3)] = 1.\nStep 2: Rewrite in exponential form: x(x − 3) = 10¹ = 10, which expands to x² − 3x − 10 = 0, or (x − 5)(x + 2) = 0, giving x = 5 or x = −2.\nStep 3: Check the **domain restriction** of the original logarithms: x = −2 makes log(x) undefined, so it is an **extraneous solution**, leaving only {5}."
               },
               {
                 "question": "A student solves 2ˣ = -8 and claims x = -3 works. What is the correct conclusion?",
@@ -2429,7 +2489,7 @@
                   "x = 3 is the correct solution instead"
                 ],
                 "answerIndex": 1,
-                "explanation": "This **exponential equation** has no real solution because a positive base raised to any real power always produces a positive result, never -8."
+                "explanation": "Step 1: Recall that this **exponential equation** has base 2, a positive number.\nStep 2: A positive base raised to any real power always produces a positive result, never a negative one.\nStep 3: Since 2ˣ can never equal −8, there is no real solution, and the student's claim of x = −3 is incorrect."
               }
             ]
           }
@@ -2479,7 +2539,7 @@
                   "(2, 3) and (-1, 0)"
                 ],
                 "answerIndex": 3,
-                "explanation": "This **linear-quadratic system** is solved by **substitution**: x + 1 = x² - 1 leads to x² - x - 2 = 0, or (x-2)(x+1) = 0, giving x = 2 (y=3) and x = -1 (y=0)."
+                "explanation": "Step 1: Solve this **linear-quadratic system** using **substitution**: set x + 1 = x² − 1.\nStep 2: Rearrange to standard form: x² − x − 2 = 0, which factors as (x − 2)(x + 1) = 0, giving x = 2 or x = −1.\nStep 3: Substitute back into y = x + 1: x = 2 gives y = 3, and x = −1 gives y = 0, so the solutions are (2, 3) and (−1, 0)."
               },
               {
                 "question": "Solve the system 2x + 3y = 12 and 4x - 3y = 6.",
@@ -2490,7 +2550,7 @@
                   "(2, 3)"
                 ],
                 "answerIndex": 2,
-                "explanation": "Using the **elimination method**, adding the equations cancels y: 6x = 18, so x = 3; substituting back gives 2(3) + 3y = 12, so y = 2."
+                "explanation": "Step 1: Use the **elimination method**: add the two equations so the y-terms cancel: (2x + 3y) + (4x − 3y) = 12 + 6.\nStep 2: Simplify: 6x = 18, so x = 3.\nStep 3: Substitute x = 3 into 2x + 3y = 12: 6 + 3y = 12, so 3y = 6 and y = 2."
               },
               {
                 "question": "How many real solutions does the linear-quadratic system y = 2x + 1 and y = x² + 2x + 5 have?",
@@ -2501,7 +2561,7 @@
                   "2"
                 ],
                 "answerIndex": 2,
-                "explanation": "Setting the equations equal: 2x + 1 = x² + 2x + 5 simplifies to x² + 4 = 0, which has no real solutions, so this **linear-quadratic system** has 0 real **solution of a system** values."
+                "explanation": "Step 1: Solve this **linear-quadratic system** by setting the expressions equal: 2x + 1 = x² + 2x + 5.\nStep 2: Simplify: 0 = x² + 4, or x² = −4.\nStep 3: Since x² cannot be negative for real x, there are 0 real **solution of a system** values."
               },
               {
                 "question": "Solve the three-variable system: x + y + z = 6, x - y + z = 2, and 2x + y - z = 1.",
@@ -2512,7 +2572,7 @@
                   "(1, 3, 2)"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using the **elimination method** on this **three-variable system**, subtracting the first two equations gives y = 2; further elimination gives x = 1 and z = 3, which checks in all three original equations."
+                "explanation": "Step 1: Use the **elimination method** on this **three-variable system**: subtract equation 2 (x − y + z = 2) from equation 1 (x + y + z = 6) to get 2y = 4, so y = 2.\nStep 2: Substitute y = 2 into the equations to eliminate another variable; combining with equation 3 (2x + y − z = 1) and equation 1 gives a system in x and z that solves to x = 1 and z = 3.\nStep 3: Check (1, 2, 3) in all three original equations to confirm it satisfies each one."
               },
               {
                 "question": "The sum of two numbers is 15 and their difference is 3. What is the larger number?",
@@ -2523,7 +2583,7 @@
                   "6"
                 ],
                 "answerIndex": 1,
-                "explanation": "Writing this as a **system of equations**, x + y = 15 and x - y = 3, the **elimination method** gives 2x = 18, so the larger number is x = 9."
+                "explanation": "Step 1: Write this as a **system of equations**: x + y = 15 and x − y = 3.\nStep 2: Apply the **elimination method** by adding the equations: 2x = 18.\nStep 3: Solve: x = 9, the larger number."
               }
             ]
           },
@@ -2571,7 +2631,7 @@
                   "[[6, 3], [3, 6]]"
                 ],
                 "answerIndex": 2,
-                "explanation": "Adding two matrices of the same **matrix dimensions** means adding corresponding entries: [[1+5, 2-1], [3+0, 4+2]] = [[6, 1], [3, 6]]."
+                "explanation": "Step 1: To add matrices of the same **matrix dimensions**, add corresponding entries.\nStep 2: Top row: 1+5=6 and 2+(−1)=1. Bottom row: 3+0=3 and 4+2=6.\nStep 3: The sum is [[6, 1], [3, 6]]."
               },
               {
                 "question": "Matrix A has dimensions 2×3 and matrix B has dimensions 3×4. What are the dimensions of AB, and is BA defined?",
@@ -2582,7 +2642,7 @@
                   "AB is not defined; BA is 4×2"
                 ],
                 "answerIndex": 2,
-                "explanation": "**Matrix multiplication** AB is defined because A's columns (3) match B's rows (3), giving a 2×4 result; BA is undefined because B's columns (4) do not match A's rows (2)."
+                "explanation": "Step 1: For **matrix multiplication** AB to be defined, A's number of columns must match B's number of rows: A has 3 columns and B has 3 rows, so AB is defined.\nStep 2: The result AB takes the outer dimensions: 2×4.\nStep 3: For BA, B's columns (4) would need to match A's rows (2), which they don't, so BA is not defined."
               },
               {
                 "question": "What is the determinant of [[4, 3], [2, 5]]?",
@@ -2593,7 +2653,7 @@
                   "14"
                 ],
                 "answerIndex": 3,
-                "explanation": "For a 2×2 matrix, the **determinant** is (4)(5) - (3)(2) = 20 - 6 = 14."
+                "explanation": "Step 1: For a 2×2 matrix [[a,b],[c,d]], the **determinant** is ad − bc.\nStep 2: Substitute: (4)(5) − (3)(2) = 20 − 6.\nStep 3: Simplify: 20 − 6 = 14."
               },
               {
                 "question": "Multiply [[1, 2]] (a 1×2 matrix) by [[3], [4]] (a 2×1 matrix).",
@@ -2604,7 +2664,7 @@
                   "[3, 8]"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Matrix multiplication** sums the products of corresponding entries: (1)(3) + (2)(4) = 3 + 8 = 11, giving the 1×1 result [11]."
+                "explanation": "Step 1: **Matrix multiplication** of a 1×2 by a 2×1 matrix sums the products of corresponding entries.\nStep 2: Compute: (1)(3) + (2)(4) = 3 + 8.\nStep 3: Add: 3 + 8 = 11, giving the 1×1 result [11]."
               },
               {
                 "question": "Which augmented matrix correctly represents the system 3x - y = 7 and x + 2y = -4?",
@@ -2615,7 +2675,7 @@
                   "[[3, 1, 7], [-1, 2, -4]]"
                 ],
                 "answerIndex": 1,
-                "explanation": "An **augmented matrix** lists each equation's coefficients and constant in order, so 3x - y = 7 becomes [3, -1, 7] and x + 2y = -4 becomes [1, 2, -4]."
+                "explanation": "Step 1: An **augmented matrix** lists each equation's coefficients on x and y, followed by the constant, in order.\nStep 2: For 3x − y = 7, the row is [3, −1, 7].\nStep 3: For x + 2y = −4, the row is [1, 2, −4], giving [[3, −1, 7], [1, 2, −4]]."
               }
             ]
           },
@@ -2663,7 +2723,7 @@
                   "Center (3, -2), radius 5"
                 ],
                 "answerIndex": 3,
-                "explanation": "In the standard form of a **circle**, (h, k) gives the **center** and r² = 25 gives radius r = 5, so the center is (3, -2) and the radius is 5."
+                "explanation": "Step 1: Compare to the standard form of a **circle**: (x − h)² + (y − k)² = r².\nStep 2: Match h = 3 and k = −2 (note the +2 means k = −2), so the **center** is (3, −2).\nStep 3: Since r² = 25, the radius is r = 5."
               },
               {
                 "question": "What is the equation of a circle with center (0, 4) and radius 6?",
@@ -2674,7 +2734,7 @@
                   "x² + (y - 4)² = 6"
                 ],
                 "answerIndex": 2,
-                "explanation": "Using the standard form of a **circle** with **center** (0, 4) and radius 6: x² + (y - 4)² = 6² = 36."
+                "explanation": "Step 1: Use the standard form of a **circle**: (x − h)² + (y − k)² = r², with **center** (h, k) = (0, 4) and r = 6.\nStep 2: Substitute h = 0, k = 4: (x − 0)² + (y − 4)² = r², or x² + (y − 4)².\nStep 3: Square the radius: r² = 6² = 36, giving x² + (y − 4)² = 36."
               },
               {
                 "question": "What type of conic section is described by 4x² + 9y² = 36?",
@@ -2685,7 +2745,7 @@
                   "Circle"
                 ],
                 "answerIndex": 2,
-                "explanation": "Dividing by 36 gives x²/9 + y²/4 = 1, where both variables are squared with different, positive denominators, which is the standard form of an **ellipse** (a **circle** would require equal denominators, and a **parabola** would have only one squared variable)."
+                "explanation": "Step 1: Divide both sides by 36 to write the equation in standard form: x²/9 + y²/4 = 1.\nStep 2: Both variables are squared with different, positive denominators (9 and 4).\nStep 3: This matches the standard form of an **ellipse** (a **circle** needs equal denominators, and a **parabola** would have only one squared variable)."
               },
               {
                 "question": "For the ellipse x²/25 + y²/9 = 1, what is the length of the major axis?",
@@ -2696,7 +2756,7 @@
                   "5"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since 25 is the larger denominator, a² = 25 and a = 5; the **major axis** length is 2a = 10."
+                "explanation": "Step 1: Compare denominators: 25 and 9; the larger one corresponds to a² = 25.\nStep 2: Take the square root: a = 5.\nStep 3: The **major axis** length is 2a = 2(5) = 10."
               },
               {
                 "question": "A circular fountain has the equation x² + y² = 49, measured in feet from the center. What is the diameter of the fountain?",
@@ -2707,7 +2767,7 @@
                   "49 feet"
                 ],
                 "answerIndex": 1,
-                "explanation": "This **circle** has r² = 49, so the radius r = 7 feet, and the diameter is twice the radius, or 14 feet."
+                "explanation": "Step 1: Compare x² + y² = 49 to the standard form of a **circle**, x² + y² = r².\nStep 2: So r² = 49, giving radius r = 7 feet.\nStep 3: The diameter is twice the radius: 2(7) = 14 feet."
               }
             ]
           }

@@ -263,7 +263,19 @@
                 "answerIndex": 0,
                 "explanation": "**Diction** refers to an author's deliberate choice of words, which directly influences **tone** and **mood**."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Choose a poem your class has studied this unit and write an essay analyzing how the poet's diction and imagery build a specific tone and mood, and how those choices reveal the poem's underlying theme. Support your interpretation with at least two direct quotations from the poem.",
+              "rubric": [
+                "States a clear thesis identifying the poem's theme and previewing the tone/mood analysis to follow",
+                "Correctly distinguishes the poem's tone (speaker's attitude) from its mood (reader's emotional response)",
+                "Quotes at least two specific words or lines and explains their connotation or imagery",
+                "Explains how the identified diction and imagery build toward the stated theme, not just what the theme is",
+                "Organizes the essay with a clear introduction, body paragraphs focused on one idea each, and a conclusion",
+                "Uses correct grammar, spelling, and punctuation throughout",
+                "Stays focused on the assigned poem and prompt rather than summarizing unrelated poems"
+              ]
+            }
           }
         ]
       },
@@ -541,7 +553,19 @@
                 "answerIndex": 1,
                 "explanation": "Literary devices deepen a text's meaning and invite readers to interpret beyond the surface-level story."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Select a short story you have read this unit and write an essay analyzing how the author uses at least two figurative language devices (such as metaphor, simile, symbolism, irony, or foreshadowing) to develop meaning beyond the literal events of the plot. Explain the effect of each device rather than simply identifying it.",
+              "rubric": [
+                "States a clear thesis naming the story and the overall effect the figurative devices create",
+                "Identifies at least two distinct literary devices (e.g., symbolism, irony, foreshadowing, metaphor) by name",
+                "Quotes or closely paraphrases specific textual evidence for each device identified",
+                "Explains the effect of each device on the reader or the story's meaning, not just its definition",
+                "Organizes ideas logically with a clear introduction, body paragraphs, and conclusion",
+                "Uses correct grammar, spelling, and punctuation throughout",
+                "Directly addresses the prompt's request to analyze effect rather than only summarizing the plot"
+              ]
+            }
           }
         ]
       },
@@ -803,7 +827,19 @@
                 "answerIndex": 1,
                 "explanation": "Interpreting a **symbol** requires connecting its recurring appearances to a larger idea the text is developing, not just noting its presence."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Write an essay in which you make a literary claim about a central theme in a novel or play your class has studied, and support that claim by analyzing a recurring symbol or motif across at least two different points in the text. Use specific textual evidence to show how the symbol's meaning develops over the course of the work.",
+              "rubric": [
+                "Opens with a clear, arguable literary claim about the text's theme",
+                "Identifies a specific recurring symbol or motif and explains what it represents",
+                "Traces the symbol or motif at two or more distinct points in the text, showing how its meaning develops",
+                "Supports each point with specific textual evidence (quotations or precise details), not vague summary",
+                "Connects the symbol/motif analysis explicitly back to the stated theme in each body paragraph",
+                "Organizes the essay with a clear introduction, focused body paragraphs, and a conclusion that restates the claim",
+                "Uses correct grammar, spelling, and punctuation throughout"
+              ]
+            }
           }
         ]
       },
@@ -1057,7 +1093,19 @@
                 "answerIndex": 1,
                 "explanation": "Comparing multiple **perspectives** helps readers see the full complexity of an issue and evaluate claims more critically."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Find two sources that address the same current event or issue from different formats or perspectives (for example, a news article and an editorial, or two opinion pieces with opposing views). Write an essay comparing how each source's purpose, audience, and use of rhetorical appeals (ethos, pathos, logos) shape the way it presents the issue, and evaluate which source argues its position more effectively and why.",
+              "rubric": [
+                "Clearly identifies both sources and states each source's purpose and intended audience",
+                "Names and explains at least one rhetorical appeal (ethos, pathos, or logos) used in each source",
+                "Uses specific evidence or quotations from each source to support the comparison, not general impressions",
+                "Evaluates the strength of each source's reasoning, noting any bias or logical fallacy if present",
+                "States a clear judgment about which source argues more effectively, backed by reasons",
+                "Organizes the comparison logically, with clear transitions between the two sources",
+                "Uses correct grammar, spelling, and punctuation throughout"
+              ]
+            }
           }
         ]
       },
@@ -1331,7 +1379,19 @@
                 "answerIndex": 1,
                 "explanation": "Planning and organizing ideas before drafting, such as brainstorming or outlining, occurs during the **prewriting** stage."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Choose a debatable issue relevant to your school or community and write a complete argumentative essay taking a clear position on it. Your essay should move through the full writing process, with a clear thesis statement, evidence-based reasoning, and at least one acknowledged counterargument, and must cite any outside sources you use to avoid plagiarism.",
+              "rubric": [
+                "States a clear, arguable thesis statement early in the essay",
+                "Supports the argument with specific reasons and credible evidence rather than only opinion",
+                "Acknowledges at least one counterargument and responds to it",
+                "Uses varied, complete sentences with no run-ons or fragments, and correct subject-verb agreement",
+                "Cites any outside sources used and avoids presenting others' words or ideas as one's own",
+                "Organizes the essay with a clear introduction, body paragraphs, and conclusion",
+                "Shows evidence of revision (clear, precise word choice) beyond a single unedited draft"
+              ]
+            }
           }
         ]
       }
@@ -1395,7 +1455,7 @@
                   "9"
                 ],
                 "answerIndex": 0,
-                "explanation": "Distance on a number line is the absolute value of the difference of the coordinates: |9 - (-3)| = 12."
+                "explanation": "Step 1: Distance on a number line equals the absolute value of the difference of the coordinates: |9 - (-3)|.\nStep 2: 9 - (-3) = 12, and |12| = 12, so AB = 12."
               },
               {
                 "question": "M is the **midpoint** of segment PQ. P is located at 2 and Q is located at 14 on a number line. What is the coordinate of M?",
@@ -1406,7 +1466,7 @@
                   "16"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **midpoint** of a segment on a number line is the average of the endpoints: (2 + 14) / 2 = 8."
+                "explanation": "Step 1: The **midpoint** of a segment on a number line is the average of its endpoints.\nStep 2: Add the endpoints: 2 + 14 = 16.\nStep 3: Divide by 2: 16 / 2 = 8, so M is at 8."
               },
               {
                 "question": "Points X, Y, and Z are **collinear** on line m, with Y between X and Z. If XY = 7 and YZ = 5, what is XZ?",
@@ -1417,7 +1477,7 @@
                   "1"
                 ],
                 "answerIndex": 0,
-                "explanation": "When Y is between X and Z on the same line, the **Segment Addition Postulate** gives XZ = XY + YZ = 7 + 5 = 12."
+                "explanation": "Step 1: Since Y lies between X and Z on line m, apply the **Segment Addition Postulate**: XZ = XY + YZ.\nStep 2: Substitute the given lengths: XZ = 7 + 5.\nStep 3: Add to get XZ = 12."
               },
               {
                 "question": "Three **non-collinear points** always determine exactly one what?",
@@ -1428,7 +1488,7 @@
                   "Segment"
                 ],
                 "answerIndex": 0,
-                "explanation": "Any three points that do not all lie on the same line determine a single flat **plane** that contains all three."
+                "explanation": "Step 1: Recall that a **plane** is a flat surface determined by three points that do not all lie on one line.\nStep 2: Since the three given points are non-collinear, they pin down exactly one flat surface containing all of them.\nStep 3: That surface is a single plane, so the answer is Plane."
               },
               {
                 "question": "What is the **midpoint** of the segment with endpoints (2, 5) and (8, 1)?",
@@ -1439,7 +1499,7 @@
                   "(6, 2)"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **midpoint formula** averages each coordinate separately: ((2+8)/2, (5+1)/2) = (5, 3)."
+                "explanation": "Step 1: Use the **midpoint formula**: average the x-coordinates and average the y-coordinates separately.\nStep 2: x-coordinate: (2 + 8)/2 = 5.\nStep 3: y-coordinate: (5 + 1)/2 = 3, so the midpoint is (5, 3)."
               }
             ]
           },
@@ -1491,7 +1551,7 @@
                   "Conditional reasoning"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Inductive reasoning** looks at patterns in specific cases and generalizes them into a **conjecture**, which may or may not turn out to be true."
+                "explanation": "Step 1: Recall that **inductive reasoning** starts from specific examples and looks for a repeating pattern among them.\nStep 2: That pattern is then generalized into a single statement, called a **conjecture**.\nStep 3: This matches the definition of inductive reasoning, so that is the answer."
               },
               {
                 "question": "What is the **converse** of the statement \"If a polygon is a square, then it has four right angles\"?",
@@ -1502,7 +1562,7 @@
                   "A polygon is a square only if it has four right angles and four sides."
                 ],
                 "answerIndex": 0,
-                "explanation": "The **converse** swaps the hypothesis and conclusion of the original **conditional statement**."
+                "explanation": "Step 1: Identify the hypothesis ('a polygon is a square') and the conclusion ('it has four right angles') of the original conditional.\nStep 2: The **converse** swaps the hypothesis and conclusion, keeping both unnegated.\nStep 3: Swapping gives 'If a polygon has four right angles, then it is a square.'"
               },
               {
                 "question": "A student conjectures, \"The sum of two odd numbers is always odd.\" Which example best proves this conjecture false?",
@@ -1513,7 +1573,7 @@
                   "7 + 9 = 16, which is odd"
                 ],
                 "answerIndex": 0,
-                "explanation": "3 and 5 are both odd, but their sum, 8, is even. This single case disproves the conjecture, making it a valid **counterexample**."
+                "explanation": "Step 1: To disprove the conjecture, find one case where two odd numbers are added but the sum is not odd.\nStep 2: Check 3 + 5 = 8; both 3 and 5 are odd, but 8 is even.\nStep 3: Since this single case contradicts the conjecture, it is a valid **counterexample**."
               },
               {
                 "question": "What is the **inverse** of \"If two angles are vertical angles, then they are congruent\"?",
@@ -1524,7 +1584,7 @@
                   "If two angles are vertical angles, then they are not congruent."
                 ],
                 "answerIndex": 0,
-                "explanation": "The **inverse** negates both the hypothesis and conclusion while keeping their original order."
+                "explanation": "Step 1: Identify the hypothesis ('two angles are vertical angles') and conclusion ('they are congruent').\nStep 2: The **inverse** negates both the hypothesis and the conclusion while keeping their original order.\nStep 3: Negating both gives 'If two angles are not vertical angles, then they are not congruent.'"
               },
               {
                 "question": "Which description best matches **deductive reasoning**?",
@@ -1535,7 +1595,7 @@
                   "Assuming a statement is true because it sounds reasonable"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Deductive reasoning** starts from established facts and logical structure to guarantee a valid conclusion, unlike **inductive reasoning**, which only suggests a likely pattern."
+                "explanation": "Step 1: Compare each choice to the definition of **deductive reasoning**, which starts from accepted facts and logical rules.\nStep 2: Only the first choice describes reasoning from established facts and rules toward a guaranteed conclusion, rather than guessing from a pattern.\nStep 3: So that description matches deductive reasoning, unlike inductive reasoning, which only suggests a likely pattern."
               }
             ]
           },
@@ -1587,7 +1647,7 @@
                   "There is no separate column for reasons"
                 ],
                 "answerIndex": 0,
-                "explanation": "A **two-column proof** pairs each numbered statement on the left with its supporting reason directly to the right."
+                "explanation": "Step 1: Recall the layout of a **two-column proof**: numbered statements form one column.\nStep 2: The matching reason for each statement is written in the parallel column next to it, on the right.\nStep 3: So justifications go in the column to the right of each statement."
               },
               {
                 "question": "Which property justifies this step: \"If AB = CD and CD = EF, then AB = EF\"?",
@@ -1598,7 +1658,7 @@
                   "Substitution Property of Equality"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **Transitive Property** states that if two quantities are each equal to a third quantity, they are equal to each other."
+                "explanation": "Step 1: Notice the pattern: two quantities (AB and EF) are each shown equal to the same third quantity (CD).\nStep 2: The **Transitive Property of Equality** states that if a = b and b = c, then a = c.\nStep 3: Applying it here, AB = CD and CD = EF lets you conclude AB = EF."
               },
               {
                 "question": "Which of these is typically treated as a postulate rather than a proven theorem in a geometry course?",
@@ -1609,7 +1669,7 @@
                   "The base angles of an isosceles triangle are congruent."
                 ],
                 "answerIndex": 0,
-                "explanation": "The statement about two points determining a line is one of the basic assumptions of geometry, while the other three statements are theorems proven from such assumptions."
+                "explanation": "Step 1: A **postulate (axiom)** is accepted as true without proof, while a theorem must be proven from postulates.\nStep 2: The triangle angle sum, vertical angles congruence, and isosceles base angles statements are all proven using more basic assumptions, so they are theorems.\nStep 3: 'Through any two points there is exactly one line' is instead one of the basic, unproven assumptions of geometry, making it a postulate."
               },
               {
                 "question": "Given that ∠1 and ∠2 are supplementary, and ∠2 and ∠3 are supplementary, which theorem lets you conclude ∠1 ≅ ∠3?",
@@ -1620,7 +1680,7 @@
                   "Reflexive Property of Congruence"
                 ],
                 "answerIndex": 0,
-                "explanation": "Angles that are supplementary to the same angle (or to congruent angles) must be congruent to each other, which is the **Congruent Supplements Theorem**."
+                "explanation": "Step 1: Notice that both ∠1 and ∠3 are supplementary to the same angle, ∠2.\nStep 2: The **Congruent Supplements Theorem** states that angles supplementary to the same angle (or to congruent angles) are congruent to each other.\nStep 3: Applying it here proves ∠1 ≅ ∠3."
               },
               {
                 "question": "Which property justifies the statement \"AB = AB\" appearing in a proof?",
@@ -1631,7 +1691,7 @@
                   "Substitution Property of Equality"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **Reflexive Property** states that any quantity is equal to itself."
+                "explanation": "Step 1: Notice the statement compares a quantity, AB, to itself.\nStep 2: The **Reflexive Property of Equality** states that any quantity equals itself: a = a.\nStep 3: Since AB = AB is exactly this pattern, the Reflexive Property justifies it."
               }
             ]
           }
@@ -1677,7 +1737,7 @@
                   "90°"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Complementary angles** sum to 90°, so the other angle is 90° - 37° = 53°."
+                "explanation": "Step 1: **Complementary angles** sum to 90°.\nStep 2: Subtract the known angle from 90°: 90° - 37°.\nStep 3: 90° - 37° = 53°, so the other angle measures 53°."
               },
               {
                 "question": "∠A and ∠B form a **linear pair**. If m∠A = 2x + 10 and m∠B = 3x + 20, what is the value of x?",
@@ -1688,7 +1748,7 @@
                   "150"
                 ],
                 "answerIndex": 0,
-                "explanation": "A **linear pair** sums to 180°: (2x + 10) + (3x + 20) = 180, so 5x + 30 = 180, giving x = 30."
+                "explanation": "Step 1: A **linear pair** always sums to 180°, so set up (2x + 10) + (3x + 20) = 180.\nStep 2: Combine like terms: 5x + 30 = 180.\nStep 3: Subtract 30 and divide by 5: 5x = 150, so x = 30."
               },
               {
                 "question": "Two vertical angles are represented by (4x + 5)° and (6x - 15)°. What is the value of x?",
@@ -1699,7 +1759,7 @@
                   "4"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Vertical angles** are congruent: 4x + 5 = 6x - 15, so 20 = 2x, giving x = 10."
+                "explanation": "Step 1: **Vertical angles** are always congruent, so set the expressions equal: 4x + 5 = 6x - 15.\nStep 2: Subtract 4x from both sides and add 15: 20 = 2x.\nStep 3: Divide by 2: x = 10."
               },
               {
                 "question": "Which pair of angles must always be congruent?",
@@ -1710,7 +1770,7 @@
                   "The two angles in a linear pair"
                 ],
                 "answerIndex": 0,
-                "explanation": "Vertical angles are always congruent by the **Vertical Angles Theorem**, while supplementary, complementary, and linear pair angles are generally not equal to each other."
+                "explanation": "Step 1: Consider each pair: supplementary, complementary, and linear-pair angles only add to a fixed total, so their individual measures can vary.\nStep 2: **Vertical angles**, formed by two intersecting lines, are guaranteed equal by the Vertical Angles Theorem regardless of the specific angle measures.\nStep 3: So vertical angles are the pair that must always be congruent."
               },
               {
                 "question": "∠1 and ∠2 are **supplementary**, and m∠1 is 4 times m∠2. What is m∠2?",
@@ -1721,7 +1781,7 @@
                   "30°"
                 ],
                 "answerIndex": 0,
-                "explanation": "Let m∠2 = x, so m∠1 = 4x. Since 4x + x = 180, x = 36, meaning m∠2 = 36°."
+                "explanation": "Step 1: Let m∠2 = x, so m∠1 = 4x since m∠1 is 4 times m∠2.\nStep 2: Since ∠1 and ∠2 are **supplementary**, 4x + x = 180.\nStep 3: Combine and solve: 5x = 180, so x = 36, meaning m∠2 = 36°."
               }
             ]
           },
@@ -1761,7 +1821,7 @@
                   "180°"
                 ],
                 "answerIndex": 0,
-                "explanation": "When two lines are parallel, **corresponding angles** formed by a transversal are congruent, so the corresponding angle also measures 65°."
+                "explanation": "Step 1: Since lines ℓ and m are parallel, **corresponding angles** formed by transversal t are congruent.\nStep 2: The corresponding angle occupies the same relative position at the other intersection.\nStep 3: Because corresponding angles match, that angle also measures 65°."
               },
               {
                 "question": "In the same figure, what is the measure of the angle that is alternate interior to the 65° angle?",
@@ -1772,7 +1832,7 @@
                   "180°"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Alternate interior angles** are congruent when the lines cut by the transversal are parallel, so this angle also measures 65°."
+                "explanation": "Step 1: Since the lines are parallel, **alternate interior angles** formed by the transversal are congruent.\nStep 2: The angle in question lies between the two lines, on the opposite side of the transversal from the 65° angle.\nStep 3: Because alternate interior angles are equal when lines are parallel, this angle also measures 65°."
               },
               {
                 "question": "Two lines are parallel and cut by a transversal, creating **same-side interior angles** of (2x + 10)° and (3x + 20)°. What is x?",
@@ -1783,7 +1843,7 @@
                   "15"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Same-side interior angles** are supplementary when lines are parallel: (2x+10) + (3x+20) = 180, so 5x + 30 = 180, giving x = 30."
+                "explanation": "Step 1: **Same-side interior angles** are supplementary when the lines are parallel, so (2x + 10) + (3x + 20) = 180.\nStep 2: Combine like terms: 5x + 30 = 180.\nStep 3: Subtract 30 and divide by 5: x = 30."
               },
               {
                 "question": "Which condition is enough, by itself, to prove two lines are parallel when cut by a transversal?",
@@ -1794,7 +1854,7 @@
                   "The transversal is perpendicular to one of the lines."
                 ],
                 "answerIndex": 0,
-                "explanation": "By the **Converse of the Alternate Interior Angles Theorem**, congruent alternate interior angles guarantee the two lines are parallel; congruent same-side interior angles would actually indicate the lines are not parallel unless both angles are 90°."
+                "explanation": "Step 1: Compare each condition to known converse theorems about parallel lines.\nStep 2: By the **Converse of the Alternate Interior Angles Theorem**, congruent alternate interior angles are enough, by themselves, to guarantee the lines are parallel.\nStep 3: Congruent same-side interior angles or two random equal angles do not guarantee this, so the alternate interior angle condition is the correct choice."
               },
               {
                 "question": "A transversal crosses two parallel lines, and one resulting angle measures 118°. Which angle listed must also measure 118°?",
@@ -1805,7 +1865,7 @@
                   "Its adjacent angle at the same vertex"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Corresponding angles** are congruent when the lines are parallel, so the corresponding angle also equals 118°; the other three listed angles would each measure 62° because they are supplementary to the 118° angle."
+                "explanation": "Step 1: Since the lines are parallel, **corresponding angles** formed by the transversal are congruent.\nStep 2: The corresponding angle at the other intersection occupies the same relative position as the 118° angle.\nStep 3: So that corresponding angle also measures 118°, while the same-side interior, linear pair, and adjacent angles listed are each supplementary to it, measuring 62°."
               }
             ]
           },
@@ -1853,7 +1913,7 @@
                   "-3/4"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Parallel lines** have equal slopes, so line q also has a slope of 3/4."
+                "explanation": "Step 1: Recall the **parallel lines** slope criterion: two non-vertical lines are parallel if and only if their slopes are equal.\nStep 2: Since line q is parallel to line p, it must have the same slope as p.\nStep 3: Line p's slope is 3/4, so line q's slope is also 3/4."
               },
               {
                 "question": "Line r has a slope of -2/5. Line s is perpendicular to line r. What is the slope of line s?",
@@ -1864,7 +1924,7 @@
                   "-2/5"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Perpendicular lines** have slopes that are opposite reciprocals; the opposite reciprocal of -2/5 is 5/2."
+                "explanation": "Step 1: Recall the **perpendicular lines** slope criterion: perpendicular slopes are opposite reciprocals of each other.\nStep 2: Flip -2/5 to get its reciprocal, 5/2, then reverse the sign.\nStep 3: The opposite reciprocal of -2/5 is 5/2, so that is the slope of line s."
               },
               {
                 "question": "Two lines are cut by a transversal, and a pair of **alternate exterior angles** each measure 74°. What can you conclude?",
@@ -1875,7 +1935,7 @@
                   "The lines must be skew lines."
                 ],
                 "answerIndex": 0,
-                "explanation": "Congruent **alternate exterior angles** formed by a transversal prove the two lines are parallel."
+                "explanation": "Step 1: Notice that the same pair of **alternate exterior angles** are congruent (both 74°).\nStep 2: By the **Converse of the Alternate Exterior Angles Theorem**, congruent alternate exterior angles formed by a transversal guarantee the two lines are parallel.\nStep 3: So the correct conclusion is that the two lines are parallel."
               },
               {
                 "question": "Line AB passes through (1, 2) and (4, 11). Line CD passes through (0, 5) and (3, 14). What is the relationship between the lines?",
@@ -1886,7 +1946,7 @@
                   "Cannot be determined from this information"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Slope** of AB = (11-2)/(4-1) = 3, and slope of CD = (14-5)/(3-0) = 3. Equal slopes mean the lines are parallel."
+                "explanation": "Step 1: Find the **slope** of AB: (11 - 2)/(4 - 1) = 9/3 = 3.\nStep 2: Find the slope of CD: (14 - 5)/(3 - 0) = 9/3 = 3.\nStep 3: Since both slopes equal 3, the lines are parallel."
               },
               {
                 "question": "Two lines cut by a transversal form **same-side interior angles** of (5x)° and (7x + 12)°. What value of x guarantees the lines are parallel?",
@@ -1897,7 +1957,7 @@
                   "16"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Same-side interior angles** must be supplementary for the lines to be parallel: 5x + 7x + 12 = 180, so 12x = 168, giving x = 14."
+                "explanation": "Step 1: For the lines to be parallel, **same-side interior angles** must be supplementary: 5x + (7x + 12) = 180.\nStep 2: Combine like terms: 12x + 12 = 180.\nStep 3: Subtract 12 and divide by 12: 12x = 168, so x = 14."
               }
             ]
           }
@@ -1947,7 +2007,7 @@
                   "A'(3, 3)"
                 ],
                 "answerIndex": 0,
-                "explanation": "A **translation** rule (x, y) -> (x - 4, y + 5) applied to (3, -2) gives (3 - 4, -2 + 5) = (-1, 3)."
+                "explanation": "Step 1: Apply the **translation** rule to each coordinate separately: x - 4 and y + 5.\nStep 2: Substitute A's coordinates: 3 - 4 = -1 and -2 + 5 = 3.\nStep 3: So A' is located at (-1, 3)."
               },
               {
                 "question": "A figure is reflected over the x-axis. Which coordinate rule correctly describes this transformation?",
@@ -1958,7 +2018,7 @@
                   "(x, y) -> (y, x)"
                 ],
                 "answerIndex": 2,
-                "explanation": "A **reflection** over the x-axis keeps the x-coordinate the same and negates the y-coordinate, so (x, y) -> (x, -y)."
+                "explanation": "Step 1: Recall that a **reflection** over the x-axis keeps every point's horizontal position the same.\nStep 2: Since each point flips to the opposite side of the x-axis, its vertical distance from the axis is negated.\nStep 3: This gives the rule (x, y) -> (x, -y)."
               },
               {
                 "question": "Triangle DEF is rotated 180 degrees about the origin. Point D is located at (5, -1). Where is D' located?",
@@ -1969,7 +2029,7 @@
                   "D'(-5, -1)"
                 ],
                 "answerIndex": 0,
-                "explanation": "A 180-degree **rotation** about the origin sends (x, y) to (-x, -y), so (5, -1) maps to (-5, 1)."
+                "explanation": "Step 1: Recall the rule for a 180-degree **rotation** about the origin: (x, y) maps to (-x, -y).\nStep 2: Substitute D's coordinates: -(5) = -5 and -(-1) = 1.\nStep 3: So D' is located at (-5, 1)."
               },
               {
                 "question": "Which statement correctly describes a shared property of translations, reflections, and rotations?",
@@ -1980,7 +2040,7 @@
                   "They all move the figure's center point to the origin."
                 ],
                 "answerIndex": 1,
-                "explanation": "Translations, reflections, and rotations are classified as **rigid motion** transformations because none of them alters distances or angle measures."
+                "explanation": "Step 1: Recall that translations, reflections, and rotations are all classified as **rigid motion** transformations.\nStep 2: By definition, a rigid motion keeps every distance and every angle measure in the figure unchanged.\nStep 3: So the shared property is that they all preserve distance and angle measure, unlike a dilation which changes size."
               },
               {
                 "question": "A point P is reflected across a vertical line of reflection at x = 3. If P is located at (1, 4), which statement must be true of its image P'?",
@@ -1991,7 +2051,7 @@
                   "P' has the same x-coordinate as P but a different y-coordinate."
                 ],
                 "answerIndex": 0,
-                "explanation": "In a **reflection**, every point and its image are the same perpendicular distance from the line of reflection, but on opposite sides of it."
+                "explanation": "Step 1: Recall that in a **reflection**, each point and its image are equidistant from the line of reflection, on opposite sides.\nStep 2: P is 3 - 1 = 2 units from the line x = 3.\nStep 3: So P' must also be exactly 2 units from x = 3, but on the opposite side, matching the first statement."
               }
             ]
           },
@@ -2035,7 +2095,7 @@
                   "their corresponding angles are equal but their sides may differ in length."
                 ],
                 "answerIndex": 2,
-                "explanation": "Two figures are **congruent** precisely when some sequence of rigid motions carries one onto the other exactly."
+                "explanation": "Step 1: Recall the formal definition of **congruent** figures used in geometry.\nStep 2: Compare it to each choice: area alone, a single dilation, or matching angles with different side lengths do not match this definition.\nStep 3: Congruence means a sequence of rigid motions maps one figure exactly onto the other, which is the third choice."
               },
               {
                 "question": "Which sequence of transformations is an example of a composition that could be used to prove two triangles are congruent?",
@@ -2046,7 +2106,7 @@
                   "A horizontal stretch followed by a reflection."
                 ],
                 "answerIndex": 1,
-                "explanation": "A **composition of transformations** using only rigid motions, such as a reflection followed by a translation, preserves size and can map one figure exactly onto a congruent figure."
+                "explanation": "Step 1: A **composition of transformations** proves congruence only when every transformation used is a rigid motion.\nStep 2: Check each choice: options involving a dilation change size, so they cannot prove congruence.\nStep 3: A reflection followed by a translation uses only rigid motions, so that composition can prove the triangles congruent."
               },
               {
                 "question": "Why do corresponding sides of two congruent triangles always have equal length?",
@@ -2057,7 +2117,7 @@
                   "Because a scale factor of 1 is applied to every triangle by definition."
                 ],
                 "answerIndex": 2,
-                "explanation": "An **isometry** preserves distance, so any two points and their images are always the same distance apart, making corresponding sides equal."
+                "explanation": "Step 1: Recall that congruent triangles are related by a sequence of rigid motions, each of which is an **isometry**.\nStep 2: An isometry preserves the distance between any two points and their images.\nStep 3: So corresponding sides, being distances between corresponding points, must stay equal in length."
               },
               {
                 "question": "Triangle ABC is reflected over a line, and then its image is translated 3 units right. What is true of the final image relative to triangle ABC?",
@@ -2068,7 +2128,7 @@
                   "The final image cannot be compared to ABC without knowing the center of rotation."
                 ],
                 "answerIndex": 1,
-                "explanation": "Since both a reflection and a translation are rigid motions, their **composition of transformations** preserves size and shape, so the final image is congruent to ABC."
+                "explanation": "Step 1: Identify each transformation used: a reflection, then a translation.\nStep 2: Both a reflection and a translation are rigid motions, so their **composition of transformations** preserves size and shape.\nStep 3: Since only rigid motions were used, the final image is congruent to triangle ABC."
               },
               {
                 "question": "In triangle JKL mapped to triangle J'K'L' by a rotation, angle J measures 52 degrees. What must be true about angle J'?",
@@ -2079,7 +2139,7 @@
                   "Angle J' cannot be determined without knowing the scale factor."
                 ],
                 "answerIndex": 0,
-                "explanation": "Because a rotation is an **isometry**, it preserves angle measure, so the corresponding angle J' in the image must also equal 52 degrees."
+                "explanation": "Step 1: Recall that a rotation is an **isometry**, meaning it preserves both distance and angle measure.\nStep 2: Since angle J' is the image of angle J under this isometry, its measure cannot change.\nStep 3: So angle J' must also measure 52 degrees."
               }
             ]
           },
@@ -2123,7 +2183,7 @@
                   "B'(6, -4)"
                 ],
                 "answerIndex": 1,
-                "explanation": "For a **dilation** centered at the origin with scale factor k, (x, y) maps to (kx, ky), so (2, -4) maps to (6, -12)."
+                "explanation": "Step 1: For a **dilation** centered at the origin with scale factor k, each coordinate is multiplied by k: (x, y) -> (kx, ky).\nStep 2: Substitute k = 3 and B's coordinates: 3(2) = 6 and 3(-4) = -12.\nStep 3: So B' is located at (6, -12)."
               },
               {
                 "question": "A figure is dilated with a scale factor of 0.25. What type of dilation is this?",
@@ -2134,7 +2194,7 @@
                   "A rotation, because the center point stays fixed"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since the scale factor 0.25 is between 0 and 1, this dilation is a **reduction**, producing a smaller image."
+                "explanation": "Step 1: Compare the scale factor, 0.25, to the boundary values 0 and 1.\nStep 2: A scale factor between 0 and 1 produces an image smaller than the preimage, which is called a **reduction**.\nStep 3: Since 0.25 is between 0 and 1, this dilation is a reduction."
               },
               {
                 "question": "Which statement best explains why a dilation is NOT classified as a rigid motion?",
@@ -2145,7 +2205,7 @@
                   "A dilation only works on triangles, not other polygons."
                 ],
                 "answerIndex": 1,
-                "explanation": "A **dilation** multiplies distances from the center of dilation by the scale factor, so unless the scale factor is 1, distances change and size is not preserved."
+                "explanation": "Step 1: Recall that a rigid motion must preserve distances between points.\nStep 2: A **dilation** multiplies every distance from the center of dilation by the scale factor.\nStep 3: Unless that scale factor equals 1, distances change, so a dilation does not preserve size and is not a rigid motion."
               },
               {
                 "question": "Quadrilateral PQRS is mapped to quadrilateral P'Q'R'S' using a rotation followed by a dilation with scale factor 2. What relationship exists between the two quadrilaterals?",
@@ -2156,7 +2216,7 @@
                   "They cannot be compared unless the center of dilation is the origin."
                 ],
                 "answerIndex": 2,
-                "explanation": "Two figures are **similar** exactly when a sequence of rigid motions together with a dilation maps one onto the other, as is the case here."
+                "explanation": "Step 1: Identify the transformations used: a rotation (a rigid motion) followed by a dilation with scale factor 2.\nStep 2: Recall that two figures are **similar** exactly when a sequence of rigid motions together with a dilation maps one onto the other.\nStep 3: Since that is exactly the mapping described, the quadrilaterals are similar."
               },
               {
                 "question": "A dilation centered at the origin maps point C(-6, 9) to C'(-2, 3). What is the scale factor of this dilation?",
@@ -2167,7 +2227,7 @@
                   "6"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since C' = (kx, ky), solving -2 = k(-6) gives k = 1/3, the **scale factor** of the dilation."
+                "explanation": "Step 1: For a dilation centered at the origin, each image coordinate equals the scale factor k times the preimage coordinate: C' = (kx, ky).\nStep 2: Use the x-coordinates to solve for k: -2 = k(-6).\nStep 3: Divide both sides by -6: k = 1/3, the **scale factor** of the dilation."
               }
             ]
           }
@@ -2225,7 +2285,7 @@
                   "AAS Congruence"
                 ],
                 "answerIndex": 0,
-                "explanation": "Two congruent sides with the congruent angle between them (the **included angle**) satisfies the **Side-Angle-Side** postulate."
+                "explanation": "Step 1: Identify what's given: two pairs of congruent sides and the angle between them, the **included angle**.\nStep 2: This matches the pattern side-angle-side, where the angle is between the two known sides.\nStep 3: So the **Side-Angle-Side (SAS) Congruence** postulate proves the triangles congruent."
               },
               {
                 "question": "Triangle ABC has sides AB = 5, BC = 7, AC = 9. Triangle DEF has sides DE = 5, EF = 7, DF = 9. Which congruence statement is justified?",
@@ -2236,7 +2296,7 @@
                   "The triangles are not necessarily congruent"
                 ],
                 "answerIndex": 0,
-                "explanation": "All three pairs of corresponding sides are congruent, which satisfies the **Side-Side-Side** postulate."
+                "explanation": "Step 1: Compare all three pairs of corresponding sides: AB=DE=5, BC=EF=7, AC=DF=9.\nStep 2: All three pairs of sides are congruent between the two triangles.\nStep 3: Since all three side pairs match, this satisfies the **Side-Side-Side (SSS) Congruence** postulate."
               },
               {
                 "question": "Two triangles have two pairs of congruent corresponding angles. Which additional congruence would guarantee the triangles are congruent, not just similar?",
@@ -2247,7 +2307,7 @@
                   "Both triangles are acute"
                 ],
                 "answerIndex": 0,
-                "explanation": "If two angle pairs already match, the third pair automatically matches too (angles sum to 180°), so that alone only proves similarity; a congruent corresponding side is needed to upgrade the relationship to congruence via **ASA** or **AAS**."
+                "explanation": "Step 1: Two pairs of congruent angles alone guarantee the triangles are similar, since the third angle pair matches automatically.\nStep 2: To upgrade similarity to congruence, an additional corresponding side must also be shown congruent.\nStep 3: A matching side turns the angle-angle relationship into **ASA** or **AAS**, which proves congruence."
               },
               {
                 "question": "After proving ΔABC ≅ ΔXYZ using SAS, a student wants to conclude that ∠B ≅ ∠Y. Which justification should be used?",
@@ -2258,7 +2318,7 @@
                   "Transitive Property"
                 ],
                 "answerIndex": 0,
-                "explanation": "Once two triangles are proven congruent, **CPCTC** justifies concluding that any remaining pair of corresponding parts, like ∠B and ∠Y, are also congruent."
+                "explanation": "Step 1: Notice that ΔABC ≅ ΔXYZ has already been proven using SAS.\nStep 2: **CPCTC** (Corresponding Parts of Congruent Triangles are Congruent) lets you conclude any remaining corresponding parts are equal once congruence is established.\nStep 3: Since ∠B and ∠Y are corresponding angles in the congruent triangles, CPCTC justifies ∠B ≅ ∠Y."
               },
               {
                 "question": "Right triangles ABC and DEF each have a right angle at B and E. Leg AB is congruent to leg DE, and hypotenuse AC is congruent to hypotenuse DF. Which theorem proves the triangles congruent?",
@@ -2269,7 +2329,7 @@
                   "AAS Congruence"
                 ],
                 "answerIndex": 0,
-                "explanation": "For right triangles specifically, a congruent hypotenuse and one congruent leg is enough to prove congruence by the **Hypotenuse-Leg Theorem**."
+                "explanation": "Step 1: Notice both triangles are right triangles, with the right angle at B and E.\nStep 2: A leg (AB and DE) and the hypotenuse (AC and DF) are each congruent between the triangles.\nStep 3: This exact pattern, a congruent hypotenuse and leg in right triangles, is proven by the **HL (Hypotenuse-Leg) Theorem**."
               }
             ]
           },
@@ -2313,7 +2373,7 @@
                   "6"
                 ],
                 "answerIndex": 0,
-                "explanation": "Since the **scale factor** from ABC to DEF is 2/3, DE = 18 × (2/3) = 12."
+                "explanation": "Step 1: The **scale factor** from ABC to DEF is 3:2, meaning DEF's sides equal ABC's sides times 2/3.\nStep 2: Multiply AB by 2/3: 18 × (2/3).\nStep 3: 18 × 2/3 = 12, so DE = 12."
               },
               {
                 "question": "A 6-foot-tall person casts a 4-foot shadow at the same moment a flagpole casts a 30-foot shadow. Using similar triangles, what is the height of the flagpole?",
@@ -2324,7 +2384,7 @@
                   "7.5 ft"
                 ],
                 "answerIndex": 0,
-                "explanation": "The person and the flagpole form **similar triangles** with their shadows: 6/4 = h/30, so h = (6 × 30) / 4 = 45 feet."
+                "explanation": "Step 1: Set up a proportion using **similar triangles** formed by each object and its shadow: height/shadow is the same ratio for both.\nStep 2: Write 6/4 = h/30.\nStep 3: Cross-multiply and solve: h = (6 × 30)/4 = 45 feet."
               },
               {
                 "question": "Which set of conditions proves ΔABC ~ ΔXYZ using AA Similarity?",
@@ -2335,7 +2395,7 @@
                   "AB/XY = BC/YZ only"
                 ],
                 "answerIndex": 0,
-                "explanation": "**AA Similarity** requires two pairs of congruent corresponding angles; the third pair is then automatically congruent."
+                "explanation": "Step 1: Recall that **AA Similarity** requires exactly two pairs of corresponding angles to be congruent.\nStep 2: Check the choices: side congruences or a single angle pair are not enough on their own.\nStep 3: ∠A ≅ ∠X and ∠B ≅ ∠Y gives two congruent angle pairs, satisfying AA Similarity (the third angle pair then matches automatically)."
               },
               {
                 "question": "ΔABC ~ ΔPQR, with AB = 8, BC = 12, and PQ = 6. What is QR?",
@@ -2346,7 +2406,7 @@
                   "14"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **scale factor** from ABC to PQR is 6/8 = 3/4, so QR = 12 × (3/4) = 9."
+                "explanation": "Step 1: Find the **scale factor** from ABC to PQR using the known side pair: PQ/AB = 6/8 = 3/4.\nStep 2: Apply that same scale factor to BC to find QR: 12 × (3/4).\nStep 3: 12 × 3/4 = 9, so QR = 9."
               },
               {
                 "question": "Two triangles have all three pairs of corresponding sides in the same ratio, but it has not yet been confirmed that their angles are congruent. Which similarity criterion, once confirmed, proves the triangles similar based on side ratios alone?",
@@ -2357,7 +2417,7 @@
                   "ASA Similarity"
                 ],
                 "answerIndex": 0,
-                "explanation": "When all three pairs of corresponding sides are proportional, **SSS Similarity** proves the triangles are similar without needing to check any angles directly."
+                "explanation": "Step 1: Note that only side ratios are known here, not angle measures.\nStep 2: **SSS Similarity** proves triangles similar when all three pairs of corresponding sides are proportional, without needing to check angles.\nStep 3: Since that's exactly the given information, SSS Similarity is the criterion that applies."
               }
             ]
           },
@@ -2401,7 +2461,7 @@
                   "225"
                 ],
                 "answerIndex": 1,
-                "explanation": "By the **Pythagorean Theorem**, 9² + 12² = 81 + 144 = 225, and the square root of 225 is 15."
+                "explanation": "Step 1: Apply the **Pythagorean Theorem**: a² + b² = c², using legs 9 and 12.\nStep 2: Compute 9² + 12² = 81 + 144 = 225.\nStep 3: Take the square root: √225 = 15, so the hypotenuse is 15."
               },
               {
                 "question": "A triangle has side lengths 7, 24, and 25. Is it a right triangle?",
@@ -2412,7 +2472,7 @@
                   "Yes, because all three sides are whole numbers"
                 ],
                 "answerIndex": 2,
-                "explanation": "Checking the **Converse of the Pythagorean Theorem**: 49 + 576 = 625, and 25² = 625, so the triangle is a right triangle — and 7-24-25 is a **Pythagorean triple**."
+                "explanation": "Step 1: Apply the **Converse of the Pythagorean Theorem**: check whether 7² + 24² equals 25².\nStep 2: Compute 7² + 24² = 49 + 576 = 625, and 25² = 625.\nStep 3: Since both sides are equal, the triangle is a right triangle, and 7-24-25 is a **Pythagorean triple**."
               },
               {
                 "question": "In a 45-45-90 triangle, each leg measures 8. What is the length of the hypotenuse?",
@@ -2423,7 +2483,7 @@
                   "8√2"
                 ],
                 "answerIndex": 3,
-                "explanation": "In a **45-45-90 triangle**, the hypotenuse equals a leg length times √2, so the hypotenuse is 8√2."
+                "explanation": "Step 1: Recall the side ratio of a **45-45-90 triangle**: the hypotenuse equals a leg length times √2.\nStep 2: Multiply the given leg by √2: 8 × √2.\nStep 3: So the hypotenuse is 8√2."
               },
               {
                 "question": "In a right triangle, one acute angle measures 30° and the hypotenuse is 20. What is the length of the side opposite the 30° angle?",
@@ -2434,7 +2494,7 @@
                   "10"
                 ],
                 "answerIndex": 3,
-                "explanation": "In a **30-60-90 triangle**, the side opposite the 30° angle (the short leg) is half the hypotenuse: 20 / 2 = 10."
+                "explanation": "Step 1: Recall the side ratio of a **30-60-90 triangle**: short leg : long leg : hypotenuse = x : x√3 : 2x.\nStep 2: The side opposite the 30° angle is the short leg, equal to half the hypotenuse.\nStep 3: Half of 20 is 10, so the side opposite the 30° angle is 10."
               },
               {
                 "question": "A 13-foot ladder leans against a wall with its base 5 feet from the wall. How high up the wall does the ladder reach?",
@@ -2445,7 +2505,7 @@
                   "14 ft"
                 ],
                 "answerIndex": 2,
-                "explanation": "By the **Pythagorean Theorem**, 5² + h² = 13², so h² = 169 − 25 = 144, and h = 12 ft — another 5-12-13 **Pythagorean triple**."
+                "explanation": "Step 1: Apply the **Pythagorean Theorem** with the ladder as the hypotenuse: 5² + h² = 13².\nStep 2: Compute 13² - 5² = 169 - 25 = 144.\nStep 3: Take the square root: √144 = 12, so the ladder reaches 12 ft up the wall, another 5-12-13 **Pythagorean triple**."
               }
             ]
           }
@@ -2507,7 +2567,7 @@
                   "35°"
                 ],
                 "answerIndex": 0,
-                "explanation": "Opposite angles in a **parallelogram** are congruent, so m∠C = m∠A = 70°."
+                "explanation": "Step 1: Identify what's given: parallelogram ABCD with m∠A = 70°, and you need m∠C.\nStep 2: Opposite angles in a **parallelogram** are congruent, so m∠C = m∠A.\nStep 3: m∠C = 70°."
               },
               {
                 "question": "In parallelogram ABCD, m∠A = 70°. What is m∠B?",
@@ -2518,7 +2578,7 @@
                   "55°"
                 ],
                 "answerIndex": 0,
-                "explanation": "Consecutive angles in a **parallelogram** are supplementary, so m∠B = 180° - 70° = 110°."
+                "explanation": "Step 1: m∠A and m∠B are consecutive (adjacent) angles in the parallelogram.\nStep 2: Consecutive angles in a **parallelogram** are supplementary: m∠A + m∠B = 180°.\nStep 3: m∠B = 180° - 70° = 110°."
               },
               {
                 "question": "A quadrilateral has diagonals that bisect each other, are perpendicular, and are congruent. What is the most specific classification for this quadrilateral?",
@@ -2529,7 +2589,7 @@
                   "Trapezoid"
                 ],
                 "answerIndex": 0,
-                "explanation": "Diagonals that bisect each other and are both congruent and perpendicular satisfy the properties of a **rectangle** and a **rhombus** at once, which makes the quadrilateral a **square**."
+                "explanation": "Step 1: Diagonals that bisect each other tell you the quadrilateral is at least a parallelogram.\nStep 2: Perpendicular diagonals in a parallelogram make it a **rhombus**; congruent diagonals in a parallelogram make it a **rectangle**.\nStep 3: Having diagonals that are perpendicular AND congruent AND bisecting satisfies both conditions at once, so the quadrilateral must be a **square**."
               },
               {
                 "question": "In **rhombus** WXYZ, diagonal WY = 16 and diagonal XZ = 12. What is the side length of the rhombus?",
@@ -2540,7 +2600,7 @@
                   "20"
                 ],
                 "answerIndex": 0,
-                "explanation": "The diagonals of a **rhombus** bisect each other at right angles, creating a right triangle with legs 8 and 6; by the Pythagorean Theorem, the side length is √(8² + 6²) = 10."
+                "explanation": "Step 1: The diagonals of a **rhombus** bisect each other at right angles, splitting WY into two 8's and XZ into two 6's.\nStep 2: These halves form a right triangle whose legs are 8 and 6, with the rhombus's side as the hypotenuse.\nStep 3: side = √(8² + 6²) = √(64 + 36) = √100 = 10."
               },
               {
                 "question": "A **trapezoid** has bases of length 10 and 18. What is the length of its **midsegment**?",
@@ -2551,7 +2611,7 @@
                   "4"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **midsegment** of a trapezoid is the average of its two base lengths: (10 + 18) / 2 = 14."
+                "explanation": "Step 1: Recall that the **midsegment** of a trapezoid connects the midpoints of the two legs and is parallel to the bases.\nStep 2: Its length equals the average of the two base lengths: (10 + 18) / 2.\nStep 3: midsegment = 28 / 2 = 14."
               }
             ]
           },
@@ -2587,7 +2647,7 @@
                   "1080°"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using the formula (n - 2) × 180°, a hexagon's interior angle sum is (6 - 2) × 180° = 720°."
+                "explanation": "Step 1: Use the interior angle sum formula (n - 2) × 180° with n = 6.\nStep 2: (6 - 2) × 180° = 4 × 180°.\nStep 3: The sum is 720°."
               },
               {
                 "question": "What is the measure of each interior angle of a regular pentagon (5 sides)?",
@@ -2598,7 +2658,7 @@
                   "90°"
                 ],
                 "answerIndex": 0,
-                "explanation": "The interior angle sum of a pentagon is (5 - 2) × 180° = 540°, and dividing evenly among 5 congruent angles gives 540° / 5 = 108°."
+                "explanation": "Step 1: Find the total interior angle sum for a pentagon: (5 - 2) × 180° = 540°.\nStep 2: A regular pentagon's 5 angles are all congruent, so divide the sum evenly among them.\nStep 3: 540° / 5 = 108° per angle."
               },
               {
                 "question": "Each exterior angle of a regular polygon measures 24°. How many sides does the polygon have?",
@@ -2609,7 +2669,7 @@
                   "18"
                 ],
                 "answerIndex": 0,
-                "explanation": "Since a polygon's **exterior angles** always sum to 360°, the number of sides is 360° / 24° = 15."
+                "explanation": "Step 1: Recall that the **exterior angles** of any convex polygon always sum to 360°.\nStep 2: For a regular polygon, each exterior angle equals 360° / n, so n = 360° / (exterior angle).\nStep 3: n = 360° / 24° = 15 sides."
               },
               {
                 "question": "A convex polygon has an interior angle sum of 1440°. How many sides does it have?",
@@ -2620,7 +2680,7 @@
                   "12"
                 ],
                 "answerIndex": 0,
-                "explanation": "Setting (n - 2) × 180° = 1440° gives n - 2 = 8, so n = 10."
+                "explanation": "Step 1: Set up the interior angle sum formula: (n - 2) × 180° = 1440°.\nStep 2: Divide both sides by 180°: n - 2 = 8.\nStep 3: n = 10."
               },
               {
                 "question": "Which statement is true about the **exterior angles** of any **convex polygon**, regardless of the number of sides?",
@@ -2631,7 +2691,7 @@
                   "They sum to (n - 2) × 180°."
                 ],
                 "answerIndex": 0,
-                "explanation": "No matter how many sides a **convex polygon** has, walking around it once means turning a total of exactly 360°, which is why its **exterior angles** always sum to 360°."
+                "explanation": "Step 1: Picture walking once completely around the perimeter of any convex polygon — you make exactly one full turn.\nStep 2: One full turn is 360°, and each **exterior angle** is the amount you turn at one vertex.\nStep 3: So no matter how many sides a **convex polygon** has, its exterior angles always sum to 360°."
               }
             ]
           },
@@ -2671,7 +2731,7 @@
                   "96°"
                 ],
                 "answerIndex": 0,
-                "explanation": "The measure of an arc always equals the measure of the **central angle** that intercepts it."
+                "explanation": "Step 1: Recall that an arc's measure is always defined to equal the measure of its **central angle**.\nStep 2: The central angle here is 84°.\nStep 3: So the intercepted arc also measures 84°."
               },
               {
                 "question": "An inscribed angle intercepts the same arc as a central angle of 84°. What is the measure of the inscribed angle?",
@@ -2682,7 +2742,7 @@
                   "168°"
                 ],
                 "answerIndex": 0,
-                "explanation": "An **inscribed angle** is always half the measure of its intercepted arc: 84° / 2 = 42°."
+                "explanation": "Step 1: An **inscribed angle** that intercepts the same arc as a central angle is always half that central angle's measure.\nStep 2: Divide the central angle by 2: 84° / 2.\nStep 3: The inscribed angle measures 42°."
               },
               {
                 "question": "A **tangent line** touches circle O at point P, and radius OP is drawn. What is the measure of the angle formed between the tangent line and OP?",
@@ -2693,7 +2753,7 @@
                   "60°"
                 ],
                 "answerIndex": 0,
-                "explanation": "A **tangent line** is always perpendicular to the radius drawn to the point of tangency, forming a 90° angle."
+                "explanation": "Step 1: Recall the tangent-radius theorem: a **tangent line** is always perpendicular to the radius drawn to the point of tangency.\nStep 2: Perpendicular lines meet at a 90° angle.\nStep 3: So the angle between the tangent line and OP is 90°."
               },
               {
                 "question": "Circle O has a radius of 9 cm. What is the length of an arc with a central angle of 60° (use π ≈ 3.14)?",
@@ -2704,7 +2764,7 @@
                   "9π cm (≈28.27 cm)"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Arc length** equals the circumference times the fraction of the circle: 2π(9) × (60/360) = 18π × (1/6) = 3π ≈ 9.42 cm."
+                "explanation": "Step 1: Find the circle's full circumference: C = 2πr = 2(3.14)(9) = 18π.\nStep 2: **Arc length** is the fraction of the circumference matching the central angle's fraction of 360°: 60°/360° = 1/6.\nStep 3: Multiply: 18π × (1/6) = 3π ≈ 9.42 cm."
               },
               {
                 "question": "Two **chords** intersect inside a circle, forming an angle that intercepts two arcs measuring 100° and 40°. What is the measure of the angle formed by the chords?",
@@ -2715,7 +2775,7 @@
                   "30°"
                 ],
                 "answerIndex": 0,
-                "explanation": "An angle formed by two **chords** intersecting inside a circle equals half the sum of the two intercepted arcs: (100° + 40°) / 2 = 70°."
+                "explanation": "Step 1: Recall the theorem for two **chords** intersecting inside a circle: the angle formed equals half the sum of the two intercepted arcs.\nStep 2: Add the arcs: 100° + 40° = 140°.\nStep 3: Divide by 2: 140° / 2 = 70°."
               }
             ]
           }
@@ -2765,7 +2825,7 @@
                   "3.6"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using the **distance formula**: √[(4-1)² + (6-2)²] = √(9 + 16) = √25 = 5."
+                "explanation": "Step 1: Apply the **distance formula**: d = √[(x2 - x1)² + (y2 - y1)²].\nStep 2: Substitute A(1, 2) and B(4, 6): √[(4-1)² + (6-2)²] = √(9 + 16).\nStep 3: √25 = 5."
               },
               {
                 "question": "A triangle has vertices A(0, 0), B(4, 0), and C(2, 5). Is the triangle isosceles?",
@@ -2776,7 +2836,7 @@
                   "A right triangle, since AB² + AC² = BC²"
                 ],
                 "answerIndex": 0,
-                "explanation": "AC = √[(2-0)² + (5-0)²] = √29 and BC = √[(2-4)² + (5-0)²] = √29, so two sides are equal, making the triangle **isosceles**."
+                "explanation": "Step 1: Compute AC with the distance formula: AC = √[(2-0)² + (5-0)²] = √29.\nStep 2: Compute BC the same way: BC = √[(2-4)² + (5-0)²] = √29.\nStep 3: Since AC = BC = √29, two sides are equal, so the triangle is **isosceles**."
               },
               {
                 "question": "Quadrilateral ABCD has diagonals AC and BD. The midpoint of AC is (3, 4), and the midpoint of BD is also (3, 4). What can be concluded?",
@@ -2787,7 +2847,7 @@
                   "No conclusion can be drawn from this information."
                 ],
                 "answerIndex": 0,
-                "explanation": "If both diagonals of a quadrilateral share the same **midpoint**, they bisect each other, which is enough to prove the quadrilateral is a **parallelogram**."
+                "explanation": "Step 1: Recall that if a quadrilateral's diagonals bisect each other, the quadrilateral is a **parallelogram**.\nStep 2: Both diagonals AC and BD share the same **midpoint** (3, 4), meaning each diagonal cuts the other exactly in half.\nStep 3: This satisfies the bisecting-diagonals condition, so ABCD must be a parallelogram."
               },
               {
                 "question": "What is the midpoint of the segment with endpoints (-3, 7) and (5, -1)?",
@@ -2798,7 +2858,7 @@
                   "(4, 3)"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **midpoint formula** gives ((-3 + 5)/2, (7 + (-1))/2) = (2/2, 6/2) = (1, 3)."
+                "explanation": "Step 1: Apply the **midpoint formula**: ((x1 + x2)/2, (y1 + y2)/2).\nStep 2: Substitute (-3, 7) and (5, -1): ((-3+5)/2, (7+(-1))/2) = (2/2, 6/2).\nStep 3: Midpoint = (1, 3)."
               },
               {
                 "question": "Points P(2, 3) and Q(2, 9) are given. What is true about segment PQ?",
@@ -2809,7 +2869,7 @@
                   "Diagonal segment, length 6√2"
                 ],
                 "answerIndex": 0,
-                "explanation": "Since both points share the same x-coordinate, the segment is vertical, and its length is the difference in y-coordinates: |9 - 3| = 6."
+                "explanation": "Step 1: Compare the coordinates of P(2, 3) and Q(2, 9): both have x = 2, so the segment is vertical.\nStep 2: For a vertical segment, length is the absolute difference of the y-coordinates.\nStep 3: |9 - 3| = 6, so PQ is a vertical segment of length 6."
               }
             ]
           },
@@ -2849,7 +2909,7 @@
                   "31.5 cm²"
                 ],
                 "answerIndex": 0,
-                "explanation": "Triangle area is (1/2) × base × height = (1/2) × 14 × 9 = 63 cm²."
+                "explanation": "Step 1: Use the triangle area formula: A = (1/2) × base × height.\nStep 2: Substitute base = 14 and height = 9: A = (1/2) × 14 × 9.\nStep 3: A = 63 cm²."
               },
               {
                 "question": "What is the area of a circle with a radius of 6 in (use π ≈ 3.14)?",
@@ -2860,7 +2920,7 @@
                   "≈452.2 in²"
                 ],
                 "answerIndex": 0,
-                "explanation": "Circle area equals π × r² = 3.14 × 6² = 3.14 × 36 ≈ 113.0 in²."
+                "explanation": "Step 1: Use the circle area formula: A = πr².\nStep 2: Substitute r = 6: A = 3.14 × 6² = 3.14 × 36.\nStep 3: A ≈ 113.0 in²."
               },
               {
                 "question": "A trapezoid has bases of 8 and 12 and a height of 5. What is its area?",
@@ -2871,7 +2931,7 @@
                   "20"
                 ],
                 "answerIndex": 0,
-                "explanation": "Trapezoid area is (1/2) × (base1 + base2) × height = (1/2) × 20 × 5 = 50."
+                "explanation": "Step 1: Use the trapezoid area formula: A = (1/2)(b1 + b2) × h.\nStep 2: Substitute b1 = 8, b2 = 12, h = 5: A = (1/2)(20) × 5.\nStep 3: A = 10 × 5 = 50."
               },
               {
                 "question": "A **composite figure** is a 10-by-6 rectangle with a semicircle of radius 3 attached to one of the 6-unit sides. What is the total area (use π ≈ 3.14)?",
@@ -2882,7 +2942,7 @@
                   "≈65.1 square units"
                 ],
                 "answerIndex": 0,
-                "explanation": "The rectangle's area is 10 × 6 = 60, and the semicircle's area is (1/2) × 3.14 × 3² ≈ 14.1, giving a total of about 74.1 square units."
+                "explanation": "Step 1: Find the rectangle's area: 10 × 6 = 60 square units.\nStep 2: Find the semicircle's area (radius 3): (1/2) × 3.14 × 3² ≈ 14.1 square units.\nStep 3: Add the two parts of the **composite figure**: 60 + 14.1 ≈ 74.1 square units."
               },
               {
                 "question": "A regular hexagon has a side length of 8 and an apothem of about 6.93. What is its approximate area (Area = (1/2) × **perimeter** × **apothem**)?",
@@ -2893,7 +2953,7 @@
                   "≈48.0 square units"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **perimeter** is 6 × 8 = 48, so the area is (1/2) × 48 × 6.93 ≈ 166.3 square units."
+                "explanation": "Step 1: Find the hexagon's **perimeter**: 6 sides × 8 = 48.\nStep 2: Apply the given formula: A = (1/2) × perimeter × **apothem** = (1/2) × 48 × 6.93.\nStep 3: A ≈ 166.3 square units."
               }
             ]
           },
@@ -2945,7 +3005,7 @@
                   "80 cm³"
                 ],
                 "answerIndex": 0,
-                "explanation": "Volume of a rectangular **prism** equals length × width × height = 8 × 5 × 4 = 160 cm³."
+                "explanation": "Step 1: Use the volume formula for a rectangular **prism**: V = length × width × height.\nStep 2: Substitute 8, 5, and 4: V = 8 × 5 × 4.\nStep 3: V = 160 cm³."
               },
               {
                 "question": "What is the volume of a cylinder with radius 3 m and height 10 m (use π ≈ 3.14)?",
@@ -2956,7 +3016,7 @@
                   "≈188.4 m³"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Cylinder** volume equals π × r² × h = 3.14 × 3² × 10 = 3.14 × 9 × 10 ≈ 282.6 m³."
+                "explanation": "Step 1: Use the **cylinder** volume formula: V = πr²h.\nStep 2: Substitute r = 3 and h = 10: V = 3.14 × 3² × 10 = 3.14 × 9 × 10.\nStep 3: V ≈ 282.6 m³."
               },
               {
                 "question": "What is the volume of a cone with radius 6 in and height 9 in (use π ≈ 3.14)?",
@@ -2967,7 +3027,7 @@
                   "≈254.3 in³"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Cone** volume equals (1/3) × π × r² × h = (1/3) × 3.14 × 36 × 9 ≈ 339.1 in³."
+                "explanation": "Step 1: Use the **cone** volume formula: V = (1/3)πr²h.\nStep 2: Substitute r = 6 and h = 9: V = (1/3) × 3.14 × 36 × 9.\nStep 3: V ≈ 339.1 in³."
               },
               {
                 "question": "What is the volume of a sphere with radius 6 cm (Volume = (4/3)π r³, use π ≈ 3.14)?",
@@ -2978,7 +3038,7 @@
                   "≈339.1 cm³"
                 ],
                 "answerIndex": 0,
-                "explanation": "**Sphere** volume equals (4/3) × π × r³ = (4/3) × 3.14 × 216 ≈ 904.3 cm³."
+                "explanation": "Step 1: Use the **sphere** volume formula: V = (4/3)πr³.\nStep 2: Substitute r = 6: V = (4/3) × 3.14 × 216.\nStep 3: V ≈ 904.3 cm³."
               },
               {
                 "question": "A square **pyramid** has a base edge of 10 ft and a **slant height** of 13 ft. What is its total surface area (base area plus four triangular faces)?",
@@ -2989,7 +3049,7 @@
                   "620 ft²"
                 ],
                 "answerIndex": 0,
-                "explanation": "Base area is 10² = 100 ft², and each triangular face has area (1/2)(10)(13) = 65 ft², so four faces add 260 ft², giving a total of 100 + 260 = 360 ft²."
+                "explanation": "Step 1: Find the base area of the square **pyramid**: 10² = 100 ft².\nStep 2: Find one triangular face's area, (1/2)(10)(13) = 65 ft², then multiply by the 4 faces: 4 × 65 = 260 ft².\nStep 3: Add the base and the lateral faces: 100 + 260 = 360 ft²."
               }
             ]
           }
@@ -3039,7 +3099,7 @@
                   "1.67"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **sine ratio** is opposite/hypotenuse: 6/10 = 0.6."
+                "explanation": "Step 1: Recall the **sine ratio**: sin(angle) = opposite/hypotenuse.\nStep 2: Substitute the given sides: 6/10.\nStep 3: sin = 0.6."
               },
               {
                 "question": "Which trig ratio is defined as adjacent side divided by hypotenuse?",
@@ -3050,7 +3110,7 @@
                   "None of these"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **cosine ratio** compares the adjacent side to the hypotenuse."
+                "explanation": "Step 1: Recall SOH-CAH-TOA, where each block of letters names a ratio.\nStep 2: 'Adjacent divided by hypotenuse' matches the **cosine ratio** (CAH: Cosine = Adjacent/Hypotenuse).\nStep 3: So the correct ratio is cosine."
               },
               {
                 "question": "A right triangle has an opposite side of 8 and an adjacent side of 15 relative to an acute angle. What is the tangent of that angle?",
@@ -3061,7 +3121,7 @@
                   "0.53"
                 ],
                 "answerIndex": 3,
-                "explanation": "The **tangent ratio** is opposite/adjacent: 8/15 ≈ 0.53."
+                "explanation": "Step 1: Recall the **tangent ratio**: tan(angle) = opposite/adjacent.\nStep 2: Substitute the given sides: 8/15.\nStep 3: tan ≈ 0.53."
               },
               {
                 "question": "In the mnemonic SOH-CAH-TOA, what does 'CAH' stand for?",
@@ -3072,7 +3132,7 @@
                   "Cosine = Angle/Hypotenuse"
                 ],
                 "answerIndex": 0,
-                "explanation": "**SOH-CAH-TOA** stands for Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent."
+                "explanation": "Step 1: **SOH-CAH-TOA** is a memory device for the three basic trig ratios.\nStep 2: Each three-letter block spells out one ratio: SOH = Sine-Opposite-Hypotenuse, CAH = Cosine-Adjacent-Hypotenuse, TOA = Tangent-Opposite-Adjacent.\nStep 3: So 'CAH' stands for Cosine = Adjacent/Hypotenuse."
               },
               {
                 "question": "A right triangle has a hypotenuse of 10 and, relative to one acute angle, sides of 6 (opposite) and 8 (adjacent). What is the cosine of that angle?",
@@ -3083,7 +3143,7 @@
                   "0.75"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **cosine ratio** is adjacent/hypotenuse: 8/10 = 0.8."
+                "explanation": "Step 1: Recall the **cosine ratio**: cos(angle) = adjacent/hypotenuse.\nStep 2: Substitute the adjacent side (8) and hypotenuse (10): 8/10.\nStep 3: cos = 0.8."
               }
             ]
           },
@@ -3127,7 +3187,7 @@
                   "12.8"
                 ],
                 "answerIndex": 2,
-                "explanation": "Tangent = opposite/adjacent, so opposite = 12 × tan(40°) ≈ 12 × 0.839 ≈ 10.1."
+                "explanation": "Step 1: Recall that tangent = opposite/adjacent, so opposite = adjacent × tan(angle).\nStep 2: Substitute: opposite = 12 × 0.839.\nStep 3: opposite ≈ 10.1."
               },
               {
                 "question": "A right triangle has a 30° angle with an opposite side of 5. What is the length of the hypotenuse? (sin 30° = 0.5)",
@@ -3138,7 +3198,7 @@
                   "5.8"
                 ],
                 "answerIndex": 1,
-                "explanation": "Sine = opposite/hypotenuse, so hypotenuse = opposite / sin(30°) = 5 / 0.5 = 10."
+                "explanation": "Step 1: Recall that sine = opposite/hypotenuse, so hypotenuse = opposite / sin(angle).\nStep 2: Substitute: hypotenuse = 5 / 0.5.\nStep 3: hypotenuse = 10."
               },
               {
                 "question": "A right triangle has an opposite side of 7 and a hypotenuse of 25 relative to an acute angle. Which calculation finds that angle?",
@@ -3149,7 +3209,7 @@
                   "sin⁻¹(25/7)"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since sine = opposite/hypotenuse, the angle equals **inverse sine** of 7/25 — written sin⁻¹(7/25) ≈ 16.3°."
+                "explanation": "Step 1: Identify the known sides relative to the angle: opposite = 7, hypotenuse = 25.\nStep 2: Since sine = opposite/hypotenuse, the angle is found using **inverse sine**: sin⁻¹(7/25).\nStep 3: This calculation gives the angle ≈ 16.3°."
               },
               {
                 "question": "A right triangle has an opposite side of 9 and an adjacent side of 12 relative to an acute angle. Which calculation finds that angle?",
@@ -3160,7 +3220,7 @@
                   "sin⁻¹(9/12)"
                 ],
                 "answerIndex": 0,
-                "explanation": "Since tangent = opposite/adjacent, the angle equals **inverse tangent** of 9/12 — written tan⁻¹(9/12) ≈ 36.9°."
+                "explanation": "Step 1: Identify the known sides relative to the angle: opposite = 9, adjacent = 12.\nStep 2: Since tangent = opposite/adjacent, the angle is found using **inverse tangent**: tan⁻¹(9/12).\nStep 3: This calculation gives the angle ≈ 36.9°."
               },
               {
                 "question": "To correctly set up a trig ratio for solving a triangle, what must you identify first?",
@@ -3171,7 +3231,7 @@
                   "The area of the triangle"
                 ],
                 "answerIndex": 1,
-                "explanation": "Every trig ratio depends on correctly labeling the **opposite side**, **adjacent side**, and hypotenuse relative to the specific angle being used."
+                "explanation": "Step 1: Every trig ratio (sine, cosine, tangent) is defined relative to a specific acute angle in the right triangle.\nStep 2: Before choosing a ratio, you must correctly label the **opposite side**, **adjacent side**, and hypotenuse relative to that known angle.\nStep 3: Only then can you pick the matching ratio (SOH, CAH, or TOA) and solve."
               }
             ]
           },
@@ -3211,7 +3271,7 @@
                   "≈150 m"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **angle of depression** equals the **angle of elevation** from the boat, so tan(20°) = 50/d, giving d = 50 / tan(20°) ≈ 137 meters."
+                "explanation": "Step 1: The **angle of depression** from the lighthouse equals the **angle of elevation** from the boat, so the triangle's angle is 20°.\nStep 2: The 50 m height is opposite this angle and the unknown distance d is adjacent, so tan(20°) = 50/d.\nStep 3: Solve for d: d = 50 / tan(20°) ≈ 50 / 0.364 ≈ 137 m."
               },
               {
                 "question": "A surveyor stands 80 feet from a building and measures a 35° angle of elevation to its top. Using tan(35°) ≈ 0.700, approximately how tall is the building?",
@@ -3222,7 +3282,7 @@
                   "≈80 ft"
                 ],
                 "answerIndex": 2,
-                "explanation": "Tangent = opposite/adjacent, so height = 80 × tan(35°) ≈ 80 × 0.700 ≈ 56 ft."
+                "explanation": "Step 1: The 80 ft horizontal distance is adjacent to the 35° angle, and the building's height is the opposite side.\nStep 2: Since tangent = opposite/adjacent, height = 80 × tan(35°).\nStep 3: height ≈ 80 × 0.700 ≈ 56 ft."
               },
               {
                 "question": "A person standing at the top of a 30-foot cliff looks down at a boat and measures a 25° angle of depression. What is the angle of elevation from the boat up to the person?",
@@ -3233,7 +3293,7 @@
                   "90°"
                 ],
                 "answerIndex": 1,
-                "explanation": "By **alternate interior angles** with the parallel horizontal lines of sight, the angle of elevation from the boat equals the angle of depression from the cliff: 25°."
+                "explanation": "Step 1: The horizontal line of sight from the person and the horizontal line of sight from the boat are parallel to each other.\nStep 2: The angle of depression and the angle of elevation form a pair of **alternate interior angles** across the same line of sight.\nStep 3: Alternate interior angles are congruent, so the angle of elevation from the boat is also 25°."
               },
               {
                 "question": "A ramp rises at a 10° angle of elevation and covers a horizontal distance of 40 feet. Using tan(10°) ≈ 0.176, approximately how much does the ramp rise vertically?",
@@ -3244,7 +3304,7 @@
                   "≈2.3 ft"
                 ],
                 "answerIndex": 1,
-                "explanation": "Tangent = opposite/adjacent, so rise = 40 × tan(10°) ≈ 40 × 0.176 ≈ 7 ft."
+                "explanation": "Step 1: The 40 ft horizontal distance is adjacent to the 10° angle, and the vertical rise is the opposite side.\nStep 2: Since tangent = opposite/adjacent, rise = 40 × tan(10°).\nStep 3: rise ≈ 40 × 0.176 ≈ 7 ft."
               },
               {
                 "question": "Which statement correctly describes the relationship between angle of elevation and angle of depression for the same line of sight between two points?",
@@ -3255,7 +3315,7 @@
                   "The angle of depression is always twice the angle of elevation"
                 ],
                 "answerIndex": 1,
-                "explanation": "Because the two horizontal **line of sight** references are parallel, **alternate interior angles** make the angle of elevation from below equal to the angle of depression from above."
+                "explanation": "Step 1: The horizontal lines of sight at the lower point and the higher point are parallel to each other.\nStep 2: The single line of sight connecting the two points crosses both parallels, creating a pair of **alternate interior angles**.\nStep 3: Since alternate interior angles are equal, the angle of elevation from the lower point always equals the angle of depression from the higher point."
               }
             ]
           }

@@ -1,7 +1,26 @@
 import { Link } from 'react-router-dom'
 import { getMissedItems } from '../lib/missedQuestions'
 import { findGradeForCourse } from '../data'
+import { useAiAddon } from '../lib/aiAddon'
+import { setPendingQuestion } from '../lib/aiPrefill'
 import Formatted from '../components/Formatted'
+
+function AskAiAboutItem({ item }) {
+  const aiAvailable = useAiAddon() === 'available'
+  if (!aiAvailable) return null
+
+  const prefill = `I got this question wrong: "${item.question}" I picked "${item.choices[item.selectedIndex]}" but the correct answer is "${item.choices[item.correctIndex]}". Can you explain why, in a way that helps me understand the concept?`
+
+  return (
+    <Link
+      to="/ask"
+      onClick={() => setPendingQuestion(prefill)}
+      className="mt-2 inline-block text-sm text-teal-600 hover:underline dark:text-teal-400"
+    >
+      🤖 Ask AI to explain this
+    </Link>
+  )
+}
 
 export default function ReviewPage() {
   const items = getMissedItems()
@@ -53,9 +72,10 @@ export default function ReviewPage() {
                         <span className="font-semibold text-emerald-600 dark:text-emerald-400">Correct answer: </span>
                         <span className="text-slate-600 dark:text-slate-300">{item.choices[item.correctIndex]}</span>
                       </p>
-                      <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+                      <p className="mt-1 whitespace-pre-line text-sm text-slate-500 dark:text-slate-400">
                         <Formatted text={item.explanation} />
                       </p>
+                      <AskAiAboutItem item={item} />
                       {grade && (
                         <Link
                           to={`/grade/${grade}/course/${courseId}/lesson/${item.lessonId}`}

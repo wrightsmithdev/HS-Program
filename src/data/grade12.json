@@ -290,7 +290,19 @@
                 "answerIndex": 2,
                 "explanation": "The Pentangle functions as **Symbolism**, condensing multiple chivalric virtues into a single visual emblem."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Anglo-Saxon epic and medieval romance offer two different visions of ideal manhood: the heroic code of comitatus and wyrd found in works like Beowulf, and the code of chivalry and courtly love found in romances like Sir Gawain and the Green Knight. Write an essay comparing these two value systems, explaining what each demands of a hero and what each fears or resists. Then argue which value system your literary and historical evidence suggests had more lasting influence on later English literature.",
+              "rubric": [
+                "States a clear, arguable thesis comparing the Anglo-Saxon heroic code and the medieval chivalric/courtly love code",
+                "Accurately explains at least two Anglo-Saxon concepts (e.g., comitatus, wyrd, heroic code) in the student's own words",
+                "Accurately explains at least two medieval romance concepts (e.g., chivalry, courtly love, allegory/symbolism) in the student's own words",
+                "Uses specific literary terminology from the unit correctly (epic, alliterative verse, kenning, chivalric romance, quest structure, etc.)",
+                "Organizes the comparison clearly, using either a point-by-point or block structure with logical transitions",
+                "Supports the final argument about lasting influence with reasoning rather than bare assertion",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       },
@@ -560,7 +572,19 @@
                 "answerIndex": 1,
                 "explanation": "**Dramatic Irony** heightens tension by letting the audience see what the character cannot."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Choose a Shakespearean tragedy you are familiar with, or reason from the general conventions of Shakespearean tragedy, and write an essay analyzing how the protagonist functions as a tragic hero. Identify the character's hamartia, explain how it interacts with external pressures to bring about the character's downfall, and discuss whether and when the character reaches anagnorisis. Explain how a technique such as soliloquy or dramatic irony deepens the audience's understanding of the character's tragedy.",
+              "rubric": [
+                "Presents a clear thesis identifying the protagonist and the central tragic flaw (hamartia) driving the plot",
+                "Correctly defines hamartia and applies it to a specific character or situation",
+                "Explains anagnorisis and identifies whether and when the character reaches this self-recognition",
+                "Discusses at least one dramatic technique (soliloquy, dramatic irony, or catharsis) and its effect on the audience",
+                "Uses tragic-hero vocabulary from the unit accurately (tragic hero, hamartia, anagnorisis, catharsis, dramatic irony)",
+                "Organizes the essay with a clear introduction, focused body paragraphs, and a conclusion",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       },
@@ -830,7 +854,19 @@
                 "answerIndex": 0,
                 "explanation": "Cavalier verse favors lighter, more musical expression suited to **Courtly Wit** rather than intense argument."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Seventeenth-century poets responded to love and mortality in strikingly different ways: the metaphysical poets used elaborate intellectual conceits and paradox to probe love and faith, while the Cavalier poets favored polished carpe diem verse urging readers to seize the moment before death. Write an essay comparing how these two poetic styles approach the themes of love and mortality, and argue which approach you find more persuasive or effective and why.",
+              "rubric": [
+                "States a clear thesis comparing metaphysical and Cavalier approaches to love and/or mortality",
+                "Accurately explains the metaphysical conceit and how it creates a surprising intellectual connection between dissimilar ideas",
+                "Accurately explains carpe diem and/or memento mori as used by the Cavalier poets",
+                "Uses correct terminology from the unit (wit, paradox, conceit, courtly wit, etc.)",
+                "Provides historical context connecting each style to its era, such as Donne's intellectual/religious milieu versus the royalist Cavalier court during the English Civil War",
+                "Organizes ideas logically, with clear paragraph structure and transitions between the two poetic styles",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       },
@@ -1100,7 +1136,19 @@
                 "answerIndex": 1,
                 "explanation": "**Henry Fielding** combined comedy and satire with an intrusive narrating voice across a wide social canvas."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "The early eighteenth-century novel marked a deliberate break from earlier romance traditions by grounding its stories in realistic, ordinary experience rather than idealized adventure. Write an essay explaining how the novel's emphasis on realism differed from the romance tradition, then compare two of the novel's early pioneers (Defoe, Richardson, or Fielding), analyzing how their differing techniques, such as invented factual narrative, the epistolary form, or comic satirical narration, served this new realist purpose.",
+              "rubric": [
+                "States a clear thesis explaining how the novel's realism marked a departure from earlier romance conventions",
+                "Accurately defines realism and explains at least one specific contrast with romance, such as ordinary versus idealized characters",
+                "Compares two named novelists (from Defoe, Richardson, and Fielding) and their distinct techniques",
+                "Uses correct terminology from the unit (novel, realism, epistolary novel, etc.)",
+                "Organizes the essay clearly, for example discussing one novelist fully before moving to the next, with clear transitions",
+                "Draws a supported conclusion about why the novel became prose fiction's most influential new form",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       },
@@ -1370,7 +1418,19 @@
                 "answerIndex": 3,
                 "explanation": "The second generation of **Romanticism** pushed the movement toward bolder, more intense emotional and philosophical territory."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Compare how two Romantic poets from different generations, for example one of Wordsworth or Coleridge from the first generation and one of Byron, Shelley, or Keats from the second, use nature, imagination, or individual experience to pursue Romanticism's reaction against Enlightenment rationalism. Explain what unites their Romantic values and what distinguishes their individual styles or concerns.",
+              "rubric": [
+                "States a clear thesis naming two poets from different Romantic generations and the essay's comparative argument",
+                "Explains at least one core Romantic value (nature, imagination, or individualism) and how each poet expresses it",
+                "Identifies a meaningful difference between the two poets' styles or concerns, such as plainspoken rural focus versus Byronic rebellion or Keatsian sensory intensity",
+                "Uses correct terminology from the unit (Romanticism, negative capability, Byronic hero, common language, etc.)",
+                "Grounds the discussion in the movement's historical/philosophical context, including its reaction against Enlightenment Rationalism and industrialization",
+                "Organizes the comparison with a clear structure and logical transitions",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       },
@@ -1640,7 +1700,19 @@
                 "answerIndex": 2,
                 "explanation": "Several Brontë novels follow the **Bildungsroman** form, tracking a heroine's development over time."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Victorian novelists used fiction to criticize their society from different angles: Charles Dickens exposed poverty and institutional injustice, while writers like the Brontë sisters challenged rigid gender roles and domestic expectations. Write an essay comparing these two forms of Victorian social criticism, explaining what each reveals about the limits Victorian society placed on individuals and how each author's chosen literary form, such as the serialized novel or the bildungsroman, supports that critique.",
+              "rubric": [
+                "States a clear thesis comparing Dickens's class/poverty-focused social criticism with the Brontës' gender-focused critique",
+                "Accurately explains at least one concept from Victorian social criticism (industrialization, reform themes, serialized novel)",
+                "Accurately explains at least one concept related to women's voices (domesticity, gender roles, madwoman trope, bildungsroman)",
+                "Uses correct terminology from the unit accurately and appropriately",
+                "Explains how a specific literary form (serialization or the bildungsroman) supports the author's critique",
+                "Organizes the essay clearly, with a logical progression between the two authors and topics",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       },
@@ -1910,7 +1982,19 @@
                 "answerIndex": 1,
                 "explanation": "Diverse contemporary voices have broadened the **Literary Canon** beyond its earlier, narrower scope."
               }
-            ]
+            ],
+            "essayPrompt": {
+              "prompt": "Twentieth-century British literature moved from Modernism's fragmentation and disillusionment after World War I to postcolonial literature's exploration of hybridity, diaspora, and a reshaped national identity. Write an essay explaining how postcolonial writers expanded or challenged the literary canon and national identity established earlier in the twentieth century, using concepts from both movements to support your argument.",
+              "rubric": [
+                "States a clear thesis addressing how postcolonial literature reshapes British national identity and/or the literary canon",
+                "Accurately explains at least one Modernist concept (fragmentation, disillusionment, allusion) as historical background",
+                "Accurately explains at least one postcolonial concept (hybridity, diaspora, national identity)",
+                "Uses correct terminology from the unit consistently and accurately",
+                "Connects the historical context of the British Empire's decline to the literary changes discussed",
+                "Organizes the essay with a clear structure linking the two movements to the overall argument",
+                "Free of major grammar, spelling, and punctuation errors"
+              ]
+            }
           }
         ]
       }
@@ -1994,7 +2078,7 @@
                   "It equals f(2) only if f is defined there"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since both one-sided **limits** agree at 5, the two-sided limit exists and also equals 5, regardless of whether f(2) is defined."
+                "explanation": "Step 1: Compare the two one-sided limits: lim x->2- f(x) = 5 and lim x->2+ f(x) = 5.\nStep 2: Since both **limits** agree, the two-sided limit exists and equals the common value: lim x->2 f(x) = 5."
               },
               {
                 "question": "For a piecewise function where lim x->3- f(x) = 4 and lim x->3+ f(x) = 7, what is true about lim x->3 f(x)?",
@@ -2005,7 +2089,7 @@
                   "It does not exist"
                 ],
                 "answerIndex": 3,
-                "explanation": "Because the **left-hand limit** and **right-hand limit** disagree, the two-sided limit does not exist at that point."
+                "explanation": "Step 1: Compare the one-sided limits: lim x->3- f(x) = 4 and lim x->3+ f(x) = 7.\nStep 2: Since the **left-hand limit** and right-hand limit are unequal (4 does not equal 7), lim x->3 f(x) does not exist."
               },
               {
                 "question": "A function f is defined everywhere except at x = 1, but as x approaches 1 from either side, f(x) gets closer to 6. What is lim x->1 f(x)?",
@@ -2016,7 +2100,7 @@
                   "Undefined, since limits require f(a) to exist"
                 ],
                 "answerIndex": 1,
-                "explanation": "A **limit** describes the trend of f(x) near a point, not the function's value at that point, so the limit is 6 even though f(1) is undefined."
+                "explanation": "Step 1: As x approaches 1 from both sides, f(x) approaches 6, so the left-hand and right-hand limits both equal 6.\nStep 2: A **limit** only describes behavior of f(x) near x = 1, not the value at x = 1, so lim x->1 f(x) = 6 even though f(1) is undefined."
               },
               {
                 "question": "Which scenario guarantees that lim x->a f(x) does NOT exist?",
@@ -2027,7 +2111,7 @@
                   "f is continuous at a"
                 ],
                 "answerIndex": 2,
-                "explanation": "By the definition of **existence of a limit**, the two-sided limit fails to exist precisely when the one-sided limits disagree."
+                "explanation": "Step 1: Recall that lim x->a f(x) exists only when the left-hand and right-hand limits both exist and are equal.\nStep 2: Therefore the only scenario that guarantees the two-sided limit fails is when the **left-hand and right-hand limits are unequal**."
               },
               {
                 "question": "Using a table of values, as x approaches 0 from the right in f(x) = 1/x, the values of f(x) increase without bound. How should this be described?",
@@ -2038,7 +2122,7 @@
                   "lim x->0- f(x) equals the same value"
                 ],
                 "answerIndex": 1,
-                "explanation": "When a **right-hand limit** increases without bound rather than approaching a finite number, the limit fails to exist in the usual (finite) sense, often described as the function tending toward infinity."
+                "explanation": "Step 1: As x approaches 0 from the right, the denominator x shrinks toward 0 while staying positive, so f(x) = 1/x grows without bound.\nStep 2: Because the **right-hand limit** never settles on a finite number, lim x->0+ f(x) does not exist in the usual sense."
               }
             ]
           },
@@ -2082,7 +2166,7 @@
                   "It does not exist"
                 ],
                 "answerIndex": 2,
-                "explanation": "Using the **factoring technique**, x^2 - 9 = (x-3)(x+3), so the expression simplifies to x+3, and substituting x = 3 gives 6."
+                "explanation": "Step 1: Factor the numerator: x^2 - 9 = (x-3)(x+3).\nStep 2: Cancel the common factor (x-3) using the **factoring technique** to get x+3, then substitute x = 3: 3+3 = 6."
               },
               {
                 "question": "Evaluate lim x->5 (2x + 1) using direct substitution.",
@@ -2093,7 +2177,7 @@
                   "1"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since 2x + 1 is a polynomial and continuous everywhere, **direct substitution** gives 2(5) + 1 = 11."
+                "explanation": "Step 1: Since 2x + 1 is a polynomial, it is continuous everywhere, so **direct substitution** can be used.\nStep 2: Substitute x = 5: 2(5) + 1 = 11."
               },
               {
                 "question": "What is lim x->0 (sqrt(x+4) - 2)/x?",
@@ -2104,7 +2188,7 @@
                   "It does not exist"
                 ],
                 "answerIndex": 2,
-                "explanation": "Multiplying by the **conjugate** sqrt(x+4)+2 gives x/(x(sqrt(x+4)+2)) = 1/(sqrt(x+4)+2), and substituting x=0 yields 1/4."
+                "explanation": "Step 1: Multiply numerator and denominator by the **conjugate** sqrt(x+4)+2: [(x+4)-4] / [x(sqrt(x+4)+2)] = x / [x(sqrt(x+4)+2)].\nStep 2: Cancel the x's to get 1/(sqrt(x+4)+2).\nStep 3: Substitute x = 0: 1/(sqrt(4)+2) = 1/(2+2) = 1/4."
               },
               {
                 "question": "When direct substitution into lim x->2 (x^2 - 4)/(x - 2) is attempted, what result occurs, and why does it not mean the limit fails to exist?",
@@ -2115,7 +2199,7 @@
                   "The result is undefined because x-2 cannot be zero anywhere"
                 ],
                 "answerIndex": 1,
-                "explanation": "Plugging in x=2 gives 0/0, an **indeterminate form**; factoring the numerator as (x-2)(x+2) allows cancellation and reveals the true limit of 4."
+                "explanation": "Step 1: Substituting x = 2 directly gives (4-4)/(2-2) = 0/0, an **indeterminate form**, which does not mean the limit fails to exist.\nStep 2: Factor the numerator: x^2-4 = (x-2)(x+2), then cancel the (x-2) factor to get x+2.\nStep 3: Substitute x = 2 into the remaining x+2 to find the true limit: 2+2 = 4."
               },
               {
                 "question": "According to the limit laws, if lim x->a f(x) = 3 and lim x->a g(x) = -2, what is lim x->a [f(x) * g(x)]?",
@@ -2126,7 +2210,7 @@
                   "-2/3"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **limit laws** state that the limit of a product equals the product of the limits, so 3 * (-2) = -6."
+                "explanation": "Step 1: The **limit laws** state that lim[f(x)*g(x)] = (lim f(x)) * (lim g(x)) whenever both individual limits exist.\nStep 2: Substitute the given values: 3 * (-2) = -6."
               }
             ]
           },
@@ -2170,7 +2254,7 @@
                   "The function must be a polynomial"
                 ],
                 "answerIndex": 2,
-                "explanation": "The formal definition of **continuity** requires all three conditions to hold simultaneously at the point."
+                "explanation": "Step 1: Recall the definition of **continuity** at x = a: f(a) must be defined, lim x->a f(x) must exist, and the two must be equal.\nStep 2: All three conditions must hold at the same time — if any one of them fails, f is not continuous at a."
               },
               {
                 "question": "The function f(x) = (x^2 - 1)/(x - 1), which simplifies to x + 1 everywhere except x = 1, has what kind of discontinuity at x = 1?",
@@ -2181,7 +2265,7 @@
                   "No discontinuity; it is continuous"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since lim x->1 f(x) = 2 exists but f(1) is undefined, this is a **removable discontinuity**, a hole that could be filled by defining f(1) = 2."
+                "explanation": "Step 1: Factor and simplify: f(x) = (x^2-1)/(x-1) = (x-1)(x+1)/(x-1) = x+1 for x not equal to 1, so lim x->1 f(x) = 1+1 = 2.\nStep 2: Since this limit exists (equals 2) but f(1) is undefined, the function has a **removable discontinuity**, a hole that could be filled by defining f(1) = 2."
               },
               {
                 "question": "What is lim x->infinity (3x^2 + 1)/(x^2 - 5)?",
@@ -2192,7 +2276,7 @@
                   "1"
                 ],
                 "answerIndex": 1,
-                "explanation": "For a **limit at infinity** of a rational function with equal-degree numerator and denominator, the limit equals the ratio of leading coefficients, 3/1 = 3."
+                "explanation": "Step 1: Divide the numerator and denominator by the highest power of x present, x^2: (3 + 1/x^2) / (1 - 5/x^2).\nStep 2: As x approaches infinity, the terms 1/x^2 and 5/x^2 vanish, leaving 3/1 = 3, the ratio of leading coefficients for this **limit at infinity**."
               },
               {
                 "question": "The function f(x) = 1/(x - 2) behaves how near x = 2, and what does this indicate?",
@@ -2203,7 +2287,7 @@
                   "It has a jump discontinuity at x = 2"
                 ],
                 "answerIndex": 1,
-                "explanation": "As x approaches 2, the denominator approaches 0 while the numerator does not, so f(x) grows without bound, producing an **infinite discontinuity** and a vertical asymptote."
+                "explanation": "Step 1: As x approaches 2, the denominator (x-2) approaches 0 while the numerator stays at 1, so the magnitude of f(x) grows without bound.\nStep 2: This unbounded growth is an **infinite discontinuity** at x = 2, which corresponds to a vertical asymptote there."
               },
               {
                 "question": "A function defined piecewise has lim x->4- f(x) = 2 and lim x->4+ f(x) = 6, with f(4) = 2. What type of discontinuity occurs at x = 4?",
@@ -2214,7 +2298,7 @@
                   "There is no discontinuity"
                 ],
                 "answerIndex": 2,
-                "explanation": "Because the one-sided limits exist but are unequal (2 versus 6), this is a **jump discontinuity**, regardless of the value of f(4)."
+                "explanation": "Step 1: Compare the one-sided limits: lim x->4- f(x) = 2 and lim x->4+ f(x) = 6; since both exist but disagree, this is not a removable or infinite discontinuity.\nStep 2: A finite disagreement between one-sided limits defines a **jump discontinuity**, regardless of the actual value f(4) = 2."
               }
             ]
           }
@@ -2264,7 +2348,7 @@
                   "9 m/s"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **average rate of change** is (s(3)-s(1))/(3-1) = (9-1)/2 = 4 m/s, matching the slope of the secant line between those points."
+                "explanation": "Step 1: Compute the position at each endpoint: s(1) = 1^2 = 1 and s(3) = 3^2 = 9.\nStep 2: The **average rate of change** is (s(3)-s(1))/(3-1) = (9-1)/2 = 4 m/s."
               },
               {
                 "question": "As the two points defining a secant line get closer together on a smooth curve, the secant line's slope approaches what?",
@@ -2275,7 +2359,7 @@
                   "The average of the two y-values"
                 ],
                 "answerIndex": 1,
-                "explanation": "This is the geometric heart of the **derivative**: the secant line's slope converges to the **tangent line**'s slope as the interval shrinks to a point."
+                "explanation": "Step 1: As the two points defining the secant line move closer together, the length of the interval between them shrinks toward zero.\nStep 2: In that limit, the secant line's slope converges to the slope of the **tangent line** at that point, which is exactly how the **derivative** is defined."
               },
               {
                 "question": "If f(x) represents temperature over time and f'(5) = -2, what does this tell us?",
@@ -2286,7 +2370,7 @@
                   "The temperature will be -2 degrees at t = 6"
                 ],
                 "answerIndex": 2,
-                "explanation": "The derivative gives the **instantaneous rate of change**, so a negative value means the quantity is decreasing at that exact moment, not over an interval."
+                "explanation": "Step 1: The derivative f'(5) gives the **instantaneous rate of change** of temperature at the single moment t = 5, not an average over some interval.\nStep 2: A value of f'(5) = -2 means the temperature is decreasing at a rate of 2 degrees per unit time exactly at t = 5."
               },
               {
                 "question": "For s(t) = 16t^2 (distance fallen in feet after t seconds), what best describes the instantaneous velocity at t = 2?",
@@ -2297,7 +2381,7 @@
                   "The average rate of change from t=2 to t=4"
                 ],
                 "answerIndex": 1,
-                "explanation": "Instantaneous **velocity** is the derivative of position, which geometrically corresponds to the slope of the **tangent line** at that specific instant."
+                "explanation": "Step 1: Instantaneous **velocity** is defined as the derivative of position, s'(t), evaluated at one specific instant.\nStep 2: Geometrically, s'(2) equals the slope of the **tangent line** to the graph of s(t) at t = 2, not an average slope over any interval."
               },
               {
                 "question": "Two secant lines are drawn on f(x) = x^2: one from x=1 to x=2, and one from x=1 to x=1.1. Which secant line's slope is closer to f'(1)?",
@@ -2308,7 +2392,7 @@
                   "Neither relates to f'(1) at all"
                 ],
                 "answerIndex": 1,
-                "explanation": "As the interval used for the **secant line** shrinks, its slope more closely approximates the **instantaneous rate of change**, so the smaller interval gives a closer estimate."
+                "explanation": "Step 1: For f(x) = x^2, the secant from x=1 to x=2 has slope (f(2)-f(1))/(2-1) = (4-1)/1 = 3.\nStep 2: The secant from x=1 to x=1.1 has slope (f(1.1)-f(1))/0.1 = (1.21-1)/0.1 = 2.1.\nStep 3: Since f'(1) = 2, the slope 2.1 from the smaller interval is closer, showing a smaller interval used for the **secant line** better approximates the **instantaneous rate of change**."
               }
             ]
           },
@@ -2352,7 +2436,7 @@
                   "2"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **difference quotient** gives ((x+h)^2 - x^2)/h = (2xh + h^2)/h = 2x + h, and taking the limit as h->0 leaves 2x."
+                "explanation": "Step 1: Form the **difference quotient**: [f(x+h)-f(x)]/h = [(x+h)^2 - x^2]/h = (2xh + h^2)/h.\nStep 2: Simplify to 2x + h, then take the limit as h approaches 0 to get f'(x) = 2x."
               },
               {
                 "question": "For f(x) = 5 (a constant function), what does the limit definition of the derivative give for f'(x)?",
@@ -2363,7 +2447,7 @@
                   "x"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **difference quotient** is (5 - 5)/h = 0/h = 0 for all h, so the limit as h->0 is 0, since a constant function never changes."
+                "explanation": "Step 1: The **difference quotient** is [f(x+h)-f(x)]/h = (5-5)/h = 0/h = 0 for every h not equal to 0.\nStep 2: Taking the limit as h approaches 0 still gives 0, confirming a constant function has derivative 0 everywhere since it never changes."
               },
               {
                 "question": "Which statement correctly describes the relationship between continuity and differentiability?",
@@ -2374,7 +2458,7 @@
                   "Every differentiable function is discontinuous"
                 ],
                 "answerIndex": 1,
-                "explanation": "The theorem **differentiability implies continuity** guarantees the one-way relationship: differentiability is a stronger requirement than continuity."
+                "explanation": "Step 1: The theorem **differentiability implies continuity** states that if f'(a) exists, then f must be continuous at a.\nStep 2: The converse is false: a function can be continuous at a point without being differentiable there, so the correct relationship is one-directional."
               },
               {
                 "question": "The function f(x) = |x| is continuous at x = 0 but is not differentiable there. Why?",
@@ -2385,7 +2469,7 @@
                   "Because |x| is not continuous anywhere"
                 ],
                 "answerIndex": 2,
-                "explanation": "At x=0, |x| has a **corner** where the slope approaches -1 from the left and +1 from the right, so the difference quotient's limit does not exist even though the function is continuous."
+                "explanation": "Step 1: For f(x) = |x|, the difference quotient computed from the left gives slope -1, while from the right it gives slope +1.\nStep 2: Since these one-sided slopes of the difference quotient disagree, the limit defining f'(0) does not exist, creating a **corner** even though f is continuous at x = 0."
               },
               {
                 "question": "Using the limit definition, evaluate f'(x) for f(x) = 3x + 2.",
@@ -2396,7 +2480,7 @@
                   "3x + 2"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **difference quotient** is (3(x+h)+2 - (3x+2))/h = 3h/h = 3, so the limit as h->0 is simply 3, matching the constant slope of this line."
+                "explanation": "Step 1: Form the **difference quotient**: [f(x+h)-f(x)]/h = [3(x+h)+2 - (3x+2)]/h = 3h/h.\nStep 2: Simplify to 3 for h not equal to 0, so the limit as h approaches 0 is also 3, matching this line's constant slope."
               }
             ]
           },
@@ -2440,7 +2524,7 @@
                   "6x - 5x"
                 ],
                 "answerIndex": 0,
-                "explanation": "Applying the **power rule** and **constant multiple rule** term by term: d/dx(3x^2) = 6x and d/dx(-5x) = -5, giving 6x - 5."
+                "explanation": "Step 1: Apply the **power rule** to each term: d/dx(3x^2) = 6x and d/dx(-5x) = -5.\nStep 2: Add the results: f'(x) = 6x - 5."
               },
               {
                 "question": "Using the product rule, what is the derivative of f(x) = x^2 * (3x + 1)?",
@@ -2451,7 +2535,7 @@
                   "3x^2 + x^2"
                 ],
                 "answerIndex": 2,
-                "explanation": "By the **product rule**, d/dx[x^2 * (3x+1)] = (2x)(3x+1) + (x^2)(3), which simplifies to 6x^2 + 2x + 3x^2 = 9x^2 + 2x, matching choice C before simplification."
+                "explanation": "Step 1: By the **product rule**, d/dx[u*v] = u'v + uv' with u = x^2, v = 3x+1, u' = 2x, v' = 3.\nStep 2: Substitute: f'(x) = (2x)(3x+1) + (x^2)(3), which is choice C before combining like terms (it simplifies further to 9x^2+2x)."
               },
               {
                 "question": "What is the derivative of f(x) = x^5 - 4x^3 + 7?",
@@ -2462,7 +2546,7 @@
                   "x^4 - 3x^2"
                 ],
                 "answerIndex": 0,
-                "explanation": "Using the **power rule** on each term, d/dx(x^5) = 5x^4, d/dx(-4x^3) = -12x^2, and the derivative of the constant 7 is 0, giving 5x^4 - 12x^2."
+                "explanation": "Step 1: Apply the **power rule** term by term: d/dx(x^5) = 5x^4 and d/dx(-4x^3) = -12x^2.\nStep 2: The derivative of the constant 7 is 0, so f'(x) = 5x^4 - 12x^2."
               },
               {
                 "question": "Using the quotient rule, what is the derivative of f(x) = x/(x+1)?",
@@ -2473,7 +2557,7 @@
                   "1"
                 ],
                 "answerIndex": 0,
-                "explanation": "By the **quotient rule**, f'(x) = [(1)(x+1) - x(1)]/(x+1)^2 = (x+1-x)/(x+1)^2 = 1/(x+1)^2."
+                "explanation": "Step 1: By the **quotient rule**, d/dx[u/v] = (u'v - uv')/v^2 with u = x, v = x+1, u' = 1, v' = 1.\nStep 2: Substitute: f'(x) = [(1)(x+1) - x(1)]/(x+1)^2 = (x+1-x)/(x+1)^2 = 1/(x+1)^2."
               },
               {
                 "question": "A student computes the derivative of f(x) = x^2 * x^3 as f'(x) = 2x * 3x^2 = 6x^3, applying derivatives directly to each factor. What error did they make?",
@@ -2484,7 +2568,7 @@
                   "There is no error; 6x^3 is correct"
                 ],
                 "answerIndex": 1,
-                "explanation": "The derivative of a product is not the product of the derivatives; the **product rule** must be used, giving f'(x) = 2x*x^3 + x^2*3x^2 = 2x^4 + 3x^4 = 5x^4, which also matches simplifying x^5 directly with the power rule."
+                "explanation": "Step 1: The derivative of a product is not the product of the individual derivatives, so multiplying 2x by 3x^2 to get 6x^3 is incorrect; the **product rule** must be used instead.\nStep 2: Correctly: f'(x) = (2x)(x^3) + (x^2)(3x^2) = 2x^4 + 3x^4 = 5x^4, which matches simplifying f(x) = x^2*x^3 = x^5 first and applying the power rule."
               }
             ]
           }
@@ -2530,7 +2614,7 @@
                   "8x(2x+3)^3"
                 ],
                 "answerIndex": 1,
-                "explanation": "By the **chain rule**, differentiate the outer power function to get 4(2x+3)^3, then multiply by the derivative of the inner function (2x+3), which is 2, giving 8(2x+3)^3."
+                "explanation": "Step 1: By the **chain rule**, differentiate the outer power function first: d/du(u^4) = 4u^3 with u = 2x+3, giving 4(2x+3)^3.\nStep 2: Multiply by the derivative of the inner function, d/dx(2x+3) = 2: f'(x) = 4(2x+3)^3 * 2 = 8(2x+3)^3."
               },
               {
                 "question": "What is the derivative of f(x) = sqrt(x^2 + 1)?",
@@ -2541,7 +2625,7 @@
                   "sqrt(2x)"
                 ],
                 "answerIndex": 1,
-                "explanation": "Writing f(x) = (x^2+1)^(1/2) and applying the **chain rule** gives (1/2)(x^2+1)^(-1/2) * 2x, which simplifies to x/sqrt(x^2+1)."
+                "explanation": "Step 1: Write f(x) = (x^2+1)^(1/2) and apply the **chain rule**: the outer derivative is (1/2)(x^2+1)^(-1/2).\nStep 2: Multiply by the inner derivative 2x: f'(x) = (1/2)(x^2+1)^(-1/2) * 2x = x(x^2+1)^(-1/2) = x/sqrt(x^2+1)."
               },
               {
                 "question": "A student differentiates f(x) = (5x)^3 and writes f'(x) = 3(5x)^2, forgetting a factor. What is the correct derivative?",
@@ -2552,7 +2636,7 @@
                   "15x^2"
                 ],
                 "answerIndex": 1,
-                "explanation": "This is a classic **chain rule mistake**: the derivative of the inner function 5x, which is 5, must also be included, giving 3(5x)^2 * 5 = 15(5x)^2."
+                "explanation": "Step 1: This is a classic **chain rule mistake**: differentiating the outer power gives 3(5x)^2, but the derivative of the inner function 5x, which is 5, was left out.\nStep 2: The correct derivative includes that factor: f'(x) = 3(5x)^2 * 5 = 15(5x)^2."
               },
               {
                 "question": "In the composite function h(x) = f(g(x)) where f(u) = u^5 and g(x) = 3x^2 - 1, what does the chain rule say h'(x) equals?",
@@ -2563,7 +2647,7 @@
                   "g'(x) alone"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **chain rule** requires multiplying the derivative of the **outer function** evaluated at g(x) by the derivative of the **inner function**, g'(x)."
+                "explanation": "Step 1: For h(x) = f(g(x)) with f(u) = u^5, the outer derivative is f'(u) = 5u^4, so f'(g(x)) = 5(g(x))^4.\nStep 2: The **chain rule** requires multiplying this by the derivative of the **inner function**, g'(x): h'(x) = 5(g(x))^4 * g'(x)."
               },
               {
                 "question": "What is the derivative of f(x) = (x^3 - 2x)^2?",
@@ -2574,7 +2658,7 @@
                   "2(x^3-2x)(3x^2)"
                 ],
                 "answerIndex": 1,
-                "explanation": "By the **chain rule**, differentiate the outer square to get 2(x^3-2x), then multiply by the derivative of the inner function, 3x^2 - 2, giving 2(x^3-2x)(3x^2-2)."
+                "explanation": "Step 1: By the **chain rule**, differentiate the outer square first: d/du(u^2) = 2u with u = x^3-2x, giving 2(x^3-2x).\nStep 2: Multiply by the inner derivative, d/dx(x^3-2x) = 3x^2-2: f'(x) = 2(x^3-2x)(3x^2-2)."
               }
             ]
           },
@@ -2618,7 +2702,7 @@
                   "sec^2(x)"
                 ],
                 "answerIndex": 1,
-                "explanation": "One of the core **trigonometric derivatives** states that d/dx(sin x) = cos x."
+                "explanation": "Step 1: This is one of the core **trigonometric derivatives**: d/dx(sin x) = cos x.\nStep 2: Since sin(x) here is not composed with another function, no chain rule factor is needed, so f'(x) = cos(x)."
               },
               {
                 "question": "What is the derivative of f(x) = e^(3x)?",
@@ -2629,7 +2713,7 @@
                   "e^3"
                 ],
                 "answerIndex": 1,
-                "explanation": "Using the **exponential derivative** rule with the chain rule, the derivative of e^u is e^u * u', so d/dx(e^(3x)) = e^(3x) * 3 = 3e^(3x)."
+                "explanation": "Step 1: Using the **exponential derivative** rule, d/dx(e^u) = e^u * u', with u = 3x so u' = 3.\nStep 2: Substitute: f'(x) = e^(3x) * 3 = 3e^(3x)."
               },
               {
                 "question": "What is the derivative of f(x) = ln(x^2 + 1)?",
@@ -2640,7 +2724,7 @@
                   "1/(2x)"
                 ],
                 "answerIndex": 1,
-                "explanation": "Applying the **logarithmic derivative** rule d/dx(ln u) = u'/u with the chain rule, the inner derivative 2x goes on top: 2x/(x^2+1)."
+                "explanation": "Step 1: Apply the **logarithmic derivative** rule d/dx(ln u) = u'/u with u = x^2+1, so u' = 2x.\nStep 2: Substitute: f'(x) = 2x/(x^2+1)."
               },
               {
                 "question": "What is the derivative of f(x) = cos(x)?",
@@ -2651,7 +2735,7 @@
                   "-cos(x)"
                 ],
                 "answerIndex": 1,
-                "explanation": "Among the standard **trigonometric derivatives**, d/dx(cos x) = -sin x, with the negative sign being a common point students forget."
+                "explanation": "Step 1: Among the standard **trigonometric derivatives**, d/dx(cos x) = -sin x.\nStep 2: The negative sign is essential here, so f'(x) = -sin(x), a common point students forget to include."
               },
               {
                 "question": "What is the derivative of f(x) = 2^x?",
@@ -2662,7 +2746,7 @@
                   "ln 2"
                 ],
                 "answerIndex": 2,
-                "explanation": "By the **general exponential rule**, d/dx(b^x) = b^x * ln b, so for base 2 the derivative is 2^x * ln 2, unlike e^x which has no extra factor since ln e = 1."
+                "explanation": "Step 1: By the **general exponential rule**, d/dx(b^x) = b^x * ln b for any positive base b.\nStep 2: For base 2, this gives f'(x) = 2^x * ln 2, unlike e^x, which has no extra factor since ln e = 1."
               }
             ]
           },
@@ -2706,7 +2790,7 @@
                   "2x - 2y"
                 ],
                 "answerIndex": 0,
-                "explanation": "Differentiating both sides with **implicit differentiation** gives 2x + 2y(dy/dx) = 0; solving for dy/dx yields dy/dx = -x/y."
+                "explanation": "Step 1: Differentiate both sides with respect to x using **implicit differentiation**: 2x + 2y(dy/dx) = 0.\nStep 2: Solve for dy/dx: dy/dx = -2x/2y = -x/y."
               },
               {
                 "question": "What is the second derivative of f(x) = x^4?",
@@ -2717,7 +2801,7 @@
                   "4x^2"
                 ],
                 "answerIndex": 1,
-                "explanation": "The first derivative is f'(x) = 4x^3; differentiating again to find the **second derivative** gives f''(x) = 12x^2."
+                "explanation": "Step 1: First differentiate f(x) = x^4 to get f'(x) = 4x^3.\nStep 2: Differentiate again to find the **second derivative**: f''(x) = 12x^2."
               },
               {
                 "question": "Given the equation xy = 6, what is dy/dx using implicit differentiation?",
@@ -2728,7 +2812,7 @@
                   "6/x"
                 ],
                 "answerIndex": 0,
-                "explanation": "Applying the **product rule** within **implicit differentiation**: y + x(dy/dx) = 0, so dy/dx = -y/x."
+                "explanation": "Step 1: Differentiate both sides of xy = 6 using the **product rule** within **implicit differentiation**: d/dx(xy) = y + x(dy/dx), and d/dx(6) = 0, so y + x(dy/dx) = 0.\nStep 2: Solve for dy/dx: dy/dx = -y/x."
               },
               {
                 "question": "If s(t) represents position and s''(t) = 4, what does this value represent?",
@@ -2739,7 +2823,7 @@
                   "The velocity is increasing without bound"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **second derivative** of position with respect to time is **acceleration**, so a constant value of 4 means the acceleration is unchanging."
+                "explanation": "Step 1: The **second derivative** of position with respect to time gives acceleration, a(t) = s''(t).\nStep 2: A constant value of s''(t) = 4 means the acceleration is unchanging at 4, describing neither velocity nor position directly."
               },
               {
                 "question": "For the implicit curve x^2 + xy + y^2 = 7, what term arises from differentiating xy with respect to x?",
@@ -2750,7 +2834,7 @@
                   "xy'"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since xy is a product of two functions of x, the **product rule** combined with **implicit differentiation** gives d/dx(xy) = y + x(dy/dx)."
+                "explanation": "Step 1: xy is a product of two functions of x (x itself and y(x)), so differentiating it requires the **product rule**.\nStep 2: Combined with **implicit differentiation** (treating y as a function of x), d/dx(xy) = (1)(y) + x(dy/dx) = y + x(dy/dx)."
               }
             ]
           }
@@ -2796,7 +2880,7 @@
                   "216*pi cm^3/s"
                 ],
                 "answerIndex": 2,
-                "explanation": "Differentiating the **constraint equation** gives dV/dt = 4*pi*r^2*(dr/dt); substituting r=3 and dr/dt=2 gives 4*pi*9*2 = 72*pi cm^3/s."
+                "explanation": "Step 1: Differentiate V = (4/3)*pi*r^3 with respect to time using the **chain rule** on this **constraint equation**: dV/dt = 4*pi*r^2*(dr/dt).\nStep 2: Substitute r = 3 and dr/dt = 2: dV/dt = 4*pi*(3)^2*(2) = 4*pi*9*2 = 72*pi cm^3/s."
               },
               {
                 "question": "In a related rates problem involving a ladder sliding down a wall, which equation typically serves as the constraint equation?",
@@ -2807,7 +2891,7 @@
                   "The slope formula between two points"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the ladder, wall, and ground form a right triangle of fixed length L, the **constraint equation** relating the changing legs x and y is the Pythagorean theorem."
+                "explanation": "Step 1: The ladder, wall, and ground form a right triangle whose hypotenuse (the ladder) has fixed length L.\nStep 2: The **constraint equation** relating the changing legs x (base) and y (height) is the Pythagorean theorem, x^2 + y^2 = L^2."
               },
               {
                 "question": "Why must dx/dt and dy/dt both appear after implicitly differentiating x^2 + y^2 = 100 with respect to time?",
@@ -2818,7 +2902,7 @@
                   "Because only dx/dt is relevant in related rates"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Implicit time differentiation** requires applying the chain rule to every variable that depends on time, producing a rate term for each one."
+                "explanation": "Step 1: Both x and y are functions of time in this problem, so differentiating x^2 + y^2 = 100 with respect to t requires applying the chain rule to each variable.\nStep 2: This produces 2x(dx/dt) + 2y(dy/dt) = 0, a rate term for every variable that depends on time, which is the essence of **implicit time differentiation**."
               },
               {
                 "question": "A square's side length s is increasing at 3 cm/s. Using A = s^2, what is dA/dt when s = 5 cm?",
@@ -2829,7 +2913,7 @@
                   "6 cm^2/s"
                 ],
                 "answerIndex": 2,
-                "explanation": "Differentiating A = s^2 with respect to time gives dA/dt = 2s(ds/dt); substituting s=5 and ds/dt=3 gives 2(5)(3) = 30 cm^2/s at that **snapshot in time**."
+                "explanation": "Step 1: Differentiate A = s^2 with respect to time: dA/dt = 2s(ds/dt).\nStep 2: Substitute s = 5 and ds/dt = 3 at this **snapshot in time**: dA/dt = 2(5)(3) = 30 cm^2/s."
               },
               {
                 "question": "In a related rates setup, why is it important to substitute specific numerical values only AFTER differentiating, not before?",
@@ -2840,7 +2924,7 @@
                   "Values should never be substituted in related rates problems"
                 ],
                 "answerIndex": 1,
-                "explanation": "If a value is plugged in before differentiating, that quantity is treated as fixed, and its **rate of change with respect to time** would be lost from the equation entirely."
+                "explanation": "Step 1: Differentiation must be applied to the general relationship between the variables before any specific numbers are plugged in.\nStep 2: If a value is substituted too early, that quantity is effectively treated as constant, so its **rate of change with respect to time** would incorrectly vanish from the equation."
               }
             ]
           },
@@ -2892,7 +2976,7 @@
                   "x = -2"
                 ],
                 "answerIndex": 1,
-                "explanation": "Setting f'(x) = 2x - 4 = 0 and solving gives x = 2, the only **critical point** of this parabola."
+                "explanation": "Step 1: Compute the derivative: f'(x) = 2x - 4.\nStep 2: Set f'(x) = 0 and solve: 2x - 4 = 0 gives x = 2, the only **critical point**."
               },
               {
                 "question": "At a critical point where f''(x) < 0, what does the second derivative test conclude?",
@@ -2903,7 +2987,7 @@
                   "There is no extremum there"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **second derivative test** states that a negative second derivative at a critical point indicates the graph is concave down there, meaning a local maximum."
+                "explanation": "Step 1: A negative second derivative at a critical point means the graph is concave down there.\nStep 2: By the **second derivative test**, concave down at a critical point indicates a local maximum."
               },
               {
                 "question": "For f(x) = x^3, f'(x) = 3x^2 = 0 gives a critical point at x = 0, but f''(0) = 0. What should be used to classify this point?",
@@ -2914,7 +2998,7 @@
                   "No classification is possible for any critical point with f''=0"
                 ],
                 "answerIndex": 1,
-                "explanation": "When f''=0, the **second derivative test** gives no information, so the **first derivative test** should be used instead; since f'(x)=3x^2 does not change sign at x=0, it is neither a max nor a min."
+                "explanation": "Step 1: Since f''(0) = 0, the **second derivative test** gives no information about the point x = 0.\nStep 2: Using the **first derivative test** instead: f'(x) = 3x^2 is greater than or equal to 0 for all x, so f' does not change sign at x = 0, meaning it is neither a local max nor a local min."
               },
               {
                 "question": "A company's profit function P(x) has a local maximum at x = 50 units but an even higher profit value at the endpoint x = 100 of the allowed production interval. What is true about x = 100?",
@@ -2925,7 +3009,7 @@
                   "It is only a local maximum, not an absolute one"
                 ],
                 "answerIndex": 1,
-                "explanation": "**Absolute extrema** on a closed interval can occur at endpoints as well as critical points, so comparing all candidate values, including endpoints, is necessary to find the true absolute maximum."
+                "explanation": "Step 1: **Absolute extrema** on a closed interval can occur either at critical points or at the endpoints of the interval.\nStep 2: Since P(100) exceeds the local maximum value at x = 50, x = 100 is the absolute maximum on the interval even though it is an endpoint rather than a critical point."
               },
               {
                 "question": "For f(x) = x^2 on the interval [-1, 3], what is the absolute maximum value?",
@@ -2936,7 +3020,7 @@
                   "3, at x = 3"
                 ],
                 "answerIndex": 2,
-                "explanation": "Checking the critical point x=0 (giving f=0) and both endpoints (f(-1)=1 and f(3)=9), the **absolute extremum** maximum value on the closed interval is 9 at x=3."
+                "explanation": "Step 1: Find the critical point: f'(x) = 2x = 0 gives x = 0, where f(0) = 0.\nStep 2: Evaluate at the endpoints: f(-1) = 1 and f(3) = 9. Comparing all candidates {0, 1, 9}, the **absolute extremum** maximum is 9 at x = 3."
               },
               {
                 "question": "A function is continuous on the closed interval [2, 8]. What does the Extreme Value Theorem guarantee?",
@@ -2947,7 +3031,7 @@
                   "The function has no local extrema on [2, 8]"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **Extreme Value Theorem** guarantees a continuous function on a closed interval attains both an absolute max and absolute min somewhere on that interval — it does not say anything about how many critical points exist."
+                "explanation": "Step 1: The **Extreme Value Theorem** applies to any function continuous on a closed interval, here [2, 8].\nStep 2: It guarantees the function attains both an absolute maximum and an absolute minimum somewhere on [2, 8], but makes no claim about how many critical points exist."
               }
             ]
           },
@@ -2991,7 +3075,7 @@
                   "The function is undefined at x = 0"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since f''(x) = 6x changes sign from negative to positive at x=0, this is an **inflection point** where the graph shifts from concave down to concave up."
+                "explanation": "Step 1: Compute the second derivative: f''(x) = 6x for f(x) = x^3.\nStep 2: f''(x) is negative for x < 0 and positive for x > 0, so concavity switches sign at x = 0, making it an **inflection point**."
               },
               {
                 "question": "According to the Mean Value Theorem, if f is continuous on [0,4] and differentiable on (0,4) with f(0)=2 and f(4)=10, what must be true?",
@@ -3002,7 +3086,7 @@
                   "f'(0) = f'(4)"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **Mean Value Theorem** guarantees a point c where f'(c) equals the average rate of change, (10-2)/(4-0) = 8/4 = 2, so f'(c) = 2 for some c in (0,4)."
+                "explanation": "Step 1: Compute the average rate of change over [0,4]: (f(4)-f(0))/(4-0) = (10-2)/4 = 2.\nStep 2: The **Mean Value Theorem** guarantees some c in (0,4) where f'(c) equals this average rate, so f'(c) = 2."
               },
               {
                 "question": "If f'(x) > 0 on the interval (2, 5), what does this indicate about the graph of f on that interval?",
@@ -3013,7 +3097,7 @@
                   "The graph has an inflection point"
                 ],
                 "answerIndex": 2,
-                "explanation": "A positive first derivative on an **increasing/decreasing interval** means the function's values are rising as x increases, so f is increasing there."
+                "explanation": "Step 1: A positive first derivative means the slope of the tangent line is positive throughout the interval (2,5).\nStep 2: On this **increasing/decreasing interval**, positive slope means the function's output values rise as x increases, so f is increasing there."
               },
               {
                 "question": "A function has f''(x) < 0 on (-infinity, 1) and f''(x) > 0 on (1, infinity). What can be concluded about x = 1?",
@@ -3024,7 +3108,7 @@
                   "It is not in the domain of f"
                 ],
                 "answerIndex": 2,
-                "explanation": "Since concavity switches from **concave down** to **concave up** at x=1, this point is an **inflection point**, regardless of whether it is also an extremum."
+                "explanation": "Step 1: f''(x) is negative on (-infinity, 1), meaning the graph is **concave down**, and positive on (1, infinity), meaning it is **concave up**.\nStep 2: Since concavity switches at x = 1, that point is an **inflection point**, regardless of whether it is also an extremum."
               },
               {
                 "question": "Which condition is required for the Mean Value Theorem to guarantee a point c with f'(c) equal to the average rate of change over [a,b]?",
@@ -3035,7 +3119,7 @@
                   "f must have a critical point in (a,b)"
                 ],
                 "answerIndex": 1,
-                "explanation": "The hypotheses of the **Mean Value Theorem** require continuity on the closed interval and differentiability on the open interval; without both, the guarantee does not apply."
+                "explanation": "Step 1: The **Mean Value Theorem** requires two hypotheses on the interval [a,b]: f must be continuous on the closed interval [a,b] and differentiable on the open interval (a,b).\nStep 2: Without both conditions holding, the theorem's guarantee of a point c with f'(c) equal to the average rate of change does not apply."
               }
             ]
           }
@@ -3085,7 +3169,7 @@
                   "4x^3 + C"
                 ],
                 "answerIndex": 1,
-                "explanation": "By the **reverse power rule**, integral of x^3 dx = x^(3+1)/(3+1) + C = x^4/4 + C."
+                "explanation": "Step 1: Apply the **reverse power rule**: integral of x^n dx = x^(n+1)/(n+1) + C, with n = 3.\nStep 2: Substitute: integral of x^3 dx = x^4/4 + C."
               },
               {
                 "question": "What is the antiderivative of f(x) = 6x^2 - 4x + 1?",
@@ -3096,7 +3180,7 @@
                   "2x^3 - 2x^2 + C"
                 ],
                 "answerIndex": 0,
-                "explanation": "Applying the **basic antiderivative rules** term by term: integral of 6x^2 is 2x^3, integral of -4x is -2x^2, and integral of 1 is x, so the result is 2x^3 - 2x^2 + x + C."
+                "explanation": "Step 1: Apply the **basic antiderivative rules** term by term: integral of 6x^2 dx = 2x^3, integral of -4x dx = -2x^2, integral of 1 dx = x.\nStep 2: Combine the results and add the constant of integration: 2x^3 - 2x^2 + x + C."
               },
               {
                 "question": "Why must a constant C always be included when writing an indefinite integral?",
@@ -3107,7 +3191,7 @@
                   "Because integration always produces a fraction"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since adding any constant to F(x) does not change its derivative, the **constant of integration** accounts for this entire **family of functions** sharing the same derivative."
+                "explanation": "Step 1: The derivative of any constant is 0, so if F(x) is one antiderivative of f(x), then F(x)+C is also an antiderivative for any constant C.\nStep 2: The **constant of integration** accounts for this entire family of functions that all share the same derivative f(x)."
               },
               {
                 "question": "Which function is an antiderivative of f(x) = cos(x)?",
@@ -3118,7 +3202,7 @@
                   "tan(x) + C"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since d/dx(sin x) = cos x, the function sin(x) + C is an **antiderivative** of cos(x), reversing the known trigonometric derivative."
+                "explanation": "Step 1: Recall the known derivative d/dx(sin x) = cos x.\nStep 2: Reversing this relationship, an **antiderivative** of cos(x) is sin(x) + C."
               },
               {
                 "question": "A student computes the integral of x^(-1) dx using the reverse power rule and gets x^0/0 + C, which is undefined. What is the correct antiderivative?",
@@ -3129,7 +3213,7 @@
                   "1/x + C"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **reverse power rule** excludes n = -1 precisely because of this division by zero; the correct **antiderivative** of 1/x is ln|x| + C, since d/dx(ln|x|) = 1/x."
+                "explanation": "Step 1: The **reverse power rule**, integral of x^n dx = x^(n+1)/(n+1) + C, fails for n = -1 because it requires dividing by n+1 = 0.\nStep 2: The correct **antiderivative** of 1/x is ln|x| + C, since d/dx(ln|x|) = 1/x."
               }
             ]
           },
@@ -3173,7 +3257,7 @@
                   "0.5"
                 ],
                 "answerIndex": 2,
-                "explanation": "The **subinterval width** is delta x = (b-a)/n = (4-0)/4 = 1."
+                "explanation": "Step 1: The **subinterval width** formula is delta x = (b-a)/n.\nStep 2: Substitute a = 0, b = 4, n = 4: delta x = (4-0)/4 = 1."
               },
               {
                 "question": "For an increasing function on [a,b], how does the left Riemann sum compare to the actual area under the curve?",
@@ -3184,7 +3268,7 @@
                   "It equals the right Riemann sum"
                 ],
                 "answerIndex": 1,
-                "explanation": "Since the function is increasing, each rectangle's height in a **left Riemann sum** is the smallest value on its subinterval, so the total systematically underestimates the true area."
+                "explanation": "Step 1: For an increasing function, the function value at the left endpoint of each subinterval is the smallest value on that subinterval.\nStep 2: Since a **left Riemann sum** uses these smallest heights for every rectangle, the total systematically underestimates the true area under the curve."
               },
               {
                 "question": "Using a left Riemann sum with 2 rectangles, estimate the area under f(x) = x^2 on [0, 2] (each rectangle has width 1).",
@@ -3195,7 +3279,7 @@
                   "5"
                 ],
                 "answerIndex": 0,
-                "explanation": "The **left Riemann sum** uses heights f(0)=0 and f(1)=1, giving areas of 1*0=0 and 1*1=1, for a total of 0+1=1."
+                "explanation": "Step 1: With width 1, the left endpoints are x = 0 and x = 1, giving heights f(0) = 0 and f(1) = 1.\nStep 2: The **left Riemann sum** total is (1)(0) + (1)(1) = 0 + 1 = 1."
               },
               {
                 "question": "What does the definite integral, integral from a to b of f(x) dx, represent as n (the number of rectangles in a Riemann sum) approaches infinity?",
@@ -3206,7 +3290,7 @@
                   "The derivative of f at x = b"
                 ],
                 "answerIndex": 1,
-                "explanation": "The **definite integral** is defined precisely as the limit of Riemann sums as the rectangle count increases without bound, giving the exact signed area under the curve."
+                "explanation": "Step 1: As the number of rectangles n in a Riemann sum increases without bound, the approximation becomes increasingly precise.\nStep 2: The **definite integral** is defined as the limiting value of these Riemann sums, giving the exact signed area between f(x) and the x-axis on [a,b]."
               },
               {
                 "question": "For a decreasing function on [a,b], which Riemann sum type would overestimate the true area under the curve?",
@@ -3217,7 +3301,7 @@
                   "Neither sum can overestimate"
                 ],
                 "answerIndex": 1,
-                "explanation": "For a decreasing function, the left endpoint of each subinterval gives the largest function value, so the **left Riemann sum** overestimates the actual area."
+                "explanation": "Step 1: For a decreasing function, the left endpoint of each subinterval gives the largest function value on that subinterval.\nStep 2: Since the **left Riemann sum** uses these largest heights for every rectangle, its total overestimates the actual area under the curve."
               }
             ]
           },
@@ -3261,7 +3345,7 @@
                   "4/3"
                 ],
                 "answerIndex": 1,
-                "explanation": "An antiderivative of x^2 is x^3/3; using **Part 1 of the Fundamental Theorem**, [x^3/3] from 0 to 2 = 8/3 - 0 = 8/3."
+                "explanation": "Step 1: Find an antiderivative of x^2: F(x) = x^3/3.\nStep 2: Apply **Part 1 of the Fundamental Theorem**: F(2) - F(0) = 8/3 - 0 = 8/3."
               },
               {
                 "question": "What is the definite integral from 1 to 3 of (2x) dx?",
@@ -3272,7 +3356,7 @@
                   "9"
                 ],
                 "answerIndex": 2,
-                "explanation": "An antiderivative of 2x is x^2; using **evaluation notation**, [x^2] from 1 to 3 = 9 - 1 = 8."
+                "explanation": "Step 1: Find an antiderivative of 2x: F(x) = x^2.\nStep 2: Using **evaluation notation**, F(3) - F(1) = 9 - 1 = 8."
               },
               {
                 "question": "If A(x) = integral from 2 to x of (t^2 + 1) dt, what is A'(x)?",
@@ -3283,7 +3367,7 @@
                   "A(x) is a constant, so A'(x) = 0"
                 ],
                 "answerIndex": 0,
-                "explanation": "By **Part 2 of the Fundamental Theorem**, the derivative of an **accumulation function** simply returns the original integrand evaluated at x, giving A'(x) = x^2 + 1."
+                "explanation": "Step 1: A(x) is an **accumulation function** built from the integrand t^2 + 1.\nStep 2: By **Part 2 of the Fundamental Theorem**, differentiating A(x) simply returns the integrand evaluated at x: A'(x) = x^2 + 1."
               },
               {
                 "question": "A definite integral of a function that dips below the x-axis on part of [a,b] and stays above it elsewhere produces what kind of result?",
@@ -3294,7 +3378,7 @@
                   "The same value as the total unsigned area"
                 ],
                 "answerIndex": 1,
-                "explanation": "A definite integral measures **net signed area**, meaning portions of the region below the x-axis are counted as negative contributions to the total."
+                "explanation": "Step 1: A definite integral sums signed contributions: area above the x-axis counts as positive, and area below counts as negative.\nStep 2: So a function dipping below the x-axis on part of [a,b] produces a **net signed area**, where the below-axis regions subtract from the total."
               },
               {
                 "question": "What is the definite integral from 0 to pi of sin(x) dx?",
@@ -3305,7 +3389,7 @@
                   "-2"
                 ],
                 "answerIndex": 2,
-                "explanation": "An antiderivative of sin(x) is -cos(x); applying **Part 1 of the Fundamental Theorem**, [-cos(x)] from 0 to pi = (-cos(pi)) - (-cos(0)) = 1 - (-1) = 2."
+                "explanation": "Step 1: Find an antiderivative of sin(x): F(x) = -cos(x).\nStep 2: Apply **Part 1 of the Fundamental Theorem**: F(pi) - F(0) = (-cos(pi)) - (-cos(0)) = 1 - (-1) = 2."
               }
             ]
           }

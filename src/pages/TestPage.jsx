@@ -3,7 +3,26 @@ import { Link, useParams } from 'react-router-dom'
 import { getCourse, getGradeMeta, getUnitTestQuestions, getCourseTestQuestions } from '../data'
 import { getSubjectColor } from '../lib/subjectColors'
 import { recordAttempt } from '../lib/missedQuestions'
+import { useAiAddon } from '../lib/aiAddon'
+import { setPendingQuestion } from '../lib/aiPrefill'
 import Formatted from '../components/Formatted'
+
+function AskAiAboutQuestion({ question, selected }) {
+  const aiAvailable = useAiAddon() === 'available'
+  if (!aiAvailable || selected == null || selected === question.answerIndex) return null
+
+  const prefill = `I got this question wrong: "${question.question}" I picked "${question.choices[selected]}" but the correct answer is "${question.choices[question.answerIndex]}". Can you explain why, in a way that helps me understand the concept?`
+
+  return (
+    <Link
+      to="/ask"
+      onClick={() => setPendingQuestion(prefill)}
+      className="mt-2 inline-block text-sm text-teal-600 hover:underline dark:text-teal-400"
+    >
+      🤖 Ask AI to explain this
+    </Link>
+  )
+}
 
 function scoreMessage(percent) {
   if (percent >= 90) return { emoji: '🌟', text: "Excellent! You've really got this down." }
@@ -158,12 +177,15 @@ export default function TestPage() {
                 })}
               </div>
               {submitted && (
-                <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-                  <span className={isCorrect ? 'font-semibold text-emerald-600 dark:text-emerald-400' : 'font-semibold text-red-600 dark:text-red-400'}>
-                    {isCorrect ? 'Correct! ' : 'Not quite. '}
-                  </span>
-                  <Formatted text={q.explanation} />
-                </p>
+                <div className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+                  <p className="whitespace-pre-line">
+                    <span className={isCorrect ? 'font-semibold text-emerald-600 dark:text-emerald-400' : 'font-semibold text-red-600 dark:text-red-400'}>
+                      {isCorrect ? 'Correct! ' : 'Not quite. '}
+                    </span>
+                    <Formatted text={q.explanation} />
+                  </p>
+                  {!isCorrect && <AskAiAboutQuestion question={q} selected={selected} />}
+                </div>
               )}
             </div>
           )
